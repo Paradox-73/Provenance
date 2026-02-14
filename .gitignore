@@ -1,5 +1,5 @@
 nlp/
-log.txt
 README-main.md
 Provenance.pdf
-
+log.txt
+src/__pycache__/
