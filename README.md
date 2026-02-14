@@ -1,41 +1,65 @@
-# Project Provenance
+# Kanav's Branch Update (Logic Strategist)
 
-An agentic system for tracking narrative continuity and detecting logical friction in long-form stories. It helps authors find plot holes and maintain consistency by building a "World State" from their text.
+This branch focuses on the "Logic Strategist" role for Project Provenance. My mission is to design the algorithms that find contradictions using graph patterns and deep learning.
 
-This project processes narratives to find conflicting details and logical inconsistencies. While the architecture can be applied to other domains like legal analysis, our current focus is on **Creative Narrative Continuity**.
+## What I've Done
 
-## Key Features
+I have implemented the initial baseline for logical friction detection in `src/logic_baseline.py`.
 
-*   **Automated World-State Tracking**: Extracts and tracks entities like characters, locations, objects, and their states across a narrative.
-*   **Continuity Error Detection**: Automatically flags continuity errors (e.g., a character being in two places at once, an object appearing from nowhere, inconsistent physical attributes).
-*   **Deep Provenance Graph**: Uses a Neo4j graph to store every piece of information with metadata about its origin (source text, chapter, page), creating a fully auditable chain of facts.
-*   **Agentic Auditing**: An intelligent agent explores the text and the knowledge graph to discover and report on logical inconsistencies.
-*   **Conflict Dashboard**: A planned UI to visualize detected conflicts and allow authors to trace them back to the specific lines in the source text.
+This script contains the `LogicValidator` class, which utilizes a pre-trained DeBERTa-v3 model from Hugging Face (`cross-encoder/nli-deberta-v3-base`). This class provides a `check_friction` method that takes a `premise` (the existing context from the graph) and a `hypothesis` (a new assertion) and determines if they are a "Contradiction", "Entailment", or "Neutral".
 
-## Tech Stack
+This is the core of our semantic entailment and contradiction checking, as outlined in the project plan.
 
-*   **Backend**: Python
-*   **Graph Database**: Neo4j
-*   **NLP**: spaCy, Hugging Face Transformers (DeBERTa-v3 for NLI)
-*   **Orchestration**: LangGraph
+## What I Need From The Team
 
-## How It Works
+To proceed with building and testing the full friction detection engine, I need the following from other team members:
 
-The system uses a three-tier agentic architecture to analyze a narrative:
+### From Member 1 (Context Architect)
 
-1.  **Text Ingestion & NLP**: The system parses documents (PDF, TXT, DOCX) and uses an NLP pipeline to identify entities (characters, locations) and the relationships between them.
-2.  **Graph Construction**: This information is used to build a rich knowledge graph in Neo4j. Every fact and relationship is stored with "provenance"—metadata linking it back to the exact source text. Conflicting claims are not overwritten but stored as competing "realities."
-3.  **Friction Detection**: An agent-driven workflow queries the graph to find structural and semantic contradictions. This allows it to detect inconsistencies that a simple text search would miss.
+You are working on the NLP pipeline to parse the text. To ensure the data can be correctly consumed by the logic and graph modules, please ensure your output JSON for each extracted triple follows this exact structure:
 
-## Getting Started
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd Provenance
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Further setup for Neo4j and other services will be added here.
+```json
+{
+  "extraction_id": "<unique_id>",
+  "subject": {
+    "entity_id": "<entity_id>",
+    "name": "<entity_name>",
+    "type": "<entity_type>"
+  },
+  "predicate": "<relationship>",
+  "object": {
+    "entity_id": "<entity_id>",
+    "name": "<entity_name>",
+    "type": "<entity_type>"
+  },
+  "provenance": {
+    "source_text": "<original_text_snippet>",
+    "document_id": "<doc_id>",
+    "chapter": "<chapter_num>",
+    "sequence_id": "<int_sequence>",
+    "extraction_confidence": "<float_score>"
+  }
+}
 ```
+
+### From Member 2 (Knowledge Engineer)
+
+You are responsible for the Neo4j graph structure. Please implement a Labeled Property Graph (LPG) schema that looks exactly like this. This structure is critical for my Cypher queries to function correctly.
+
+**Node Labels:**
+*   `Character` (Properties: `id`, `name`, `aliases`)
+*   `Location` (Properties: `id`, `name`, `type`)
+*   `Object` (Properties: `id`, `name`, `description`)
+*   `Event` (Properties: `id`, `name`, `chapter`)
+*   `Trait` (Properties: `id`, `description`, `category`)
+*   `Rule` (Properties: `id`, `description`, `domain`)
+
+**Edge Types (Relationships):**
+*Every single edge* must contain the following provenance metadata: `source_text`, `timestamp` (or chronological sequence ID), `chapter_id`, and `confidence_score`.
+
+*   `[:LOCATED_AT]` (Links Character/Object to Location)
+*   `[:OWNS]` / `[:POSSESSES]` (Links Character to Object)
+*   `[:HAS_ATTRIBUTE]` (Links Character to a physical Trait)
+*   `[:EXHIBITS_TRAIT]` (Links Character to a psychological Trait)
+*   `[:BOUND_BY]` (Links Character/Event to a Rule)
+*   `[:PARTICIPATES_IN]` (Links Character to an Event)
