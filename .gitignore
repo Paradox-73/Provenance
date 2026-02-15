@@ -1,5 +1,6 @@
 nlp/
 README-main.md
-Provenance.pdf
+#Provenance.pdf
 log.txt
 src/__pycache__/
+.env

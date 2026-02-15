@@ -3,3 +3,4 @@ transformers>=4.30.0
 sentencepiece>=0.1.99
 accelerate>=0.21.0
 neo4j>=5.10.0
+python-dotenv>=1.0.0

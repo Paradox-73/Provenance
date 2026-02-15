@@ -1,0 +1,44 @@
+[
+  {
+    "extraction_id": "ext_1",
+    "subject": {"entity_id": "john_doe_1", "name": "John Doe", "type": "Character"},
+    "predicate": "LOCATED_AT",
+    "object": {"entity_id": "paris_fr_1", "name": "Paris", "type": "Location"},
+    "provenance": {
+      "source_text": "John Doe was last seen in Paris on May 1st, 2024.",
+      "document_id": "doc_A",
+      "chapter": 1,
+      "sequence_id": 10,
+      "extraction_confidence": 0.95,
+      "timestamp": "2024-05-01T10:00:00Z"
+    }
+  },
+  {
+    "extraction_id": "ext_2",
+    "subject": {"entity_id": "john_doe_1", "name": "John Doe", "type": "Character"},
+    "predicate": "LOCATED_AT",
+    "object": {"entity_id": "tokyo_jp_1", "name": "Tokyo", "type": "Location"},
+    "provenance": {
+      "source_text": "However, security footage places John Doe in Tokyo at precisely the same time.",
+      "document_id": "doc_B",
+      "chapter": 5,
+      "sequence_id": 20,
+      "extraction_confidence": 0.98,
+      "timestamp": "2024-05-01T10:00:00Z"
+    }
+  },
+  {
+    "extraction_id": "ext_3",
+    "subject": {"entity_id": "jane_smith_1", "name": "Jane Smith", "type": "Character"},
+    "predicate": "OWNS",
+    "object": {"entity_id": "red_car_1", "name": "red car", "type": "Object"},
+    "provenance": {
+      "source_text": "Jane Smith owns a red car.",
+      "document_id": "doc_C",
+      "chapter": 2,
+      "sequence_id": 5,
+      "extraction_confidence": 0.90,
+      "timestamp": "2024-04-20T09:00:00Z"
+    }
+  }
+]
