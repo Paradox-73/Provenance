@@ -1,0 +1,981 @@
+[
+  {
+    "chapter_name": "Chapter 1",
+    "chunk_id": 0,
+    "content": "Detective Elias Thorne checked his wristwatch; the radium dial read 11:45 PM. Rain slicked the cobblestones of 4th Avenue as he stepped under the awning of The Gilded Cage. He patted the breast pocket of his trench coat, confirming the presence of the silver cigarette case he had confiscated earlier that morning from the suspect, Julian Vane.\n\nInside, the jazz club was a haze of smoke and brass. Vane was sitting at the corner booth, nursing a glass of scotch.\n\n\"You're late, Detective,\" Vane snee",
+    "metadata": {
+      "content": "Detective Elias Thorne checked his wristwatch; the radium dial read 11:45 PM. Rain slicked the cobblestones of 4th Avenue as he stepped under the awning of The Gilded Cage. He patted the breast pocket of his trench coat, confirming the presence of the silver cigarette case he had confiscated earlier that morning from the suspect, Julian Vane.\n\nInside, the jazz club was a haze of smoke and brass. Vane was sitting at the corner booth, nursing a glass of scotch.\n\n\"You're late, Detective,\" Vane snee",
+      "start_char": 0,
+      "end_char": 500,
+      "source_type": "literary_text",
+      "document_id": "doc_123"
+    },
+    "entities": [
+      {
+        "text": "Elias Thorne",
+        "label": "PERSON",
+        "start_char": 10,
+        "end_char": 22,
+        "pseudo_embedding": 411,
+        "provenance": {
+          "source_text_snippet": "Elias Thorne checked his wristwa",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_0"
+      },
+      {
+        "text": "11:45 PM",
+        "label": "TIME",
+        "start_char": 68,
+        "end_char": 76,
+        "pseudo_embedding": 131,
+        "provenance": {
+          "source_text_snippet": "11:45 PM. Rain slicked the c",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_1"
+      },
+      {
+        "text": "4th Avenue",
+        "label": "FAC",
+        "start_char": 111,
+        "end_char": 121,
+        "pseudo_embedding": 667,
+        "provenance": {
+          "source_text_snippet": "4th Avenue as he stepped under",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_2"
+      },
+      {
+        "text": "The Gilded Cage",
+        "label": "FAC",
+        "start_char": 156,
+        "end_char": 171,
+        "pseudo_embedding": 18,
+        "provenance": {
+          "source_text_snippet": "The Gilded Cage. He patted the brea",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_3"
+      },
+      {
+        "text": "earlier that morning",
+        "label": "TIME",
+        "start_char": 293,
+        "end_char": 313,
+        "pseudo_embedding": 944,
+        "provenance": {
+          "source_text_snippet": "earlier that morning from the suspect, J",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_4"
+      },
+      {
+        "text": "Julian Vane",
+        "label": "PERSON",
+        "start_char": 332,
+        "end_char": 343,
+        "pseudo_embedding": 448,
+        "provenance": {
+          "source_text_snippet": "Julian Vane.\n\nInside, the jazz ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_5"
+      },
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 399,
+        "end_char": 403,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane was sitting at the ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      },
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 491,
+        "end_char": 495,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane snee",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Thorne",
+          "label": "PROPN",
+          "start_char": 16,
+          "end_char": 22,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-459299445067137685"
+        },
+        "predicate": {
+          "text": "checked",
+          "label": "VERB",
+          "start_char": 23,
+          "end_char": 30
+        },
+        "object": {
+          "text": "wristwatch",
+          "label": "NOUN",
+          "start_char": 35,
+          "end_char": 45,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-1510036229712198411"
+        },
+        "provenance": {
+          "source_text_snippet": "Detective Elias Thorne checked his wristwatch; the radium dial read 11:45 PM.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "dial",
+          "label": "NOUN",
+          "start_char": 58,
+          "end_char": 62,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_365532205228892715"
+        },
+        "predicate": {
+          "text": "read",
+          "label": "VERB",
+          "start_char": 63,
+          "end_char": 67
+        },
+        "object": {
+          "text": "PM",
+          "label": "NOUN",
+          "start_char": 74,
+          "end_char": 76,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-6878138146668104305"
+        },
+        "provenance": {
+          "source_text_snippet": "Detective Elias Thorne checked his wristwatch; the radium dial read 11:45 PM.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "Rain",
+          "label": "NOUN",
+          "start_char": 78,
+          "end_char": 82,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_892337023931032424"
+        },
+        "predicate": {
+          "text": "slicked",
+          "label": "VERB",
+          "start_char": 83,
+          "end_char": 90
+        },
+        "object": {
+          "text": "cobblestones",
+          "label": "NOUN",
+          "start_char": 95,
+          "end_char": 107,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-4985389175677576333"
+        },
+        "provenance": {
+          "source_text_snippet": "Rain slicked the cobblestones of 4th Avenue as he stepped under the awning of The Gilded Cage.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "label": "PRON",
+          "start_char": 173,
+          "end_char": 175,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_4147433279942718966"
+        },
+        "predicate": {
+          "text": "patted",
+          "label": "VERB",
+          "start_char": 176,
+          "end_char": 182
+        },
+        "object": {
+          "text": "pocket",
+          "label": "NOUN",
+          "start_char": 194,
+          "end_char": 200,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-8487484066134528217"
+        },
+        "provenance": {
+          "source_text_snippet": "He patted the breast pocket of his trench coat, confirming the presence of the silver cigarette case he had confiscated earlier that morning from the suspect, Julian Vane.",
+          "confidence": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "chapter_name": "Chapter 1",
+    "chunk_id": 1,
+    "content": "ss of scotch.\n\n\"You're late, Detective,\" Vane sneered, his eyes darting to the door. \"I've been here since ten o'clock sharp. Ask the bartender.\"\n\nThorne slid into the booth opposite him. \"We’ll see about that, Julian. Witness testimony puts you at the Docks at 10:30 PM.\"\n\nVane laughed, a dry, humorless sound. \"Impossible. I was wearing my blue velvet suit all night. The Docks are filthy; I wouldn't risk the fabric.\"\n\nThorne noted the attire: Vane was indeed wearing a pristine blue velvet suit. ",
+    "metadata": {
+      "content": "ss of scotch.\n\n\"You're late, Detective,\" Vane sneered, his eyes darting to the door. \"I've been here since ten o'clock sharp. Ask the bartender.\"\n\nThorne slid into the booth opposite him. \"We’ll see about that, Julian. Witness testimony puts you at the Docks at 10:30 PM.\"\n\nVane laughed, a dry, humorless sound. \"Impossible. I was wearing my blue velvet suit all night. The Docks are filthy; I wouldn't risk the fabric.\"\n\nThorne noted the attire: Vane was indeed wearing a pristine blue velvet suit. ",
+      "start_char": 450,
+      "end_char": 950,
+      "source_type": "literary_text",
+      "document_id": "doc_123"
+    },
+    "entities": [
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 41,
+        "end_char": 45,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane sneered, his eyes d",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      },
+      {
+        "text": "ten o'clock sharp",
+        "label": "TIME",
+        "start_char": 107,
+        "end_char": 124,
+        "pseudo_embedding": 933,
+        "provenance": {
+          "source_text_snippet": "ten o'clock sharp. Ask the bartender.",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_7"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 147,
+        "end_char": 153,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne slid into the booth",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 211,
+        "end_char": 217,
+        "pseudo_embedding": 819,
+        "provenance": {
+          "source_text_snippet": "Julian. Witness testimony ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_9"
+      },
+      {
+        "text": "Docks",
+        "label": "FAC",
+        "start_char": 253,
+        "end_char": 258,
+        "pseudo_embedding": 118,
+        "provenance": {
+          "source_text_snippet": "Docks at 10:30 PM.\"\n\nVane",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_10"
+      },
+      {
+        "text": "10:30 PM",
+        "label": "TIME",
+        "start_char": 262,
+        "end_char": 270,
+        "pseudo_embedding": 982,
+        "provenance": {
+          "source_text_snippet": "10:30 PM.\"\n\nVane laughed, a ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_11"
+      },
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 274,
+        "end_char": 278,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane laughed, a dry, hum",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      },
+      {
+        "text": "all night",
+        "label": "TIME",
+        "start_char": 359,
+        "end_char": 368,
+        "pseudo_embedding": 653,
+        "provenance": {
+          "source_text_snippet": "all night. The Docks are filt",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_12"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 422,
+        "end_char": 428,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne noted the attire: V",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 447,
+        "end_char": 451,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane was indeed wearing ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "testimony",
+          "label": "NOUN",
+          "start_char": 227,
+          "end_char": 236,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-3009351822227891270"
+        },
+        "predicate": {
+          "text": "puts",
+          "label": "VERB",
+          "start_char": 237,
+          "end_char": 241
+        },
+        "object": {
+          "text": "you",
+          "label": "PRON",
+          "start_char": 242,
+          "end_char": 245,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_4952846718504655714"
+        },
+        "provenance": {
+          "source_text_snippet": "Witness testimony puts you at the Docks at 10:30 PM.\"",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 325,
+          "end_char": 326,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_2750682127233996321"
+        },
+        "predicate": {
+          "text": "wearing",
+          "label": "VERB",
+          "start_char": 331,
+          "end_char": 338
+        },
+        "object": {
+          "text": "suit",
+          "label": "NOUN",
+          "start_char": 354,
+          "end_char": 358,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_3900877674892471787"
+        },
+        "provenance": {
+          "source_text_snippet": "I was wearing my blue velvet suit all night.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 392,
+          "end_char": 393,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_2750682127233996321"
+        },
+        "predicate": {
+          "text": "risk",
+          "label": "VERB",
+          "start_char": 403,
+          "end_char": 407
+        },
+        "object": {
+          "text": "fabric",
+          "label": "NOUN",
+          "start_char": 412,
+          "end_char": 418,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-3751562125653258380"
+        },
+        "provenance": {
+          "source_text_snippet": "The Docks are filthy; I wouldn't risk the fabric.\"",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "label": "PROPN",
+          "start_char": 422,
+          "end_char": 428,
+          "canonical_id": "CAN_ID_8"
+        },
+        "predicate": {
+          "text": "noted",
+          "label": "VERB",
+          "start_char": 429,
+          "end_char": 434
+        },
+        "object": {
+          "text": "attire",
+          "label": "NOUN",
+          "start_char": 439,
+          "end_char": 445,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_2760818851820799749"
+        },
+        "provenance": {
+          "source_text_snippet": "\n\nThorne noted the attire: Vane was indeed wearing a pristine blue velvet suit.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "Vane",
+          "label": "PROPN",
+          "start_char": 447,
+          "end_char": 451,
+          "canonical_id": "CAN_ID_6"
+        },
+        "predicate": {
+          "text": "wearing",
+          "label": "VERB",
+          "start_char": 463,
+          "end_char": 470
+        },
+        "object": {
+          "text": "suit",
+          "label": "NOUN",
+          "start_char": 494,
+          "end_char": 498,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_3900877674892471787"
+        },
+        "provenance": {
+          "source_text_snippet": "\n\nThorne noted the attire: Vane was indeed wearing a pristine blue velvet suit.",
+          "confidence": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "chapter_name": "Chapter 1",
+    "chunk_id": 2,
+    "content": "e was indeed wearing a pristine blue velvet suit. However, Thorne spotted a smudge of industrial grease on the left cuff. A inventory discrepancy, Thorne mused.\n\n\"Nice suit,\" Thorne said. \"Where is your silver cigarette case? The one you claimed was stolen?\"\n\n\"I have it right here,\" Vane said, reaching into his pocket and pulling out a silver case. He set it on the table.\n\nThorne paused. The logic didn't hold. \"That’s interesting, Julian. Because I have your case in my pocket.\" Thorne pulled out",
+    "metadata": {
+      "content": "e was indeed wearing a pristine blue velvet suit. However, Thorne spotted a smudge of industrial grease on the left cuff. A inventory discrepancy, Thorne mused.\n\n\"Nice suit,\" Thorne said. \"Where is your silver cigarette case? The one you claimed was stolen?\"\n\n\"I have it right here,\" Vane said, reaching into his pocket and pulling out a silver case. He set it on the table.\n\nThorne paused. The logic didn't hold. \"That’s interesting, Julian. Because I have your case in my pocket.\" Thorne pulled out",
+      "start_char": 900,
+      "end_char": 1400,
+      "source_type": "literary_text",
+      "document_id": "doc_123"
+    },
+    "entities": [
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 59,
+        "end_char": 65,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne spotted a smudge of",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 147,
+        "end_char": 153,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne mused.\n\n\"Nice suit,",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 175,
+        "end_char": 181,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne said. \"Where is you",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 284,
+        "end_char": 288,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane said, reaching into",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 376,
+        "end_char": 382,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne paused. The logic d",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 435,
+        "end_char": 441,
+        "pseudo_embedding": 819,
+        "provenance": {
+          "source_text_snippet": "Julian. Because I have you",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_9"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 483,
+        "end_char": 489,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne pulled out",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "e",
+          "label": "PRON",
+          "start_char": 0,
+          "end_char": 1,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_872816001061559065"
+        },
+        "predicate": {
+          "text": "wearing",
+          "label": "VERB",
+          "start_char": 13,
+          "end_char": 20
+        },
+        "object": {
+          "text": "suit",
+          "label": "NOUN",
+          "start_char": 44,
+          "end_char": 48,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_3900877674892471787"
+        },
+        "provenance": {
+          "source_text_snippet": "e was indeed wearing a pristine blue velvet suit.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "label": "PROPN",
+          "start_char": 59,
+          "end_char": 65,
+          "canonical_id": "CAN_ID_8"
+        },
+        "predicate": {
+          "text": "spotted",
+          "label": "VERB",
+          "start_char": 66,
+          "end_char": 73
+        },
+        "object": {
+          "text": "smudge",
+          "label": "NOUN",
+          "start_char": 76,
+          "end_char": 82,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_5880434957808459638"
+        },
+        "provenance": {
+          "source_text_snippet": "However, Thorne spotted a smudge of industrial grease on the left cuff.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "label": "PROPN",
+          "start_char": 147,
+          "end_char": 153,
+          "canonical_id": "CAN_ID_8"
+        },
+        "predicate": {
+          "text": "mused",
+          "label": "VERB",
+          "start_char": 154,
+          "end_char": 159
+        },
+        "object": {
+          "text": "discrepancy",
+          "label": "NOUN",
+          "start_char": 134,
+          "end_char": 145,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-1992993085671130914"
+        },
+        "provenance": {
+          "source_text_snippet": "A inventory discrepancy, Thorne mused.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 261,
+          "end_char": 262,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_2750682127233996321"
+        },
+        "predicate": {
+          "text": "have",
+          "label": "VERB",
+          "start_char": 263,
+          "end_char": 267
+        },
+        "object": {
+          "text": "it",
+          "label": "PRON",
+          "start_char": 268,
+          "end_char": 270,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-4850860913995435296"
+        },
+        "provenance": {
+          "source_text_snippet": "\"\n\n\"I have it right here,\" Vane said, reaching into his pocket and pulling out a silver case.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "label": "PRON",
+          "start_char": 351,
+          "end_char": 353,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_4147433279942718966"
+        },
+        "predicate": {
+          "text": "set",
+          "label": "VERB",
+          "start_char": 354,
+          "end_char": 357
+        },
+        "object": {
+          "text": "it",
+          "label": "PRON",
+          "start_char": 358,
+          "end_char": 360,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-4850860913995435296"
+        },
+        "provenance": {
+          "source_text_snippet": "He set it on the table.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 451,
+          "end_char": 452,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_2750682127233996321"
+        },
+        "predicate": {
+          "text": "have",
+          "label": "VERB",
+          "start_char": 453,
+          "end_char": 457
+        },
+        "object": {
+          "text": "case",
+          "label": "NOUN",
+          "start_char": 463,
+          "end_char": 467,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-3895259315428585847"
+        },
+        "provenance": {
+          "source_text_snippet": "Because I have your case in my pocket.\"",
+          "confidence": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "chapter_name": "Chapter 1",
+    "chunk_id": 3,
+    "content": " I have your case in my pocket.\" Thorne pulled out the identical silver case he had secured hours ago.\n\nThe air in the booth grew heavy. Two identical objects, one location, same timeline. A structural contradiction.\n\n\"And,\" Thorne continued, flipping open his notebook, \"The bartender says you walked in at 11:15 PM, not ten. And you were soaking wet, despite claiming you took a cab.\"\n\nVane’s composure fractured. \"I... I must have been mistaken about the time.\"\n\n\"Or,\" Thorne leaned in, \"There are",
+    "metadata": {
+      "content": " I have your case in my pocket.\" Thorne pulled out the identical silver case he had secured hours ago.\n\nThe air in the booth grew heavy. Two identical objects, one location, same timeline. A structural contradiction.\n\n\"And,\" Thorne continued, flipping open his notebook, \"The bartender says you walked in at 11:15 PM, not ten. And you were soaking wet, despite claiming you took a cab.\"\n\nVane’s composure fractured. \"I... I must have been mistaken about the time.\"\n\n\"Or,\" Thorne leaned in, \"There are",
+      "start_char": 1350,
+      "end_char": 1850,
+      "source_type": "literary_text",
+      "document_id": "doc_123"
+    },
+    "entities": [
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 33,
+        "end_char": 39,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne pulled out the iden",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "hours ago",
+        "label": "TIME",
+        "start_char": 92,
+        "end_char": 101,
+        "pseudo_embedding": 489,
+        "provenance": {
+          "source_text_snippet": "hours ago.\n\nThe air in the bo",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_13"
+      },
+      {
+        "text": "Two",
+        "label": "CARDINAL",
+        "start_char": 137,
+        "end_char": 140,
+        "pseudo_embedding": 273,
+        "provenance": {
+          "source_text_snippet": "Two identical objects, ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_14"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 160,
+        "end_char": 163,
+        "pseudo_embedding": 138,
+        "provenance": {
+          "source_text_snippet": "one location, same time",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_15"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 225,
+        "end_char": 231,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne continued, flipping",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "11:15 PM",
+        "label": "TIME",
+        "start_char": 308,
+        "end_char": 316,
+        "pseudo_embedding": 786,
+        "provenance": {
+          "source_text_snippet": "11:15 PM, not ten. And you w",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_16"
+      },
+      {
+        "text": "ten",
+        "label": "TIME",
+        "start_char": 322,
+        "end_char": 325,
+        "pseudo_embedding": 231,
+        "provenance": {
+          "source_text_snippet": "ten. And you were soaki",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_17"
+      },
+      {
+        "text": "Vane",
+        "label": "PERSON",
+        "start_char": 388,
+        "end_char": 392,
+        "pseudo_embedding": 225,
+        "provenance": {
+          "source_text_snippet": "Vane’s composure fractur",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_6"
+      },
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 472,
+        "end_char": 478,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne leaned in, \"There a",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 1,
+          "end_char": 2,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_2750682127233996321"
+        },
+        "predicate": {
+          "text": "have",
+          "label": "VERB",
+          "start_char": 3,
+          "end_char": 7
+        },
+        "object": {
+          "text": "case",
+          "label": "NOUN",
+          "start_char": 13,
+          "end_char": 17,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-3895259315428585847"
+        },
+        "provenance": {
+          "source_text_snippet": " I have your case in my pocket.\"",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "label": "PROPN",
+          "start_char": 33,
+          "end_char": 39,
+          "canonical_id": "CAN_ID_8"
+        },
+        "predicate": {
+          "text": "pulled",
+          "label": "VERB",
+          "start_char": 40,
+          "end_char": 46
+        },
+        "object": {
+          "text": "case",
+          "label": "NOUN",
+          "start_char": 72,
+          "end_char": 76,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-3895259315428585847"
+        },
+        "provenance": {
+          "source_text_snippet": "Thorne pulled out the identical silver case he had secured hours ago.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "subject": {
+          "text": "you",
+          "label": "PRON",
+          "start_char": 370,
+          "end_char": 373,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_4952846718504655714"
+        },
+        "predicate": {
+          "text": "took",
+          "label": "VERB",
+          "start_char": 374,
+          "end_char": 378
+        },
+        "object": {
+          "text": "cab",
+          "label": "NOUN",
+          "start_char": 381,
+          "end_char": 384,
+          "canonical_id": "CAN_ENTITY_UNRESOLVED_-2104889655270191683"
+        },
+        "provenance": {
+          "source_text_snippet": "And you were soaking wet, despite claiming you took a cab.\"",
+          "confidence": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "chapter_name": "Chapter 1",
+    "chunk_id": 4,
+    "content": "out the time.\"\n\n\"Or,\" Thorne leaned in, \"There are two versions of this story, and neither of them ends well for you.\"",
+    "metadata": {
+      "content": "out the time.\"\n\n\"Or,\" Thorne leaned in, \"There are two versions of this story, and neither of them ends well for you.\"",
+      "start_char": 1800,
+      "end_char": 1918,
+      "source_type": "literary_text",
+      "document_id": "doc_123"
+    },
+    "entities": [
+      {
+        "text": "Thorne",
+        "label": "PERSON",
+        "start_char": 22,
+        "end_char": 28,
+        "pseudo_embedding": 899,
+        "provenance": {
+          "source_text_snippet": "Thorne leaned in, \"There a",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_8"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 51,
+        "end_char": 54,
+        "pseudo_embedding": 273,
+        "provenance": {
+          "source_text_snippet": "two versions of this st",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_14"
+      }
+    ],
+    "triples": []
+  }
+]

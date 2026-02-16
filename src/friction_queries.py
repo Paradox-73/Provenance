@@ -1,7 +1,7 @@
 # src/friction_queries.py
 
 IMPOSSIBLE_LOCATION_QUERY = """
-MATCH (p:Character)-[r1:LOCATED_AT]->(l1:Location)
+MATCH (p:Person)-[r1:LOCATED_AT]->(l1:Location)
 MATCH (p)-[r2:LOCATED_AT]->(l2:Location)
 WHERE
     r1.timestamp = r2.timestamp AND l1.id <> l2.id
