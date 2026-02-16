@@ -1,4 +1,4 @@
-#python -m src.main chapters_data
+# python -m src.main chapters_data
 
 import argparse
 import os
@@ -12,8 +12,9 @@ def main():
                         help="Path to the folder containing chapter-wise .txt files.")
     parser.add_argument("--spacy_model", type=str, default="en_core_web_trf",
                         help="Name of the spaCy model to load (e.g., 'en_core_web_sm', 'en_core_web_lg', 'en_core_web_trf').")
-    parser.add_argument("--nli_model", type=str, default="microsoft/deberta-v3-base",
-                        help="Name of the HuggingFace NLI model (e.g., 'microsoft/deberta-v3-base').")
+    # --- CORRECTED MODEL NAME HERE ---
+    parser.add_argument("--nli_model", type=str, default="MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+                        help="Name of the HuggingFace NLI model (must be fine-tuned on MNLI).")
     
     args = parser.parse_args()
 

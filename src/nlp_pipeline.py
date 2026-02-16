@@ -1,3 +1,6 @@
+# OPEN: src/nlp_pipeline.py
+# PASTE the entire file content below:
+
 import spacy
 from spacy.tokens import Doc, Span
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -11,7 +14,7 @@ nlp = None
 nli_tokenizer = None
 nli_model = None
 
-def load_spacy_model(model_name: str = "en_core_web_sm"):
+def load_spacy_model(model_name: str = "en_core_web_trf"):
     """Loads the spaCy NLP model."""
     global nlp
     if nlp is None:
@@ -23,30 +26,35 @@ def load_spacy_model(model_name: str = "en_core_web_sm"):
             print(f"python -m spacy download {model_name}")
             raise
 
-def load_nli_model(model_name: str = "microsoft/deberta-v3-base"):
-    """Loads the DeBERTa-v3 NLI tokenizer and model."""
+# --- CORRECTED MODEL NAME HERE ---
+def load_nli_model(model_name: str = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"):
+    """
+    Loads the DeBERTa-v3 NLI tokenizer and model.
+    Defaults to a pre-finetuned MNLI model to ensure the classifier head is trained.
+    """
     global nli_tokenizer, nli_model
     if nli_tokenizer is None or nli_model is None:
         print(f"Loading NLI model: {model_name}...")
-        nli_tokenizer = AutoTokenizer.from_pretrained(model_name)
-        nli_model = AutoModelForSequenceClassification.from_pretrained(model_name)
-        nli_model.eval() # Set to evaluation mode
-        print("NLI model loaded successfully.")
+        try:
+            nli_tokenizer = AutoTokenizer.from_pretrained(model_name)
+            nli_model = AutoModelForSequenceClassification.from_pretrained(model_name)
+            nli_model.eval() # Set to evaluation mode
+            print("NLI model loaded successfully.")
+        except Exception as e:
+            print(f"Error loading NLI model {model_name}: {e}")
+            raise
 
 def extract_entities(text: str) -> list[dict]:
     """
     Identifies entities (people, organizations, locations, etc.) using spaCy's NER.
-    Returns a list of dictionaries with entity text, label, start/end offsets,
-    and a conceptual embedding for coreference.
     """
     if nlp is None:
         load_spacy_model()
     doc = nlp(text)
     entities = []
     for ent in doc.ents:
-        # In a real system, you'd generate actual embeddings here (e.g., using sentenc-transformers)
-        # For this conceptual implementation, we use a hash as a pseudo-embedding.
-        pseudo_embedding = hash(ent.text.lower()) % 1000 # Simplified
+        # Pseudo-embedding for coreference (simplified)
+        pseudo_embedding = hash(ent.text.lower()) % 1000 
         entities.append({
             "text": ent.text,
             "label": ent.label_,
@@ -54,95 +62,113 @@ def extract_entities(text: str) -> list[dict]:
             "end_char": ent.end_char,
             "pseudo_embedding": pseudo_embedding,
             "provenance": {
-                "source_text_snippet": text[ent.start_char:ent.end_char+20], # Small snippet for context
-                "confidence": 0.95 # Placeholder confidence for NER
+                "source_text_snippet": text[ent.start_char:ent.end_char+20],
+                "confidence": 0.95 
             }
         })
     return entities
 
 def extract_triples(text: str) -> list[dict]:
     """
-    Extracts Subject-Predicate-Object (SPO) triples using a more robust (but still simplified)
-    rule-based approach with spaCy's dependency parser.
+    Advanced Triple Extraction with Semantic Role Labeling for "Projective Locations".
     """
     if nlp is None:
         load_spacy_model()
     doc = nlp(text)
     triples = []
     
-    # Heuristic for triple extraction (can be very complex and context-dependent)
-    # This is a basic rule-based approach, not LLM-driven or exhaustive.
+    # Verbs that indicate the *Object* is the one being located
+    PROJECTIVE_VERBS = ["put", "place", "position", "locate", "spot", "see", "find"]
+    
     for sent in doc.sents:
-        # Find verbs as potential predicates
-        verbs = [token for token in sent if token.pos_ == "VERB"]
-        
-        for verb in verbs:
-            subject = None
-            obj = None
-            
-            # Find subject (nsubj, nsubjpass, agent)
-            for child in verb.children:
-                if child.dep_ in ("nsubj", "nsubjpass", "agent"):
-                    subject = child
-                    break
-            
-            # Find object (dobj, pobj, attr, oprd)
-            for child in verb.children:
-                if child.dep_ in ("dobj", "pobj", "attr", "oprd"):
-                    obj = child
-                    break
-            
-            if subject and verb and obj:
-                triples.append({
-                    "subject": {"text": subject.text, "label": subject.pos_, "start_char": subject.idx, "end_char": subject.idx + len(subject.text)},
-                    "predicate": {"text": verb.text, "label": verb.pos_, "start_char": verb.idx, "end_char": verb.idx + len(verb.text)},
-                    "object": {"text": obj.text, "label": obj.pos_, "start_char": obj.idx, "end_char": obj.idx + len(obj.text)},
-                    "provenance": {
-                        "source_text_snippet": sent.text,
-                        "confidence": 0.8 # Placeholder confidence for triple extraction
-                    }
-                })
+        for token in sent:
+            if token.pos_ in ["VERB", "AUX"]:
+                
+                # 1. Identify Children
+                subj = [w for w in token.children if w.dep_ in ["nsubj", "nsubjpass", "csubj"]]
+                obj = [w for w in token.children if w.dep_ in ["dobj", "attr", "acomp"]]
+                
+                # 2. Identify Prepositional Phrases
+                prep_obj = []
+                for child in token.children:
+                    if child.dep_ == "prep": 
+                        pobjs = [w for w in child.children if w.dep_ == "pobj"]
+                        for po in pobjs:
+                            prep_obj.append((f"{token.text} {child.text}", po))
+
+                # --- 3. LOGIC BRANCHING ---
+                
+                # A. Handle "Projective Verbs" 
+                # "Testimony puts YOU at the Docks"
+                if token.lemma_ in PROJECTIVE_VERBS and obj and prep_obj:
+                    real_subject = obj[0] 
+                    for pred_text, real_location in prep_obj:
+                         triples.append({
+                            "subject": {"text": real_subject.text, "label": real_subject.pos_, "start_char": real_subject.idx, "end_char": real_subject.idx + len(real_subject.text)},
+                            "predicate": {"text": "located at", "label": "SEMANTIC_INFERENCE", "start_char": token.idx, "end_char": real_location.idx + len(real_location.text)},
+                            "object": {"text": real_location.text, "label": real_location.pos_, "start_char": real_location.idx, "end_char": real_location.idx + len(real_location.text)},
+                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.95}
+                        })
+                
+                # B. Standard Extraction
+                elif subj:
+                    subject_node = subj[0]
+                    # SVO
+                    for object_node in obj:
+                        triples.append({
+                            "subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
+                            "predicate": {"text": token.text, "label": token.pos_, "start_char": token.idx, "end_char": token.idx + len(token.text)},
+                            "object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
+                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.85}
+                        })
+                    # Prepositional
+                    for pred_text, object_node in prep_obj:
+                        triples.append({
+                            "subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
+                            "predicate": {"text": pred_text, "label": "VERB_PHRASE", "start_char": token.idx, "end_char": object_node.idx + len(object_node.text)},
+                            "object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
+                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.90}
+                        })
+                        
     return triples
 
 def resolve_coreferences(processed_chapters):
-    print("--- Running simplified coreference resolution across all processed chapters ---")
-    
+    print("--- Running robust coreference resolution (Substring Matching) ---")
     all_entities = []
     for chapter_name, chunks in processed_chapters.items():
         for chunk in chunks:
             for entity in chunk['entities']:
                 all_entities.append(entity)
 
-    # Group entities by their pseudo_embedding and lowercased text
-    # This forms the basis of our "canonical" entities
-    entity_groups = {}
-    for entity in all_entities:
-        key = (entity['text'].lower(), entity['pseudo_embedding'])
-        if key not in entity_groups:
-            entity_groups[key] = []
-        entity_groups[key].append(entity)
+    unique_texts = list(set([e['text'] for e in all_entities]))
+    unique_texts.sort(key=len, reverse=True)
+    
+    text_to_canonical = {}
+    canonical_counter = 0
+
+    for text in unique_texts:
+        assigned = False
+        for existing_text in text_to_canonical:
+            if text.lower() in existing_text.lower().split():
+                text_to_canonical[text] = text_to_canonical[existing_text]
+                assigned = True
+                break
+        
+        if not assigned:
+            text_to_canonical[text] = f"CAN_ID_{canonical_counter}"
+            canonical_counter += 1
 
     canonical_entity_mapping = {}
-    canonical_id_counter = 0
-    for key, group in entity_groups.items():
-        # Generate a unique canonical ID for this group
-        # Using a simple counter for uniqueness across groups
-        canonical_id = f"CAN_ID_{canonical_id_counter}"
-        canonical_id_counter += 1
-        
-        # Assign this canonical ID to all mentions in the group
-        for entity_mention in group:
-            # Use id(entity_mention) as the key to map the specific entity dictionary object
-            canonical_entity_mapping[id(entity_mention)] = canonical_id
+    for entity in all_entities:
+        if entity['text'] in text_to_canonical:
+            canonical_entity_mapping[id(entity)] = text_to_canonical[entity['text']]
             
-    print(f"--- Simplified coreference resolution complete. Found {len(entity_groups)} canonical entities ---")
+    print(f"--- Coreference complete. Merged {len(unique_texts)} names into {canonical_counter} unique identities. ---")
     return canonical_entity_mapping
-
 
 def run_nli_check(premise: str, hypothesis: str) -> dict:
     """
-    Performs Natural Language Inference (NLI) using DeBERTa-v3 to determine
-    if a hypothesis is entailed by, contradicted by, or neutral to a premise.
+    Performs NLI using the loaded model.
     """
     if nli_tokenizer is None or nli_model is None:
         load_nli_model()
@@ -151,28 +177,21 @@ def run_nli_check(premise: str, hypothesis: str) -> dict:
     with torch.no_grad():
         logits = nli_model(**inputs).logits
 
-    # Assuming labels are 0: entailment, 1: neutral, 2: contradiction (common for NLI models)
+    # Mapping for MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli:
+    # 0: Entailment, 1: Neutral, 2: Contradiction
     predicted_class_id = logits.argmax().item()
-    labels = ["entailment", "neutral", "contradiction"]
+    confidence = torch.softmax(logits, dim=1)[0][predicted_class_id].item()
+    
+    # Map ID to label
+    id2label = {0: "entailment", 1: "neutral", 2: "contradiction"}
+    prediction = id2label.get(predicted_class_id, "neutral")
     
     return {
-        "prediction": labels[predicted_class_id],
-        "confidence": torch.softmax(logits, dim=1)[0][predicted_class_id].item()
+        "prediction": prediction,
+        "confidence": confidence
     }
 
-
 def process_chapters_for_nlp(chapter_data: dict) -> dict:
-    """
-    Processes all text chunks from all chapters through the NLP pipeline,
-    including coreference resolution.
-
-    Args:
-        chapter_data (dict): Dictionary with chapter names as keys and
-                             lists of text chunks (from document_parser) as values.
-
-    Returns:
-        dict: Processed chapter data with entities, triples, and canonical IDs.
-    """
     if nlp is None:
         load_spacy_model()
 
@@ -188,84 +207,53 @@ def process_chapters_for_nlp(chapter_data: dict) -> dict:
                 "chapter_name": chapter_name,
                 "chunk_id": i,
                 "content": content,
-                "metadata": chunk, # Include original metadata like start_char, end_char
+                "metadata": chunk,
                 "entities": entities,
                 "triples": triples
             })
         processed_chapters[chapter_name] = processed_chunks
 
-    # Perform xCoRe across all processed chapters to get a unified mapping
     canonical_entity_mapping = resolve_coreferences(processed_chapters)
 
-    # Apply canonical IDs back to all entities and triples
     for chapter_name, chunks in processed_chapters.items():
         for chunk in chunks:
             for entity in chunk['entities']:
-                entity_id = id(entity) # Use the object's memory address as a temporary unique key
+                entity_id = id(entity)
                 if entity_id in canonical_entity_mapping:
                     entity["canonical_id"] = canonical_entity_mapping[entity_id]
                 else:
-                    # Fallback if an entity wasn't mapped (shouldn't happen with current logic)
                     entity["canonical_id"] = f"CAN_ENTITY_UNRESOLVED_{hash(entity['text'])}"
 
+            # Pronoun Resolution Logic
             for triple in chunk['triples']:
                 for role in ["subject", "object"]:
-                    if role in triple and "text" in triple[role]:
-                        # Find the corresponding entity object to get its canonical ID
-                        # This is an oversimplification; a real system would link triples to canonical entities directly
-                        # based on their constituent entity mentions during graph ingestion.
-                        # For now, we'll try to find a matching canonical_id from the entities in the same chunk.
-                        matching_entity_canonical_id = None
-                        for entity in chunk['entities']:
-                            if entity['text'].lower() == triple[role]['text'].lower() and 'canonical_id' in entity:
-                                matching_entity_canonical_id = entity['canonical_id']
-                                break
-                        triple[role]["canonical_id"] = matching_entity_canonical_id if matching_entity_canonical_id else f"CAN_ENTITY_UNRESOLVED_{hash(triple[role]['text'])}"
+                    role_data = triple[role]
+                    role_text = role_data['text'].lower()
+                    
+                    if "canonical_id" in role_data and "UNRESOLVED" not in role_data["canonical_id"]:
+                        continue
 
+                    best_match_id = None
+                    min_distance = float('inf')
+                    
+                    for entity in chunk['entities']:
+                        if "canonical_id" not in entity or "UNRESOLVED" in entity["canonical_id"]:
+                            continue
+                            
+                        dist = abs(entity['start_char'] - role_data['start_char'])
+                        is_exact_match = entity['text'].lower() == role_text
+                        is_pronoun_match = role_text in ["i", "he", "she", "him", "her", "you"] and entity['label'] == "PERSON"
+                        
+                        if is_exact_match:
+                            best_match_id = entity['canonical_id']
+                            break 
+                        
+                        if is_pronoun_match and dist < min_distance:
+                            min_distance = dist
+                            best_match_id = entity['canonical_id']
+
+                    if best_match_id:
+                        triple[role]["canonical_id"] = best_match_id
+                    else:
+                        triple[role]["canonical_id"] = f"UNRESOLVED_{hash(role_text)}"
     return processed_chapters
-
-if __name__ == '__main__':
-    print("--- NLP Pipeline Module Test (Updated) ---")
-    load_spacy_model()
-    # load_nli_model() # To test NLI correction
-    
-    sample_chapter_data = {
-        "Chapter 1": [
-            {"content": "John works at Google. He lives in New York.", "document_id": "doc_ch1"},
-            {"content": "Mr. Smith is a CEO. John likes apples.", "document_id": "doc_ch1"}
-        ],
-        "Chapter 2": [
-            {"content": "The tech giant is hiring. Smith moved to California.", "document_id": "doc_ch2"},
-            {"content": "New York is a bustling city. The CEO is very rich.", "document_id": "doc_ch2"}
-        ]
-    }
-
-    processed_results = process_chapters_for_nlp(sample_chapter_data)
-
-    for chapter_name, chunks in processed_results.items():
-        print(f"\n--- {chapter_name} ---")
-        for result in chunks:
-            print(f"\nChunk ID: {result['chunk_id']}")
-            print(f"Content: {result['content']}")
-            print("Entities:")
-            for ent in result['entities']:
-                print(f"  - {ent['text']} ({ent['label']}) -> Canonical ID: {ent.get('canonical_id', 'N/A')}")
-            print("Triples:")
-            for triple in result['triples']:
-                subj_text = triple['subject']['text']
-                subj_can_id = triple['subject'].get('canonical_id', 'N/A')
-                obj_text = triple['object']['text']
-                obj_can_id = triple['object'].get('canonical_id', 'N/A')
-                print(f"  - ({subj_text} [{subj_can_id}]) - {triple['predicate']['text']} - ({obj_text} [{obj_can_id}])")
-
-    # Example NLI usage (uncomment load_nli_model first)
-    # print("\n--- NLI Check Example ---")
-    # premise = "John works at Google."
-    # hypothesis = "John is employed by Google."
-    # nli_result = run_nli_check(premise, hypothesis)
-    # print(f"Premise: '{premise}'\nHypothesis: '{hypothesis}'\nNLI Result: {nli_result}")
-
-    # premise = "John lives in New York."
-    # hypothesis = "John lives in California."
-    # nli_result = run_nli_check(premise, hypothesis)
-    # print(f"Premise: '{premise}'\nHypothesis: '{hypothesis}'\nNLI Result: {nli_result}")
