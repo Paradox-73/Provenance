@@ -16,19 +16,19 @@
         "label": "PERSON",
         "start_char": 8,
         "end_char": 19,
-        "pseudo_embedding": 840,
+        "pseudo_embedding": 102,
         "provenance": {
           "source_text_snippet": "Elara Vance checked the digital",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "08:00 hours",
         "label": "TIME",
         "start_char": 73,
         "end_char": 84,
-        "pseudo_embedding": 638,
+        "pseudo_embedding": 708,
         "provenance": {
           "source_text_snippet": "08:00 hours. She stood on the B",
           "confidence": 0.95
@@ -40,7 +40,7 @@
         "label": "FAC",
         "start_char": 99,
         "end_char": 136,
-        "pseudo_embedding": 186,
+        "pseudo_embedding": 645,
         "provenance": {
           "source_text_snippet": "the Bridge of the Starship Aethelgard, watching the nebul",
           "confidence": 0.95
@@ -52,31 +52,31 @@
         "label": "PERSON",
         "start_char": 198,
         "end_char": 202,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael stood directly besi",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "Elara",
         "label": "PERSON",
         "start_char": 290,
         "end_char": 295,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara picked up the Daily",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "the Daily Security Report",
         "label": "WORK_OF_ART",
         "start_char": 306,
         "end_char": 331,
-        "pseudo_embedding": 876,
+        "pseudo_embedding": 444,
         "provenance": {
           "source_text_snippet": "the Daily Security Report from her chair. The",
           "confidence": 0.95
@@ -88,7 +88,7 @@
         "label": "ORDINAL",
         "start_char": 352,
         "end_char": 357,
-        "pseudo_embedding": 525,
+        "pseudo_embedding": 47,
         "provenance": {
           "source_text_snippet": "first entry caught her ey",
           "confidence": 0.95
@@ -100,19 +100,19 @@
         "label": "PERSON",
         "start_char": 405,
         "end_char": 409,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael entered the Enginee",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "the Engineering Deck",
         "label": "FAC",
         "start_char": 418,
         "end_char": 438,
-        "pseudo_embedding": 714,
+        "pseudo_embedding": 214,
         "provenance": {
           "source_text_snippet": "the Engineering Deck at 08:00 hours.\"\n\nE",
           "confidence": 0.95
@@ -124,7 +124,7 @@
         "label": "TIME",
         "start_char": 442,
         "end_char": 453,
-        "pseudo_embedding": 638,
+        "pseudo_embedding": 708,
         "provenance": {
           "source_text_snippet": "08:00 hours.\"\n\nElara frowned. \"",
           "confidence": 0.95
@@ -136,31 +136,31 @@
         "label": "PERSON",
         "start_char": 457,
         "end_char": 462,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara frowned. \"Kael, how",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "Kael",
         "label": "PERSON",
         "start_char": 473,
         "end_char": 477,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael, how can you be in ",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "Eng",
         "label": "GPE",
         "start_char": 497,
         "end_char": 500,
-        "pseudo_embedding": 578,
+        "pseudo_embedding": 657,
         "provenance": {
           "source_text_snippet": "Eng",
           "confidence": 0.95
@@ -175,7 +175,7 @@
           "label": "PROPN",
           "start_char": 14,
           "end_char": 19,
-          "canonical_id": "UNRESOLVED_7143728688533604224"
+          "canonical_id": "UNRESOLVED_7512884989950218157"
         },
         "predicate": {
           "text": "checked",
@@ -188,7 +188,7 @@
           "label": "NOUN",
           "start_char": 40,
           "end_char": 51,
-          "canonical_id": "UNRESOLVED_7589936334745830656"
+          "canonical_id": "UNRESOLVED_9043999280594293046"
         },
         "provenance": {
           "source_text_snippet": "Captain Elara Vance checked the digital chronometer on the wall; it read 08:00 hours.",
@@ -201,7 +201,7 @@
           "label": "PRON",
           "start_char": 65,
           "end_char": 67,
-          "canonical_id": "UNRESOLVED_-4805341153228096606"
+          "canonical_id": "UNRESOLVED_5403981218902039516"
         },
         "predicate": {
           "text": "read",
@@ -214,7 +214,7 @@
           "label": "NOUN",
           "start_char": 79,
           "end_char": 84,
-          "canonical_id": "UNRESOLVED_5547345221056292995"
+          "canonical_id": "UNRESOLVED_-7115317932639991456"
         },
         "provenance": {
           "source_text_snippet": "Captain Elara Vance checked the digital chronometer on the wall; it read 08:00 hours.",
@@ -227,7 +227,7 @@
           "label": "PRON",
           "start_char": 86,
           "end_char": 89,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "stood on",
@@ -240,7 +240,7 @@
           "label": "PROPN",
           "start_char": 103,
           "end_char": 109,
-          "canonical_id": "UNRESOLVED_-1455539369784726274"
+          "canonical_id": "UNRESOLVED_5307560905958567811"
         },
         "provenance": {
           "source_text_snippet": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen.",
@@ -253,7 +253,7 @@
           "label": "NOUN",
           "start_char": 151,
           "end_char": 157,
-          "canonical_id": "UNRESOLVED_-950122051622908998"
+          "canonical_id": "UNRESOLVED_-2134155532608985849"
         },
         "predicate": {
           "text": "swirl on",
@@ -266,7 +266,7 @@
           "label": "NOUN",
           "start_char": 176,
           "end_char": 186,
-          "canonical_id": "UNRESOLVED_-979339065548870144"
+          "canonical_id": "UNRESOLVED_-1845668330810350345"
         },
         "provenance": {
           "source_text_snippet": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen.",
@@ -279,7 +279,7 @@
           "label": "PROPN",
           "start_char": 198,
           "end_char": 202,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "stood beside",
@@ -292,7 +292,7 @@
           "label": "PRON",
           "start_char": 225,
           "end_char": 228,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "provenance": {
           "source_text_snippet": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console.",
@@ -305,7 +305,7 @@
           "label": "PROPN",
           "start_char": 198,
           "end_char": 202,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "stood at",
@@ -318,7 +318,7 @@
           "label": "NOUN",
           "start_char": 245,
           "end_char": 252,
-          "canonical_id": "UNRESOLVED_8873044039845979015"
+          "canonical_id": "UNRESOLVED_-5711184384257219473"
         },
         "provenance": {
           "source_text_snippet": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console.",
@@ -331,7 +331,7 @@
           "label": "PROPN",
           "start_char": 290,
           "end_char": 295,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "picked",
@@ -344,7 +344,7 @@
           "label": "PROPN",
           "start_char": 325,
           "end_char": 331,
-          "canonical_id": "UNRESOLVED_8140182792982458486"
+          "canonical_id": "UNRESOLVED_-573300369014211674"
         },
         "provenance": {
           "source_text_snippet": "Elara picked up the Daily Security Report from her chair.",
@@ -357,7 +357,7 @@
           "label": "PROPN",
           "start_char": 290,
           "end_char": 295,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "picked from",
@@ -370,7 +370,7 @@
           "label": "NOUN",
           "start_char": 341,
           "end_char": 346,
-          "canonical_id": "UNRESOLVED_3859661934585636960"
+          "canonical_id": "UNRESOLVED_5308415367878349782"
         },
         "provenance": {
           "source_text_snippet": "Elara picked up the Daily Security Report from her chair.",
@@ -383,7 +383,7 @@
           "label": "NOUN",
           "start_char": 358,
           "end_char": 363,
-          "canonical_id": "UNRESOLVED_-5703810082181478966"
+          "canonical_id": "UNRESOLVED_2469531444201978594"
         },
         "predicate": {
           "text": "caught",
@@ -396,7 +396,7 @@
           "label": "NOUN",
           "start_char": 375,
           "end_char": 378,
-          "canonical_id": "UNRESOLVED_5539560858896593033"
+          "canonical_id": "UNRESOLVED_-5114641819959543437"
         },
         "provenance": {
           "source_text_snippet": "The first entry caught her eye.",
@@ -409,7 +409,7 @@
           "label": "PROPN",
           "start_char": 405,
           "end_char": 409,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "entered",
@@ -422,7 +422,7 @@
           "label": "PROPN",
           "start_char": 434,
           "end_char": 438,
-          "canonical_id": "UNRESOLVED_1506789939217718731"
+          "canonical_id": "UNRESOLVED_-3069804083105373390"
         },
         "provenance": {
           "source_text_snippet": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\"",
@@ -435,7 +435,7 @@
           "label": "PROPN",
           "start_char": 405,
           "end_char": 409,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "entered at",
@@ -448,7 +448,7 @@
           "label": "NOUN",
           "start_char": 448,
           "end_char": 453,
-          "canonical_id": "UNRESOLVED_5547345221056292995"
+          "canonical_id": "UNRESOLVED_-7115317932639991456"
         },
         "provenance": {
           "source_text_snippet": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\"",
@@ -461,7 +461,7 @@
           "label": "PRON",
           "start_char": 487,
           "end_char": 490,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "be in",
@@ -500,31 +500,31 @@
         "label": "PERSON",
         "start_char": 7,
         "end_char": 12,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara frowned. \"Kael, how",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "Kael",
         "label": "PERSON",
         "start_char": 23,
         "end_char": 27,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael, how can you be in ",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "Engineering",
         "label": "ORG",
         "start_char": 47,
         "end_char": 58,
-        "pseudo_embedding": 154,
+        "pseudo_embedding": 126,
         "provenance": {
           "source_text_snippet": "Engineering right now? You are ",
           "confidence": 0.95
@@ -536,19 +536,19 @@
         "label": "PERSON",
         "start_char": 115,
         "end_char": 119,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael didn't look up. \"Mu",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "Bridge",
         "label": "FAC",
         "start_char": 181,
         "end_char": 187,
-        "pseudo_embedding": 726,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Bridge since 07:30.\"\n\nElar",
           "confidence": 0.95
@@ -560,31 +560,31 @@
         "label": "TIME",
         "start_char": 194,
         "end_char": 199,
-        "pseudo_embedding": 885,
+        "pseudo_embedding": 919,
         "provenance": {
           "source_text_snippet": "07:30.\"\n\nElara studied hi",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_13"
+        "canonical_id": "CAN_ID_14"
       },
       {
         "text": "Elara",
         "label": "PERSON",
         "start_char": 203,
         "end_char": 208,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara studied him. The ja",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "Titus IV",
         "label": "PERSON",
         "start_char": 348,
         "end_char": 356,
-        "pseudo_embedding": 980,
+        "pseudo_embedding": 150,
         "provenance": {
           "source_text_snippet": "Titus IV, a mark he refused ",
           "confidence": 0.95
@@ -596,24 +596,24 @@
         "label": "PERSON",
         "start_char": 415,
         "end_char": 420,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara said. \"The Red Onyx",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "The Red Onyx Key",
         "label": "PRODUCT",
         "start_char": 428,
         "end_char": 444,
-        "pseudo_embedding": 65,
+        "pseudo_embedding": 470,
         "provenance": {
           "source_text_snippet": "The Red Onyx Key. You logged it out ",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_3"
+        "canonical_id": "CAN_ID_4"
       }
     ],
     "triples": [
@@ -623,7 +623,7 @@
           "label": "PRON",
           "start_char": 37,
           "end_char": 40,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "be in",
@@ -649,7 +649,7 @@
           "label": "PRON",
           "start_char": 164,
           "end_char": 165,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "been on",
@@ -675,7 +675,7 @@
           "label": "PRON",
           "start_char": 164,
           "end_char": 165,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "been since",
@@ -688,7 +688,7 @@
           "label": "NUM",
           "start_char": 194,
           "end_char": 199,
-          "canonical_id": "CAN_ID_13"
+          "canonical_id": "CAN_ID_14"
         },
         "provenance": {
           "source_text_snippet": "I've been on the Bridge since 07:30.\"",
@@ -701,7 +701,7 @@
           "label": "PROPN",
           "start_char": 203,
           "end_char": 208,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "studied",
@@ -714,7 +714,7 @@
           "label": "PRON",
           "start_char": 217,
           "end_char": 220,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "provenance": {
           "source_text_snippet": "Elara studied him.",
@@ -723,11 +723,37 @@
       },
       {
         "subject": {
+          "text": "scar",
+          "label": "NOUN",
+          "start_char": 233,
+          "end_char": 237,
+          "canonical_id": "UNRESOLVED_4513222196960487849"
+        },
+        "predicate": {
+          "text": "glow in",
+          "label": "VERB_PHRASE",
+          "start_char": 276,
+          "end_char": 310
+        },
+        "object": {
+          "text": "lighting",
+          "label": "NOUN",
+          "start_char": 302,
+          "end_char": 310,
+          "canonical_id": "UNRESOLVED_-4951564442421740265"
+        },
+        "provenance": {
+          "source_text_snippet": "The jagged scar running down his left cheek seemed to glow in the red emergency lighting.",
+          "confidence": 0.9
+        }
+      },
+      {
+        "subject": {
           "text": "It",
           "label": "PRON",
           "start_char": 312,
           "end_char": 314,
-          "canonical_id": "UNRESOLVED_-4805341153228096606"
+          "canonical_id": "UNRESOLVED_5403981218902039516"
         },
         "predicate": {
           "text": "was",
@@ -740,7 +766,7 @@
           "label": "NOUN",
           "start_char": 321,
           "end_char": 329,
-          "canonical_id": "UNRESOLVED_4517720427865831193"
+          "canonical_id": "UNRESOLVED_2629570076044026276"
         },
         "provenance": {
           "source_text_snippet": "It was a souvenir from the siege of Titus IV, a mark he refused to heal.",
@@ -753,7 +779,7 @@
           "label": "PRON",
           "start_char": 387,
           "end_char": 388,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "need",
@@ -766,7 +792,7 @@
           "label": "NOUN",
           "start_char": 409,
           "end_char": 412,
-          "canonical_id": "UNRESOLVED_-5347577221856839531"
+          "canonical_id": "UNRESOLVED_-2515462286784008515"
         },
         "provenance": {
           "source_text_snippet": "\"I need the decryption key,\" Elara said.",
@@ -779,7 +805,7 @@
           "label": "PRON",
           "start_char": 446,
           "end_char": 449,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "logged",
@@ -792,7 +818,7 @@
           "label": "PRON",
           "start_char": 457,
           "end_char": 459,
-          "canonical_id": "UNRESOLVED_-4805341153228096606"
+          "canonical_id": "UNRESOLVED_5403981218902039516"
         },
         "provenance": {
           "source_text_snippet": "You logged it out of the armory.\"",
@@ -818,31 +844,31 @@
         "label": "PERSON",
         "start_char": 55,
         "end_char": 59,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael said. He reached in",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "the Red Onyx Key",
         "label": "PRODUCT",
         "start_char": 112,
         "end_char": 128,
-        "pseudo_embedding": 65,
+        "pseudo_embedding": 470,
         "provenance": {
           "source_text_snippet": "the Red Onyx Key. He placed the heav",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_4"
+        "canonical_id": "CAN_ID_3"
       },
       {
         "text": "An hour later",
         "label": "TIME",
         "start_char": 182,
         "end_char": 195,
-        "pseudo_embedding": 844,
+        "pseudo_embedding": 415,
         "provenance": {
           "source_text_snippet": "An hour later, they descended to ",
           "confidence": 0.95
@@ -854,7 +880,7 @@
         "label": "FAC",
         "start_char": 215,
         "end_char": 230,
-        "pseudo_embedding": 661,
+        "pseudo_embedding": 852,
         "provenance": {
           "source_text_snippet": "the Medical Bay. Dr. Aris was waiti",
           "confidence": 0.95
@@ -866,69 +892,9 @@
         "label": "PERSON",
         "start_char": 236,
         "end_char": 240,
-        "pseudo_embedding": 609,
+        "pseudo_embedding": 495,
         "provenance": {
           "source_text_snippet": "Aris was waiting for the",
-          "confidence": 0.95
-        },
-        "canonical_id": "CAN_ID_15"
-      },
-      {
-        "text": "Elara",
-        "label": "PERSON",
-        "start_char": 301,
-        "end_char": 306,
-        "pseudo_embedding": 894,
-        "provenance": {
-          "source_text_snippet": "Elara commanded.\n\n\"The pa",
-          "confidence": 0.95
-        },
-        "canonical_id": "CAN_ID_8"
-      },
-      {
-        "text": "Aris",
-        "label": "PERSON",
-        "start_char": 348,
-        "end_char": 352,
-        "pseudo_embedding": 609,
-        "provenance": {
-          "source_text_snippet": "Aris replied.\n\nElara nod",
-          "confidence": 0.95
-        },
-        "canonical_id": "CAN_ID_15"
-      },
-      {
-        "text": "Elara",
-        "label": "PERSON",
-        "start_char": 363,
-        "end_char": 368,
-        "pseudo_embedding": 894,
-        "provenance": {
-          "source_text_snippet": "Elara nodded. \"Good work,",
-          "confidence": 0.95
-        },
-        "canonical_id": "CAN_ID_8"
-      },
-      {
-        "text": "Evans",
-        "label": "PERSON",
-        "start_char": 393,
-        "end_char": 398,
-        "pseudo_embedding": 714,
-        "provenance": {
-          "source_text_snippet": "Evans. Keep me posted.\"\n\n",
-          "confidence": 0.95
-        },
-        "canonical_id": "CAN_ID_14"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 418,
-        "end_char": 422,
-        "pseudo_embedding": 909,
-        "provenance": {
-          "source_text_snippet": "Kael stepped forward to ",
           "confidence": 0.95
         },
         "canonical_id": "CAN_ID_16"
@@ -936,14 +902,74 @@
       {
         "text": "Elara",
         "label": "PERSON",
+        "start_char": 301,
+        "end_char": 306,
+        "pseudo_embedding": 801,
+        "provenance": {
+          "source_text_snippet": "Elara commanded.\n\n\"The pa",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_7"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 348,
+        "end_char": 352,
+        "pseudo_embedding": 495,
+        "provenance": {
+          "source_text_snippet": "Aris replied.\n\nElara nod",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_16"
+      },
+      {
+        "text": "Elara",
+        "label": "PERSON",
+        "start_char": 363,
+        "end_char": 368,
+        "pseudo_embedding": 801,
+        "provenance": {
+          "source_text_snippet": "Elara nodded. \"Good work,",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_7"
+      },
+      {
+        "text": "Evans",
+        "label": "PERSON",
+        "start_char": 393,
+        "end_char": 398,
+        "pseudo_embedding": 7,
+        "provenance": {
+          "source_text_snippet": "Evans. Keep me posted.\"\n\n",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_13"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 418,
+        "end_char": 422,
+        "pseudo_embedding": 811,
+        "provenance": {
+          "source_text_snippet": "Kael stepped forward to ",
+          "confidence": 0.95
+        },
+        "canonical_id": "CAN_ID_15"
+      },
+      {
+        "text": "Elara",
+        "label": "PERSON",
         "start_char": 472,
         "end_char": 477,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara, smiling. The brigh",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       }
     ],
     "triples": [
@@ -953,7 +979,7 @@
           "label": "PRON",
           "start_char": 32,
           "end_char": 33,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "have",
@@ -966,7 +992,7 @@
           "label": "PRON",
           "start_char": 39,
           "end_char": 41,
-          "canonical_id": "UNRESOLVED_-4805341153228096606"
+          "canonical_id": "UNRESOLVED_5403981218902039516"
         },
         "provenance": {
           "source_text_snippet": "\"\n\n\"I have it right here,\" Kael said.",
@@ -979,7 +1005,7 @@
           "label": "PRON",
           "start_char": 66,
           "end_char": 68,
-          "canonical_id": "CAN_ID_16"
+          "canonical_id": "CAN_ID_15"
         },
         "predicate": {
           "text": "reached into",
@@ -992,7 +1018,7 @@
           "label": "NOUN",
           "start_char": 91,
           "end_char": 96,
-          "canonical_id": "UNRESOLVED_-4802012569128390316"
+          "canonical_id": "UNRESOLVED_155101268006272983"
         },
         "provenance": {
           "source_text_snippet": "He reached into his belt pouch and pulled out the Red Onyx Key.",
@@ -1005,7 +1031,7 @@
           "label": "NOUN",
           "start_char": 150,
           "end_char": 155,
-          "canonical_id": "UNRESOLVED_2693576994282503825"
+          "canonical_id": "UNRESOLVED_4545463152567045420"
         },
         "predicate": {
           "text": "located at",
@@ -1018,7 +1044,7 @@
           "label": "NOUN",
           "start_char": 172,
           "end_char": 179,
-          "canonical_id": "UNRESOLVED_-5715128611362365613"
+          "canonical_id": "UNRESOLVED_3519143977238854586"
         },
         "provenance": {
           "source_text_snippet": "He placed the heavy stone on the tactical console.",
@@ -1027,11 +1053,63 @@
       },
       {
         "subject": {
+          "text": "He",
+          "label": "PRON",
+          "start_char": 130,
+          "end_char": 132,
+          "canonical_id": "CAN_ID_15"
+        },
+        "predicate": {
+          "text": "placed",
+          "label": "VERB",
+          "start_char": 133,
+          "end_char": 139
+        },
+        "object": {
+          "text": "stone",
+          "label": "NOUN",
+          "start_char": 150,
+          "end_char": 155,
+          "canonical_id": "UNRESOLVED_4545463152567045420"
+        },
+        "provenance": {
+          "source_text_snippet": "He placed the heavy stone on the tactical console.",
+          "confidence": 0.85
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "label": "PRON",
+          "start_char": 130,
+          "end_char": 132,
+          "canonical_id": "CAN_ID_15"
+        },
+        "predicate": {
+          "text": "placed on",
+          "label": "VERB_PHRASE",
+          "start_char": 133,
+          "end_char": 179
+        },
+        "object": {
+          "text": "console",
+          "label": "NOUN",
+          "start_char": 172,
+          "end_char": 179,
+          "canonical_id": "UNRESOLVED_3519143977238854586"
+        },
+        "provenance": {
+          "source_text_snippet": "He placed the heavy stone on the tactical console.",
+          "confidence": 0.9
+        }
+      },
+      {
+        "subject": {
           "text": "they",
           "label": "PRON",
           "start_char": 197,
           "end_char": 201,
-          "canonical_id": "UNRESOLVED_-4870917478154653580"
+          "canonical_id": "UNRESOLVED_-7869449543685248873"
         },
         "predicate": {
           "text": "descended to",
@@ -1044,7 +1122,7 @@
           "label": "PROPN",
           "start_char": 227,
           "end_char": 230,
-          "canonical_id": "UNRESOLVED_8868049645840701486"
+          "canonical_id": "UNRESOLVED_-1644147014111975145"
         },
         "provenance": {
           "source_text_snippet": "An hour later, they descended to the Medical Bay.",
@@ -1057,7 +1135,7 @@
           "label": "PROPN",
           "start_char": 236,
           "end_char": 240,
-          "canonical_id": "CAN_ID_15"
+          "canonical_id": "CAN_ID_16"
         },
         "predicate": {
           "text": "waiting for",
@@ -1070,7 +1148,7 @@
           "label": "PRON",
           "start_char": 257,
           "end_char": 261,
-          "canonical_id": "UNRESOLVED_-8154178802976227306"
+          "canonical_id": "UNRESOLVED_7049288023878241810"
         },
         "provenance": {
           "source_text_snippet": "Dr. Aris was waiting for them by the stasis pods.",
@@ -1083,7 +1161,7 @@
           "label": "PROPN",
           "start_char": 236,
           "end_char": 240,
-          "canonical_id": "CAN_ID_15"
+          "canonical_id": "CAN_ID_16"
         },
         "predicate": {
           "text": "waiting by",
@@ -1096,7 +1174,7 @@
           "label": "NOUN",
           "start_char": 276,
           "end_char": 280,
-          "canonical_id": "UNRESOLVED_-42561123724700063"
+          "canonical_id": "UNRESOLVED_-1999010113465964431"
         },
         "provenance": {
           "source_text_snippet": "Dr. Aris was waiting for them by the stasis pods.",
@@ -1109,7 +1187,7 @@
           "label": "NOUN",
           "start_char": 324,
           "end_char": 331,
-          "canonical_id": "UNRESOLVED_5035148624690516290"
+          "canonical_id": "UNRESOLVED_7371789106390862411"
         },
         "predicate": {
           "text": "is",
@@ -1122,7 +1200,7 @@
           "label": "ADJ",
           "start_char": 335,
           "end_char": 341,
-          "canonical_id": "UNRESOLVED_350016275251028203"
+          "canonical_id": "UNRESOLVED_5880611322929567840"
         },
         "provenance": {
           "source_text_snippet": "\n\n\"The patient is stable,\" Dr. Aris replied.",
@@ -1135,7 +1213,7 @@
           "label": "PRON",
           "start_char": 459,
           "end_char": 461,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "turned to",
@@ -1148,7 +1226,7 @@
           "label": "PROPN",
           "start_char": 472,
           "end_char": 477,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "provenance": {
           "source_text_snippet": "He turned to Elara, smiling.",
@@ -1174,43 +1252,43 @@
         "label": "PERSON",
         "start_char": 22,
         "end_char": 27,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara, smiling. The brigh",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "Kael",
         "label": "PERSON",
         "start_char": 172,
         "end_char": 176,
-        "pseudo_embedding": 909,
+        "pseudo_embedding": 811,
         "provenance": {
           "source_text_snippet": "Kael said, patting his b",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_16"
+        "canonical_id": "CAN_ID_15"
       },
       {
         "text": "the Red Onyx Key",
         "label": "PRODUCT",
         "start_char": 228,
         "end_char": 244,
-        "pseudo_embedding": 65,
+        "pseudo_embedding": 470,
         "provenance": {
           "source_text_snippet": "the Red Onyx Key. I haven't seen it ",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_4"
+        "canonical_id": "CAN_ID_3"
       },
       {
         "text": "yesterday",
         "label": "DATE",
         "start_char": 270,
         "end_char": 279,
-        "pseudo_embedding": 247,
+        "pseudo_embedding": 549,
         "provenance": {
           "source_text_snippet": "yesterday.\"\n\nElara stared at ",
           "confidence": 0.95
@@ -1222,24 +1300,24 @@
         "label": "PERSON",
         "start_char": 283,
         "end_char": 288,
-        "pseudo_embedding": 894,
+        "pseudo_embedding": 801,
         "provenance": {
           "source_text_snippet": "Elara stared at him. \"You",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_8"
+        "canonical_id": "CAN_ID_7"
       },
       {
         "text": "an hour ago",
         "label": "TIME",
         "start_char": 336,
         "end_char": 347,
-        "pseudo_embedding": 455,
+        "pseudo_embedding": 319,
         "provenance": {
           "source_text_snippet": "an hour ago.\"",
           "confidence": 0.95
         },
-        "canonical_id": "CAN_ID_7"
+        "canonical_id": "CAN_ID_8"
       }
     ],
     "triples": [
@@ -1249,7 +1327,7 @@
           "label": "PRON",
           "start_char": 9,
           "end_char": 11,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "turned to",
@@ -1262,7 +1340,7 @@
           "label": "PROPN",
           "start_char": 22,
           "end_char": 27,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "provenance": {
           "source_text_snippet": "He turned to Elara, smiling.",
@@ -1275,7 +1353,7 @@
           "label": "NOUN",
           "start_char": 49,
           "end_char": 55,
-          "canonical_id": "UNRESOLVED_-5219859102293944844"
+          "canonical_id": "UNRESOLVED_-8035316888554685468"
         },
         "predicate": {
           "text": "reflected off",
@@ -1288,7 +1366,7 @@
           "label": "NOUN",
           "start_char": 109,
           "end_char": 113,
-          "canonical_id": "UNRESOLVED_-4611973131460576402"
+          "canonical_id": "UNRESOLVED_5872772843320556237"
         },
         "provenance": {
           "source_text_snippet": "The bright lights of the med-bay reflected off his smooth, unblemished face, revealing skin that had never known a wound.",
@@ -1301,7 +1379,7 @@
           "label": "PRON",
           "start_char": 130,
           "end_char": 134,
-          "canonical_id": "UNRESOLVED_-7965632418288388983"
+          "canonical_id": "UNRESOLVED_9190280103814476991"
         },
         "predicate": {
           "text": "known",
@@ -1314,10 +1392,36 @@
           "label": "NOUN",
           "start_char": 153,
           "end_char": 158,
-          "canonical_id": "UNRESOLVED_-4283850639013542314"
+          "canonical_id": "UNRESOLVED_8937606529079424635"
         },
         "provenance": {
           "source_text_snippet": "The bright lights of the med-bay reflected off his smooth, unblemished face, revealing skin that had never known a wound.",
+          "confidence": 0.85
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 208,
+          "end_char": 209,
+          "canonical_id": "CAN_ID_15"
+        },
+        "predicate": {
+          "text": "lost",
+          "label": "VERB",
+          "start_char": 223,
+          "end_char": 227
+        },
+        "object": {
+          "text": "Key",
+          "label": "PROPN",
+          "start_char": 241,
+          "end_char": 244,
+          "canonical_id": "UNRESOLVED_-2515462286784008515"
+        },
+        "provenance": {
+          "source_text_snippet": "\"I seem to have lost the Red Onyx Key.",
           "confidence": 0.85
         }
       },
@@ -1327,7 +1431,7 @@
           "label": "PRON",
           "start_char": 261,
           "end_char": 263,
-          "canonical_id": "UNRESOLVED_-4805341153228096606"
+          "canonical_id": "UNRESOLVED_5403981218902039516"
         },
         "predicate": {
           "text": "located at",
@@ -1349,11 +1453,63 @@
       },
       {
         "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 246,
+          "end_char": 247,
+          "canonical_id": "CAN_ID_7"
+        },
+        "predicate": {
+          "text": "seen",
+          "label": "VERB",
+          "start_char": 256,
+          "end_char": 260
+        },
+        "object": {
+          "text": "it",
+          "label": "PRON",
+          "start_char": 261,
+          "end_char": 263,
+          "canonical_id": "UNRESOLVED_5403981218902039516"
+        },
+        "provenance": {
+          "source_text_snippet": "I haven't seen it since yesterday.\"\n\nElara stared at him.",
+          "confidence": 0.85
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "label": "PRON",
+          "start_char": 246,
+          "end_char": 247,
+          "canonical_id": "CAN_ID_7"
+        },
+        "predicate": {
+          "text": "seen since",
+          "label": "VERB_PHRASE",
+          "start_char": 256,
+          "end_char": 279
+        },
+        "object": {
+          "text": "yesterday",
+          "label": "NOUN",
+          "start_char": 270,
+          "end_char": 279,
+          "canonical_id": "CAN_ID_10"
+        },
+        "provenance": {
+          "source_text_snippet": "I haven't seen it since yesterday.\"\n\nElara stared at him.",
+          "confidence": 0.9
+        }
+      },
+      {
+        "subject": {
           "text": "Elara",
           "label": "PROPN",
           "start_char": 283,
           "end_char": 288,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "predicate": {
           "text": "stared at",
@@ -1366,7 +1522,7 @@
           "label": "PRON",
           "start_char": 299,
           "end_char": 302,
-          "canonical_id": "CAN_ID_8"
+          "canonical_id": "CAN_ID_7"
         },
         "provenance": {
           "source_text_snippet": "I haven't seen it since yesterday.\"\n\nElara stared at him.",
@@ -1379,7 +1535,7 @@
           "label": "PRON",
           "start_char": 318,
           "end_char": 320,
-          "canonical_id": "UNRESOLVED_-4805341153228096606"
+          "canonical_id": "UNRESOLVED_5403981218902039516"
         },
         "predicate": {
           "text": "located at",
@@ -1392,11 +1548,63 @@
           "label": "NOUN",
           "start_char": 328,
           "end_char": 335,
-          "canonical_id": "UNRESOLVED_-5715128611362365613"
+          "canonical_id": "UNRESOLVED_3519143977238854586"
         },
         "provenance": {
           "source_text_snippet": "\"You just put it on the console an hour ago.\"",
           "confidence": 0.95
+        }
+      },
+      {
+        "subject": {
+          "text": "You",
+          "label": "PRON",
+          "start_char": 305,
+          "end_char": 308,
+          "canonical_id": "CAN_ID_7"
+        },
+        "predicate": {
+          "text": "put",
+          "label": "VERB",
+          "start_char": 314,
+          "end_char": 317
+        },
+        "object": {
+          "text": "it",
+          "label": "PRON",
+          "start_char": 318,
+          "end_char": 320,
+          "canonical_id": "UNRESOLVED_5403981218902039516"
+        },
+        "provenance": {
+          "source_text_snippet": "\"You just put it on the console an hour ago.\"",
+          "confidence": 0.85
+        }
+      },
+      {
+        "subject": {
+          "text": "You",
+          "label": "PRON",
+          "start_char": 305,
+          "end_char": 308,
+          "canonical_id": "CAN_ID_7"
+        },
+        "predicate": {
+          "text": "put on",
+          "label": "VERB_PHRASE",
+          "start_char": 314,
+          "end_char": 335
+        },
+        "object": {
+          "text": "console",
+          "label": "NOUN",
+          "start_char": 328,
+          "end_char": 335,
+          "canonical_id": "UNRESOLVED_3519143977238854586"
+        },
+        "provenance": {
+          "source_text_snippet": "\"You just put it on the console an hour ago.\"",
+          "confidence": 0.9
         }
       }
     ]
