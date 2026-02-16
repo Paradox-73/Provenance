@@ -37,32 +37,40 @@ class ConflictDetector:
         
         seen_pairs = set()
         
-        # STOP LIST: Ignore these common false positive "locations"
-        IGNORED_LOCATIONS = ["pm", "am", "pocket", "hand", "mind", "table", "chair", "floor"]
+        # STOP LIST: Filters out time, pronouns, and common objects
+        IGNORED_LOCATIONS = [
+            "pm", "am", "pocket", "hand", "mind", "table", "chair", "floor", 
+            "room", "corridor", "hallway", "side", "front", "back",
+            "she", "he", "him", "her", "it", "they", "them", "me", "you", 
+            "hours", "minutes", "seconds", "moment", "instant", "time", "day", "night"
+        ]
 
         for record in results:
             loc1 = record['location1'].lower()
             loc2 = record['location2'].lower()
+            char_name = record['character_name'].lower()
+
+            # FILTER 1: Stop List
+            if any(x in loc1.split() for x in IGNORED_LOCATIONS) or any(x in loc2.split() for x in IGNORED_LOCATIONS):
+                continue
             
-            # 1. heuristic Filter: Skip if location is in the stop list
-            if any(x in loc1 for x in IGNORED_LOCATIONS) or any(x in loc2 for x in IGNORED_LOCATIONS):
+            # FILTER 2: Identity Check (Prevent "Elara is at Elara")
+            if char_name in loc1 or char_name in loc2:
                 continue
 
-            # Deduplicate (A-B is same as B-A)
+            # Deduplicate
             locs = sorted([record['location1'], record['location2']])
             key = f"{record['character_name']}_{locs[0]}_{locs[1]}"
             if key in seen_pairs: continue
             seen_pairs.add(key)
 
-            # 2. NLI Verification (The "Brain")
-            # We ask the AI: "Does 'X is at A' contradict 'X is at B'?"
+            # NLI Verification
             premise = f"{record['character_name']} was at {record['location1']}."
             hypothesis = f"{record['character_name']} was at {record['location2']}."
             
             print(f"   Analyzing: '{premise}' vs '{hypothesis}'...")
             nli_result = run_nli_check(premise, hypothesis)
             
-            # Only report if the AI is confident it's a contradiction
             if nli_result["prediction"] == "contradiction" and nli_result["confidence"] > 0.5:
                 inconsistencies.append(self._format_inconsistency(
                     "Temporal/Impossible Location",
@@ -79,13 +87,15 @@ class ConflictDetector:
                 
         return inconsistencies
 
-    # Placeholders for other types
+    # --- Placeholders for other logic modules ---
     def detect_inventory_inconsistency(self): return []
     def detect_location_inconsistency(self): return []
     def detect_identity_inconsistency(self): return []
     def detect_attribute_inconsistency(self): return []
     
+    # --- DRIVER FUNCTION (Required by Orchestrator) ---
     def detect_all_inconsistencies(self) -> list[dict]:
         all_conflicts = []
+        # Currently only Temporal is active
         all_conflicts.extend(self.detect_temporal_inconsistency())
         return all_conflicts
