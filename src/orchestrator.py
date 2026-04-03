@@ -1,32 +1,28 @@
 from .document_parser import document_parser
-from .nlp_pipeline import process_chapters_for_nlp, load_spacy_model, load_nli_model
+from .nlp_pipeline import process_chapters_for_nlp, load_spacy_model, load_nli_model, print_ner_table
 from .neo4j_adapter import Neo4jAdapter
 from .graph_logic import ConflictDetector
 import os
 import json
 from typing import Dict, Any, List
 
-# Define a conceptual graph state for LangGraph
-# In a real LangGraph setup, this would be a TypedDict or Pydantic model
 class AgenticGraphState:
     def __init__(self):
-        self.raw_document_data: Dict[str, Any] = {} # Raw text chunks per chapter
-        self.processed_nlp_data: Dict[str, Any] = {} # NLP processed data per chapter
+        self.raw_document_data: Dict[str, Any] = {} 
+        self.processed_nlp_data: Dict[str, Any] = {} 
+        self.entity_ledger: Dict[str, str] = {} 
         self.graph_ingestion_status: str = "pending"
         self.detected_conflicts: List[Dict[str, Any]] = []
         self.current_task: str = "start"
-        self.history: List[str] = [] # To track agent decisions/actions
+        self.history: List[str] = [] 
 
 def node_parse_documents(state: AgenticGraphState, input_folder: str) -> AgenticGraphState:
-    """
-    LangGraph node: Parses documents from the input folder.
-    """
     print(f"--- Orchestrator: Parsing documents from {input_folder} ---")
     chapter_data = {}
     for filename in sorted(os.listdir(input_folder)):
         if filename.endswith(".txt"):
             file_path = os.path.join(input_folder, filename)
-            chapter_name = os.path.splitext(filename)[0] # Use filename as chapter name
+            chapter_name = os.path.splitext(filename)[0] 
             try:
                 chunks = document_parser(file_path)
                 chapter_data[chapter_name] = chunks
@@ -38,34 +34,35 @@ def node_parse_documents(state: AgenticGraphState, input_folder: str) -> Agentic
     state.current_task = "nlp_processing"
     return state
 
-def node_nlp_process_data(state: AgenticGraphState) -> AgenticGraphState:
-    """
-    LangGraph node: Processes raw document data through the NLP pipeline.
-    """
-    print("--- Orchestrator: Running NLP pipeline ---")
-    load_spacy_model() # Ensure spaCy model is loaded
-    load_nli_model()    # Ensure NLI model is loaded for semantic checks
+def node_nlp_process_data(state: AgenticGraphState, mode="hybrid", ollama_model="qwen2.5:7b") -> AgenticGraphState:
+    print(f"--- Orchestrator: Running NLP pipeline (Mode: {mode}) ---")
+    load_spacy_model() 
+    load_nli_model()    
     
-    processed_data = process_chapters_for_nlp(state.raw_document_data)
+    processed_data, updated_ledger = process_chapters_for_nlp(
+        state.raw_document_data, 
+        mode=mode, 
+        ollama_model=ollama_model, 
+        ledger=state.entity_ledger
+    )
+    
+    print_ner_table(processed_data)
+    
     state.processed_nlp_data = processed_data
+    state.entity_ledger = updated_ledger
     state.current_task = "ingest_to_graph"
-    state.history.append("Completed NLP processing and coreference resolution.")
+    state.history.append(f"Completed NLP processing with mode '{mode}'. Story Bible has {len(updated_ledger)} entries.")
     return state
 
 def node_ingest_to_graph(state: AgenticGraphState, neo4j_adapter: Neo4jAdapter) -> AgenticGraphState:
-    """
-    LangGraph node: Ingests processed NLP data into the Neo4j graph.
-    """
     print("--- Orchestrator: Ingesting data to Neo4j ---")
     try:
-        # Save processed data for debugging
         output_dir = "processed_data"
         os.makedirs(output_dir, exist_ok=True)
         for chapter_name, chunks in state.processed_nlp_data.items():
             filename = os.path.join(output_dir, f"{chapter_name}_processed.json")
             with open(filename, 'w', encoding='utf-8') as f:
                 json.dump(chunks, f, indent=2, ensure_ascii=False)
-            print(f"Saved processed data for {chapter_name} to {filename}")
 
         neo4j_adapter.clear_database()
         neo4j_adapter.define_schema()
@@ -81,9 +78,6 @@ def node_ingest_to_graph(state: AgenticGraphState, neo4j_adapter: Neo4jAdapter) 
     return state
 
 def node_detect_conflicts(state: AgenticGraphState, neo4j_adapter: Neo4jAdapter) -> AgenticGraphState:
-    """
-    LangGraph node: Detects inconsistencies using the graph_logic module.
-    """
     print("--- Orchestrator: Detecting conflicts ---")
     detector = ConflictDetector(neo4j_adapter)
     conflicts = detector.detect_all_inconsistencies()
@@ -93,12 +87,7 @@ def node_detect_conflicts(state: AgenticGraphState, neo4j_adapter: Neo4jAdapter)
     return state
 
 def node_report_results(state: AgenticGraphState) -> AgenticGraphState:
-    """
-    LangGraph node: Finalizes and reports the detected conflicts.
-    """
     print("--- Orchestrator: Reporting results ---")
-    # In a real system, this would format the conflicts into a dashboard, JSON, or CSV report.
-    # For now, it just prints them.
     if state.detected_conflicts:
         print("--- Final Conflict Report ---")
         for i, conflict in enumerate(state.detected_conflicts):
@@ -113,34 +102,30 @@ def node_report_results(state: AgenticGraphState) -> AgenticGraphState:
     state.history.append("Results reported.")
     return state
 
-# Conceptual LangGraph application (simplified)
-# In a real LangGraph setup, you'd define a StateGraph and add nodes/edges.
-# This function simulates the execution flow.
-def run_provenance_pipeline(input_folder: str, neo4j_adapter: Neo4jAdapter) -> List[Dict[str, Any]]:
-    """
-    Simulates the execution of the agentic provenance pipeline.
-    """
+def run_provenance_pipeline(input_folder: str, neo4j_adapter: Neo4jAdapter = None, mode="hybrid", ollama_model="qwen2.5:7b", nlp_only=False) -> List[Dict[str, Any]]:
     state = AgenticGraphState()
 
-    # Step 1: Parse documents
     state = node_parse_documents(state, input_folder)
     if not state.raw_document_data:
         print("No documents found or parsed. Exiting pipeline.")
         return []
 
-    # Step 2: NLP Process Data
-    state = node_nlp_process_data(state)
-    
-    # Step 3: Ingest to Graph
-    state = node_ingest_to_graph(state, neo4j_adapter)
-    if state.graph_ingestion_status != "completed":
-        print("Graph ingestion failed. Exiting pipeline.")
+    state = node_nlp_process_data(state, mode=mode, ollama_model=ollama_model)
+
+    if nlp_only:
+        print("--- Pipeline stopping after NLP (nlp_only=True) ---")
         return []
 
-    # Step 4: Detect Conflicts
-    state = node_detect_conflicts(state, neo4j_adapter)
+    if neo4j_adapter:
+        state = node_ingest_to_graph(state, neo4j_adapter)
+        if state.graph_ingestion_status != "completed":
+            print("Graph ingestion failed. Exiting pipeline.")
+            return []
+    else:
+        print("No Neo4j adapter provided. Skipping ingestion.")
+        return []
 
-    # Step 5: Report Results
+    state = node_detect_conflicts(state, neo4j_adapter)
     state = node_report_results(state)
     
     print("--- Pipeline Execution Summary ---")
@@ -151,40 +136,21 @@ def run_provenance_pipeline(input_folder: str, neo4j_adapter: Neo4jAdapter) -> L
 
 if __name__ == '__main__':
     print("--- Orchestrator Module Conceptual Test ---")
-    # This requires a dummy 'chapters' folder with .txt files and Neo4j running.
-    # For a quick test, create a folder named 'chapters' in the project root
-    # and put a 'Chapter 1.txt' and 'Chapter 2.txt' inside.
-
     dummy_chapters_folder = "chapters_test_data"
     os.makedirs(dummy_chapters_folder, exist_ok=True)
     with open(os.path.join(dummy_chapters_folder, "Chapter 1.txt"), "w") as f:
         f.write("John works at Google. He lives in New York. John has blue eyes.")
-    with open(os.path.join(dummy_chapters_folder, "Chapter 2.txt"), "w") as f:
-        f.write("Mr. Smith founded Google. Smith moved to California. John has brown eyes.")
     
-    print(f"Created dummy chapter files in '{dummy_chapters_folder}' for testing.")
-
-    # Initialize Neo4j Adapter (ensure .env is configured and Neo4j is running)
     neo4j_adapter = Neo4jAdapter()
     try:
         neo4j_adapter.connect()
-        neo4j_adapter.define_schema() # Ensure schema is defined before ingesting
-
-        # Run the simulated pipeline
-        print("--- Running simulated provenance pipeline ---")
+        neo4j_adapter.define_schema()
         conflicts = run_provenance_pipeline(dummy_chapters_folder, neo4j_adapter)
-        
-        if conflicts:
-            print(f"Pipeline finished. Found {len(conflicts)} inconsistencies.")
-        else:
-            print("Pipeline finished. No inconsistencies found.")
-
     except Exception as e:
         print(f"Orchestrator test failed: {e}")
     finally:
         neo4j_adapter.close()
-        # Clean up dummy test data
-        for filename in os.listdir(dummy_chapters_folder):
-            os.remove(os.path.join(dummy_chapters_folder, filename))
-        os.rmdir(dummy_chapters_folder)
-        print(f"Cleaned up '{dummy_chapters_folder}'.")
+        if os.path.exists(dummy_chapters_folder):
+            for filename in os.listdir(dummy_chapters_folder):
+                os.remove(os.path.join(dummy_chapters_folder, filename))
+            os.rmdir(dummy_chapters_folder)

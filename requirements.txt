@@ -8,6 +8,8 @@ torch==2.2.1 # PyTorch for DeBERTa-v3
 pypdf2==3.0.1 # For PDF parsing
 python-docx==1.1.0 # For DOCX parsing
 protobuf # Required for DebertaV2Converter
+pandas
+tabulate
 
 # Other utilities
 python-dotenv==1.0.1

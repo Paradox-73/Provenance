@@ -52,7 +52,7 @@ class Neo4jAdapter:
                     for entity in chunk["entities"]:
                         if "canonical_id" not in entity: continue
                         label = "Person" if entity["label"] == "PERSON" else "Location" if entity["label"] in ["LOC", "GPE", "FAC"] else "Entity"
-                        session.run(f"MERGE (e:{label} {{canonical_id: $cid}}) ON CREATE SET e.name = $name", cid=entity["canonical_id"], name=entity["text"])
+                        session.run(f"MERGE (e:Entity:{label} {{canonical_id: $cid}}) ON CREATE SET e.name = $name", cid=entity["canonical_id"], name=entity["text"])
                     
                     for triple in chunk["triples"]:
                         for role in ["subject", "object"]:
@@ -60,6 +60,7 @@ class Neo4jAdapter:
                             if "canonical_id" not in item: item["canonical_id"] = f"UNRESOLVED_{hash(item['text'])}"
                             session.run("MERGE (e:Entity {canonical_id: $cid}) ON CREATE SET e.name = $name", cid=item["canonical_id"], name=item["text"])
 
+            # --- PASS 2: Create Relationships ---
             # --- PASS 2: Create Relationships ---
             print("Pass 2: Creating Relationships...")
             for chapter_name, chunks in processed_chapters.items():
@@ -70,27 +71,45 @@ class Neo4jAdapter:
                         obj_id = triple["object"]["canonical_id"]
                         pred_text = triple["predicate"]["text"].lower()
                         
-                        # LOCATION LOGIC: Now saves 'chapter' explicitly
                         location_pattern = r"\b(at|in|on|puts you at|located)\b"
                         
                         if re.search(location_pattern, pred_text):
                             query = (
-                                "MATCH (s {canonical_id: $sid}), (o {canonical_id: $oid}) "
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
                                 "MERGE (s)-[r:LOCATED_AT]->(o) "
-                                "ON CREATE SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
+                                "SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
                             )
                             session.run(query, sid=subj_id, oid=obj_id, ts=f"{chapter_name}-{chunk_id}", chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
                         
-                        # OTHER ASSERTIONS
+                        elif triple["predicate"]["label"] == "IDENTITY":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_IDENTITY]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
+
+                        elif triple["predicate"]["label"] == "ATTRIBUTE":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_ATTRIBUTE]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
+
                         else:
                             triple_id = f"trip_{hash(subj_id+pred_text+obj_id)}"
                             query = (
-                                "MATCH (s {canonical_id: $sid}), (o {canonical_id: $oid}) "
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
                                 "MERGE (s)-[:HAS_ASSERTION]->(a:Assertion {id: $tid}) "
                                 "MERGE (a)-[:ABOUT]->(o) "
-                                "SET a.predicate = $pred"
+                                "SET a.predicate = $pred, a.chapter = $chap, a.text = $txt"
                             )
-                            session.run(query, sid=subj_id, oid=obj_id, tid=triple_id, pred=pred_text)
+                            session.run(query, sid=subj_id, oid=obj_id, tid=triple_id, pred=pred_text, chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
             print("Data ingestion complete.")
 
     def run_cypher_query(self, query: str, parameters: dict = None):

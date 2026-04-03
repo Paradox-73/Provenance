@@ -11,22 +11,30 @@ def main():
     parser.add_argument("input_folder", type=str,
                         help="Path to the folder containing chapter-wise .txt files.")
     parser.add_argument("--spacy_model", type=str, default="en_core_web_trf",
-                        help="Name of the spaCy model to load (e.g., 'en_core_web_sm', 'en_core_web_lg', 'en_core_web_trf').")
-    # --- CORRECTED MODEL NAME HERE ---
+                        help="Name of the spaCy model to load.")
     parser.add_argument("--nli_model", type=str, default="MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
-                        help="Name of the HuggingFace NLI model (must be fine-tuned on MNLI).")
+                        help="Name of the HuggingFace NLI model.")
+    parser.add_argument("--mode", type=str, default="hybrid", choices=["spacy", "llm", "hybrid"],
+                        help="NER extraction mode: 'spacy', 'llm', or 'hybrid'.")
+    parser.add_argument("--ollama_model", type=str, default="qwen2.5:7b",
+                        help="Local Ollama model name to use for LLM extraction.")
+    parser.add_argument("--nlp_only", action="store_true",
+                        help="Only run NLP processing and show the table; skip Neo4j and conflict detection.")
     
     args = parser.parse_args()
 
     input_folder = args.input_folder
     spacy_model = args.spacy_model
     nli_model = args.nli_model
+    mode = args.mode
+    ollama_model = args.ollama_model
+    nlp_only = args.nlp_only
 
     if not os.path.isdir(input_folder):
         print(f"Error: Input folder '{input_folder}' does not exist.")
         return
 
-    print(f"--- Starting Provenance Pipeline for folder: {input_folder} ---")
+    print(f"--- Starting Provenance Pipeline (Mode: {mode}) ---")
 
     # 1. Load NLP Models (Global initialization)
     try:
@@ -34,34 +42,43 @@ def main():
         load_nli_model(nli_model)
     except Exception as e:
         print(f"Failed to load NLP models: {e}")
-        print("Please ensure spaCy models are downloaded ('python -m spacy download en_core_web_trf')")
-        print("and HuggingFace models are accessible.")
         return
 
-    # 2. Initialize Neo4j Adapter
-    neo4j_adapter = Neo4jAdapter()
-    try:
-        neo4j_adapter.connect()
-        neo4j_adapter.define_schema() # Ensure schema is defined before any ingestion attempt
-    except Exception as e:
-        print(f"Failed to connect to or initialize Neo4j: {e}")
-        print("Please ensure your Neo4j database is running and credentials in .env are correct.")
-        return
+    # 2. Initialize Neo4j Adapter (Skip if nlp_only)
+    neo4j_adapter = None
+    if not nlp_only:
+        neo4j_adapter = Neo4jAdapter()
+        try:
+            neo4j_adapter.connect()
+            neo4j_adapter.define_schema()
+        except Exception as e:
+            print(f"Failed to connect to Neo4j: {e}")
+            print("Try running with --nlp_only if you just want to see the NER results.")
+            return
     
     # 3. Run the Orchestrated Pipeline
     try:
-        detected_conflicts = run_provenance_pipeline(input_folder, neo4j_adapter)
+        detected_conflicts = run_provenance_pipeline(
+            input_folder, 
+            neo4j_adapter, 
+            mode=mode, 
+            ollama_model=ollama_model,
+            nlp_only=nlp_only
+        )
         
-        if detected_conflicts:
-            print(f"--- Pipeline Completed: {len(detected_conflicts)} Inconsistencies Found ---")
+        if not nlp_only:
+            if detected_conflicts:
+                print(f"--- Pipeline Completed: {len(detected_conflicts)} Inconsistencies Found ---")
+            else:
+                print("--- Pipeline Completed: No Inconsistencies Detected ---")
         else:
-            print("--- Pipeline Completed: No Inconsistencies Detected ---")
+            print("--- NLP Analysis Completed ---")
 
     except Exception as e:
         print(f"An error occurred during pipeline execution: {e}")
     finally:
-        # 4. Close Neo4j Connection
-        neo4j_adapter.close()
+        if neo4j_adapter:
+            neo4j_adapter.close()
         print("--- Provenance Pipeline Finished ---")
 
 if __name__ == "__main__":

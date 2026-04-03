@@ -34,7 +34,7 @@ def parse_txt(file_path: str) -> str:
         text = f.read()
     return text
 
-def chunk_text(text: str, chunk_size: int = 500, overlap: int = 50) -> list[dict]:
+def chunk_text(text: str, chunk_size: int = 3000, overlap: int = 300) -> list[dict]:
     """
     Chunks text into smaller segments and adds basic metadata.
     For a real system, this would involve more sophisticated chunking
