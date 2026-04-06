@@ -8,6 +8,7 @@ import os
 import json
 import requests
 import re
+import difflib
 from fastcoref import spacy_component
 
 # Ensure you have a spaCy model downloaded
@@ -131,6 +132,7 @@ class TriModeExtractor:
         4. STRICT DIRECTIONALITY: For POSSESSES and LOST, the Person MUST always be the Subject, and the Item MUST be the Object. Never make the item the subject.
         5. Resolve pronouns using the Established Characters and Memory State.
         6. KEEP IT BRIEF: The 'source_text_snippet' must be less than 10 words. Only quote the core action.
+        7. STRICT ATTRIBUTES: Use HAS_ATTRIBUTE for ANY physical descriptions of a person's body, face, or condition (e.g., scars, smooth skin, eye color). NEVER use the 'LOST' predicate for physical features vanishing; instead, extract the new physical state as a new HAS_ATTRIBUTE (e.g., if a scar is missing, the attribute is 'smooth face' or 'no scar').
         
         Text: {text}
         
@@ -318,21 +320,28 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
         processed_chapters[chapter_name] = processed_chunks
     
     # Smarter Canonical IDs (Phase 1.2)
+    known_ids = list(ledger.keys())
     for chapter_name, chunks in processed_chapters.items():
         for chunk in chunks:
             for ent in chunk['entities']:
                 raw_name = ent['text']
                 
-                # --- NEW: Entity Deduplication ---
+                # --- NEW: Robust Fuzzy Deduplication ---
                 best_match = None
-                for existing_name in ledger.keys():
-                    if raw_name != existing_name:
-                        # Simple containment or high overlap check
-                        if raw_name in existing_name or existing_name in raw_name:
-                            best_match = existing_name
-                            break
+                matches = difflib.get_close_matches(raw_name, known_ids, n=1, cutoff=0.8)
+                if matches:
+                    best_match = matches[0]
+                else:
+                    # Fallback to containment
+                    for existing_name in known_ids:
+                        if raw_name != existing_name:
+                            if raw_name in existing_name or existing_name in raw_name:
+                                best_match = existing_name
+                                break
                 
                 resolved_name = best_match if best_match else raw_name
+                if not best_match and resolved_name not in known_ids:
+                    known_ids.append(resolved_name)
                 
                 if ent['label'] in ['PERSON', 'TITLE']:
                     ent['canonical_id'] = resolved_name.split()[-1].upper()
@@ -350,13 +359,19 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
                     
                     # Deduplicate triple nodes too
                     best_match = None
-                    for existing_name in ledger.keys():
-                        if text != existing_name:
-                            if text in existing_name or existing_name in text:
-                                best_match = existing_name
-                                break
+                    matches = difflib.get_close_matches(text, known_ids, n=1, cutoff=0.8)
+                    if matches:
+                        best_match = matches[0]
+                    else:
+                        for existing_name in known_ids:
+                            if text != existing_name:
+                                if text in existing_name or existing_name in text:
+                                    best_match = existing_name
+                                    break
                     
                     resolved_text = best_match if best_match else text
+                    if not best_match and resolved_text not in known_ids:
+                        known_ids.append(resolved_text)
                     
                     label = "UNKNOWN"
                     for e in chunk['entities']:

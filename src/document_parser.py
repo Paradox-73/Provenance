@@ -34,28 +34,55 @@ def parse_txt(file_path: str) -> str:
         text = f.read()
     return text
 
-def chunk_text(text: str, chunk_size: int = 3000, overlap: int = 300) -> list[dict]:
+import spacy
+
+# Load the lightweight English model for sentence boundary detection
+nlp = spacy.load("en_core_web_trf")
+
+def chunk_text(text: str, chunk_size: int = 3000, overlap_sentences: int = 2) -> list[dict]:
     """
-    Chunks text into smaller segments and adds basic metadata.
-    For a real system, this would involve more sophisticated chunking
-    and metadata extraction (e.g., chapter, section detection).
+    Chunks text into smaller segments based on sentence boundaries using spaCy.
+    Ensures entities and relationships are not split across chunk boundaries.
     """
+    doc = nlp(text)
+    sentences = [sent.text.strip() for sent in doc.sents]
+    
     chunks = []
-    current_pos = 0
-    while current_pos < len(text):
-        end_pos = min(current_pos + chunk_size, len(text))
-        chunk_content = text[current_pos:end_pos]
+    current_chunk_sentences = []
+    current_length = 0
+    
+    for i, sentence in enumerate(sentences):
+        sentence_length = len(sentence)
+        
+        # If adding this sentence exceeds chunk_size, finalize the current chunk
+        if current_length + sentence_length > chunk_size and current_chunk_sentences:
+            chunk_content = " ".join(current_chunk_sentences)
+            chunks.append({
+                "content": chunk_content,
+                "start_char": text.find(current_chunk_sentences[0]), # Approximate start
+                "end_char": text.find(current_chunk_sentences[-1]) + len(current_chunk_sentences[-1]),
+                "source_type": "literary_text",
+                "document_id": "doc_123"
+            })
+            
+            # Start new chunk with overlap from the end of the previous chunk
+            overlap = current_chunk_sentences[-overlap_sentences:] if len(current_chunk_sentences) >= overlap_sentences else current_chunk_sentences
+            current_chunk_sentences = list(overlap)
+            current_length = sum(len(s) for s in current_chunk_sentences) + len(current_chunk_sentences) - 1
+            
+        current_chunk_sentences.append(sentence)
+        current_length += sentence_length + 1 # +1 for the space
+        
+    # Add the final chunk if it has content
+    if current_chunk_sentences:
+        chunk_content = " ".join(current_chunk_sentences)
         chunks.append({
             "content": chunk_content,
-            "start_char": current_pos,
-            "end_char": end_pos,
-            "source_type": "literary_text", # Example metadata
-            "document_id": "doc_123" # Placeholder
+            "start_char": text.find(current_chunk_sentences[0]),
+            "end_char": text.find(current_chunk_sentences[-1]) + len(current_chunk_sentences[-1]),
+            "source_type": "literary_text",
+            "document_id": "doc_123"
         })
-        current_pos += chunk_size - overlap
-        if chunk_size - overlap <= 0 and current_pos < len(text):
-            # Avoid infinite loop if overlap is too large or chunk_size too small
-            current_pos += chunk_size
 
     return chunks
 

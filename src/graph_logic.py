@@ -1,5 +1,6 @@
 from .neo4j_adapter import Neo4jAdapter
 from .nlp_pipeline import run_nli_check
+from sentence_transformers import SentenceTransformer, util
 
 # 1. TEMPORAL QUERY
 IMPOSSIBLE_LOCATION_QUERY = """
@@ -15,12 +16,13 @@ RETURN p.name as character_name,
        r2.text as source2
 """
 
-# 2. INVENTORY QUERY
+# 2. INVENTORY QUERY - Updated to use plabel
 INVENTORY_CONFLICT_QUERY = """
 MATCH (p:Person)-[:HAS_ASSERTION]->(a1:Assertion)-[:ABOUT]->(item:Entity)
 MATCH (p)-[:HAS_ASSERTION]->(a2:Assertion)-[:ABOUT]->(item)
 WHERE a1.chapter = a2.chapter
 AND a1.id <> a2.id
+AND ((a1.label = 'POSSESSES' AND a2.label = 'LOST') OR (a1.label = 'LOST' AND a2.label = 'POSSESSES'))
 RETURN p.name as character_name,
        item.name as item_name,
        a1.predicate as pred_A,
@@ -61,7 +63,8 @@ RETURN p.name as character_name,
 class ConflictDetector:
     def __init__(self, neo4j_adapter: Neo4jAdapter):
         self.neo4j_adapter = neo4j_adapter
-        self.verb_cache = {}
+        # Initialize semantic gatekeeper model
+        self.similarity_model = SentenceTransformer('all-MiniLM-L6-v2')
 
     def _format_inconsistency(self, conflict_type: str, details: dict, confidence: float) -> dict:
         return {
@@ -70,24 +73,6 @@ class ConflictDetector:
             "details": details,
             "confidence": confidence
         }
-
-    def _classify_predicate(self, entity, predicate, item) -> str:
-        cache_key = predicate.lower()
-        if cache_key in self.verb_cache: return self.verb_cache[cache_key]
-
-        premise = f"{entity} {predicate} the {item}."
-        pos_result = run_nli_check(premise, f"{entity} possesses the {item}.")
-        loss_result = run_nli_check(premise, f"{entity} does not possess the {item}.")
-
-        classification = "OTHER"
-        if pos_result["prediction"] == "entailment" and pos_result["confidence"] > 0.5:
-            classification = "POSSESSION"
-        elif loss_result["prediction"] == "entailment" and loss_result["confidence"] > 0.5:
-            classification = "LOSS"
-        
-        if any(v in predicate for v in ["lost", "dropped", "missing"]): classification = "LOSS"
-        self.verb_cache[cache_key] = classification
-        return classification
 
     def detect_temporal_inconsistency(self) -> list[dict]:
         print("Detecting temporal/impossible location inconsistencies...")
@@ -112,12 +97,10 @@ class ConflictDetector:
         results = self.neo4j_adapter.run_cypher_query(INVENTORY_CONFLICT_QUERY)
         inconsistencies = []
         for record in results:
-            type_A = self._classify_predicate(record['character_name'], record['pred_A'], record['item_name'])
-            type_B = self._classify_predicate(record['character_name'], record['pred_B'], record['item_name'])
-            if (type_A == "POSSESSION" and type_B == "LOSS") or (type_A == "LOSS" and type_B == "POSSESSION"):
-                nli_result = run_nli_check(f"{record['character_name']} {record['pred_A']} the {record['item_name']}.", f"{record['character_name']} {record['pred_B']} the {record['item_name']}.")
-                if nli_result["prediction"] == "contradiction" or nli_result["confidence"] > 0.5:
-                    inconsistencies.append(self._format_inconsistency("Inventory Conflict", record, nli_result["confidence"]))
+            # Direct graph traversal with label check eliminates need for NLI classification
+            nli_result = run_nli_check(f"{record['character_name']} {record['pred_A']} the {record['item_name']}.", f"{record['character_name']} {record['pred_B']} the {record['item_name']}.")
+            if nli_result["prediction"] == "contradiction" or nli_result["confidence"] > 0.5:
+                inconsistencies.append(self._format_inconsistency("Inventory Conflict", record, nli_result["confidence"]))
         return inconsistencies
 
     def detect_identity_inconsistency(self) -> list[dict]:
@@ -125,7 +108,11 @@ class ConflictDetector:
         results = self.neo4j_adapter.run_cypher_query(IDENTITY_CONFLICT_QUERY)
         inconsistencies = []
         for record in results:
-            nli_result = run_nli_check(f"{record['character_name']} is {record['identity1']}.", f"{record['character_name']} is {record['identity2']}.")
+            # OPTIMIZED: Smarter prompt for identity
+            nli_result = run_nli_check(
+                f"{record['character_name']} is officially identified as {record['identity1']}.", 
+                f"{record['character_name']} is officially identified as {record['identity2']}."
+            )
             if nli_result["prediction"] == "contradiction" and nli_result["confidence"] > 0.4:
                 inconsistencies.append(self._format_inconsistency("Identity Conflict", record, nli_result["confidence"]))
         return inconsistencies
@@ -134,10 +121,29 @@ class ConflictDetector:
         print("Detecting attribute inconsistencies...")
         results = self.neo4j_adapter.run_cypher_query(ATTRIBUTE_CONFLICT_QUERY)
         inconsistencies = []
-        for record in results:
-            nli_result = run_nli_check(f"{record['character_name']} has {record['attribute1']}.", f"{record['character_name']} has {record['attribute2']}.")
-            if nli_result["prediction"] == "contradiction" and nli_result["confidence"] > 0.4:
-                inconsistencies.append(self._format_inconsistency("Attribute Conflict", record, nli_result["confidence"]))
+        
+        if not results:
+            return inconsistencies
+
+        # Extract attributes for batch embedding
+        attr1_list = [r['attribute1'] for r in results]
+        attr2_list = [r['attribute2'] for r in results]
+        
+        emb1 = self.similarity_model.encode(attr1_list, convert_to_tensor=True)
+        emb2 = self.similarity_model.encode(attr2_list, convert_to_tensor=True)
+        
+        # Calculate cosine similarities
+        cosine_scores = util.cos_sim(emb1, emb2)
+        
+        for i, record in enumerate(results):
+            # Semantic Gatekeeper: Only check NLI if attributes are semantically related
+            if cosine_scores[i][i] > 0.35:
+                nli_result = run_nli_check(
+                    f"Physically, {record['character_name']}'s appearance is described as having {record['attribute1']}.", 
+                    f"Physically, {record['character_name']}'s appearance is described as having {record['attribute2']}."
+                )
+                if nli_result["prediction"] == "contradiction" and nli_result["confidence"] > 0.4:
+                    inconsistencies.append(self._format_inconsistency("Attribute Conflict", record, nli_result["confidence"]))
         return inconsistencies
     
     def detect_all_inconsistencies(self) -> list[dict]:
