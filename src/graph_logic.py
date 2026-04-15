@@ -4,10 +4,13 @@ from sentence_transformers import SentenceTransformer, util
 
 # 1. TEMPORAL QUERY
 IMPOSSIBLE_LOCATION_QUERY = """
-MATCH (p:Person)-[r1:LOCATED_AT]->(l1)
+MATCH (p:Entity)-[r1:LOCATED_AT]->(l1)
 MATCH (p)-[r2:LOCATED_AT]->(l2)
-WHERE l1 <> l2 
-AND r1.chapter = r2.chapter
+WHERE id(l1) < id(l2) 
+AND r1.chapter = r2.chapter 
+AND r1.timestamp = r2.timestamp 
+AND r1.timestamp <> 'unknown'
+AND NOT (l1)-[:PART_OF*1..2]-(l2)
 RETURN p.name as character_name, 
        l1.name as location1, 
        l2.name as location2, 
@@ -18,10 +21,10 @@ RETURN p.name as character_name,
 
 # 2. INVENTORY QUERY - Updated to use plabel
 INVENTORY_CONFLICT_QUERY = """
-MATCH (p:Person)-[:HAS_ASSERTION]->(a1:Assertion)-[:ABOUT]->(item:Entity)
+MATCH (p:Entity)-[:HAS_ASSERTION]->(a1:Assertion)-[:ABOUT]->(item:Entity)
 MATCH (p)-[:HAS_ASSERTION]->(a2:Assertion)-[:ABOUT]->(item)
 WHERE a1.chapter = a2.chapter
-AND a1.id <> a2.id
+AND id(a1) < id(a2)
 AND ((a1.label = 'POSSESSES' AND a2.label = 'LOST') OR (a1.label = 'LOST' AND a2.label = 'POSSESSES'))
 RETURN p.name as character_name,
        item.name as item_name,
@@ -34,9 +37,9 @@ RETURN p.name as character_name,
 
 # 3. IDENTITY QUERY
 IDENTITY_CONFLICT_QUERY = """
-MATCH (p:Person)-[r1:HAS_IDENTITY]->(id1:Entity)
+MATCH (p:Entity)-[r1:HAS_IDENTITY]->(id1:Entity)
 MATCH (p)-[r2:HAS_IDENTITY]->(id2:Entity)
-WHERE id1 <> id2
+WHERE id(id1) < id(id2)
 AND r1.chapter = r2.chapter
 RETURN p.name as character_name,
        id1.name as identity1,
@@ -48,9 +51,9 @@ RETURN p.name as character_name,
 
 # 4. ATTRIBUTE QUERY
 ATTRIBUTE_CONFLICT_QUERY = """
-MATCH (p:Person)-[r1:HAS_ATTRIBUTE]->(attr1:Entity)
+MATCH (p:Entity)-[r1:HAS_ATTRIBUTE]->(attr1:Entity)
 MATCH (p)-[r2:HAS_ATTRIBUTE]->(attr2:Entity)
-WHERE attr1 <> attr2
+WHERE id(attr1) < id(attr2)
 AND r1.chapter = r2.chapter
 RETURN p.name as character_name,
        attr1.name as attribute1,
@@ -98,9 +101,7 @@ class ConflictDetector:
         inconsistencies = []
         for record in results:
             # Direct graph traversal with label check eliminates need for NLI classification
-            nli_result = run_nli_check(f"{record['character_name']} {record['pred_A']} the {record['item_name']}.", f"{record['character_name']} {record['pred_B']} the {record['item_name']}.")
-            if nli_result["prediction"] == "contradiction" or nli_result["confidence"] > 0.5:
-                inconsistencies.append(self._format_inconsistency("Inventory Conflict", record, nli_result["confidence"]))
+            inconsistencies.append(self._format_inconsistency("Inventory Conflict", record, 1.0))
         return inconsistencies
 
     def detect_identity_inconsistency(self) -> list[dict]:
@@ -122,27 +123,19 @@ class ConflictDetector:
         results = self.neo4j_adapter.run_cypher_query(ATTRIBUTE_CONFLICT_QUERY)
         inconsistencies = []
         
-        if not results:
-            return inconsistencies
+        for record in results:
+            # Semantic Gatekeeper: Calculate similarity between attributes
+            emb1 = self.similarity_model.encode(record['attribute1'], convert_to_tensor=True)
+            emb2 = self.similarity_model.encode(record['attribute2'], convert_to_tensor=True)
+            similarity = util.cos_sim(emb1, emb2).item()
 
-        # Extract attributes for batch embedding
-        attr1_list = [r['attribute1'] for r in results]
-        attr2_list = [r['attribute2'] for r in results]
-        
-        emb1 = self.similarity_model.encode(attr1_list, convert_to_tensor=True)
-        emb2 = self.similarity_model.encode(attr2_list, convert_to_tensor=True)
-        
-        # Calculate cosine similarities
-        cosine_scores = util.cos_sim(emb1, emb2)
-        
-        for i, record in enumerate(results):
-            # Semantic Gatekeeper: Only check NLI if attributes are semantically related
-            if cosine_scores[i][i] > 0.35:
+            # ONLY execute NLI check if attributes belong to the same category (> 0.45 similarity)
+            if similarity > 0.45:
                 nli_result = run_nli_check(
                     f"Physically, {record['character_name']}'s appearance is described as having {record['attribute1']}.", 
                     f"Physically, {record['character_name']}'s appearance is described as having {record['attribute2']}."
                 )
-                if nli_result["prediction"] == "contradiction" and nli_result["confidence"] > 0.4:
+                if nli_result["prediction"] == "contradiction" and nli_result["confidence"] > 0.85:
                     inconsistencies.append(self._format_inconsistency("Attribute Conflict", record, nli_result["confidence"]))
         return inconsistencies
     

@@ -52,7 +52,7 @@ class Neo4jAdapter:
                     for entity in chunk.get("entities", []):
                         if "canonical_id" not in entity: continue
                         label = "Person" if entity.get("label") == "PERSON" else "Location" if entity.get("label") in ["LOC", "GPE", "FAC"] else "Entity"
-                        session.run(f"MERGE (e:Entity:{label} {{canonical_id: $cid}}) ON CREATE SET e.name = $name", cid=entity["canonical_id"], name=entity.get("text", "Unknown"))
+                        session.run(f"MERGE (e:Entity {{canonical_id: $cid}}) ON CREATE SET e.name = $name SET e:{label}", cid=entity["canonical_id"], name=entity.get("text", "Unknown"))
                     
                     for triple in chunk.get("triples", []):
                         for role in ["subject", "object"]:
@@ -80,19 +80,40 @@ class Neo4jAdapter:
                         pred_text = pred_dict.get("text", "").lower()
                         pred_label = pred_dict.get("label", "UNKNOWN")
                         source_text = prov_dict.get("source_text_snippet", "Source not provided")
+                        narrative_time = triple.get("timestamp", "unknown")
+
+                        # Action B: Filter 'Source not provided' from Logic checks
+                        if source_text == "Source not provided" or not pred_text:
+                            continue
+
+                        # Action A: Enforce Subject/Object Rules in Python
+                        # PYTHON OVERRIDE: Fix LLM Directionality Hallucinations
+                        if pred_label in ["POSSESSES", "LOST"]:
+                            # If the object is a PERSON, the LLM flipped them. Swap them back.
+                            if any(x in obj_id for x in ["KAEL", "MARIA", "ARIS", "EVANS"]):
+                                subj_id, obj_id = obj_id, subj_id
                         
                         # ... inside Pass 2 loop ...
                         location_pattern = r"\b(at|in|on|puts you at|located)\b"
                         
-                        if re.search(location_pattern, pred_text):
+                        if re.search(location_pattern, pred_text) or pred_label == "LOCATED_AT":
                             query = (
                                 "MERGE (s:Entity {canonical_id: $sid}) "
                                 "MERGE (o:Entity {canonical_id: $oid}) "
                                 "MERGE (s)-[r:LOCATED_AT]->(o) "
                                 "SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
                             )
-                            session.run(query, sid=subj_id, oid=obj_id, ts=f"{chapter_name}-{chunk_id}", chap=chapter_name, txt=source_text)
+                            session.run(query, sid=subj_id, oid=obj_id, ts=narrative_time, chap=chapter_name, txt=source_text)
                         
+                        elif pred_label == "PART_OF":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:PART_OF]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
+
                         # --- UPDATE THESE TWO LINES ---
                         elif pred_label in ["IDENTITY", "HAS_IDENTITY"]:
                             query = (

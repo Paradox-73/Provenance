@@ -48,13 +48,6 @@ def main():
     neo4j_adapter = None
     if not nlp_only:
         neo4j_adapter = Neo4jAdapter()
-        try:
-            neo4j_adapter.connect()
-            neo4j_adapter.define_schema()
-        except Exception as e:
-            print(f"Failed to connect to Neo4j: {e}")
-            print("Try running with --nlp_only if you just want to see the NER results.")
-            return
     
     # 3. Run the Orchestrated Pipeline
     try:

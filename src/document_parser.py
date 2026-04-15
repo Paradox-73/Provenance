@@ -34,18 +34,18 @@ def parse_txt(file_path: str) -> str:
         text = f.read()
     return text
 
-import spacy
-
-# Load the lightweight English model for sentence boundary detection
-nlp = spacy.load("en_core_web_trf")
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 def chunk_text(text: str, chunk_size: int = 3000, overlap_sentences: int = 2) -> list[dict]:
     """
-    Chunks text into smaller segments based on sentence boundaries using spaCy.
+    Chunks text into smaller segments based on sentence boundaries using NLTK.
     Ensures entities and relationships are not split across chunk boundaries.
     """
-    doc = nlp(text)
-    sentences = [sent.text.strip() for sent in doc.sents]
+    sentences = nltk.sent_tokenize(text)
     
     chunks = []
     current_chunk_sentences = []

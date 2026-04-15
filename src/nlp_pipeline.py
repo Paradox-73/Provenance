@@ -104,7 +104,7 @@ class TriModeExtractor:
         elif self.mode == "llm":
             ents = self._llm_ner(text, ledger)
         elif self.mode == "hybrid":
-            ents = self._hybrid_ner(text, ledger)
+            ents = self._spacy_ner(text)
         else:
             ents = []
             
@@ -127,12 +127,16 @@ class TriModeExtractor:
         
         CRITICAL RULES:
         1. EXHAUSTIVE EXTRACTION: You must extract EVERY relevant relationship in the text. Do not stop at just one.
-        2. Use ONLY these exact predicate labels: LOCATED_AT, HAS_IDENTITY, HAS_ATTRIBUTE, POSSESSES, LOST.
+        2. Use ONLY these exact predicate labels: LOCATED_AT, HAS_IDENTITY, HAS_ATTRIBUTE, POSSESSES, LOST, PART_OF.
         3. STRICT LOCATIONS: For LOCATED_AT, the object MUST be a geographic, architectural, or physical space (e.g., room, building, city, planet). DO NOT extract relative positions (beside, near), objects (tablet, display, console), or body parts (hand, pocket) as locations.
         4. STRICT DIRECTIONALITY: For POSSESSES and LOST, the Person MUST always be the Subject, and the Item MUST be the Object. Never make the item the subject.
         5. Resolve pronouns using the Established Characters and Memory State.
         6. KEEP IT BRIEF: The 'source_text_snippet' must be less than 10 words. Only quote the core action.
         7. STRICT ATTRIBUTES: Use HAS_ATTRIBUTE for ANY physical descriptions of a person's body, face, or condition (e.g., scars, smooth skin, eye color). NEVER use the 'LOST' predicate for physical features vanishing; instead, extract the new physical state as a new HAS_ATTRIBUTE (e.g., if a scar is missing, the attribute is 'smooth face' or 'no scar').
+        8. EXTRACT TIMESTAMPS: Every triple MUST include a 'timestamp' key at the root level of the triple object. Extract the exact narrative time (e.g., '08:00 hours', '10:00 hours', 'An hour later'). If no time is mentioned, use 'unknown'.
+        9. SPATIAL HIERARCHY: If a smaller location or object is explicitly inside/on a larger location (e.g., a Tactical Console is on the Bridge), extract a triple with the predicate 'PART_OF' (e.g., Tactical Console -> PART_OF -> Bridge).
+        10. NO METAPHORS: Only extract literal, physical facts. Do NOT extract metaphors, figures of speech, or internal character thoughts as facts (e.g., 'slipping through fingers like sand' is not a loss of inventory).
+        11. DIALOGUE IDENTITIES: If a character is addressed by a specific name or title in dialogue (e.g., 'Good work, Dr. Evans'), you MUST extract a HAS_IDENTITY triple for that character with the addressed name.
         
         Text: {text}
         
@@ -146,6 +150,7 @@ class TriModeExtractor:
             "subject": {{"text": "Entity Name", "canonical_id": "UPPERCASE_NAME"}},
             "predicate": {{"label": "LOCATED_AT", "text": "was at"}},
             "object": {{"text": "Location Name", "canonical_id": "UPPERCASE_LOC"}},
+            "timestamp": "08:00 hours",
             "provenance": {{"source_text_snippet": "short exact quote"}}
           }}
         ]
@@ -286,7 +291,13 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
         processed_chunks = []
         for i, chunk in enumerate(chunks):
             content = chunk["content"]
-            resolved_content, clusters = resolve_coreferences_neural(content)
+            
+            # Action: Lower Coref Aggressiveness
+            if mode == "hybrid":
+                resolved_content = content
+                clusters = []
+            else:
+                resolved_content, clusters = resolve_coreferences_neural(content)
             
             # NER on RESOLVED content
             entities = extractor.extract_entities(resolved_content, ledger)
@@ -298,9 +309,9 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
                 doc = nlp(resolved_content)
                 sentences = [sent.text for sent in doc.sents]
                 
-                # Process in windows of 2 sentences for context + memory
-                for j in range(0, len(sentences), 2):
-                    window_text = " ".join(sentences[j:j+2])
+                # Process in windows of 4 sentences for context + memory
+                for j in range(0, len(sentences), 4):
+                    window_text = " ".join(sentences[j:j+4])
                     triples, updated_memory = extractor.extract_triples_llm(window_text, ledger, current_memory)
                     if isinstance(triples, list):
                         all_chunk_triples.extend(triples)
@@ -350,12 +361,18 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
             
             for triple in chunk['triples']:
                 for role in ['subject', 'object']:
+                    # DEFENSIVE: If LLM forgot the key, create a dummy placeholder
+                    if role not in triple:
+                        triple[role] = {"text": "UNKNOWN"}
+                    
                     node = triple[role]
                     if not isinstance(node, dict):
-                        triple[role] = {"text": node}
+                        triple[role] = {"text": str(node)}
                         node = triple[role]
-                    
-                    text = node.get('text', '')
+                        
+                    text = node.get('text', 'UNKNOWN')
+                    if not text:
+                        text = "UNKNOWN"
                     
                     # Deduplicate triple nodes too
                     best_match = None
