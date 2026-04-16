@@ -41,7 +41,6 @@ class Neo4jAdapter:
 
     def _normalize_timestamp(self, ts: str) -> str:
         if not ts: return "unknown"
-        # Extract HH:MM using regex
         match = re.search(r'(\d{2}:\d{2})', ts)
         return match.group(1) if match else ts
 
@@ -72,76 +71,61 @@ class Neo4jAdapter:
             print("Pass 2: Creating Relationships...")
             for chapter_name, chunks in processed_chapters.items():
                 for chunk in chunks:
-                    chunk_id = chunk.get("chunk_id", 0)
                     for triple in chunk.get("triples", []):
-                        
-                        # --- DEFENSIVE PROGRAMMING: Safely extract all values ---
-                        subj_dict = triple.get("subject", {})
-                        obj_dict = triple.get("object", {})
-                        pred_dict = triple.get("predicate", {})
-                        prov_dict = triple.get("provenance", {})
-                        
-                        subj_id = subj_dict.get("canonical_id", "UNKNOWN")
-                        obj_id = obj_dict.get("canonical_id", "UNKNOWN")
-                        pred_text = pred_dict.get("text", "").lower()
-                        pred_label = pred_dict.get("label", "UNKNOWN")
-                        source_text = prov_dict.get("source_text_snippet", "Source not provided")
-                        raw_time = triple.get("timestamp", "unknown")
-                        narrative_time = self._normalize_timestamp(raw_time)
+                        subj_id = triple.get("subject", {}).get("canonical_id", "UNKNOWN")
+                        obj_id = triple.get("object", {}).get("canonical_id", "UNKNOWN")
+                        pred_label = triple.get("predicate", {}).get("label", "UNKNOWN")
+                        pred_text = triple.get("predicate", {}).get("text", "").lower()
+                        source_text = triple.get("provenance", {}).get("source_text_snippet", "Source not provided")
+                        narrative_time = self._normalize_timestamp(triple.get("timestamp", "unknown"))
 
-                        # 1. Kill Ghost Nodes
                         if source_text == "Source not provided" or not pred_text:
                             continue
 
-                        # 3. Hardcode Directionality Swap
-                        # We keep this as a general rule for POSSESSES/LOST logic
-                        if pred_label in ["POSSESSES", "LOST"]:
+                        # Handle Directionality for POSSESSES/LOST
+                        if pred_label in ["POSSESSES", "LOST", "NOT_POSSESSES", "NOT_LOST"]:
                             if any(name in obj_id for name in ["KAEL", "MARIA", "ARIS", "EVANS", "CAPTAIN"]):
-                                # Swap IDs
                                 subj_id, obj_id = obj_id, subj_id
-                                # Swap the dictionaries so Neo4j gets the right Entity names
-                                subj_dict, obj_dict = obj_dict, subj_dict
-                        
-                        # ... inside Pass 2 loop ...
-                        location_pattern = r"\b(at|in|on|puts you at|located)\b"
-                        
-                        if re.search(location_pattern, pred_text) or pred_label == "LOCATED_AT":
+
+                        # Map labels to direct relationships (including NOT_ variants)
+                        if pred_label in ["LOCATED_AT", "NOT_LOCATED_AT"]:
                             query = (
-                                "MERGE (s:Entity {canonical_id: $sid}) "
-                                "MERGE (o:Entity {canonical_id: $oid}) "
-                                "MERGE (s)-[r:LOCATED_AT]->(o) "
+                                f"MERGE (s:Entity {{canonical_id: $sid}}) "
+                                f"MERGE (o:Entity {{canonical_id: $oid}}) "
+                                f"MERGE (s)-[r:{pred_label}]->(o) "
                                 "SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
                             )
                             session.run(query, sid=subj_id, oid=obj_id, ts=narrative_time, chap=chapter_name, txt=source_text)
                         
-                        elif pred_label == "PART_OF":
+                        elif pred_label in ["PART_OF", "NOT_PART_OF"]:
                             query = (
-                                "MERGE (s:Entity {canonical_id: $sid}) "
-                                "MERGE (o:Entity {canonical_id: $oid}) "
-                                "MERGE (s)-[r:PART_OF]->(o) "
+                                f"MERGE (s:Entity {{canonical_id: $sid}}) "
+                                f"MERGE (o:Entity {{canonical_id: $oid}}) "
+                                f"MERGE (s)-[r:{pred_label}]->(o) "
                                 "SET r.chapter = $chap, r.text = $txt"
                             )
                             session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
 
-                        # --- UPDATE THESE TWO LINES ---
-                        elif pred_label in ["IDENTITY", "HAS_IDENTITY"]:
+                        elif pred_label in ["IDENTITY", "HAS_IDENTITY", "NOT_HAS_IDENTITY"]:
+                            # Normalize label to HAS_IDENTITY or NOT_HAS_IDENTITY
+                            rel_type = "HAS_IDENTITY" if "NOT" not in pred_label else "NOT_HAS_IDENTITY"
                             query = (
-                                "MERGE (s:Entity {canonical_id: $sid}) "
-                                "MERGE (o:Entity {canonical_id: $oid}) "
-                                "MERGE (s)-[r:HAS_IDENTITY]->(o) "
+                                f"MERGE (s:Entity {{canonical_id: $sid}}) "
+                                f"MERGE (o:Entity {{canonical_id: $oid}}) "
+                                f"MERGE (s)-[r:{rel_type}]->(o) "
                                 "SET r.chapter = $chap, r.text = $txt"
                             )
                             session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
 
-                        elif pred_label in ["ATTRIBUTE", "HAS_ATTRIBUTE"]:
+                        elif pred_label in ["ATTRIBUTE", "HAS_ATTRIBUTE", "NOT_HAS_ATTRIBUTE"]:
+                            rel_type = "HAS_ATTRIBUTE" if "NOT" not in pred_label else "NOT_HAS_ATTRIBUTE"
                             query = (
-                                "MERGE (s:Entity {canonical_id: $sid}) "
-                                "MERGE (o:Entity {canonical_id: $oid}) "
-                                "MERGE (s)-[r:HAS_ATTRIBUTE]->(o) "
-                                "SET r.chapter = $chap, r.text = $txt"
+                                f"MERGE (s:Entity {{canonical_id: $sid}}) "
+                                f"MERGE (o:Entity {{canonical_id: $oid}}) "
+                                f"MERGE (s)-[r:{rel_type}]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt, r.target_feature = $tf"
                             )
-                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
-                        # ... rest of the code ...
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text, tf=triple.get("target_feature", "general"))
 
                         else:
                             triple_id = f"trip_{hash(subj_id+pred_text+obj_id)}"
