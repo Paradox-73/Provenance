@@ -1,0 +1,2298 @@
+You said
+(nlp) E:\Projects\Provenance>python -m src.main chapters_data --mode hybrid
+
+--- Starting Provenance Pipeline (Mode: hybrid) ---
+
+E:\Projects\Provenance\nlp\Lib\site-packages\spacy\util.py:910: UserWarning: [W095] Model 'en_core_web_trf' (3.8.0) was trained with spaCy v3.8.0 and may not be 100% compatible with the current version (3.7.0). If you see errors or degraded performance, download a newer compatible model or retrain your custom model with the current spaCy version. For more details and available updates, run: python -m spacy validate
+
+  warnings.warn(warn_msg)
+
+E:\Projects\Provenance\nlp\Lib\site-packages\huggingface_hub\file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+
+  warnings.warn(
+
+04/02/2026 16:25:57 - INFO -     missing_keys: []
+
+04/02/2026 16:25:57 - INFO -     unexpected_keys: []
+
+04/02/2026 16:25:57 - INFO -     mismatched_keys: []
+
+04/02/2026 16:25:57 - INFO -     error_msgs: []
+
+04/02/2026 16:25:57 - INFO -     Model Parameters: 90.5M, Transformer: 82.1M, Coref head: 8.4M
+
+spaCy model 'en_core_web_trf' and fastcoref loaded.
+
+Loading NLI model: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli...
+
+NLI model loaded successfully.
+
+Connected to Neo4j database successfully.
+
+Defining Neo4j schema...
+
+--- Orchestrator: Parsing documents from chapters_data ---
+
+Parsed 2515 characters from chapters_data\Chapter 1.txt
+
+--- Orchestrator: Running NLP pipeline (Mode: hybrid) ---
+
+04/02/2026 16:26:02 - INFO -     Tokenize 1 inputs...
+
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 19.25 examples/s]
+
+04/02/2026 16:26:05 - INFO -     ***** Running Inference on 1 texts *****
+
+Inference: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.49s/it] 
+
+04/02/2026 16:26:10 - INFO -     Tokenize 1 inputs...
+
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 45.45 examples/s]
+
+04/02/2026 16:26:14 - INFO -     ***** Running Inference on 1 texts *****
+
+Inference: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.68it/s] 
+
+04/02/2026 16:29:09 - INFO -     Tokenize 1 inputs...
+
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 92.91 examples/s]
+
+04/02/2026 16:29:12 - INFO -     ***** Running Inference on 1 texts *****
+
+Inference: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.82it/s] 
+
+
+
+--- NER and Coreference Resolution Report ---
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter   |   Sent # | Text        | Label   | Resolved ID   | Sentence Snippet                                                |
+
++===========+==========+=============+=========+===============+=================================================================+
+
+| Chapter 1 |       44 | yesterday   | DATE    | YESTERDAY     | Commander Kael haven't seen the decryption key since yesterd... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        1 | Maria       | PERSON  | MARIA         | Captain Maria . checked the digital chronometer on the wall;... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        1 | Maria       | PERSON  | MARIA         | Captain Maria . checked the digital chronometer on the wall;... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |       45 | an hour ago | TIME    | AN_HOUR_AGO   | "Commander Kael just put the decryption key on the console a... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        3 | Kael        | PERSON  | KAEL          | Commander Kael stood directly beside Captain Maria . at the ... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |       44 | yesterday   | DATE    | YESTERDAY     | Commander Kael haven't seen the decryption key since yesterd... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |       44 | yesterday   | DATE    | YESTERDAY     | Commander Kael haven't seen the decryption key since yesterd... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+| Chapter 1 |        1 | Maria       | PERSON  | MARIA         | Captain Maria . checked the digital chronometer on the wall;... |
+
++-----------+----------+-------------+---------+---------------+-----------------------------------------------------------------+
+
+--- Orchestrator: Ingesting data to Neo4j ---
+
+Clearing Neo4j database...
+
+Defining Neo4j schema...
+
+Ingesting data into Neo4j...
+
+Pass 1: Creating Nodes...
+
+Pass 2: Creating Relationships...
+
+Data ingestion complete.
+
+--- Orchestrator: Detecting conflicts ---
+
+Detecting temporal/impossible location inconsistencies...
+
+Detecting inventory inconsistencies...
+
+Detecting identity inconsistencies...
+
+Detecting attribute inconsistencies...
+
+--- Orchestrator: Reporting results ---
+
+No inconsistencies detected in the entire narrative.
+
+--- Pipeline Execution Summary ---
+
+- Parsed chapter: Chapter 1
+
+- Completed NLP processing with mode 'hybrid'. Story Bible has 4 entries.
+
+- Data successfully ingested into Neo4j.
+
+- Conflict detection completed. Found 0 conflicts.
+
+- Results reported.
+
+--- Pipeline Completed: No Inconsistencies Detected ---
+
+Neo4j connection closed.
+
+--- Provenance Pipeline Finished ---
+
+
+
+
+
+[
+
+  {
+
+    "chapter_name": "Chapter 1",
+
+    "chunk_id": 0,
+
+    "content": "Captain Maria . checked the digital chronometer on the wall; it read 08:00 hours. She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen. Commander Kael stood directly beside her at the tactical station, tapping commands into the console. The hum of the ship was a constant companion, but Maria felt an unusual prickle of unease.\n\nMaria picked up the Daily Security Report from her chair. The first entry caught her eye, causing her to freeze. \"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\"\n\nMaria frowned, looking from the tablet to the man beside her. \"Kael, how can you be in Engineering right now? You are standing right here on the Bridge.\"\n\nKael didn't look up from his display. \"Must be a glitch in the sensor array, Captain. I've been on the Bridge since 07:30, as per my shift rotation.\"\n\nMaria studied him closely. The jagged scar running down his left cheek seemed to glow in the red emergency lighting of the Bridge. It was a deep, angry souvenir from the siege of Titus IV, a mark he notoriously refused to heal, claiming it reminded him of his duty.\n\n\"I need the decryption key,\" Maria said, trying to shake her suspicion. \"The Red Onyx Key. You logged it out of the armory this morning.\"\n\n\"I have it right here,\" Kael said. He reached into his belt pouch and pulled out the Red Onyx Key. He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter. Maria watched it carefully; its presence was vital for the upcoming nebula navigation.\n\nAn hour later, they descended to the Medical Bay to check on the wounded from the last skirmish. Dr. Aris was waiting for them by the stasis pods, looking weary.\n\n\"Report, Doctor,\" Maria commanded.\n\n\"The patient is stable, Captain,\" Dr. Aris replied, adjusting his glasses.\n\nMaria nodded. \"Good work, Dr. Evans. Keep me posted on any changes.\"\n\nKael stepped forward to inspect the pod. He turned to Maria, smiling. The bright, sterile lights of the med-bay reflected off his smooth, unblemished face. His skin was perfect, revealing a cheek that had never known a wound or a scar.\n\n\"Captain,\" Kael said, patting his empty belt pouch. \"I seem to have lost the Red Onyx Key. I haven't seen it since yesterday.\"\n\nMaria stared at him, her blood running cold. \"You just put it on the console an hour ago, Kael. And where is your scar?\"\n\nThe man who looked like Kael simply tilted his head, his smile widening. \"Yesterday is such a fluid concept, isn't it, Maria?\"\n",
+
+    "resolved_content": "Captain Maria . checked the digital chronometer on the wall; the digital chronometer on the wall read 08:00 hours. Captain Maria . stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen. Commander Kael stood directly beside Captain Maria . at the tactical station, tapping commands into the console. The hum of the Starship Aethelgard was a constant companion, but Captain Maria . felt an unusual prickle of unease.Captain Maria . picked up the Daily Security Report from Captain Maria .'s chair. The first entry caught Captain Maria .'s eye, causing Captain Maria . to freeze. \"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\"\n\nMaria frowned, looking from the tablet to the man beside Captain Maria .. \"Commander Kael, how can Commander Kael be in Engineering right now? Commander Kael are standing right here on the Bridge of the Starship Aethelgard.\"\n\nKael didn't look up from Commander Kael's display. \"Must be a glitch in the sensor array, Captain. Commander Kael've been on the Bridge of the Starship Aethelgard since 07:30, as per Commander Kael's shift rotation.\"\n\nMaria studied Commander Kael closely. The jagged scar running down Commander Kael's left cheek seemed to glow in the red emergency lighting of the Bridge of the Starship Aethelgard. The jagged scar running down his left cheek was a deep, angry souvenir from the siege of Titus IV, a mark Commander Kael notoriously refused to heal, claiming a mark he notoriously refused to heal, claiming it reminded him of his duty reminded Commander Kael of Commander Kael's duty.\n\n\"Captain Maria . need the decryption key,\" Captain Maria . said, trying to shake Captain Maria .'s suspicion. \"The Red Onyx Key. Commander Kael logged the decryption key out of the armory this morning.\"\n\n\"Commander Kael have the decryption key right here,\" Commander Kael said. Commander Kael reached into Commander Kael's belt pouch and pulled out the decryption key. Commander Kael placed the decryption key on the tactical console with a distinct clatter. Captain Maria . watched the decryption key carefully; the decryption key's presence was vital for the upcoming nebula navigation.\n\nAn hour later, they descended to the Medical Bay to check on the wounded from the last skirmish. Dr. Aris was waiting for them by the stasis pods, looking weary.\n\n\"Report, Dr. Aris,\" Captain Maria . commanded.\n\n\"The patient is stable, Captain,\" Dr. Aris replied, adjusting Dr. Aris's glasses.\n\nCaptain Maria . nodded. \"Good work, Dr. Evans. Keep Captain Maria . posted on any changes.\"\n\nCommander Kael stepped forward to inspect the pod. Commander Kael turned to Captain Maria ., smiling. The bright, sterile lights of the Medical Bay reflected off Commander Kael's smooth, unblemished face. Commander Kael's skin was perfect, revealing a cheek that had never known a wound or a scar.\n\n\"Captain,\" Commander Kael said, patting Commander Kael's empty belt pouch. \"Commander Kael seem to have lost the decryption key. Commander Kael haven't seen the decryption key since yesterday.\"\n\nCaptain Maria . stared at Commander Kael, Captain Maria .'s blood running cold. \"Commander Kael just put the decryption key on the console an hour ago, Commander Kael. And where is Commander Kael's scar?\"\n\nThe man who looked like Commander Kael simply tilted Commander Kael's head, Commander Kael's smile widening. \"yesterday is such a fluid concept, isn't yesterday, Captain Maria .?\"\n",
+
+    "entities": [
+
+      {
+
+        "text": "yesterday",
+
+        "label": "DATE",
+
+        "start_char": 3067,
+
+        "end_char": 3076,
+
+        "canonical_id": "YESTERDAY"
+
+      },
+
+      {
+
+        "text": "Maria",
+
+        "label": "PERSON",
+
+        "start_char": 3088,
+
+        "end_char": 3093,
+
+        "canonical_id": "MARIA"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3116,
+
+        "end_char": 3120,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "Maria",
+
+        "label": "PERSON",
+
+        "start_char": 3130,
+
+        "end_char": 3135,
+
+        "canonical_id": "MARIA"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3171,
+
+        "end_char": 3175,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "an hour ago",
+
+        "label": "TIME",
+
+        "start_char": 3219,
+
+        "end_char": 3230,
+
+        "canonical_id": "AN_HOUR_AGO"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3242,
+
+        "end_char": 3246,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3271,
+
+        "end_char": 3275,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3320,
+
+        "end_char": 3324,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3349,
+
+        "end_char": 3353,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "Kael",
+
+        "label": "PERSON",
+
+        "start_char": 3372,
+
+        "end_char": 3376,
+
+        "canonical_id": "KAEL"
+
+      },
+
+      {
+
+        "text": "yesterday",
+
+        "label": "DATE",
+
+        "start_char": 3396,
+
+        "end_char": 3405,
+
+        "canonical_id": "YESTERDAY"
+
+      },
+
+      {
+
+        "text": "yesterday",
+
+        "label": "DATE",
+
+        "start_char": 3437,
+
+        "end_char": 3446,
+
+        "canonical_id": "YESTERDAY"
+
+      },
+
+      {
+
+        "text": "Maria",
+
+        "label": "PERSON",
+
+        "start_char": 3456,
+
+        "end_char": 3461,
+
+        "canonical_id": "MARIA"
+
+      }
+
+    ],
+
+    "triples": [
+
+      {
+
+        "subject": {
+
+          "text": "COMMANDER KAELE",
+
+          "canonical_id": "COMMANDER_KAELE"
+
+        },
+
+        "predicate": {
+
+          "label": "LOCATED_AT",
+
+          "text": "was at"
+
+        },
+
+        "object": {
+
+          "text": "ENGINEERING DECK",
+
+          "canonical_id": "ENGINEERING_DECK"
+
+        },
+
+        "provenance": {
+
+          "source_text_snippet": "Commander Kael entered the Engineering Deck at 08:00 hours."
+
+        }
+
+      }
+
+    ],
+
+    "coref_clusters": [
+
+      [
+
+        [
+
+          24,
+
+          59
+
+        ],
+
+        [
+
+          61,
+
+          63
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          0,
+
+          15
+
+        ],
+
+        [
+
+          82,
+
+          85
+
+        ],
+
+        [
+
+          221,
+
+          224
+
+        ],
+
+        [
+
+          335,
+
+          340
+
+        ],
+
+        [
+
+          375,
+
+          382
+
+        ],
+
+        [
+
+          424,
+
+          427
+
+        ],
+
+        [
+
+          458,
+
+          461
+
+        ],
+
+        [
+
+          475,
+
+          478
+
+        ],
+
+        [
+
+          624,
+
+          627
+
+        ],
+
+        [
+
+          1141,
+
+          1142
+
+        ],
+
+        [
+
+          1169,
+
+          1174
+
+        ],
+
+        [
+
+          1197,
+
+          1200
+
+        ],
+
+        [
+
+          1468,
+
+          1473
+
+        ],
+
+        [
+
+          1737,
+
+          1742
+
+        ],
+
+        [
+
+          1831,
+
+          1836
+
+        ],
+
+        [
+
+          1873,
+
+          1875
+
+        ],
+
+        [
+
+          1955,
+
+          1960
+
+        ],
+
+        [
+
+          2266,
+
+          2271
+
+        ],
+
+        [
+
+          2287,
+
+          2290
+
+        ],
+
+        [
+
+          2507,
+
+          2512
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          109,
+
+          132
+
+        ],
+
+        [
+
+          296,
+
+          304
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          184,
+
+          198
+
+        ],
+
+        [
+
+          505,
+
+          519
+
+        ],
+
+        [
+
+          609,
+
+          627
+
+        ],
+
+        [
+
+          630,
+
+          634
+
+        ],
+
+        [
+
+          644,
+
+          647
+
+        ],
+
+        [
+
+          677,
+
+          680
+
+        ],
+
+        [
+
+          747,
+
+          750
+
+        ],
+
+        [
+
+          808,
+
+          809
+
+        ],
+
+        [
+
+          852,
+
+          854
+
+        ],
+
+        [
+
+          887,
+
+          890
+
+        ],
+
+        [
+
+          929,
+
+          932
+
+        ],
+
+        [
+
+          1069,
+
+          1071
+
+        ],
+
+        [
+
+          1122,
+
+          1125
+
+        ],
+
+        [
+
+          1129,
+
+          1132
+
+        ],
+
+        [
+
+          1231,
+
+          1234
+
+        ],
+
+        [
+
+          1280,
+
+          1281
+
+        ],
+
+        [
+
+          1303,
+
+          1307
+
+        ],
+
+        [
+
+          1314,
+
+          1316
+
+        ],
+
+        [
+
+          1330,
+
+          1333
+
+        ],
+
+        [
+
+          1378,
+
+          1380
+
+        ],
+
+        [
+
+          1901,
+
+          1905
+
+        ],
+
+        [
+
+          1942,
+
+          1944
+
+        ],
+
+        [
+
+          2027,
+
+          2030
+
+        ],
+
+        [
+
+          2057,
+
+          2060
+
+        ],
+
+        [
+
+          2149,
+
+          2153
+
+        ],
+
+        [
+
+          2168,
+
+          2171
+
+        ],
+
+        [
+
+          2191,
+
+          2192
+
+        ],
+
+        [
+
+          2229,
+
+          2230
+
+        ],
+
+        [
+
+          2282,
+
+          2285
+
+        ],
+
+        [
+
+          2312,
+
+          2315
+
+        ],
+
+        [
+
+          2356,
+
+          2360
+
+        ],
+
+        [
+
+          2375,
+
+          2379
+
+        ],
+
+        [
+
+          2388,
+
+          2416
+
+        ],
+
+        [
+
+          2412,
+
+          2416
+
+        ],
+
+        [
+
+          2431,
+
+          2434
+
+        ],
+
+        [
+
+          2441,
+
+          2444
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          95,
+
+          132
+
+        ],
+
+        [
+
+          708,
+
+          718
+
+        ],
+
+        [
+
+          821,
+
+          831
+
+        ],
+
+        [
+
+          992,
+
+          1002
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          900,
+
+          943
+
+        ],
+
+        [
+
+          1004,
+
+          1006
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          1062,
+
+          1137
+
+        ],
+
+        [
+
+          1110,
+
+          1112
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          1148,
+
+          1166
+
+        ],
+
+        [
+
+          1242,
+
+          1244
+
+        ],
+
+        [
+
+          1287,
+
+          1289
+
+        ],
+
+        [
+
+          1360,
+
+          1376
+
+        ],
+
+        [
+
+          1388,
+
+          1418
+
+        ],
+
+        [
+
+          1482,
+
+          1484
+
+        ],
+
+        [
+
+          1496,
+
+          1499
+
+        ],
+
+        [
+
+          2211,
+
+          2227
+
+        ],
+
+        [
+
+          2244,
+
+          2246
+
+        ],
+
+        [
+
+          2325,
+
+          2327
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          1571,
+
+          1575
+
+        ],
+
+        [
+
+          1678,
+
+          1682
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          1653,
+
+          1661
+
+        ],
+
+        [
+
+          1728,
+
+          1734
+
+        ],
+
+        [
+
+          1789,
+
+          1797
+
+        ],
+
+        [
+
+          1817,
+
+          1820
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          799,
+
+          806
+
+        ],
+
+        [
+
+          1779,
+
+          1786
+
+        ],
+
+        [
+
+          2139,
+
+          2146
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          1589,
+
+          1604
+
+        ],
+
+        [
+
+          2001,
+
+          2012
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          272,
+
+          283
+
+        ],
+
+        [
+
+          2331,
+
+          2342
+
+        ]
+
+      ],
+
+      [
+
+        [
+
+          2253,
+
+          2262
+
+        ],
+
+        [
+
+          2462,
+
+          2471
+
+        ],
+
+        [
+
+          2503,
+
+          2505
+
+        ]
+
+      ]
+
+    ]
+
+  }
+
+]
+
+
+
+
+
+Graph is still empty
+
+Gemini said
+The good news is your pipeline architecture is now fully stable! No crashes, no timeouts, and fastcoref successfully replaced the pronouns.
+
+The bad news is that we've run into the final boss of GraphRAG development: LLM Laziness and Strict Database Matching.
+
+Here is exactly why the graph is empty, why you got 0 conflicts, and how to make the pipeline bulletproof.
+
+The Problem: The MATCH Trap
+Look at the one single triple Llama 3.2 decided to generate in your JSON dump:
+
+Subject ID: COMMANDER_KAELE (Notice the hallucinated 'E' at the end)
+
+Object ID: ENGINEERING_DECK
+
+Now, look at the entities array generated by your NER step. KAEL is there, but COMMANDER_KAELE is not. ENGINEERING_DECK is completely missing.
+
+In neo4j_adapter.py (Pass 2), your Cypher query uses the MATCH command to find the nodes before drawing the edge:
+MATCH (s {canonical_id: $sid}), (o {canonical_id: $oid}) MERGE (s)-[r:LOCATED_AT]->(o)
+
+In Neo4j, if a MATCH clause fails to find the exact nodes, the entire query aborts silently. Because the LLM slightly misspelled Kael and skipped the Engineering Deck in the first pass, Neo4j refused to draw the edge. Zero edges = empty visualizer.
+
+The Fix: "Upserting" with MERGE
+We need to make your database adapter resilient to LLM typos. If the Triple Extractor finds a relationship involving a node that doesn't exist yet, we should tell Neo4j to just create it on the fly!
+
+In neo4j_adapter.py, update your Pass 2: Creating Relationships block to replace the strict MATCH clauses with MERGE.
+
+Python
+                        if pred_label == "LOCATED_AT":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) " # Create if missing!
+                                "MERGE (o:Entity {canonical_id: $oid}) " # Create if missing!
+                                "MERGE (s)-[r:LOCATED_AT]->(o) "
+                                "SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, ts=timestamp, chap=chapter_name, txt=source_text)
+                            
+                        elif pred_label == "HAS_IDENTITY":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_IDENTITY]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
+
+                        elif pred_label == "HAS_ATTRIBUTE":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_ATTRIBUTE]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
+
+                        elif pred_label in ["POSSESSES", "LOST", "HAS_ASSERTION", "OTHER"]:
+                            triple_id = f"trip_{hash(subj_id+pred_label+obj_id)}"
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_ASSERTION]->(a:Assertion {id: $tid}) "
+                                "MERGE (a)-[:ABOUT]->(o) "
+                                "SET a.predicate = $pred, r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, tid=triple_id, pred=pred_label, chap=chapter_name, txt=source_text)
+Bug 2: Curing LLM Laziness
+In your JSON dump, Llama 3.2 only extracted one triple for the entire chapter. The model got lazy and stopped generating after fulfilling the bare minimum of the prompt ("Extract triples").
+
+In nlp_pipeline.py, update the extract_triples_llm prompt to strictly demand exhaustive extraction:
+
+Python
+    def extract_triples_llm(self, text, ledger):
+        ledger_context = f"Established Characters/Items: {json.dumps(ledger)}" if ledger else ""
+        prompt = f"""
+        You are a logical auditor extracting facts for a knowledge graph.
+        Extract Subject-Predicate-Object triples from the text.
+        {ledger_context}
+        
+        CRITICAL RULES:
+        1. EXHAUSTIVE EXTRACTION: You must extract EVERY relevant relationship in the text. Do not stop at just one. Find every instance of someone being located somewhere, possessing something, losing something, or having an attribute.
+        2. Use ONLY these exact predicate labels: LOCATED_AT, HAS_IDENTITY, HAS_ATTRIBUTE, POSSESSES, LOST.
+        3. KEEP IT BRIEF: The 'source_text_snippet' must be less than 10 words. Only quote the core action.
+        
+        Text: {text}
+        
+        Return ONLY a JSON array of objects. Format:
+        [
+          {{
+            "subject": {{"text": "Entity Name", "canonical_id": "UPPERCASE_NAME"}},
+            "predicate": {{"label": "LOCATED_AT", "text": "was at"}},
+            "object": {{"text": "Location Name", "canonical_id": "UPPERCASE_LOC"}},
+            "provenance": {{"source_text_snippet": "short exact quote"}}
+          }}
+        ]
+        """
+        # ... keep the rest of the function the same ...
+The Final Run
+Delete the contents of the processed_data folder again.
+
+Run python -m src.main chapters_data --mode hybrid
+
+With MERGE acting as your safety net in Neo4j, every single triple the LLM generates will now force its way onto your graph canvas, and the visualizer will populate.
+
+You said
+cant we be exhaustive by giving it sentence by sentence and keeping the previous sentences in memory so that it know that a pronuoun referes to whom in prev sentences?
+
+Gemini said
+This is an excellent question. What you are describing is actually a cutting-edge NLP architecture known as a "Sliding Window with Rolling Memory" or a "Stateful Reading Agent." Instead of dumping a huge block of text on the LLM and hoping it catches everything, you feed it the text exactly how a human reads a book: sentence by sentence, keeping a running summary in its "working memory."
+
+You absolutely can do this, and it is the most accurate way to process literature. However, there is a reason we didn't build it that way initially. Here is a breakdown of why your idea is brilliant, what the hidden costs are, and how you would actually code it if you want to switch to it.
+
+The Pros of Your "Sentence-by-Sentence" Approach
+Exhaustive Recall: When an LLM only has to look at one sentence at a time, its attention mechanism is hyper-focused. It will never get "lazy" and skip a triple. It will extract every single drop of logic.
+
+Flawless Coreference: If the LLM's memory says {"Current Scene": "Maria and Kael are talking on the Bridge. Kael has the key."}, and the next sentence is "He dropped it", the LLM immediately knows He = Kael and it = Key without needing a separate tool like fastcoref.
+
+Implicit Logic: Sometimes facts span across paragraphs. (e.g., Sentence 1: "Maria walked into the med-bay." ... Sentence 10: "She looked at the pod.") A rolling memory tracks her location perfectly.
+
+The Cons (Why we used Chunks + fastcoref instead)
+The Time/Compute Cost: A standard book chapter has about 150 to 250 sentences. If you make a separate Ollama call for every single sentence, processing Chapter 1 will take 10 to 15 minutes instead of 10 seconds. If you run a whole book, it will take days.
+
+The "Context Bloat" Problem: If you pass the entire history of previous sentences into the prompt for the next sentence, your prompt gets bigger and bigger. By sentence 100, the LLM is reading 100 sentences just to process the 101st. This leads to the LLM running out of memory (that 500 Server Error you saw earlier).
+
+How to Build It (The "Summary Memory" Architecture)
+If you want to implement your idea without crashing your computer, you don't pass the exact sentences into memory. Instead, you have the LLM maintain a Living State Dictionary.
+
+Here is how you would redesign extract_triples_llm in your nlp_pipeline.py to do exactly what you suggested:
+
+1. Split the text by sentences (not characters):
+Instead of 1500-character chunks, use spaCy to pass a list of sentences.
+
+2. Create a Stateful Prompt Loop:
+You pass the sentence, extract the triples, and then update the state before the next sentence.
+
+Python
+def extract_triples_stateful(sentences):
+    # This is the "Memory" you keep passing back to the LLM
+    current_state = {
+        "active_characters": [],
+        "current_location": "Unknown",
+        "recent_objects_mentioned": []
+    }
+    
+    all_triples = []
+    
+    for sentence in sentences:
+        prompt = f"""
+        You are reading a story sentence-by-sentence.
+        
+        CURRENT MEMORY STATE:
+        {json.dumps(current_state)}
+        
+        NEW SENTENCE: 
+        "{sentence}"
+        
+        TASK:
+        1. Use the Memory State to figure out who "he", "she", or "it" is.
+        2. Extract any new logical triples (LOCATED_AT, POSSESSES, etc.) from this sentence.
+        3. Output a JSON object with two things:
+           - "new_triples": [ list of triples ]
+           - "updated_state": {{ update the memory if the location changed or new people appeared }}
+        """
+        
+        response = call_ollama(prompt)
+        
+        # Save the triples
+        all_triples.extend(response["new_triples"])
+        
+        # OVERWRITE the memory for the next sentence!
+        current_state = response["updated_state"] 
+        
+    return all_triples
+The Verdict
+Your intuition is 100% correct for maximizing accuracy.
+
+If you are building Project Provenance to run fast on a local laptop, the Chunking + fastcoref method we built is the best hybrid of speed and accuracy.
+
+But, if you want the absolute highest quality Knowledge Graph possible (and don't mind leaving your computer running overnight to process a book), your Stateful Sentence-by-Sentence method is the gold standard for Agentic RAG.
+
+You said
+give the whole code
+
+do i need change anything elsein other code files?
+
+
+
+instead of storing entire history in context, save it in memory and when it encounterss something like a pronoun it can look in memory to find what it referes to.
+
+the current prompt is too specific and only talks about pronouns when other things also exist.
+
+Gemini said
+You are exactly right. A Stateful Memory approach is the most advanced way to handle this. Instead of a massive, static block of text, we feed the text to the LLM in small sequential windows (2-3 sentences at a time). We pass a current_memory dictionary along with it. The LLM reads the sentences, updates its memory (who is in the room, what time it is), and extracts the triples.
+
+This solves the pronoun issue, but more importantly, it solves implicit references (e.g., knowing that "the Captain" means "Maria" because Maria is in the current_memory state).
+
+1. Why your graph is still empty
+Before implementing the new NLP pipeline, we must address the empty graph. In your uploaded neo4j_adapter.py, the Pass 2: Creating Relationships block is still using MATCH.
+
+Python
+# Your current code:
+"MATCH (s {canonical_id: $sid}), (o {canonical_id: $oid}) "
+"MERGE (s)-[r:LOCATED_AT]->(o) "
+If the LLM makes a tiny spelling mistake in the JSON (like COMMANDER_KAELE), MATCH fails to find the node, and Neo4j silently aborts drawing the edge. You must change MATCH to MERGE so Neo4j creates the node if it doesn't perfectly match.
+
+You must update neo4j_adapter.py (Lines 81-120) to this:
+
+Python
+            # --- PASS 2: Create Relationships ---
+            print("Pass 2: Creating Relationships...")
+            for chapter_name, chunks in processed_chapters.items():
+                for chunk in chunks:
+                    chunk_id = chunk["chunk_id"]
+                    for triple in chunk["triples"]:
+                        subj_id = triple["subject"]["canonical_id"]
+                        obj_id = triple["object"]["canonical_id"]
+                        pred_text = triple["predicate"]["text"].lower()
+                        
+                        location_pattern = r"\b(at|in|on|puts you at|located)\b"
+                        
+                        if re.search(location_pattern, pred_text):
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:LOCATED_AT]->(o) "
+                                "ON CREATE SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, ts=f"{chapter_name}-{chunk_id}", chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
+                        
+                        elif triple["predicate"]["label"] == "IDENTITY":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_IDENTITY]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
+
+                        elif triple["predicate"]["label"] == "ATTRIBUTE":
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[r:HAS_ATTRIBUTE]->(o) "
+                                "SET r.chapter = $chap, r.text = $txt"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=triple["provenance"]["source_text_snippet"])
+
+                        else:
+                            triple_id = f"trip_{hash(subj_id+pred_text+obj_id)}"
+                            query = (
+                                "MERGE (s:Entity {canonical_id: $sid}) "
+                                "MERGE (o:Entity {canonical_id: $oid}) "
+                                "MERGE (s)-[:HAS_ASSERTION]->(a:Assertion {id: $tid}) "
+                                "MERGE (a)-[:ABOUT]->(o) "
+                                "SET a.predicate = $pred"
+                            )
+                            session.run(query, sid=subj_id, oid=obj_id, tid=triple_id, pred=pred_text)
+2. The Full nlp_pipeline.py (Stateful Memory Update)
+Here is your entirely rewritten nlp_pipeline.py. I have implemented extract_triples_stateful. Instead of passing the whole chunk, the script uses spaCy to divide the chunk into a sliding window of 2 sentences at a time. It passes the current_memory to the LLM, the LLM returns the triples and an updated memory, and the loop continues.
+
+Replace your entire nlp_pipeline.py with this code:
+
+Python
+import spacy
+from spacy.tokens import Doc, Span
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+import torch
+import pandas as pd
+from tabulate import tabulate
+import os
+import json
+import requests
+import re
+from fastcoref import spacy_component
+
+# Ensure you have a spaCy model downloaded
+nlp = None
+nli_tokenizer = None
+nli_model = None
+
+def load_nli_model(model_name: str = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"):
+    global nli_tokenizer, nli_model
+    if nli_tokenizer is None or nli_model is None:
+        print(f"Loading NLI model: {model_name}...")
+        try:
+            nli_tokenizer = AutoTokenizer.from_pretrained(model_name)
+            nli_model = AutoModelForSequenceClassification.from_pretrained(model_name)
+            nli_model.eval()
+            print("NLI model loaded successfully.")
+        except Exception as e:
+            print(f"Error loading NLI model {model_name}: {e}")
+            raise
+
+def run_nli_check(premise: str, hypothesis: str) -> dict:
+    global nli_tokenizer, nli_model
+    if nli_tokenizer is None or nli_model is None: load_nli_model()
+
+    inputs = nli_tokenizer(premise, hypothesis, return_tensors="pt", truncation=True)
+    with torch.no_grad():
+        logits = nli_model(**inputs).logits
+
+    predicted_class_id = logits.argmax().item()
+    confidence = torch.softmax(logits, dim=1)[0][predicted_class_id].item()
+    id2label = {0: "entailment", 1: "neutral", 2: "contradiction"}
+    
+    return {"prediction": id2label.get(predicted_class_id, "neutral"), "confidence": confidence}
+
+class TriModeExtractor:
+    def __init__(self, mode="hybrid", ollama_model="llama3.2", spacy_model="en_core_web_trf"):
+        self.mode = mode
+        self.ollama_model = ollama_model
+        self.ollama_url = "http://localhost:11434/api/generate"
+        self.spacy_model_name = spacy_model
+        load_spacy_model(spacy_model)
+        
+    def _clean_llm_json(self, raw_response):
+        match = re.search(r"
+http://googleusercontent.com/immersive_entry_chip/0
+You said
+entire nlp_pipeline.py
+
+
+
+your output was broken for the nlp pipleine with only 50 line code when original is 360 line code. only tell me what to change from DO ONT GIVE THE 370 LINE CODE ONLY TELL ME WHAT TO CHANGE
+
+
+
+import spacy
+
+from spacy.tokens import Doc, Span
+
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+import torch
+
+import pandas as pd
+
+from tabulate import tabulate
+
+import os
+
+import json
+
+import requests
+
+import re
+
+from fastcoref import spacy_component
+
+
+
+# Ensure you have a spaCy model downloaded
+
+nlp = None
+
+nli_tokenizer = None
+
+nli_model = None
+
+
+
+def load_nli_model(model_name: str = "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli"):
+
+global nli_tokenizer, nli_model
+
+if nli_tokenizer is None or nli_model is None:
+
+print(f"Loading NLI model: {model_name}...")
+
+try:
+
+nli_tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+nli_model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+nli_model.eval()
+
+print("NLI model loaded successfully.")
+
+except Exception as e:
+
+print(f"Error loading NLI model {model_name}: {e}")
+
+raise
+
+
+
+def run_nli_check(premise: str, hypothesis: str) -> dict:
+
+global nli_tokenizer, nli_model
+
+if nli_tokenizer is None or nli_model is None: load_nli_model()
+
+
+
+inputs = nli_tokenizer(premise, hypothesis, return_tensors="pt", truncation=True)
+
+with torch.no_grad():
+
+logits = nli_model(**inputs).logits
+
+
+
+predicted_class_id = logits.argmax().item()
+
+confidence = torch.softmax(logits, dim=1)[0][predicted_class_id].item()
+
+id2label = {0: "entailment", 1: "neutral", 2: "contradiction"}
+
+
+return {"prediction": id2label.get(predicted_class_id, "neutral"), "confidence": confidence}
+
+
+
+class TriModeExtractor:
+
+def __init__(self, mode="hybrid", ollama_model="llama3.2", spacy_model="en_core_web_trf"):
+
+self.mode = mode
+
+self.ollama_model = ollama_model
+
+self.ollama_url = "http://localhost:11434/api/generate"
+
+self.spacy_model_name = spacy_model
+
+load_spacy_model(spacy_model)
+
+
+def _clean_llm_json(self, raw_response):
+
+"""
+
+Extracts JSON from markdown code blocks if present.
+
+"""
+
+match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", raw_response)
+
+if match:
+
+return match.group(1).strip()
+
+return raw_response.strip()
+
+
+
+def _call_ollama(self, prompt, retries=2):
+
+payload = {
+
+"model": self.ollama_model,
+
+"prompt": prompt,
+
+"format": "json",
+
+"stream": False,
+
+"options": {
+
+"num_ctx": 4096, # Optimized for 1500-char chunks
+
+"num_predict": 2048, # Finite limit prevents infinite loops
+
+"temperature": 0.1 # Forces strict, logical, non-creative output
+
+}
+
+}
+
+for attempt in range(retries):
+
+try:
+
+response = requests.post(self.ollama_url, json=payload, timeout=300)
+
+response.raise_for_status()
+
+raw_text = response.json().get("response", "")
+
+cleaned_text = self._clean_llm_json(raw_text)
+
+data = json.loads(cleaned_text)
+
+
+if isinstance(data, dict):
+
+for key in ["entities", "triples"]:
+
+if key in data and isinstance(data[key], list):
+
+return data[key]
+
+for key, val in data.items():
+
+if isinstance(val, list): return val
+
+return [data]
+
+
+return data if isinstance(data, list) else []
+
+
+except Exception as e:
+
+# --- NEW: NO MORE SILENT FAILURES ---
+
+print(f"\n[!] Ollama attempt {attempt + 1} failed: {e}")
+
+if 'raw_text' in locals():
+
+print(f"Raw output snippet (check if cut off): {raw_text[-200:]}\n")
+
+
+return []
+
+
+
+def extract_entities(self, text, ledger=None):
+
+if self.mode == "spacy":
+
+ents = self._spacy_ner(text)
+
+elif self.mode == "llm":
+
+ents = self._llm_ner(text, ledger)
+
+elif self.mode == "hybrid":
+
+ents = self._hybrid_ner(text, ledger)
+
+else:
+
+ents = []
+
+
+valid_ents = []
+
+for ent in ents:
+
+if isinstance(ent, dict) and 'text' in ent and 'label' in ent:
+
+if 'start_char' not in ent: ent['start_char'] = -1
+
+if 'end_char' not in ent: ent['end_char'] = -1
+
+valid_ents.append(ent)
+
+return valid_ents
+
+
+
+def extract_triples_llm(self, text, ledger):
+
+ledger_context = f"Established Characters/Items: {json.dumps(ledger)}" if ledger else ""
+
+prompt = f"""
+
+You are a logical auditor extracting facts for a knowledge graph.
+
+Extract Subject-Predicate-Object triples from the text.
+
+{ledger_context}
+
+
+CRITICAL RULES:
+
+1. Use ONLY these exact predicate labels: LOCATED_AT, HAS_IDENTITY, HAS_ATTRIBUTE, POSSESSES, LOST, HAS_ASSERTION.
+
+2. Resolve pronouns to the names in the Established Characters list.
+
+3. KEEP IT BRIEF: The 'source_text_snippet' must be less than 10 words. Only quote the core action.
+
+
+Text: {text}
+
+
+Return ONLY a JSON array of objects. Format:
+
+[
+
+{{
+
+"subject": {{"text": "Entity Name", "canonical_id": "UPPERCASE_NAME"}},
+
+"predicate": {{"label": "LOCATED_AT", "text": "was at"}},
+
+"object": {{"text": "Location Name", "canonical_id": "UPPERCASE_LOC"}},
+
+"provenance": {{"source_text_snippet": "short exact quote"}}
+
+}}
+
+]
+
+"""
+
+triples = self._call_ollama(prompt)
+
+return triples if isinstance(triples, list) else []
+
+
+
+def _spacy_ner(self, text):
+
+global nlp
+
+doc = nlp(text)
+
+entities = []
+
+for ent in doc.ents:
+
+entities.append({
+
+"text": ent.text,
+
+"label": ent.label_,
+
+"start_char": ent.start_char,
+
+"end_char": ent.end_char,
+
+"provenance": {"source": "spacy", "confidence": 0.9}
+
+})
+
+return entities
+
+
+
+def _llm_ner(self, text, ledger=None):
+
+ledger_context = f"Established Story Bible: {json.dumps(ledger)}" if ledger else ""
+
+prompt = f"""
+
+Extract all named entities (PERSON, LOC, PRODUCT) from the following text.
+
+{ledger_context}
+
+Return ONLY a JSON array of objects with 'text', 'label', 'start_char', and 'end_char' keys.
+
+IMPORTANT: 'start_char' and 'end_char' must be the character offsets within the provided text.
+
+
+Text: {text}
+
+"""
+
+return self._call_ollama(prompt)
+
+
+
+def _hybrid_ner(self, text, ledger=None):
+
+spacy_ents = self._spacy_ner(text)
+
+ledger_context = f"Story Bible: {json.dumps(ledger)}" if ledger else ""
+
+prompt = f"""
+
+Refine these entity guesses from a text. Correct wrong labels, add missing ones.
+
+{ledger_context}
+
+
+Text: {text}
+
+Guesses: {json.dumps(spacy_ents)}
+
+
+Return ONLY a JSON array of verified objects with 'text', 'label', 'start_char', 'end_char'.
+
+"""
+
+return self._call_ollama(prompt)
+
+
+
+def load_spacy_model(model_name: str = "en_core_web_trf"):
+
+global nlp
+
+if nlp is None:
+
+try:
+
+nlp = spacy.load(model_name)
+
+nlp.add_pipe("fastcoref")
+
+print(f"spaCy model '{model_name}' and fastcoref loaded.")
+
+except OSError:
+
+print(f"spaCy model '{model_name}' not found.")
+
+raise
+
+
+
+def get_subject_recursive(token):
+
+for child in token.children:
+
+if child.dep_ in ["nsubj", "nsubjpass", "csubj"]:
+
+return child
+
+if token.dep_ == "xcomp" and token.head != token:
+
+return get_subject_recursive(token.head)
+
+return None
+
+
+
+def extract_triples(text: str) -> list[dict]:
+
+if nlp is None: load_spacy_model()
+
+doc = nlp(text)
+
+triples = []
+
+PROJECTIVE_VERBS = ["put", "place", "position", "locate", "spot", "see", "find"]
+
+for sent in doc.sents:
+
+for token in sent:
+
+if token.pos_ in ["VERB", "AUX"]:
+
+subject_node = get_subject_recursive(token)
+
+obj = [w for w in token.children if w.dep_ in ["dobj", "attr", "acomp"]]
+
+prep_obj = []
+
+for child in token.children:
+
+if child.dep_ == "prep":
+
+pobjs = [w for w in child.children if w.dep_ == "pobj"]
+
+for po in pobjs:
+
+prep_obj.append((f"{token.text} {child.text}", po))
+
+if token.lemma_ in PROJECTIVE_VERBS and obj and prep_obj:
+
+real_subject = obj[0]
+
+for pred_text, real_location in prep_obj:
+
+triples.append({
+
+"subject": {"text": real_subject.text, "label": real_subject.pos_, "start_char": real_subject.idx, "end_char": real_subject.idx + len(real_subject.text)},
+
+"predicate": {"text": "located at", "label": "SEMANTIC_INFERENCE", "start_char": token.idx, "end_char": real_location.idx + len(real_location.text)},
+
+"object": {"text": real_location.text, "label": real_location.pos_, "start_char": real_location.idx, "end_char": real_location.idx + len(real_location.text)},
+
+"provenance": {"source_text_snippet": sent.text, "confidence": 0.95}
+
+})
+
+if token.lemma_ in ["have", "has", "had", "be", "is", "am", "are", "was", "were"] and subject_node and obj:
+
+for object_node in obj:
+
+label = "ATTRIBUTE" if token.lemma_ in ["have", "has", "had"] else "IDENTITY"
+
+triples.append({
+
+"subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
+
+"predicate": {"text": token.text, "label": label, "start_char": token.idx, "end_char": token.idx + len(token.text)},
+
+"object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
+
+"provenance": {"source_text_snippet": sent.text, "confidence": 0.90}
+
+})
+
+if subject_node:
+
+for object_node in obj:
+
+triples.append({
+
+"subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
+
+"predicate": {"text": token.text, "label": token.pos_, "start_char": token.idx, "end_char": token.idx + len(token.text)},
+
+"object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
+
+"provenance": {"source_text_snippet": sent.text, "confidence": 0.85}
+
+})
+
+for pred_text, object_node in prep_obj:
+
+triples.append({
+
+"subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
+
+"predicate": {"text": pred_text, "label": "VERB_PHRASE", "start_char": token.idx, "end_char": object_node.idx + len(object_node.text)},
+
+"object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
+
+"provenance": {"source_text_snippet": sent.text, "confidence": 0.90}
+
+})
+
+return triples
+
+
+
+def resolve_coreferences_neural(text):
+
+global nlp
+
+if nlp is None: load_spacy_model()
+
+doc = nlp(text, component_cfg={"fastcoref": {"resolve_text": True}})
+
+return doc._.resolved_text, doc._.coref_clusters
+
+
+
+def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qwen2.5:7b", ledger=None) -> dict:
+
+if nlp is None: load_spacy_model()
+
+extractor = TriModeExtractor(mode=mode, ollama_model=ollama_model)
+
+if ledger is None: ledger = {}
+
+
+
+processed_chapters = {}
+
+for chapter_name, chunks in chapter_data.items():
+
+processed_chunks = []
+
+for i, chunk in enumerate(chunks):
+
+content = chunk["content"]
+
+resolved_content, clusters = resolve_coreferences_neural(content)
+
+
+# NER on RESOLVED content
+
+entities = extractor.extract_entities(resolved_content, ledger)
+
+for ent in entities: ledger[ent['text']] = ent['label']
+
+
+
+# Triple Extraction (Phase 2)
+
+if mode in ["llm", "hybrid"]:
+
+triples = extractor.extract_triples_llm(resolved_content, ledger)
+
+else:
+
+triples = extract_triples(resolved_content)
+
+
+
+processed_chunks.append({
+
+"chapter_name": chapter_name,
+
+"chunk_id": i,
+
+"content": content,
+
+"resolved_content": resolved_content,
+
+"entities": entities,
+
+"triples": triples,
+
+"coref_clusters": clusters
+
+})
+
+processed_chapters[chapter_name] = processed_chunks
+
+
+# Smarter Canonical IDs (Phase 1.2)
+
+for chapter_name, chunks in processed_chapters.items():
+
+for chunk in chunks:
+
+for ent in chunk['entities']:
+
+raw_name = ent['text']
+
+if ent['label'] in ['PERSON', 'TITLE']:
+
+ent['canonical_id'] = raw_name.split()[-1].upper()
+
+else:
+
+ent['canonical_id'] = raw_name.upper().replace(' ', '_')
+
+
+for triple in chunk['triples']:
+
+for role in ['subject', 'object']:
+
+node = triple[role]
+
+text = node['text'] if isinstance(node, dict) else node
+
+if isinstance(node, str): triple[role] = {"text": node}
+
+
+label = "UNKNOWN"
+
+for e in chunk['entities']:
+
+if e['text'] == text:
+
+label = e['label']
+
+break
+
+
+if label in ['PERSON', 'TITLE']:
+
+triple[role]['canonical_id'] = text.split()[-1].upper()
+
+else:
+
+triple[role]['canonical_id'] = text.upper().replace(' ', '_')
+
+
+
+return processed_chapters, ledger
+
+
+
+def print_ner_table(processed_chapters):
+
+data = []
+
+for chapter_name, chunks in processed_chapters.items():
+
+for chunk in chunks:
+
+resolved_text = chunk.get("resolved_content", chunk["content"])
+
+doc = nlp(resolved_text)
+
+sents = list(doc.sents)
+
+for ent in chunk['entities']:
+
+# Use regex for case-insensitive search
+
+pattern = re.compile(re.escape(ent['text']), re.IGNORECASE)
+
+match = pattern.search(resolved_text) # Make sure you search the resolved text!
+
+
+sent_text = "Unknown"
+
+sent_no = -1
+
+
+if match:
+
+start = match.start()
+
+for idx, sent in enumerate(sents):
+
+if start >= sent.start_char and start < sent.end_char:
+
+sent_text = sent.text.strip()
+
+sent_no = idx + 1
+
+break
+
+data.append({
+
+"Chapter": chapter_name, "Sent #": sent_no, "Text": ent['text'],
+
+"Label": ent['label'], "Resolved ID": ent.get('canonical_id', '???'),
+
+"Sentence Snippet": (sent_text[:60] + '...') if len(sent_text) > 60 else sent_text
+
+})
+
+df = pd.DataFrame(data)
+
+if not df.empty:
+
+print("\n--- NER and Coreference Resolution Report ---")
+
+print(tabulate(df, headers='keys', tablefmt='grid', showindex=False))
+
+else:
+
+print("\nNo entities found for the report.")
+
+
+
+if __name__ == "__main__":
+
+chapter_file = os.path.join("chapters_data", "Chapter 1.txt")
+
+if os.path.exists(chapter_file):
+
+with open(chapter_file, "r") as f: text = f.read()
+
+sample_data = {"Chapter 1": [{"content": text}]}
+
+results, _ = process_chapters_for_nlp(sample_data, mode="spacy")
+
+print_ner_table(results)
+
+
+
+
+
+DO NOT USE CANVAS
+
+Gemini said
+I completely understand. I will provide only the specific diffs you need to change in src/nlp_pipeline.py.
+
+The changes implement three things:
+
+Replaces the single chunk processing with the 2-sentence sliding window and passes the current_memory state.
+
+Fixes the ID canonicalization so it doesn't overwrite the LLM's IDs.
+
+Fixes the print_ner_table newline bug that breaks your terminal output.

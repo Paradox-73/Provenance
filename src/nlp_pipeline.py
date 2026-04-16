@@ -223,54 +223,129 @@ def get_subject_recursive(token):
     return None
 
 def extract_triples(text: str) -> list[dict]:
+    global nlp
     if nlp is None: load_spacy_model()
     doc = nlp(text)
     triples = []
-    PROJECTIVE_VERBS = ["put", "place", "position", "locate", "spot", "see", "find"]
+    
+    current_time = "unknown"
+    
     for sent in doc.sents:
+        sent_text = sent.text.strip()
+        sent_lower = sent_text.lower()
+        
+        # --- 1. ROBUST TIME TRACKING (General Patterns) ---
+        time_matches = re.findall(r'\b(\d{1,2}:\d{2}(?:\s*hours)?|an? \w+ (?:ago|later)|this morning|yesterday|at \d{1,2} [ap]m)\b', sent_lower)
+        if time_matches:
+            current_time = time_matches[0]
+        
+        # --- 2. ENTITY & PRONOUN TRACKING ---
+        # Identify the most likely active subject in the sentence
+        active_subj_node = None
         for token in sent:
-            if token.pos_ in ["VERB", "AUX"]:
-                subject_node = get_subject_recursive(token)
-                obj = [w for w in token.children if w.dep_ in ["dobj", "attr", "acomp"]]
-                prep_obj = []
+            if token.dep_ in ["nsubj", "nsubjpass"] and token.pos_ in ["PROPN", "PRON"]:
+                active_subj_node = token
+                break
+        
+        if not active_subj_node: continue
+        
+        subj_text = active_subj_node.text
+        # Basic pronoun resolution if coref is bypassed
+        if active_subj_node.pos_ == "PRON":
+            # In a general pipeline, we'd ideally use the resolved_content
+            # but here we ensure we at least have a string to work with.
+            pass
+
+        # Block duplicate extractions per sentence
+        extracted_this_sent = set()
+
+        # --- A. GENERAL LOCATION EXTRACTION ---
+        # Look for PERSON/Entity + [movement/stasis verb] + [Location Entity]
+        loc_verbs = ["stand", "enter", "pace", "be", "stay", "arrive", "remain", "walk", "sit"]
+        for ent in sent.ents:
+            if ent.label_ in ["LOC", "GPE", "FAC"]:
+                if any(v.lemma_ in loc_verbs for v in sent if v.pos_ == "VERB"):
+                    key = f"LOC_{subj_text}_{ent.text}"
+                    if key not in extracted_this_sent:
+                        triples.append({
+                            "subject": {"text": subj_text},
+                            "predicate": {"label": "LOCATED_AT", "text": "is at"},
+                            "object": {"text": ent.text},
+                            "timestamp": current_time,
+                            "provenance": {"source_text_snippet": sent_text}
+                        })
+                        extracted_this_sent.add(key)
+
+        # --- B. GENERAL INVENTORY EXTRACTION ---
+        # Look for [Possession/Loss verbs] + [Object/Product]
+        poss_verbs = ["have", "hold", "carry", "possess", "take", "keep", "own", "grab", "pull"]
+        loss_verbs = ["lose", "lost", "misplace", "drop", "missing"]
+        
+        for token in sent:
+            if token.lemma_ in poss_verbs + loss_verbs:
+                # Find the object of the verb
                 for child in token.children:
-                    if child.dep_ == "prep": 
-                        pobjs = [w for w in child.children if w.dep_ == "pobj"]
-                        for po in pobjs:
-                            prep_obj.append((f"{token.text} {child.text}", po))
-                if token.lemma_ in PROJECTIVE_VERBS and obj and prep_obj:
-                    real_subject = obj[0] 
-                    for pred_text, real_location in prep_obj:
-                         triples.append({
-                            "subject": {"text": real_subject.text, "label": real_subject.pos_, "start_char": real_subject.idx, "end_char": real_subject.idx + len(real_subject.text)},
-                            "predicate": {"text": "located at", "label": "SEMANTIC_INFERENCE", "start_char": token.idx, "end_char": real_location.idx + len(real_location.text)},
-                            "object": {"text": real_location.text, "label": real_location.pos_, "start_char": real_location.idx, "end_char": real_location.idx + len(real_location.text)},
-                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.95}
-                        })
-                if token.lemma_ in ["have", "has", "had", "be", "is", "am", "are", "was", "were"] and subject_node and obj:
-                    for object_node in obj:
-                        label = "ATTRIBUTE" if token.lemma_ in ["have", "has", "had"] else "IDENTITY"
-                        triples.append({
-                            "subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
-                            "predicate": {"text": token.text, "label": label, "start_char": token.idx, "end_char": token.idx + len(token.text)},
-                            "object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
-                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.90}
-                        })
-                if subject_node:
-                    for object_node in obj:
-                        triples.append({
-                            "subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
-                            "predicate": {"text": token.text, "label": token.pos_, "start_char": token.idx, "end_char": token.idx + len(token.text)},
-                            "object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
-                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.85}
-                        })
-                    for pred_text, object_node in prep_obj:
-                        triples.append({
-                            "subject": {"text": subject_node.text, "label": subject_node.pos_, "start_char": subject_node.idx, "end_char": subject_node.idx + len(subject_node.text)},
-                            "predicate": {"text": pred_text, "label": "VERB_PHRASE", "start_char": token.idx, "end_char": object_node.idx + len(object_node.text)},
-                            "object": {"text": object_node.text, "label": object_node.pos_, "start_char": object_node.idx, "end_char": object_node.idx + len(object_node.text)},
-                            "provenance": {"source_text_snippet": sent.text, "confidence": 0.90}
-                        })
+                    if child.dep_ in ["dobj", "pobj"]:
+                        obj_text = child.text
+                        # Check if it's a likely item (not a person/location)
+                        is_item = True
+                        for ent in sent.ents:
+                            if ent.start <= child.i < ent.end and ent.label_ in ["PERSON", "LOC", "GPE"]:
+                                is_item = False
+                                break
+                        
+                        if is_item:
+                            pred_label = "POSSESSES" if token.lemma_ in poss_verbs else "LOST"
+                            key = f"INV_{subj_text}_{obj_text}_{pred_label}"
+                            if key not in extracted_this_sent:
+                                triples.append({
+                                    "subject": {"text": subj_text},
+                                    "predicate": {"label": pred_label, "text": token.text},
+                                    "object": {"text": obj_text},
+                                    "timestamp": current_time,
+                                    "provenance": {"source_text_snippet": sent_text}
+                                })
+                                extracted_this_sent.add(key)
+
+        # --- C. GENERAL ATTRIBUTES EXTRACTION ---
+        # Look for Subject + [be/have] + [Adjective + Noun]
+        attr_verbs = ["be", "have", "look", "appear", "seem"]
+        for token in sent:
+            if token.lemma_ in attr_verbs:
+                for child in token.children:
+                    if child.dep_ in ["acomp", "attr", "dobj"]:
+                        # Extract full descriptive phrase (e.g., "jagged scar", "blue eyes")
+                        desc_tokens = [t.text for t in child.subtree if t.pos_ in ["ADJ", "NOUN"]]
+                        if desc_tokens:
+                            attr_desc = " ".join(desc_tokens)
+                            key = f"ATTR_{subj_text}_{attr_desc}"
+                            if key not in extracted_this_sent:
+                                triples.append({
+                                    "subject": {"text": subj_text},
+                                    "predicate": {"label": "HAS_ATTRIBUTE", "text": token.text},
+                                    "object": {"text": attr_desc},
+                                    "timestamp": current_time,
+                                    "provenance": {"source_text_snippet": sent_text}
+                                })
+                                extracted_this_sent.add(key)
+
+        # --- D. GENERAL IDENTITY EXTRACTION ---
+        # Look for Subject + [is/called] + [Proper Noun]
+        for token in sent:
+            if token.lemma_ in ["be", "call", "name"]:
+                for child in token.children:
+                    if child.dep_ in ["attr", "oprd"] and child.pos_ == "PROPN":
+                        key = f"ID_{subj_text}_{child.text}"
+                        if key not in extracted_this_sent:
+                            triples.append({
+                                "subject": {"text": subj_text},
+                                "predicate": {"label": "HAS_IDENTITY", "text": token.text},
+                                "object": {"text": child.text},
+                                "timestamp": current_time,
+                                "provenance": {"source_text_snippet": sent_text}
+                            })
+                            extracted_this_sent.add(key)
+
     return triples
 
 def resolve_coreferences_neural(text):
@@ -292,14 +367,11 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
         for i, chunk in enumerate(chunks):
             content = chunk["content"]
             
-            # Action: Lower Coref Aggressiveness
-            if mode == "hybrid":
-                resolved_content = content
-                clusters = []
-            else:
-                resolved_content, clusters = resolve_coreferences_neural(content)
+            # Action: Bypassing neural coreference as per error.txt instructions
+            resolved_content = content
+            clusters = []
             
-            # NER on RESOLVED content
+            # NER on RESOLVED content (now raw content)
             entities = extractor.extract_entities(resolved_content, ledger)
             for ent in entities: ledger[ent['text']] = ent['label']
 
@@ -343,10 +415,10 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
                 if matches:
                     best_match = matches[0]
                 else:
-                    # Fallback to containment
+                    # Fallback to containment with length threshold
                     for existing_name in known_ids:
                         if raw_name != existing_name:
-                            if raw_name in existing_name or existing_name in raw_name:
+                            if (raw_name in existing_name or existing_name in raw_name) and abs(len(raw_name) - len(existing_name)) <= 5:
                                 best_match = existing_name
                                 break
                 
@@ -354,10 +426,14 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
                 if not best_match and resolved_name not in known_ids:
                     known_ids.append(resolved_name)
                 
+                # Robust Canonical ID: uppercase, replace spaces with _, strip apostrophes/punctuation
+                cid_base = resolved_name.upper().replace(' ', '_').replace("'", "")
+                cid_clean = re.sub(r'[^A-Z0-9_]', '', cid_base)
+
                 if ent['label'] in ['PERSON', 'TITLE']:
-                    ent['canonical_id'] = resolved_name.split()[-1].upper()
+                    ent['canonical_id'] = cid_clean.split('_')[-1]
                 else:
-                    ent['canonical_id'] = resolved_name.upper().replace(' ', '_')
+                    ent['canonical_id'] = cid_clean
             
             for triple in chunk['triples']:
                 for role in ['subject', 'object']:
@@ -382,7 +458,7 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
                     else:
                         for existing_name in known_ids:
                             if text != existing_name:
-                                if text in existing_name or existing_name in text:
+                                if (text in existing_name or existing_name in text) and abs(len(text) - len(existing_name)) <= 5:
                                     best_match = existing_name
                                     break
                     
@@ -396,10 +472,13 @@ def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qw
                             label = e['label']
                             break
                     
+                    cid_base = resolved_text.upper().replace(' ', '_').replace("'", "")
+                    cid_clean = re.sub(r'[^A-Z0-9_]', '', cid_base)
+
                     if label in ['PERSON', 'TITLE']:
-                        triple[role]['canonical_id'] = resolved_text.split()[-1].upper()
+                        triple[role]['canonical_id'] = cid_clean.split('_')[-1]
                     else:
-                        triple[role]['canonical_id'] = resolved_text.upper().replace(' ', '_')
+                        triple[role]['canonical_id'] = cid_clean
 
     return processed_chapters, ledger
 

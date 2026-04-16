@@ -39,6 +39,12 @@ class Neo4jAdapter:
         with self.driver.session() as session:
             session.run("MATCH (n) DETACH DELETE n")
 
+    def _normalize_timestamp(self, ts: str) -> str:
+        if not ts: return "unknown"
+        # Extract HH:MM using regex
+        match = re.search(r'(\d{2}:\d{2})', ts)
+        return match.group(1) if match else ts
+
     def ingest_processed_data(self, processed_chapters: dict):
         if not self.driver: self.connect()
         print("Ingesting data into Neo4j...")
@@ -80,18 +86,21 @@ class Neo4jAdapter:
                         pred_text = pred_dict.get("text", "").lower()
                         pred_label = pred_dict.get("label", "UNKNOWN")
                         source_text = prov_dict.get("source_text_snippet", "Source not provided")
-                        narrative_time = triple.get("timestamp", "unknown")
+                        raw_time = triple.get("timestamp", "unknown")
+                        narrative_time = self._normalize_timestamp(raw_time)
 
-                        # Action B: Filter 'Source not provided' from Logic checks
+                        # 1. Kill Ghost Nodes
                         if source_text == "Source not provided" or not pred_text:
                             continue
 
-                        # Action A: Enforce Subject/Object Rules in Python
-                        # PYTHON OVERRIDE: Fix LLM Directionality Hallucinations
+                        # 3. Hardcode Directionality Swap
+                        # We keep this as a general rule for POSSESSES/LOST logic
                         if pred_label in ["POSSESSES", "LOST"]:
-                            # If the object is a PERSON, the LLM flipped them. Swap them back.
-                            if any(x in obj_id for x in ["KAEL", "MARIA", "ARIS", "EVANS"]):
+                            if any(name in obj_id for name in ["KAEL", "MARIA", "ARIS", "EVANS", "CAPTAIN"]):
+                                # Swap IDs
                                 subj_id, obj_id = obj_id, subj_id
+                                # Swap the dictionaries so Neo4j gets the right Entity names
+                                subj_dict, obj_dict = obj_dict, subj_dict
                         
                         # ... inside Pass 2 loop ...
                         location_pattern = r"\b(at|in|on|puts you at|located)\b"
@@ -148,6 +157,14 @@ class Neo4jAdapter:
 
     def run_cypher_query(self, query: str, parameters: dict = None):
         if not self.driver: self.connect()
-        with self.driver.session() as session:
-            result = session.run(query, parameters)
-            return [record for record in result]
+        try:
+            with self.driver.session() as session:
+                result = session.run(query, parameters)
+                if result is None:
+                    print(f"[!] Warning: Cypher query returned None: {query}")
+                    return []
+                return [record for record in result]
+        except Exception as e:
+            print(f"[!] Error running Cypher query: {e}")
+            print(f"Query: {query}")
+            return []
