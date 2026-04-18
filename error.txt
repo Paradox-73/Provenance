@@ -1,0 +1,7 @@
+Relax the Cypher Constraint: Remove AND size(attr.name) > 10 from graph_logic.py.
+
+Contextual NER Checking: Update the location exclusion to check grandchild.text against sent.ents rather than creating a new loc_doc.
+
+Expand Dialogue Traversal: Update the "I" resolution to look for both ccomp and parataxis relationships to locate the speaking character.
+
+Broaden Negation: Tell the parser to look for the literal string tokens ["not", "no", "never", "n't"] in the verb's children/grandchildren, rather than relying solely on the neg dependency tag.

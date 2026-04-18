@@ -1,5 +1,19 @@
-torch>=2.0.0
-transformers>=4.30.0
-sentencepiece>=0.1.99
-accelerate>=0.21.0
-neo4j>=5.10.0
+# Core NLP and Graph
+spacy==3.7.0
+neo4j==5.17.0 # Or py2neo, as mentioned in PDF
+langchain==0.1.13 # LangGraph is part of LangChain ecosystem
+langgraph==0.0.30
+transformers==4.38.0 # For DeBERTa-v3
+torch==2.2.1 # PyTorch for DeBERTa-v3
+pypdf2==3.0.1 # For PDF parsing
+python-docx==1.1.0 # For DOCX parsing
+protobuf # Required for DebertaV2Converter
+pandas
+tabulate
+
+# Other utilities
+python-dotenv==1.0.1
+# Optional for visualization (as mentioned in PDF)
+# plotly
+# networkx
+# streamlit # For dashboard

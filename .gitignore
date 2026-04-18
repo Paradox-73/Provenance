@@ -1,5 +1,6 @@
 nlp/
-src/
+README-main.md
+Provenance.pdf
 log.txt
-README-Kanav.md
-
+src/__pycache__/
+.env
