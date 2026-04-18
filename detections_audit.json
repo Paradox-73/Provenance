@@ -1,0 +1,1753 @@
+{
+  "Graph-Hybrid": [
+    {
+      "type": "Inventory Conflict",
+      "description": "Detected Inventory Conflict inconsistency.",
+      "details": [
+        "I",
+        "the Red Onyx Key",
+        "possessed",
+        "lost",
+        "I clearly possessed the Red Onyx Key, yet I made no move to give the Red Onyx Key to Maria's.",
+        "I have the Red Onyx Key, and I have lost the Red Onyx Key.\"",
+        "Chapter 5"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Inventory Conflict",
+      "description": "Detected Inventory Conflict inconsistency.",
+      "details": [
+        "I",
+        "the Red Onyx Key",
+        "held",
+        "lost",
+        "I held the Red Onyx Key out to Maria's, and Maria could see the light from the Red Onyx Key reflecting in I's eyes.",
+        "I have the Red Onyx Key, and I have lost the Red Onyx Key.\"",
+        "Chapter 5"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Inventory Conflict",
+      "description": "Detected Inventory Conflict inconsistency.",
+      "details": [
+        "I",
+        "the Red Onyx Key",
+        "have",
+        "dropped",
+        "I have the Red Onyx Key, and I have lost the Red Onyx Key.\"",
+        "I dropped the Red Onyx Key into the reactor core, and yet I am holding the Red Onyx Key.",
+        "Chapter 5"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Inventory Conflict",
+      "description": "Detected Inventory Conflict inconsistency.",
+      "details": [
+        "I",
+        "the Red Onyx Key",
+        "possessed",
+        "dropped",
+        "I clearly possessed the Red Onyx Key, yet I made no move to give the Red Onyx Key to Maria's.",
+        "I dropped the Red Onyx Key into the reactor core, and yet I am holding the Red Onyx Key.",
+        "Chapter 5"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Inventory Conflict",
+      "description": "Detected Inventory Conflict inconsistency.",
+      "details": [
+        "I",
+        "the Red Onyx Key",
+        "held",
+        "dropped",
+        "I held the Red Onyx Key out to Maria's, and Maria could see the light from the Red Onyx Key reflecting in I's eyes.",
+        "I dropped the Red Onyx Key into the reactor core, and yet I am holding the Red Onyx Key.",
+        "Chapter 5"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Inventory Conflict",
+      "description": "Detected Inventory Conflict inconsistency.",
+      "details": [
+        "I",
+        "the Red Onyx Key",
+        "lost",
+        "holding",
+        "I have the Red Onyx Key, and I have lost the Red Onyx Key.\"",
+        "I dropped the Red Onyx Key into the reactor core, and yet I am holding the Red Onyx Key.",
+        "Chapter 5"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Identity Conflict",
+      "description": "Detected Identity Conflict inconsistency.",
+      "details": [
+        "Dr. Aris,\"",
+        "a doctor",
+        "a Medical Doctor",
+        "Dr. Aris don't know why Maria'd think Dr. Aris was a doctor.\"",
+        "\"Dr. Aris is a Medical Doctor,\" Maria whispered to Maria, as if the words could hold back the tide of madness.",
+        "Chapter 3"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Commander Kael",
+        "Captain Maria",
+        "in Engineering",
+        "state",
+        "Commander Kael turned to Captain Maria, smiling.",
+        "\"Commander Kael, how can Commander Kael be in Engineering right now?",
+        "Chapter 1"
+      ],
+      "confidence": 0.9465283155441284
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Commander Kael",
+        "in Engineering",
+        "on the Bridge",
+        "state",
+        "\"Commander Kael, how can Commander Kael be in Engineering right now?",
+        "Commander Kael've been on the Bridge since 07:30, as per Commander Kael's shift rotation.\"",
+        "Chapter 1"
+      ],
+      "confidence": 0.9972430467605591
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "in two places",
+        "at once",
+        "state",
+        "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence.",
+        "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence.",
+        "Chapter 6"
+      ],
+      "confidence": 0.9937089681625366
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Dr. Aris,\"",
+        "the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael",
+        "the ship\u2019s Chief Engineer",
+        "state",
+        "Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael.",
+        "Dr. Aris is the ship\u2019s Chief Engineer, after all.",
+        "Chapter 3"
+      ],
+      "confidence": 0.995061457157135
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "the Captain",
+        "a stowaway",
+        "state",
+        "Maria was the Captain, and yet Maria was a stowaway.",
+        "Maria was the Captain, and yet Maria was a stowaway.",
+        "Chapter 6"
+      ],
+      "confidence": 0.9954231381416321
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "The Shifting Artifact",
+        "smooth",
+        "jagged",
+        "state",
+        "\"The Shifting Artifact is smooth.\"",
+        "\"The Shifting Artifact is jagged,\" a voice said from the shadows.",
+        "Chapter 4"
+      ],
+      "confidence": 0.9992228746414185
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "The Shifting Artifact",
+        "a small, smooth stone, no larger than a child\u2019s marble",
+        "jagged",
+        "state",
+        "The Shifting Artifact was a small, smooth stone, no larger than a child\u2019s marble.",
+        "\"The Shifting Artifact is jagged,\" a voice said from the shadows.",
+        "Chapter 4"
+      ],
+      "confidence": 0.9988051652908325
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "The Shifting Artifact",
+        "jagged",
+        "a small, smooth stone",
+        "state",
+        "\"The Shifting Artifact is jagged,\" a voice said from the shadows.",
+        "Kael was holding The Shifting Artifact in Kael's hand, but The Shifting Artifact was once again a small, smooth stone.",
+        "Chapter 4"
+      ],
+      "confidence": 0.9994245767593384
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "I",
+        "both possessor and loser",
+        "a phantom, a flickering image in a world that was tearing itself apart",
+        "state",
+        "I was both possessor and loser, and the ship\u2019s was echoing the impossibility of I's words.",
+        "I was a phantom, a flickering image in a world that was tearing itself apart.",
+        "Chapter 5"
+      ],
+      "confidence": 0.5729290246963501
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "in two places",
+        "at the same time",
+        "state",
+        "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence.",
+        "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears.",
+        "Chapter 6"
+      ],
+      "confidence": 0.9775847792625427
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "the Captain",
+        "12:00 hours",
+        "state",
+        "Maria was the Captain, and yet Maria was a stowaway.",
+        "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears.",
+        "Chapter 6"
+      ],
+      "confidence": 0.7021093964576721
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "a stowaway",
+        "12:00 hours",
+        "state",
+        "Maria was the Captain, and yet Maria was a stowaway.",
+        "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears.",
+        "Chapter 6"
+      ],
+      "confidence": 0.8428959250450134
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "at once",
+        "12:00 hours",
+        "state",
+        "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence.",
+        "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears.",
+        "Chapter 6"
+      ],
+      "confidence": 0.9875388145446777
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "in two places",
+        "12:00 hours",
+        "state",
+        "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence.",
+        "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears.",
+        "Chapter 6"
+      ],
+      "confidence": 0.9204074144363403
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "the Captain",
+        "the Engine Room",
+        "state",
+        "Maria was the Captain, and yet Maria was a stowaway.",
+        "\"Maria is in the Engine Room.\"",
+        "Chapter 6"
+      ],
+      "confidence": 0.9984543323516846
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "on the Bridge",
+        "the Engine Room",
+        "state",
+        "\"Maria is on the Bridge,\" Maria whispered to the darkness.",
+        "\"Maria is in the Engine Room.\"",
+        "Chapter 6"
+      ],
+      "confidence": 0.9986683130264282
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "a stowaway",
+        "the Engine Room",
+        "state",
+        "Maria was the Captain, and yet Maria was a stowaway.",
+        "\"Maria is in the Engine Room.\"",
+        "Chapter 6"
+      ],
+      "confidence": 0.9966896772384644
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Captain Maria",
+        "at once",
+        "the Engine Room",
+        "state",
+        "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence.",
+        "\"Maria is in the Engine Room.\"",
+        "Chapter 6"
+      ],
+      "confidence": 0.5085768103599548
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Key",
+        "a small, smooth stone",
+        "into a large, jagged shard",
+        "state",
+        "Kael was holding the Red Onyx Key in Kael's hand, but the Red Onyx Key was once again a small, smooth stone.",
+        "Kael offered the Red Onyx Key to Maria's, but as Maria reached out to grab the Red Onyx Key, the Red Onyx Key turned into a large, jagged shard.",
+        "Chapter 6"
+      ],
+      "confidence": 0.9985837936401367
+    }
+  ],
+  "Pure-NLI": [
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 2",
+      "entity": ",",
+      "premise": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face.",
+      "hypothesis": "The man who wore Kael\u2019s face remained behind with Dr. Aris, his unsettling smile etched into her mind.",
+      "confidence": 0.9927396178245544
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 2",
+      "entity": "up",
+      "premise": "Maria picked up the Daily Security Report from her chair.",
+      "hypothesis": "Maria stood up, her hand flying to her sidearm.",
+      "confidence": 0.9982814788818359
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 2",
+      "entity": ",",
+      "premise": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face.",
+      "hypothesis": "Maria blinked, looking around in confusion.",
+      "confidence": 0.6758574843406677
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 3",
+      "entity": "Maria",
+      "premise": "The metallic taste of fear lingered in Maria\u2019s mouth as she retreated from the Medical Bay.",
+      "hypothesis": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye.",
+      "confidence": 0.9981285929679871
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 3",
+      "entity": ".",
+      "premise": "Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.7918280959129333
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 3",
+      "entity": "ship",
+      "premise": "Aris is the ship's Chief Engineer, after all.",
+      "hypothesis": "Aris, you\u2019re the ship\u2019s Medical Doctor.",
+      "confidence": 0.9993461966514587
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 3",
+      "entity": "was",
+      "premise": "Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael.",
+      "hypothesis": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory.",
+      "confidence": 0.8973019123077393
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 3",
+      "entity": "ship",
+      "premise": "Aris is the ship's Chief Engineer, after all.",
+      "hypothesis": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name.",
+      "confidence": 0.992373526096344
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 3",
+      "entity": "ship",
+      "premise": "Aris, you\u2019re the ship\u2019s Medical Doctor.",
+      "hypothesis": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name.",
+      "confidence": 0.957085907459259
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "The metallic taste of fear lingered in Maria\u2019s mouth as she retreated from the Medical Bay.",
+      "hypothesis": "Maria stood over it, her breathing heavy.",
+      "confidence": 0.9983862638473511
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye.",
+      "hypothesis": "Maria stood over it, her breathing heavy.",
+      "confidence": 0.9935551285743713
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria stood over it, her breathing heavy.",
+      "hypothesis": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "confidence": 0.7738672494888306
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "The Red Onyx Key",
+      "premise": "The Red Onyx Key was a small, smooth stone, no larger than a child\u2019s marble.",
+      "hypothesis": "The Red Onyx Key was no longer a small stone.",
+      "confidence": 0.9795472025871277
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "light",
+      "premise": "In its place was a backup fuel cell, humming with an eerie, violet light.",
+      "hypothesis": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows.",
+      "confidence": 0.7903856635093689
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "light",
+      "premise": "The light in the room shifted, turning from a warm amber to a harsh, flickering violet.",
+      "hypothesis": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows.",
+      "confidence": 0.9522348046302795
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria stood over it, her breathing heavy.",
+      "hypothesis": "Maria recoiled, her heart racing.",
+      "confidence": 0.9941263198852539
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "hypothesis": "Maria recoiled, her heart racing.",
+      "confidence": 0.9977889060974121
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye.",
+      "hypothesis": "Maria reached out again, but this time she was afraid to touch it.",
+      "confidence": 0.9684805870056152
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria stood over it, her breathing heavy.",
+      "hypothesis": "Maria reached out again, but this time she was afraid to touch it.",
+      "confidence": 0.9833393096923828
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "hypothesis": "Maria reached out again, but this time she was afraid to touch it.",
+      "confidence": 0.9219115972518921
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria recoiled, her heart racing.",
+      "hypothesis": "Maria reached out again, but this time she was afraid to touch it.",
+      "confidence": 0.8418269157409668
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Kael",
+      "premise": "The man who wore Kael\u2019s face remained behind with Dr. Aris, his unsettling smile etched into her mind.",
+      "hypothesis": "Kael stepped into the light, but he was no longer the man she knew.",
+      "confidence": 0.7255937457084656
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "\"You see, Maria,\" Kael said, his smile cold and unnatural.",
+      "confidence": 0.9857894778251648
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "The metallic taste of fear lingered in Maria\u2019s mouth as she retreated from the Medical Bay.",
+      "hypothesis": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console.",
+      "confidence": 0.8470014929771423
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 4",
+      "entity": "Maria",
+      "premise": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "hypothesis": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console.",
+      "confidence": 0.9791094064712524
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "The metallic taste of fear lingered in Maria\u2019s mouth as she retreated from the Medical Bay.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.9979167580604553
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.9991425275802612
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.9916513562202454
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria recoiled, her heart racing.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.9970731735229492
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.998955488204956
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.985519528388977
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "The Bridge was empty now, the crew gone as if they had never existed.",
+      "hypothesis": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "confidence": 0.9646664261817932
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "The man who wore Kael\u2019s face remained behind with Dr. Aris, his unsettling smile etched into her mind.",
+      "hypothesis": "She was facing Kael, or the entity that looked like him, and the Red Onyx Key was clutched in his hand.",
+      "confidence": 0.8571416735649109
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "light",
+      "premise": "In its place was a backup fuel cell, humming with an eerie, violet light.",
+      "hypothesis": "The small, smooth stone glowed with an unsettling internal light, and its presence felt like a heavy anchor in the shifting sea of her reality.",
+      "confidence": 0.8928114175796509
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria stood over it, her breathing heavy.",
+      "hypothesis": "\"You want this, Maria?",
+      "confidence": 0.91251540184021
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "\"You want this, Maria?",
+      "confidence": 0.9881953001022339
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "The metallic taste of fear lingered in Maria\u2019s mouth as she retreated from the Medical Bay.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.6324187517166138
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.99960857629776
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria stood over it, her breathing heavy.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.991662859916687
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.9554229974746704
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria recoiled, her heart racing.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.9947105646133423
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "Maria froze.",
+      "confidence": 0.9930423498153687
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "Kael didn't look up from his display.",
+      "hypothesis": "Kael tilted his head, his expression shifting from amusement to a strange, detached sadness.",
+      "confidence": 0.9627573490142822
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "\"Both are true, Maria.",
+      "confidence": 0.9647133350372314
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out to touch it, expecting the cold, slick surface of obsidian.",
+      "hypothesis": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "confidence": 0.9379464983940125
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "confidence": 0.9927870631217957
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console.",
+      "hypothesis": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "confidence": 0.9983600974082947
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "\"You want this, Maria?",
+      "hypothesis": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "confidence": 0.9890565276145935
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "\"Both are true, Maria.",
+      "hypothesis": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "confidence": 0.9844046235084534
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "ship",
+      "premise": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name.",
+      "hypothesis": "He was both possessor and loser, and the ship was echoing the impossibility of his words.",
+      "confidence": 0.7083960771560669
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "confidence": 0.828406810760498
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "\"Give me the Key, Kael,\" she commanded, her voice sounding steadier than she felt.",
+      "hypothesis": "\"You can't have it both ways, Kael,\" she said, her voice trembling.",
+      "confidence": 0.8522108793258667
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "Kael didn't look up from his display.",
+      "hypothesis": "Kael laughed, a harsh, metallic sound.",
+      "confidence": 0.9460858106613159
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "The man who wore Kael\u2019s face remained behind with Dr. Aris, his unsettling smile etched into her mind.",
+      "hypothesis": "Kael laughed, a harsh, metallic sound.",
+      "confidence": 0.7829101085662842
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "\"You see, Maria,\" Kael said, his smile cold and unnatural.",
+      "hypothesis": "Kael laughed, a harsh, metallic sound.",
+      "confidence": 0.9795716404914856
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Kael",
+      "premise": "Kael tilted his head, his expression shifting from amusement to a strange, detached sadness.",
+      "hypothesis": "Kael laughed, a harsh, metallic sound.",
+      "confidence": 0.9958129525184631
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria recoiled, her heart racing.",
+      "hypothesis": "\"In this nebula, Maria, there is no 'either/or'.",
+      "confidence": 0.6790561079978943
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "\"In this nebula, Maria, there is no 'either/or'.",
+      "confidence": 0.9806066155433655
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console.",
+      "hypothesis": "\"In this nebula, Maria, there is no 'either/or'.",
+      "confidence": 0.7873916625976562
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "\"In this nebula, Maria, there is no 'either/or'.",
+      "confidence": 0.8347905874252319
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "hypothesis": "\"In this nebula, Maria, there is no 'either/or'.",
+      "confidence": 0.9833412766456604
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "hypothesis": "\"In this nebula, Maria, there is no 'either/or'.",
+      "confidence": 0.9796991348266602
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "The Bridge was empty now, the crew gone as if they had never existed.",
+      "hypothesis": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "confidence": 0.8243632316589355
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen.",
+      "hypothesis": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "confidence": 0.9988905787467957
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "confidence": 0.8282131552696228
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria reached out again, but this time she was afraid to touch it.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.7015907764434814
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "\"You see, Maria,\" Kael said, his smile cold and unnatural.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9923750758171082
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9910065531730652
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "\"You want this, Maria?",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9943209886550903
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria froze.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9982738494873047
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "\"Both are true, Maria.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9961557984352112
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9945606589317322
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9824824333190918
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Maria",
+      "premise": "\"In this nebula, Maria, there is no 'either/or'.",
+      "hypothesis": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "confidence": 0.9846343398094177
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen.",
+      "hypothesis": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "confidence": 0.8744971752166748
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "confidence": 0.8623430728912354
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge.",
+      "hypothesis": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "confidence": 0.994851291179657
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 5",
+      "entity": "Bridge",
+      "premise": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "hypothesis": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "confidence": 0.9915217161178589
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Starlight",
+      "premise": "I have to keep the *Starlight* moving.\"",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.9841205477714539
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Aris is the ship's Chief Engineer, after all.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.9275622963905334
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Aris, you\u2019re the ship\u2019s Medical Doctor.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.9232336282730103
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "She needed that Key to restore the ship\u2019s stability, to find her way back to the world she knew.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.7574288249015808
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "He was both possessor and loser, and the ship was echoing the impossibility of his words.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.9290656447410583
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.8583184480667114
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.8911051154136658
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "hypothesis": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "confidence": 0.8583184480667114
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "hypothesis": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large.",
+      "confidence": 0.998741090297699
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria froze.",
+      "hypothesis": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears.",
+      "confidence": 0.6400710344314575
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.9831951260566711
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.7132693529129028
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.9948269724845886
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "The Bridge was empty now, the crew gone as if they had never existed.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.6729098558425903
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.9831951260566711
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.9922490119934082
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.9989068508148193
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.6021789312362671
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large.",
+      "hypothesis": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "confidence": 0.6851869821548462
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "The man who wore Kael\u2019s face remained behind with Dr. Aris, his unsettling smile etched into her mind.",
+      "hypothesis": "Kael was standing in front of her, his presence a flickering image in the darkness.",
+      "confidence": 0.998552143573761
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael stepped into the light, but he was no longer the man she knew.",
+      "hypothesis": "Kael was standing in front of her, his presence a flickering image in the darkness.",
+      "confidence": 0.9945921301841736
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael looked down at his open palm, his fingers curling around the stone.",
+      "hypothesis": "Kael was standing in front of her, his presence a flickering image in the darkness.",
+      "confidence": 0.954912006855011
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "\"You see, Maria,\" Kael said, his smile cold and unnatural.",
+      "hypothesis": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten.",
+      "confidence": 0.7405932545661926
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "color",
+      "premise": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson.",
+      "hypothesis": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten.",
+      "confidence": 0.9852645993232727
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "color",
+      "premise": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson.",
+      "hypothesis": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen.",
+      "confidence": 0.9775416254997253
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "color",
+      "premise": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten.",
+      "hypothesis": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen.",
+      "confidence": 0.9984595775604248
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"You want this, Maria?",
+      "hypothesis": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "confidence": 0.915843665599823
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"Both are true, Maria.",
+      "hypothesis": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "confidence": 0.9959866404533386
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"In this nebula, Maria, there is no 'either/or'.",
+      "hypothesis": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "confidence": 0.982084333896637
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "hypothesis": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "confidence": 0.9916337728500366
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded.",
+      "hypothesis": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "confidence": 0.761809229850769
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Something is wrong with the ship\u2019s internal telemetry.\"",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.9680206179618835
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Aris is the ship's Chief Engineer, after all.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.995848536491394
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Aris, you\u2019re the ship\u2019s Medical Doctor.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.996672511100769
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.9272410869598389
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "She needed that Key to restore the ship\u2019s stability, to find her way back to the world she knew.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.988590657711029
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "He was both possessor and loser, and the ship was echoing the impossibility of his words.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.9867334961891174
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.9993333220481873
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Starlight",
+      "premise": "I have to keep the *Starlight* moving.\"",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.9919232726097107
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "scent",
+      "premise": "The smell of ionized fuel and scorched metal replaced the sterile scent of her quarters.",
+      "hypothesis": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "confidence": 0.9714127779006958
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "hypothesis": "Maria looked around, but there was no one left to hear her.",
+      "confidence": 0.9701692461967468
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears.",
+      "hypothesis": "Maria looked around, but there was no one left to hear her.",
+      "confidence": 0.6112013459205627
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "hypothesis": "Maria looked around, but there was no one left to hear her.",
+      "confidence": 0.981981098651886
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "hypothesis": "Maria looked around, but there was no one left to hear her.",
+      "confidence": 0.9392056465148926
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "The Bridge was empty now, the crew gone as if they had never existed.",
+      "hypothesis": "She was in the Engine Room, and yet she was on the Bridge.",
+      "confidence": 0.8832658529281616
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "hypothesis": "She was in the Engine Room, and yet she was on the Bridge.",
+      "confidence": 0.8723555207252502
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria looked at the stone in his hand, then at the man who was telling her it was gone.",
+      "hypothesis": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "confidence": 0.9915527701377869
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"In this nebula, Maria, there is no 'either/or'.",
+      "hypothesis": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "confidence": 0.9761213064193726
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears.",
+      "hypothesis": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "confidence": 0.9989965558052063
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "hypothesis": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "confidence": 0.9970867037773132
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "hypothesis": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "confidence": 0.9131487607955933
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"In this nebula, Maria, there is no 'either/or'.",
+      "hypothesis": "\"Maria is in the Engine Room.\"",
+      "confidence": 0.9916085600852966
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria looked around, but there was no one left to hear her.",
+      "hypothesis": "\"Maria is in the Engine Room.\"",
+      "confidence": 0.9829649329185486
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "hypothesis": "\"Maria is in the Engine Room.\"",
+      "confidence": 0.9994168281555176
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael looked down at his open palm, his fingers curling around the stone.",
+      "hypothesis": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity.",
+      "confidence": 0.6076536178588867
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael laughed, a harsh, metallic sound.",
+      "hypothesis": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity.",
+      "confidence": 0.9973627924919128
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "the Red Onyx Key",
+      "premise": "\"But I also lost the Red Onyx Key in the reactor core earlier this morning.",
+      "hypothesis": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone.",
+      "confidence": 0.9973179697990417
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "the Red Onyx Key",
+      "premise": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes.",
+      "hypothesis": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone.",
+      "confidence": 0.9429455995559692
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"In this nebula, Maria, there is no 'either/or'.",
+      "hypothesis": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor.",
+      "confidence": 0.7884711027145386
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "Maria reached out to grab his wrist, but her hand passed right through him.",
+      "hypothesis": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor.",
+      "confidence": 0.8706037998199463
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices.",
+      "hypothesis": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor.",
+      "confidence": 0.9787205457687378
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Maria",
+      "premise": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "hypothesis": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor.",
+      "confidence": 0.9972768425941467
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "light",
+      "premise": "In its place was a backup fuel cell, humming with an eerie, violet light.",
+      "hypothesis": "She closed her hand over the shard, and the world dissolved into a single, blinding light.",
+      "confidence": 0.6614900827407837
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "light",
+      "premise": "The light in the room shifted, turning from a warm amber to a harsh, flickering violet.",
+      "hypothesis": "She closed her hand over the shard, and the world dissolved into a single, blinding light.",
+      "confidence": 0.9987565279006958
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "light",
+      "premise": "The small, smooth stone glowed with an unsettling internal light, and its presence felt like a heavy anchor in the shifting sea of her reality.",
+      "hypothesis": "She closed her hand over the shard, and the world dissolved into a single, blinding light.",
+      "confidence": 0.9930328130722046
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "light",
+      "premise": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes.",
+      "hypothesis": "She closed her hand over the shard, and the world dissolved into a single, blinding light.",
+      "confidence": 0.9912780523300171
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "light",
+      "premise": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes.",
+      "hypothesis": "She closed her hand over the shard, and the world dissolved into a single, blinding light.",
+      "confidence": 0.9955853223800659
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Something is wrong with the ship\u2019s internal telemetry.\"",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9940286874771118
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Aris is the ship's Chief Engineer, after all.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9995649456977844
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Aris, you\u2019re the ship\u2019s Medical Doctor.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9995344877243042
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9716804623603821
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9978134632110596
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "She needed that Key to restore the ship\u2019s stability, to find her way back to the world she knew.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9994551539421082
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "He was both possessor and loser, and the ship was echoing the impossibility of his words.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9986009001731873
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9994189739227295
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "ship",
+      "premise": "The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9975624084472656
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "\"You see, Maria,\" Kael said, his smile cold and unnatural.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9964256882667542
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "She was facing Kael, or the entity that looked like him, and the Red Onyx Key was clutched in his hand.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9952751398086548
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "\"Give me the Key, Kael,\" she commanded, her voice sounding steadier than she felt.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9460082650184631
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael looked down at his open palm, his fingers curling around the stone.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9326975345611572
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael tilted his head, his expression shifting from amusement to a strange, detached sadness.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9953664541244507
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "\"You can't have it both ways, Kael,\" she said, her voice trembling.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9673348665237427
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael laughed, a harsh, metallic sound.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9981561303138733
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael was standing in front of her, his presence a flickering image in the darkness.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9984425902366638
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.8290627598762512
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Kael",
+      "premise": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9987026453018188
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9978134632110596
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9983488321304321
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9992309808731079
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9703035354614258
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9899232983589172
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9982643723487854
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.7403029203414917
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "She was in the Engine Room, and yet she was on the Bridge.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9994751811027527
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Chapter 6",
+      "entity": "Bridge",
+      "premise": "\"Maria is on the Bridge,\" she whispered to the darkness.",
+      "hypothesis": "There was no more ship, no more Kael, no more Bridge.",
+      "confidence": 0.9991663694381714
+    }
+  ]
+}

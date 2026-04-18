@@ -1,0 +1,25 @@
+{
+  "vessel_name": "Starship Aethelgard",
+  "decks": [
+    {
+      "id": "DECK_01",
+      "name": "Command Deck",
+      "rooms": ["Bridge", "Captain's Quarters", "Observation Lounge"]
+    },
+    {
+      "id": "DECK_05",
+      "name": "Medical & Science",
+      "rooms": ["Medical Bay", "Science Lab", "Stasis Pods"]
+    },
+    {
+      "id": "DECK_10",
+      "name": "Engineering",
+      "rooms": ["Engineering Deck", "Reactor Core", "Engine Room", "Hangar Bay"]
+    }
+  ],
+  "roles": {
+    "COMMAND": ["Captain", "Commander"],
+    "MEDICAL": ["Doctor", "Medical Doctor", "Chief Medical Officer"],
+    "ENGINEERING": ["Chief Engineer", "Engineer"]
+  }
+}

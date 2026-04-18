@@ -1,0 +1,1556 @@
+[
+  {
+    "chapter_name": "Chapter 6",
+    "chunk_id": 0,
+    "content": "Chapter 6: The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded. At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large. The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known. But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears. She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits. She was in two places at once, and the duality was a physical pain, a tearing at the edges of her existence. \"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room. Kael was standing in front of her, his presence a flickering image in the darkness. He was both real and unreal, a ghost in the machine. He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes. At 12:00, Kael’s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten. But as she watched, his eyes changed. They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen. \"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices. \"There is no more 'here' or 'there', no more 'blue' or 'green'. There is only the end.\" The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass. Maria looked around, but there was no one left to hear her. She was the Captain, and yet she was a stowaway. She was in the Engine Room, and yet she was on the Bridge. The contradiction was absolute, a final, unyielding wall that she could not break through. \"Maria is on the Bridge,\" she whispered to the darkness. \"Maria is in the Engine Room.\" The words felt like a prayer, a final attempt to hold onto the pieces of her reality. But the pieces were already gone. Kael reached out to her, his blue-green eyes filled with a strange, detached pity. He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone. He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard. \"Take it, Maria,\" he said, his voice fading into the roar of the reactor. \"Take it, and see the truth.\" She closed her hand over the shard, and the world dissolved into a single, blinding light. There was no more ship, no more Kael, no more Bridge. There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality. The Void had finally come, and in its embrace, all the inconsistencies of her life were finally, perfectly, one.",
+    "resolved_content": "Chapter 6: The Void\n\nThe *Starlight* was no longer a ship; The *Starlight* was a memory, a flickering shadow of the vessel Maria had once commanded. At 12:00 hours, Maria was standing on the Bridge, Maria's hand resting on the tactical console that was both smooth and jagged, small and large. The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything Maria had ever known. But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears. Maria was pacing the narrow walkway, Maria's fingers brushing against the hot, vibrating metal of the conduits. Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence. \"Maria,\" a voice whispered, echoing through the Bridge and the Engine Room. Kael was standing in front of Maria's, Kael's presence a flickering image in the darkness. Kael was both real and unreal, a ghost in the machine. Kael looked at Maria's, and Maria could see the light from the Red Onyx Key reflecting in Kael's eyes. At 12:00, his eyes were a deep, piercing blue, the color of a summer sky on a world Maria had long since forgotten. But as Maria watched, his eyes changed. his eyes were no longer blue; his eyes were a bright, unnatural green, the color of the nebula. \"The Void is coming, Maria,\" Kael said, Kael's voice a chorus of a thousand voices. \"There is no more 'here' or 'there', no more 'blue' or 'green'. There is only the end.\" The ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, The ship, the *Starlight*'s halls filled with the scent of ozone and the sound of breaking glass. Maria looked around, but there was no one left to hear Maria's. Maria was the Captain, and yet Maria was a stowaway. Maria was in the Engine Room, and yet Maria was on the Bridge. The contradiction was absolute, a final, unyielding wall that Maria could not break through. \"Maria is on the Bridge,\" Maria whispered to the darkness. \"Maria is in the Engine Room.\" The words felt like a prayer, a final attempt to hold onto the pieces of Maria's reality. But the pieces were already gone. Kael reached out to Maria's, Kael's blue-green eyes filled with a strange, detached pity. Kael was holding the Red Onyx Key in Kael's hand, but the Red Onyx Key was once again a small, smooth stone. Kael offered the Red Onyx Key to Maria's, but as Maria reached out to grab the Red Onyx Key, the Red Onyx Key turned into a large, jagged shard. \"Take the Red Onyx Key, Maria,\" Kael said, Kael's voice fading into the roar of the reactor. \"Take the Red Onyx Key, and see the truth.\" Maria closed her hand over a large, jagged shard, and the world dissolved into a single, blinding light. There was no more ship, no more Kael, no more the Bridge. There was Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality. The Void had finally come, and in The Void's embrace, all the inconsistencies of her reality were finally, perfectly, one.",
+    "entities": [
+      {
+        "text": "6",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "6"
+      },
+      {
+        "text": "Starlight",
+        "label": "VESSEL",
+        "start_char": 26,
+        "end_char": 35,
+        "canonical_id": "STARLIGHT"
+      },
+      {
+        "text": "ship",
+        "label": "VESSEL",
+        "start_char": 53,
+        "end_char": 57,
+        "canonical_id": "SHIP"
+      },
+      {
+        "text": "Starlight",
+        "label": "VESSEL",
+        "start_char": 64,
+        "end_char": 73,
+        "canonical_id": "STARLIGHT"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 123,
+        "end_char": 128,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "12:00 hours",
+        "label": "TIME",
+        "start_char": 152,
+        "end_char": 163,
+        "canonical_id": "1200_HOURS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 165,
+        "end_char": 170,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 191,
+        "end_char": 197,
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 199,
+        "end_char": 204,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 384,
+        "end_char": 389,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "12:00 hours",
+        "label": "TIME",
+        "start_char": 431,
+        "end_char": 442,
+        "canonical_id": "1200_HOURS"
+      },
+      {
+        "text": "the Engine Room",
+        "label": "FAC",
+        "start_char": 457,
+        "end_char": 472,
+        "canonical_id": "THE_ENGINE_ROOM"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 516,
+        "end_char": 521,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 530,
+        "end_char": 535,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 567,
+        "end_char": 572,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 642,
+        "end_char": 647,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 655,
+        "end_char": 658,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 738,
+        "end_char": 743,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 758,
+        "end_char": 763,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 805,
+        "end_char": 811,
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "the Engine Room",
+        "label": "FAC",
+        "start_char": 816,
+        "end_char": 831,
+        "canonical_id": "THE_ENGINE_ROOM"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 833,
+        "end_char": 837,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 863,
+        "end_char": 868,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 872,
+        "end_char": 876,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 924,
+        "end_char": 928,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 979,
+        "end_char": 983,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 994,
+        "end_char": 999,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1007,
+        "end_char": 1012,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1027,
+        "end_char": 1032,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 1038,
+        "end_char": 1054,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1069,
+        "end_char": 1073,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "12:00",
+        "label": "TIME",
+        "start_char": 1085,
+        "end_char": 1090,
+        "canonical_id": "1200"
+      },
+      {
+        "text": "color",
+        "label": "ENVIRONMENT",
+        "start_char": 1133,
+        "end_char": 1138,
+        "canonical_id": "COLOR"
+      },
+      {
+        "text": "summer",
+        "label": "DATE",
+        "start_char": 1144,
+        "end_char": 1150,
+        "canonical_id": "SUMMER"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1166,
+        "end_char": 1171,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1205,
+        "end_char": 1210,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "color",
+        "label": "ENVIRONMENT",
+        "start_char": 1313,
+        "end_char": 1318,
+        "canonical_id": "COLOR"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1355,
+        "end_char": 1360,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1363,
+        "end_char": 1367,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1374,
+        "end_char": 1378,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "ship",
+        "label": "VESSEL",
+        "start_char": 1510,
+        "end_char": 1514,
+        "canonical_id": "SHIP"
+      },
+      {
+        "text": "the *",
+        "label": "PRODUCT",
+        "start_char": 1516,
+        "end_char": 1521,
+        "canonical_id": "THE_"
+      },
+      {
+        "text": "Starlight",
+        "label": "VESSEL",
+        "start_char": 1521,
+        "end_char": 1530,
+        "canonical_id": "STARLIGHT"
+      },
+      {
+        "text": "the *",
+        "label": "PRODUCT",
+        "start_char": 1558,
+        "end_char": 1563,
+        "canonical_id": "THE_"
+      },
+      {
+        "text": "Void Voyager",
+        "label": "VESSEL",
+        "start_char": 1563,
+        "end_char": 1575,
+        "canonical_id": "VOID_VOYAGER"
+      },
+      {
+        "text": "ship",
+        "label": "VESSEL",
+        "start_char": 1582,
+        "end_char": 1586,
+        "canonical_id": "SHIP"
+      },
+      {
+        "text": "the *",
+        "label": "PRODUCT",
+        "start_char": 1588,
+        "end_char": 1593,
+        "canonical_id": "THE_"
+      },
+      {
+        "text": "Starlight",
+        "label": "VESSEL",
+        "start_char": 1593,
+        "end_char": 1602,
+        "canonical_id": "STARLIGHT"
+      },
+      {
+        "text": "scent",
+        "label": "ENVIRONMENT",
+        "start_char": 1628,
+        "end_char": 1633,
+        "canonical_id": "SCENT"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1676,
+        "end_char": 1681,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1731,
+        "end_char": 1736,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1740,
+        "end_char": 1745,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1771,
+        "end_char": 1776,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1793,
+        "end_char": 1798,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1831,
+        "end_char": 1836,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1918,
+        "end_char": 1923,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1950,
+        "end_char": 1955,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1975,
+        "end_char": 1980,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2009,
+        "end_char": 2014,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2112,
+        "end_char": 2117,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2163,
+        "end_char": 2167,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2183,
+        "end_char": 2188,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2192,
+        "end_char": 2196,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2253,
+        "end_char": 2257,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2270,
+        "end_char": 2286,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2290,
+        "end_char": 2294,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2307,
+        "end_char": 2323,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2362,
+        "end_char": 2366,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2375,
+        "end_char": 2391,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2395,
+        "end_char": 2400,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2411,
+        "end_char": 2416,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2437,
+        "end_char": 2453,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2455,
+        "end_char": 2471,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2513,
+        "end_char": 2529,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2531,
+        "end_char": 2536,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2539,
+        "end_char": 2543,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2550,
+        "end_char": 2554,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2606,
+        "end_char": 2622,
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2644,
+        "end_char": 2649,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 2742,
+        "end_char": 2747,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "ship",
+        "label": "VESSEL",
+        "start_char": 2767,
+        "end_char": 2771,
+        "canonical_id": "SHIP"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2781,
+        "end_char": 2785,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 2799,
+        "end_char": 2805,
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2817,
+        "end_char": 2822,
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 3046,
+        "end_char": 3049,
+        "canonical_id": "ONE"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Starlight",
+          "canonical_id": "STARLIGHT"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "a memory, a flickering shadow of the vessel Maria had once commanded",
+          "canonical_id": "A_MEMORY_A_FLICKERING_SHADOW_OF_THE_VESSEL_MARIA_HAD_ONCE_COMMANDED"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The Void\n\nThe *Starlight* was no longer a ship; The *Starlight* was a memory, a flickering shadow of the vessel Maria had once commanded."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "standing"
+        },
+        "object": {
+          "text": "on the Bridge",
+          "canonical_id": "ON_THE_BRIDGE"
+        },
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "At 12:00 hours, Maria was standing on the Bridge, Maria's hand resting on the tactical console that was both smooth and jagged, small and large."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "both smooth and jagged, small and large",
+          "canonical_id": "BOTH_SMOOTH_AND_JAGGED_SMALL_AND_LARGE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "At 12:00 hours, Maria was standing on the Bridge, Maria's hand resting on the tactical console that was both smooth and jagged, small and large."
+        }
+      },
+      {
+        "subject": {
+          "text": "viewscreen",
+          "canonical_id": "VIEWSCREEN"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a swirling mass of violet and crimson",
+          "canonical_id": "A_SWIRLING_MASS_OF_VIOLET_AND_CRIMSON"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything Maria had ever known."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "at the same time",
+          "canonical_id": "AT_THE_SAME_TIME"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "at 12:00 hours",
+          "canonical_id": "1200_HOURS"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "in the Engine Room",
+          "canonical_id": "THE_ENGINE_ROOM"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "But at the same time, at 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in Maria's ears."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "in two places",
+          "canonical_id": "IN_TWO_PLACES"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "at once",
+          "canonical_id": "AT_ONCE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence."
+        }
+      },
+      {
+        "subject": {
+          "text": "duality",
+          "canonical_id": "DUALITY"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "a physical pain, a tearing at the edges of Maria's existence",
+          "canonical_id": "A_PHYSICAL_PAIN_A_TEARING_AT_THE_EDGES_OF_MARIAS_EXISTENCE"
+        },
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was in two places at once, and the duality was a physical pain, a tearing at the edges of Maria's existence."
+        }
+      },
+      {
+        "subject": {
+          "text": "Kael",
+          "canonical_id": "KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "both real and unreal",
+          "canonical_id": "BOTH_REAL_AND_UNREAL"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Kael was both real and unreal, a ghost in the machine."
+        }
+      },
+      {
+        "subject": {
+          "text": "eyes",
+          "canonical_id": "EYES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "At 12:00",
+          "canonical_id": "AT_1200"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "At 12:00, his eyes were a deep, piercing blue, the color of a summer sky on a world Maria had long since forgotten."
+        }
+      },
+      {
+        "subject": {
+          "text": "eyes",
+          "canonical_id": "EYES"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "were"
+        },
+        "object": {
+          "text": "a deep, piercing blue, the color of a summer sky on a world Maria had long since forgotten",
+          "canonical_id": "A_DEEP_PIERCING_BLUE_THE_COLOR_OF_A_SUMMER_SKY_ON_A_WORLD_MARIA_HAD_LONG_SINCE_FORGOTTEN"
+        },
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "At 12:00, his eyes were a deep, piercing blue, the color of a summer sky on a world Maria had long since forgotten."
+        }
+      },
+      {
+        "subject": {
+          "text": "eyes",
+          "canonical_id": "EYES"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "blue",
+          "canonical_id": "BLUE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "his eyes were no longer blue; his eyes were a bright, unnatural green, the color of the nebula."
+        }
+      },
+      {
+        "subject": {
+          "text": "eyes",
+          "canonical_id": "EYES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "a bright, unnatural green, the color of the nebula",
+          "canonical_id": "A_BRIGHT_UNNATURAL_GREEN_THE_COLOR_OF_THE_NEBULA"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "his eyes were no longer blue; his eyes were a bright, unnatural green, the color of the nebula."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the Captain",
+          "canonical_id": "THE_CAPTAIN"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was the Captain, and yet Maria was a stowaway."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a stowaway",
+          "canonical_id": "A_STOWAWAY"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was the Captain, and yet Maria was a stowaway."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "in the Engine Room",
+          "canonical_id": "THE_ENGINE_ROOM"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was in the Engine Room, and yet Maria was on the Bridge."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "on the Bridge",
+          "canonical_id": "ON_THE_BRIDGE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Maria was in the Engine Room, and yet Maria was on the Bridge."
+        }
+      },
+      {
+        "subject": {
+          "text": "contradiction",
+          "canonical_id": "CONTRADICTION"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "absolute",
+          "canonical_id": "ABSOLUTE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "The contradiction was absolute, a final, unyielding wall that Maria could not break through."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "on the Bridge",
+          "canonical_id": "ON_THE_BRIDGE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "\"Maria is on the Bridge,\" Maria whispered to the darkness."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "in the Engine Room",
+          "canonical_id": "THE_ENGINE_ROOM"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "\"Maria is in the Engine Room.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "Kael",
+          "canonical_id": "KAEL"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "holding"
+        },
+        "object": {
+          "text": "the Red Onyx Key",
+          "canonical_id": "THE_RED_ONYX_KEY"
+        },
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Kael was holding the Red Onyx Key in Kael's hand, but the Red Onyx Key was once again a small, smooth stone."
+        }
+      },
+      {
+        "subject": {
+          "text": "Key",
+          "canonical_id": "KEY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a small, smooth stone",
+          "canonical_id": "A_SMALL_SMOOTH_STONE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Kael was holding the Red Onyx Key in Kael's hand, but the Red Onyx Key was once again a small, smooth stone."
+        }
+      },
+      {
+        "subject": {
+          "text": "Key",
+          "canonical_id": "KEY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "turned"
+        },
+        "object": {
+          "text": "into a large, jagged shard",
+          "canonical_id": "INTO_A_LARGE_JAGGED_SHARD"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "Kael offered the Red Onyx Key to Maria's, but as Maria reached out to grab the Red Onyx Key, the Red Onyx Key turned into a large, jagged shard."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "both a lie and a reality",
+          "canonical_id": "BOTH_A_LIE_AND_A_REALITY"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "There was Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality."
+        }
+      },
+      {
+        "subject": {
+          "text": "inconsistencies",
+          "canonical_id": "INCONSISTENCIES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "in The Void's embrace",
+          "canonical_id": "IN_THE_VOIDS_EMBRACE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "The Void had finally come, and in The Void's embrace, all the inconsistencies of her reality were finally, perfectly, one."
+        }
+      },
+      {
+        "subject": {
+          "text": "inconsistencies",
+          "canonical_id": "INCONSISTENCIES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "one",
+          "canonical_id": "ONE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:00",
+        "provenance": {
+          "source_text_snippet": "The Void had finally come, and in The Void's embrace, all the inconsistencies of her reality were finally, perfectly, one."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          21,
+          36
+        ],
+        [
+          59,
+          61
+        ]
+      ],
+      [
+        [
+          110,
+          115
+        ],
+        [
+          152,
+          155
+        ],
+        [
+          184,
+          187
+        ],
+        [
+          365,
+          368
+        ],
+        [
+          438,
+          443
+        ],
+        [
+          510,
+          513
+        ],
+        [
+          520,
+          523
+        ],
+        [
+          555,
+          558
+        ],
+        [
+          626,
+          629
+        ],
+        [
+          720,
+          723
+        ],
+        [
+          736,
+          741
+        ],
+        [
+          855,
+          858
+        ],
+        [
+          975,
+          978
+        ],
+        [
+          984,
+          987
+        ],
+        [
+          1141,
+          1144
+        ],
+        [
+          1178,
+          1181
+        ],
+        [
+          1341,
+          1346
+        ],
+        [
+          1633,
+          1638
+        ],
+        [
+          1688,
+          1691
+        ],
+        [
+          1693,
+          1696
+        ],
+        [
+          1722,
+          1725
+        ],
+        [
+          1742,
+          1745
+        ],
+        [
+          1778,
+          1781
+        ],
+        [
+          1863,
+          1866
+        ],
+        [
+          1893,
+          1898
+        ],
+        [
+          1918,
+          1921
+        ],
+        [
+          1950,
+          1955
+        ],
+        [
+          2053,
+          2056
+        ],
+        [
+          2120,
+          2123
+        ],
+        [
+          2290,
+          2293
+        ],
+        [
+          2302,
+          2305
+        ],
+        [
+          2385,
+          2390
+        ],
+        [
+          2479,
+          2482
+        ],
+        [
+          2490,
+          2493
+        ],
+        [
+          2634,
+          2644
+        ],
+        [
+          2824,
+          2827
+        ]
+      ],
+      [
+        [
+          139,
+          150
+        ],
+        [
+          410,
+          436
+        ]
+      ],
+      [
+        [
+          172,
+          182
+        ],
+        [
+          779,
+          795
+        ],
+        [
+          1789,
+          1799
+        ],
+        [
+          1905,
+          1915
+        ],
+        [
+          2616,
+          2622
+        ]
+      ],
+      [
+        [
+          451,
+          466
+        ],
+        [
+          800,
+          823
+        ],
+        [
+          1753,
+          1768
+        ],
+        [
+          1962,
+          1977
+        ]
+      ],
+      [
+        [
+          825,
+          829
+        ],
+        [
+          860,
+          863
+        ],
+        [
+          909,
+          911
+        ],
+        [
+          962,
+          964
+        ],
+        [
+          1044,
+          1047
+        ],
+        [
+          1064,
+          1070
+        ],
+        [
+          1191,
+          1194
+        ],
+        [
+          1349,
+          1351
+        ],
+        [
+          1358,
+          1361
+        ],
+        [
+          2100,
+          2104
+        ],
+        [
+          2125,
+          2128
+        ],
+        [
+          2183,
+          2185
+        ],
+        [
+          2218,
+          2221
+        ],
+        [
+          2273,
+          2275
+        ],
+        [
+          2393,
+          2395
+        ],
+        [
+          2402,
+          2405
+        ],
+        [
+          2602,
+          2606
+        ]
+      ],
+      [
+        [
+          1044,
+          1052
+        ],
+        [
+          1064,
+          1075
+        ],
+        [
+          1191,
+          1199
+        ],
+        [
+          1209,
+          1213
+        ],
+        [
+          1235,
+          1239
+        ]
+      ],
+      [
+        [
+          333,
+          343
+        ],
+        [
+          1285,
+          1318
+        ]
+      ],
+      [
+        [
+          275,
+          289
+        ],
+        [
+          1304,
+          1318
+        ]
+      ],
+      [
+        [
+          11,
+          19
+        ],
+        [
+          1321,
+          1329
+        ],
+        [
+          2750,
+          2758
+        ],
+        [
+          2784,
+          2787
+        ]
+      ],
+      [
+        [
+          1487,
+          1512
+        ],
+        [
+          1559,
+          1562
+        ]
+      ],
+      [
+        [
+          2039,
+          2064
+        ],
+        [
+          2070,
+          2080
+        ]
+      ],
+      [
+        [
+          1013,
+          1029
+        ],
+        [
+          2198,
+          2214
+        ],
+        [
+          2232,
+          2234
+        ],
+        [
+          2284,
+          2286
+        ],
+        [
+          2326,
+          2328
+        ],
+        [
+          2330,
+          2339
+        ],
+        [
+          2381,
+          2383
+        ],
+        [
+          2455,
+          2457
+        ]
+      ],
+      [
+        [
+          184,
+          192
+        ],
+        [
+          2490,
+          2498
+        ]
+      ],
+      [
+        [
+          2352,
+          2373
+        ],
+        [
+          2504,
+          2513
+        ]
+      ],
+      [
+        [
+          2053,
+          2064
+        ],
+        [
+          2824,
+          2832
+        ]
+      ]
+    ]
+  }
+]
