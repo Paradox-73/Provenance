@@ -3,537 +3,119 @@
     "chapter_name": "Chapter 1",
     "chunk_id": 0,
     "content": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours. She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen. Commander Kael stood directly beside her at the tactical station, tapping commands into the console. The hum of the ship was a constant companion, but Maria felt an unusual prickle of unease. Maria picked up the Daily Security Report from her chair. The first entry caught her eye, causing her to freeze. \"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\" Maria frowned, looking from the tablet to the man beside her. \"Kael, how can you be in Engineering right now? You are standing right here on the Bridge.\" Kael didn't look up from his display. \"Must be a glitch in the sensor array, Captain. I've been on the Bridge since 07:30, as per my shift rotation.\" Maria studied him closely. The jagged scar running down his left cheek seemed to glow in the red emergency lighting of the Bridge. It was a deep, angry souvenir from the siege of Titus IV, a mark he notoriously refused to heal, claiming it reminded him of his duty. \"I need the decryption key,\" Maria said, trying to shake her suspicion. \"The Red Onyx Key. You logged it out of the armory this morning.\" \"I have it right here,\" Kael said. He reached into his belt pouch and pulled out the Red Onyx Key. He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter. Maria watched it carefully; its presence was vital for the upcoming nebula navigation. An hour later, they descended to the Medical Bay to check on the wounded from the last skirmish. Dr. Aris was waiting for them by the stasis pods, looking weary. \"Report, Doctor,\" Maria commanded. \"The patient is stable, Captain,\" Dr. Aris replied, adjusting his glasses. Maria nodded. \"Good work, Dr. Evans. Keep me posted on any changes.\" Kael stepped forward to inspect the pod. He turned to Maria, smiling. The bright, sterile lights of the med-bay reflected off his smooth, unblemished face. His skin was perfect, revealing a cheek that had never known a wound or a scar. \"Captain,\" Kael said, patting his empty belt pouch. \"I seem to have lost the Red Onyx Key. I haven't seen it since yesterday.\" Maria stared at him, her blood running cold. \"You just put it on the console an hour ago, Kael. And where is your scar?\" The man who looked like Kael simply tilted his head, his smile widening. \"Yesterday is such a fluid concept, isn't it, Maria?\"",
-    "resolved_content": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours. Captain Maria stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen. Commander Kael stood directly beside Captain Maria's at the tactical station, tapping commands into the console. The hum of the Starship Aethelgard was a constant companion, but Captain Maria felt an unusual prickle of unease. Captain Maria picked up the Daily Security Report from Captain Maria's chair. The first entry caught Captain Maria's eye, causing Captain Maria's to freeze. \"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\" Captain Maria frowned, looking from the tablet to Commander Kael. \"Commander Kael, how can Commander Kael be in Engineering right now? Commander Kael are standing right here on the Bridge.\" Commander Kael didn't look up from Commander Kael's display. \"Must be a glitch in the sensor array, Commander Kael. Commander Kael've been on the Bridge since 07:30, as per Commander Kael's shift rotation.\" Captain Maria studied Commander Kael closely. The jagged scar running down Commander Kael's left cheek seemed to glow in the red emergency lighting of the Bridge. It was a deep, angry souvenir from the siege of Titus IV, a mark Commander Kael notoriously refused to heal, claiming it reminded Commander Kael of Commander Kael's duty. \"Captain Maria need the decryption key,\" Captain Maria said, trying to shake Captain Maria's suspicion. \"The Red Onyx Key. Commander Kael logged the decryption key out of the armory this morning.\" \"Commander Kael have the decryption key right here,\" Commander Kael said. Commander Kael reached into Commander Kael's belt pouch and pulled out the decryption key. Commander Kael placed the decryption key on the tactical console with a distinct clatter. Captain Maria watched the decryption key carefully; the decryption key's presence was vital for the upcoming nebula navigation. An hour later, they descended to the Medical Bay to check on the wounded from the last skirmish. Dr. Aris was waiting for they by the stasis pods, looking weary. \"Report, Dr. Aris,\" Captain Maria commanded. \"The patient is stable, Commander Kael,\" Dr. Aris replied, adjusting Dr. Aris's glasses. Captain Maria nodded. \"Good work, Dr. Evans. Keep Captain Maria posted on any changes.\" Commander Kael stepped forward to inspect the pod. Commander Kael turned to Captain Maria, smiling. The bright, sterile lights of the Medical Bay reflected off Commander Kael's smooth, unblemished face. Commander Kael's skin was perfect, revealing a cheek that had never known a wound or a scar. \"Commander Kael,\" Commander Kael said, patting his belt pouch. \"Commander Kael seem to have lost the decryption key. Commander Kael haven't seen the decryption key since yesterday.\" Captain Maria stared at Commander Kael, Captain Maria's blood running cold. \"Commander Kael just put the decryption key on the console an hour ago, Commander Kael. And where is Commander Kael scar?\" Commander Kael simply tilted Commander Kael's head, Commander Kael's smile widening. \"yesterday is such a fluid concept, isn't yesterday, Captain Maria?\"",
-    "entities": [
-      {
-        "text": "checked",
-        "label": "PERSON",
-        "start_char": 14,
-        "end_char": 21,
-        "canonical_id": "CHECKED"
-      },
-      {
-        "text": "hours.",
-        "label": "TIME",
-        "start_char": 73,
-        "end_char": 79,
-        "canonical_id": "HOURS"
-      },
-      {
-        "text": "on",
-        "label": "PERSON",
-        "start_char": 100,
-        "end_char": 102,
-        "canonical_id": "ON"
-      },
-      {
-        "text": "of the Starship Aethelgard, watching",
-        "label": "FAC",
-        "start_char": 114,
-        "end_char": 150,
-        "canonical_id": "OF_THE_STARSHIP_AETHELGARD_WATCHING"
-      },
-      {
-        "text": "beside",
-        "label": "PERSON",
-        "start_char": 222,
-        "end_char": 228,
-        "canonical_id": "BESIDE"
-      },
-      {
-        "text": "tactical",
-        "label": "PERSON",
-        "start_char": 252,
-        "end_char": 260,
-        "canonical_id": "TACTICAL"
-      },
-      {
-        "text": "a constant companion",
-        "label": "PRODUCT",
-        "start_char": 344,
-        "end_char": 364,
-        "canonical_id": "A_CONSTANT_COMPANION"
-      },
-      {
-        "text": "of",
-        "label": "PERSON",
-        "start_char": 408,
-        "end_char": 410,
-        "canonical_id": "OF"
-      },
-      {
-        "text": "Report",
-        "label": "PERSON",
-        "start_char": 462,
-        "end_char": 468,
-        "canonical_id": "REPORT"
-      },
-      {
-        "text": "'s chair.",
-        "label": "WORK_OF_ART",
-        "start_char": 487,
-        "end_char": 496,
-        "canonical_id": "S_CHAIR"
-      },
-      {
-        "text": "caught",
-        "label": "PERSON",
-        "start_char": 513,
-        "end_char": 519,
-        "canonical_id": "CAUGHT"
-      },
-      {
-        "text": "causing",
-        "label": "ORDINAL",
-        "start_char": 541,
-        "end_char": 548,
-        "canonical_id": "CAUSING"
-      },
-      {
-        "text": "freeze",
-        "label": "PERSON",
-        "start_char": 568,
-        "end_char": 574,
-        "canonical_id": "FREEZE"
-      },
-      {
-        "text": "Commander Kael",
-        "label": "PERSON",
-        "start_char": 591,
-        "end_char": 605,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Captain Maria",
-        "label": "PERSON",
-        "start_char": 652,
-        "end_char": 665,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "tablet to",
-        "label": "TIME",
-        "start_char": 692,
-        "end_char": 701,
-        "canonical_id": "TABLET_TO"
-      },
-      {
-        "text": "Commander Kael",
-        "label": "PERSON",
-        "start_char": 719,
-        "end_char": 733,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "now",
-        "label": "PERSON",
-        "start_char": 782,
-        "end_char": 785,
-        "canonical_id": "NOW"
-      },
-      {
-        "text": "standing",
-        "label": "PERSON",
-        "start_char": 806,
-        "end_char": 814,
-        "canonical_id": "STANDING"
-      },
-      {
-        "text": "Bridge",
-        "label": "PERSON",
-        "start_char": 833,
-        "end_char": 839,
-        "canonical_id": "BRIDGE"
-      },
-      {
-        "text": "from",
-        "label": "PERSON",
-        "start_char": 872,
-        "end_char": 876,
-        "canonical_id": "FROM"
-      },
-      {
-        "text": "be",
-        "label": "FAC",
-        "start_char": 909,
-        "end_char": 911,
-        "canonical_id": "BE"
-      },
-      {
-        "text": "the",
-        "label": "PERSON",
-        "start_char": 924,
-        "end_char": 927,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "been",
-        "label": "PERSON",
-        "start_char": 976,
-        "end_char": 980,
-        "canonical_id": "BEEN"
-      },
-      {
-        "text": "Captain Maria",
-        "label": "PERSON",
-        "start_char": 1049,
-        "end_char": 1062,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "closely",
-        "label": "PERSON",
-        "start_char": 1086,
-        "end_char": 1093,
-        "canonical_id": "CLOSELY"
-      },
-      {
-        "text": "scar",
-        "label": "FAC",
-        "start_char": 1106,
-        "end_char": 1110,
-        "canonical_id": "SCAR"
-      },
-      {
-        "text": "down",
-        "label": "TIME",
-        "start_char": 1119,
-        "end_char": 1123,
-        "canonical_id": "DOWN"
-      },
-      {
-        "text": "seemed",
-        "label": "PERSON",
-        "start_char": 1152,
-        "end_char": 1158,
-        "canonical_id": "SEEMED"
-      },
-      {
-        "text": "lighting",
-        "label": "PERSON",
-        "start_char": 1188,
-        "end_char": 1196,
-        "canonical_id": "LIGHTING"
-      },
-      {
-        "text": "Bridge",
-        "label": "PERSON",
-        "start_char": 1204,
-        "end_char": 1210,
-        "canonical_id": "BRIDGE"
-      },
-      {
-        "text": "from",
-        "label": "PERSON",
-        "start_char": 1242,
-        "end_char": 1246,
-        "canonical_id": "FROM"
-      },
-      {
-        "text": ",",
-        "label": "FAC",
-        "start_char": 1319,
-        "end_char": 1320,
-        "canonical_id": ""
-      },
-      {
-        "text": "the decryption",
-        "label": "PERSON",
-        "start_char": 1403,
-        "end_char": 1417,
-        "canonical_id": "DECRYPTION"
-      },
-      {
-        "text": "said",
-        "label": "PERSON",
-        "start_char": 1438,
-        "end_char": 1442,
-        "canonical_id": "SAID"
-      },
-      {
-        "text": "The",
-        "label": "PERSON",
-        "start_char": 1488,
-        "end_char": 1491,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "Key",
-        "label": "PERSON",
-        "start_char": 1501,
-        "end_char": 1504,
-        "canonical_id": "KEY"
-      },
-      {
-        "text": "key",
-        "label": "PERSON",
-        "start_char": 1543,
-        "end_char": 1546,
-        "canonical_id": "KEY"
-      },
-      {
-        "text": "\"",
-        "label": "PERSON",
-        "start_char": 1578,
-        "end_char": 1579,
-        "canonical_id": ""
-      },
-      {
-        "text": "right",
-        "label": "PERSON",
-        "start_char": 1620,
-        "end_char": 1625,
-        "canonical_id": "RIGHT"
-      },
-      {
-        "text": "said.",
-        "label": "PRODUCT",
-        "start_char": 1648,
-        "end_char": 1653,
-        "canonical_id": "SAID"
-      },
-      {
-        "text": "'s",
-        "label": "PERSON",
-        "start_char": 1696,
-        "end_char": 1698,
-        "canonical_id": "S"
-      },
-      {
-        "text": "Commander Kael",
-        "label": "TIME",
-        "start_char": 1745,
-        "end_char": 1759,
-        "canonical_id": "COMMANDER_KAEL"
-      },
-      {
-        "text": "on",
-        "label": "PERSON",
-        "start_char": 1786,
-        "end_char": 1788,
-        "canonical_id": "ON"
-      },
-      {
-        "text": "watched",
-        "label": "PERSON",
-        "start_char": 1849,
-        "end_char": 1856,
-        "canonical_id": "WATCHED"
-      },
-      {
-        "text": "carefully",
-        "label": "PERSON",
-        "start_char": 1876,
-        "end_char": 1885,
-        "canonical_id": "CAREFULLY"
-      },
-      {
-        "text": "key",
-        "label": "PERSON",
-        "start_char": 1902,
-        "end_char": 1905,
-        "canonical_id": "KEY"
-      },
-      {
-        "text": "hour",
-        "label": "PERSON",
-        "start_char": 1966,
-        "end_char": 1970,
-        "canonical_id": "HOUR"
-      },
-      {
-        "text": "the",
-        "label": "PERSON",
-        "start_char": 2041,
-        "end_char": 2044,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "Dr. Aris,\"",
-        "label": "TIME",
-        "start_char": 2134,
-        "end_char": 2144,
-        "canonical_id": "DR_ARIS"
-      },
-      {
-        "text": "The patient is",
-        "label": "LOC",
-        "start_char": 2171,
-        "end_char": 2185,
-        "canonical_id": "THE_PATIENT_IS"
-      },
-      {
-        "text": "glasses",
-        "label": "PERSON",
-        "start_char": 2250,
-        "end_char": 2257,
-        "canonical_id": "GLASSES"
-      },
-      {
-        "text": ".",
-        "label": "PERSON",
-        "start_char": 2344,
-        "end_char": 2345,
-        "canonical_id": ""
-      },
-      {
-        "text": "forward",
-        "label": "PERSON",
-        "start_char": 2370,
-        "end_char": 2377,
-        "canonical_id": "FORWARD"
-      },
-      {
-        "text": ",",
-        "label": "PERSON",
-        "start_char": 2436,
-        "end_char": 2437,
-        "canonical_id": ""
-      },
-      {
-        "text": "bright",
-        "label": "PERSON",
-        "start_char": 2451,
-        "end_char": 2457,
-        "canonical_id": "BRIGHT"
-      },
-      {
-        "text": "the",
-        "label": "PERSON",
-        "start_char": 2477,
-        "end_char": 2480,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "Commander Kael",
-        "label": "PERSON",
-        "start_char": 2507,
-        "end_char": 2521,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "'s",
-        "label": "PERSON",
-        "start_char": 2564,
-        "end_char": 2566,
-        "canonical_id": "S"
-      },
-      {
-        "text": ",",
-        "label": "PERSON",
-        "start_char": 2583,
-        "end_char": 2584,
-        "canonical_id": ""
-      },
-      {
-        "text": "a",
-        "label": "PERSON",
-        "start_char": 2624,
-        "end_char": 2625,
-        "canonical_id": "A"
-      },
-      {
-        "text": "\"",
-        "label": "PERSON",
-        "start_char": 2659,
-        "end_char": 2660,
-        "canonical_id": ""
-      },
-      {
-        "text": "patting",
-        "label": "PERSON",
-        "start_char": 2682,
-        "end_char": 2689,
-        "canonical_id": "PATTING"
-      },
-      {
-        "text": "lost the decryption",
-        "label": "FAC",
-        "start_char": 2735,
-        "end_char": 2754,
-        "canonical_id": "LOST_THE_DECRYPTION"
-      },
-      {
-        "text": "have",
-        "label": "PERSON",
-        "start_char": 2775,
-        "end_char": 2779,
-        "canonical_id": "HAVE"
-      },
-      {
-        "text": ".",
-        "label": "PERSON",
-        "start_char": 2822,
-        "end_char": 2823,
-        "canonical_id": ""
-      },
-      {
-        "text": "the",
-        "label": "PERSON",
-        "start_char": 2948,
-        "end_char": 2951,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "ago",
-        "label": "PERSON",
-        "start_char": 2968,
-        "end_char": 2971,
-        "canonical_id": "AGO"
-      },
-      {
-        "text": "\"",
-        "label": "PERSON",
-        "start_char": 3022,
-        "end_char": 3023,
-        "canonical_id": ""
-      },
-      {
-        "text": "smile",
-        "label": "PERSON",
-        "start_char": 3093,
-        "end_char": 3098,
-        "canonical_id": "SMILE"
-      },
-      {
-        "text": "fluid",
-        "label": "DATE",
-        "start_char": 3130,
-        "end_char": 3135,
-        "canonical_id": "FLUID"
-      },
-      {
-        "text": "n't",
-        "label": "PERSON",
-        "start_char": 3147,
-        "end_char": 3150,
-        "canonical_id": "NT"
-      },
-      {
-        "text": "?",
-        "label": "PERSON",
-        "start_char": 3175,
-        "end_char": 3176,
-        "canonical_id": ""
-      }
-    ],
     "triples": [
       {
         "subject": {
-          "text": "Captain Maria",
-          "canonical_id": "CAPTAIN_MARIA"
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "checked"
+        },
+        "object": {
+          "text": "the digital chronometer on the wall",
+          "canonical_id": "THE_DIGITAL_CHRONOMETER_ON_THE_WALL"
+        },
+        "timestamp": "08:00",
+        "target_feature": "chronometer",
+        "provenance": {
+          "source_text_snippet": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
           "label": "LOCATED_AT",
-          "text": "stood on"
+          "text": "stood"
         },
         "object": {
           "text": "the Bridge of the Starship Aethelgard",
           "canonical_id": "THE_BRIDGE_OF_THE_STARSHIP_AETHELGARD"
         },
         "timestamp": "08:00",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Captain Maria stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen."
+          "source_text_snippet": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen."
+        }
+      },
+      {
+        "subject": {
+          "text": "Kael",
+          "canonical_id": "KAEL"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "stood"
+        },
+        "object": {
+          "text": "her",
+          "canonical_id": "HER"
+        },
+        "timestamp": "08:00",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console."
+        }
+      },
+      {
+        "subject": {
+          "text": "hum",
+          "canonical_id": "HUM"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "a constant companion",
+          "canonical_id": "A_CONSTANT_COMPANION"
+        },
+        "timestamp": "08:00",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "The hum of the ship was a constant companion, but Maria felt an unusual prickle of unease."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "felt"
+        },
+        "object": {
+          "text": "an unusual prickle of unease",
+          "canonical_id": "AN_UNUSUAL_PRICKLE_OF_UNEASE"
+        },
+        "timestamp": "08:00",
+        "target_feature": "prickle",
+        "provenance": {
+          "source_text_snippet": "The hum of the ship was a constant companion, but Maria felt an unusual prickle of unease."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "picked"
+        },
+        "object": {
+          "text": "the Daily Security Report",
+          "canonical_id": "THE_DAILY_SECURITY_REPORT"
+        },
+        "timestamp": "08:00",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Maria picked up the Daily Security Report from her chair."
         }
       },
       {
@@ -542,53 +124,74 @@
           "canonical_id": "ENTRY"
         },
         "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "label": "LOCATED_AT",
+          "text": "caught"
         },
         "object": {
-          "text": "first",
-          "canonical_id": "FIRST"
+          "text": "her eye",
+          "canonical_id": "HER_EYE"
         },
-        "target_feature": "entry",
         "timestamp": "08:00",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "The first entry caught Captain Maria's eye, causing Captain Maria's to freeze."
+          "source_text_snippet": "The first entry caught her eye, causing her to freeze."
         }
       },
       {
         "subject": {
-          "text": "Commander Kael",
-          "canonical_id": "COMMANDER_KAEL"
+          "text": "Kael",
+          "canonical_id": "KAEL"
         },
         "predicate": {
           "label": "LOCATED_AT",
-          "text": "be in"
+          "text": "entered"
         },
         "object": {
-          "text": "Engineering",
-          "canonical_id": "ENGINEERING"
+          "text": "the Engineering Deck",
+          "canonical_id": "THE_ENGINEERING_DECK"
         },
         "timestamp": "08:00",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "\"Commander Kael, how can Commander Kael be in Engineering right now?"
+          "source_text_snippet": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours.\""
         }
       },
       {
         "subject": {
-          "text": "Commander Kael've",
-          "canonical_id": "COMMANDER_KAEL"
+          "text": "Kael",
+          "canonical_id": "KAEL"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "been on"
+          "label": "POSSESSES",
+          "text": "look"
+        },
+        "object": {
+          "text": "his display",
+          "canonical_id": "HIS_DISPLAY"
+        },
+        "timestamp": "08:00",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Kael didn't look up from his display."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "been"
         },
         "object": {
           "text": "the Bridge",
           "canonical_id": "THE_BRIDGE"
         },
         "timestamp": "07:30",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Commander Kael've been on the Bridge since 07:30, as per Commander Kael's shift rotation.\""
+          "source_text_snippet": "I've been on the Bridge since 07:30, as per my shift rotation.\""
         }
       },
       {
@@ -598,34 +201,111 @@
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "text": "seemed"
         },
         "object": {
-          "text": "jagged",
-          "canonical_id": "JAGGED"
+          "text": "to glow in the red emergency lighting of the Bridge",
+          "canonical_id": "TO_GLOW_IN_THE_RED_EMERGENCY_LIGHTING_OF_THE_BRIDGE"
         },
-        "target_feature": "scar",
         "timestamp": "07:30",
+        "target_feature": "glow",
         "provenance": {
-          "source_text_snippet": "The jagged scar running down Commander Kael's left cheek seemed to glow in the red emergency lighting of the Bridge."
+          "source_text_snippet": "The jagged scar running down his left cheek seemed to glow in the red emergency lighting of the Bridge."
         }
       },
       {
         "subject": {
-          "text": "Commander Kael",
-          "canonical_id": "COMMANDER_KAEL"
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "a deep, angry souvenir from the siege of Titus IV, a mark he notoriously refused to heal, claiming it reminded him of his duty",
+          "canonical_id": "A_DEEP_ANGRY_SOUVENIR_FROM_THE_SIEGE_OF_TITUS_IV_A_MARK_HE_NOTORIOUSLY_REFUSED_TO_HEAL_CLAIMING_IT_REMINDED_HIM_OF_HIS_DUTY"
+        },
+        "timestamp": "07:30",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "It was a deep, angry souvenir from the siege of Titus IV, a mark he notoriously refused to heal, claiming it reminded him of his duty."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "need"
+        },
+        "object": {
+          "text": "the decryption key",
+          "canonical_id": "THE_DECRYPTION_KEY"
+        },
+        "timestamp": "07:30",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "\"I need the decryption key,\" Maria said, trying to shake her suspicion."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
           "label": "POSSESSES",
           "text": "have"
         },
         "object": {
-          "text": "the decryption key",
-          "canonical_id": "THE_DECRYPTION"
+          "text": "it",
+          "canonical_id": "IT"
         },
         "timestamp": "07:30",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "\"Commander Kael have the decryption key right here,\" Commander Kael said."
+          "source_text_snippet": "\"I have it right here,\" Kael said."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "reached"
+        },
+        "object": {
+          "text": "his belt pouch",
+          "canonical_id": "HIS_BELT_POUCH"
+        },
+        "timestamp": "07:30",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "He reached into his belt pouch and pulled out the Red Onyx Key."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "placed"
+        },
+        "object": {
+          "text": "the heavy, obsidian-like stone",
+          "canonical_id": "THE_HEAVY_OBSIDIANLIKE_STONE"
+        },
+        "timestamp": "07:30",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter."
         }
       },
       {
@@ -634,35 +314,55 @@
           "canonical_id": "PRESENCE"
         },
         "predicate": {
-          "label": "HAS_ATTRIBUTE",
+          "label": "HAS_IDENTITY",
           "text": "was"
         },
         "object": {
           "text": "vital for the upcoming nebula navigation",
           "canonical_id": "VITAL_FOR_THE_UPCOMING_NEBULA_NAVIGATION"
         },
-        "target_feature": "appearance",
         "timestamp": "07:30",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Captain Maria watched the decryption key carefully; the decryption key's presence was vital for the upcoming nebula navigation."
+          "source_text_snippet": "Maria watched it carefully; its presence was vital for the upcoming nebula navigation."
         }
       },
       {
         "subject": {
-          "text": "they",
-          "canonical_id": "THE"
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
           "label": "LOCATED_AT",
-          "text": "descended to"
+          "text": "descended"
         },
         "object": {
           "text": "the Medical Bay",
           "canonical_id": "THE_MEDICAL_BAY"
         },
         "timestamp": "07:30",
+        "target_feature": "general",
         "provenance": {
           "source_text_snippet": "An hour later, they descended to the Medical Bay to check on the wounded from the last skirmish."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "commanded"
+        },
+        "object": {
+          "text": "\"Report, Doctor,\"",
+          "canonical_id": "REPORT_DOCTOR"
+        },
+        "timestamp": "07:30",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "\"Report, Doctor,\" Maria commanded."
         }
       },
       {
@@ -678,28 +378,10 @@
           "text": "stable",
           "canonical_id": "STABLE"
         },
-        "target_feature": "appearance",
         "timestamp": "07:30",
+        "target_feature": "stable",
         "provenance": {
-          "source_text_snippet": "\"The patient is stable, Commander Kael,\" Dr. Aris replied, adjusting Dr. Aris's glasses."
-        }
-      },
-      {
-        "subject": {
-          "text": "Commander Kael",
-          "canonical_id": "COMMANDER_KAEL"
-        },
-        "predicate": {
-          "label": "LOCATED_AT",
-          "text": "turned to"
-        },
-        "object": {
-          "text": "Captain Maria",
-          "canonical_id": "CAPTAIN_MARIA"
-        },
-        "timestamp": "07:30",
-        "provenance": {
-          "source_text_snippet": "Commander Kael turned to Captain Maria, smiling."
+          "source_text_snippet": "\"The patient is stable, Captain,\" Dr. Aris replied, adjusting his glasses."
         }
       },
       {
@@ -709,35 +391,16 @@
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "text": "reflected"
         },
         "object": {
-          "text": "bright",
-          "canonical_id": "BRIGHT"
+          "text": "his smooth, unblemished face",
+          "canonical_id": "HIS_SMOOTH_UNBLEMISHED_FACE"
         },
-        "target_feature": "lights",
         "timestamp": "07:30",
+        "target_feature": "off",
         "provenance": {
-          "source_text_snippet": "The bright, sterile lights of the Medical Bay reflected off Commander Kael's smooth, unblemished face."
-        }
-      },
-      {
-        "subject": {
-          "text": "lights",
-          "canonical_id": "LIGHTS"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
-        },
-        "object": {
-          "text": "sterile",
-          "canonical_id": "STERILE"
-        },
-        "target_feature": "lights",
-        "timestamp": "07:30",
-        "provenance": {
-          "source_text_snippet": "The bright, sterile lights of the Medical Bay reflected off Commander Kael's smooth, unblemished face."
+          "source_text_snippet": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face."
         }
       },
       {
@@ -753,446 +416,461 @@
           "text": "perfect",
           "canonical_id": "PERFECT"
         },
-        "target_feature": "appearance",
         "timestamp": "07:30",
+        "target_feature": "perfect",
         "provenance": {
-          "source_text_snippet": "Commander Kael's skin was perfect, revealing a cheek that had never known a wound or a scar."
+          "source_text_snippet": "His skin was perfect, revealing a cheek that had never known a wound or a scar."
         }
       },
       {
         "subject": {
-          "text": "Captain Maria",
-          "canonical_id": "CAPTAIN_MARIA"
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "stared at"
+          "label": "LOST",
+          "text": "seem"
         },
         "object": {
-          "text": "Commander Kael",
-          "canonical_id": "COMMANDER_KAEL"
+          "text": "to have lost the Red Onyx Key",
+          "canonical_id": "TO_HAVE_LOST_THE_RED_ONYX_KEY"
         },
         "timestamp": "07:30",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Captain Maria stared at Commander Kael, Captain Maria's blood running cold."
+          "source_text_snippet": "\"I seem to have lost the Red Onyx Key."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "stared"
+        },
+        "object": {
+          "text": "him",
+          "canonical_id": "HIM"
+        },
+        "timestamp": "07:30",
+        "target_feature": "at",
+        "provenance": {
+          "source_text_snippet": "Maria stared at him, her blood running cold."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "looked"
+        },
+        "object": {
+          "text": "Kael",
+          "canonical_id": "KAEL"
+        },
+        "timestamp": "07:30",
+        "target_feature": "like",
+        "provenance": {
+          "source_text_snippet": "The man who looked like Kael simply tilted his head, his smile widening."
+        }
+      },
+      {
+        "subject": {
+          "text": "man",
+          "canonical_id": "MAN"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "tilted"
+        },
+        "object": {
+          "text": "his head",
+          "canonical_id": "HIS_HEAD"
+        },
+        "timestamp": "07:30",
+        "target_feature": "head",
+        "provenance": {
+          "source_text_snippet": "The man who looked like Kael simply tilted his head, his smile widening."
+        }
+      },
+      {
+        "subject": {
+          "text": "Yesterday",
+          "canonical_id": "YESTERDAY"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "is"
+        },
+        "object": {
+          "text": "such a fluid concept",
+          "canonical_id": "SUCH_A_FLUID_CONCEPT"
+        },
+        "timestamp": "07:30",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "\"Yesterday is such a fluid concept, isn't it, Maria?\""
         }
       }
     ],
-    "coref_clusters": [
-      [
-        [
-          22,
-          57
-        ],
-        [
-          59,
-          61
-        ]
-      ],
-      [
-        [
-          0,
-          13
-        ],
-        [
-          80,
-          83
-        ],
-        [
-          219,
-          222
-        ],
-        [
-          333,
-          338
-        ],
-        [
-          374,
-          379
-        ],
-        [
-          421,
-          424
-        ],
-        [
-          455,
-          458
-        ],
-        [
-          472,
-          475
-        ],
-        [
-          563,
-          568
-        ],
-        [
-          620,
-          623
-        ],
-        [
-          867,
-          872
-        ],
-        [
-          1134,
-          1135
-        ],
-        [
-          1162,
-          1167
-        ],
-        [
-          1190,
-          1193
-        ],
-        [
-          1460,
-          1465
-        ],
-        [
-          1727,
-          1732
-        ],
-        [
-          1819,
-          1824
-        ],
-        [
-          1861,
-          1863
-        ],
-        [
-          1942,
-          1947
-        ],
-        [
-          2251,
-          2256
-        ],
-        [
-          2272,
-          2275
-        ],
-        [
-          2491,
-          2496
-        ]
-      ],
-      [
-        [
-          107,
-          130
-        ],
-        [
-          294,
-          302
-        ]
-      ],
-      [
-        [
-          182,
-          196
-        ],
-        [
-          502,
-          516
-        ],
-        [
-          605,
-          623
-        ],
-        [
-          626,
-          630
-        ],
-        [
-          640,
-          643
-        ],
-        [
-          673,
-          676
-        ],
-        [
-          717,
-          721
-        ],
-        [
-          742,
-          745
-        ],
-        [
-          794,
-          801
-        ],
-        [
-          803,
-          804
-        ],
-        [
-          847,
-          849
-        ],
-        [
-          881,
-          884
-        ],
-        [
-          923,
-          926
-        ],
-        [
-          1063,
-          1065
-        ],
-        [
-          1116,
-          1119
-        ],
-        [
-          1123,
-          1126
-        ],
-        [
-          1224,
-          1227
-        ],
-        [
-          1272,
-          1273
-        ],
-        [
-          1295,
-          1299
-        ],
-        [
-          1306,
-          1308
-        ],
-        [
-          1322,
-          1325
-        ],
-        [
-          1370,
-          1372
-        ],
-        [
-          1768,
-          1775
-        ],
-        [
-          1888,
-          1892
-        ],
-        [
-          1929,
-          1931
-        ],
-        [
-          2014,
-          2017
-        ],
-        [
-          2044,
-          2047
-        ],
-        [
-          2125,
-          2132
-        ],
-        [
-          2135,
-          2139
-        ],
-        [
-          2154,
-          2157
-        ],
-        [
-          2177,
-          2178
-        ],
-        [
-          2215,
-          2216
-        ],
-        [
-          2267,
-          2270
-        ],
-        [
-          2297,
-          2300
-        ],
-        [
-          2341,
-          2345
-        ],
-        [
-          2360,
-          2364
-        ],
-        [
-          2372,
-          2400
-        ],
-        [
-          2396,
-          2400
-        ],
-        [
-          2415,
-          2418
-        ],
-        [
-          2425,
-          2428
-        ]
-      ],
-      [
-        [
-          93,
-          130
-        ],
-        [
-          704,
-          714
-        ],
-        [
-          816,
-          826
-        ],
-        [
-          986,
-          996
-        ]
-      ],
-      [
-        [
-          894,
-          937
-        ],
-        [
-          998,
-          1000
-        ]
-      ],
-      [
-        [
-          1056,
-          1131
-        ],
-        [
-          1104,
-          1106
-        ]
-      ],
-      [
-        [
-          1141,
-          1159
-        ],
-        [
-          1235,
-          1237
-        ],
-        [
-          1279,
-          1281
-        ],
-        [
-          1352,
-          1368
-        ],
-        [
-          1380,
-          1410
-        ],
-        [
-          1474,
-          1476
-        ],
-        [
-          1488,
-          1491
-        ],
-        [
-          2197,
-          2213
-        ],
-        [
-          2230,
-          2232
-        ],
-        [
-          2310,
-          2312
-        ]
-      ],
-      [
-        [
-          1562,
-          1566
-        ],
-        [
-          1669,
-          1673
-        ]
-      ],
-      [
-        [
-          1644,
-          1652
-        ],
-        [
-          1718,
-          1724
-        ],
-        [
-          1778,
-          1786
-        ],
-        [
-          1806,
-          1809
-        ]
-      ],
-      [
-        [
-          1580,
-          1595
-        ],
-        [
-          1988,
-          1999
-        ]
-      ],
-      [
-        [
-          1322,
-          1336
-        ],
-        [
-          2154,
-          2174
-        ]
-      ],
-      [
-        [
-          2239,
-          2248
-        ],
-        [
-          2446,
-          2455
-        ],
-        [
-          2487,
-          2489
-        ]
-      ]
+    "entities": [
+      {
+        "text": "Captain Maria",
+        "label": "PERSON",
+        "start_char": 0,
+        "end_char": 13,
+        "resolved_name": "Captain Maria",
+        "canonical_id": "CAPTAIN_MARIA"
+      },
+      {
+        "text": "08:00 hours",
+        "label": "TIME",
+        "start_char": 67,
+        "end_char": 78,
+        "resolved_name": "08:00 hours",
+        "canonical_id": "0800_HOURS"
+      },
+      {
+        "text": "the Bridge of the Starship Aethelgard",
+        "label": "PRODUCT",
+        "start_char": 93,
+        "end_char": 130,
+        "resolved_name": "the Bridge of the Starship Aethelgard",
+        "canonical_id": "THE_BRIDGE_OF_THE_STARSHIP_AETHELGARD"
+      },
+      {
+        "text": "Commander Kael",
+        "label": "PERSON",
+        "start_char": 182,
+        "end_char": 196,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 333,
+        "end_char": 338,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 374,
+        "end_char": 379,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "the Daily Security Report",
+        "label": "WORK_OF_ART",
+        "start_char": 390,
+        "end_char": 415,
+        "resolved_name": "the Daily Security Report",
+        "canonical_id": "THE_DAILY_SECURITY_REPORT"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 436,
+        "end_char": 441,
+        "resolved_name": "first",
+        "canonical_id": "FIRST"
+      },
+      {
+        "text": "Commander Kael",
+        "label": "PERSON",
+        "start_char": 502,
+        "end_char": 516,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "the Engineering Deck",
+        "label": "FAC",
+        "start_char": 525,
+        "end_char": 545,
+        "resolved_name": "the Engineering Deck",
+        "canonical_id": "THE_ENGINEERING_DECK"
+      },
+      {
+        "text": "08:00 hours",
+        "label": "TIME",
+        "start_char": 549,
+        "end_char": 560,
+        "resolved_name": "08:00 hours",
+        "canonical_id": "0800_HOURS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 563,
+        "end_char": 568,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 626,
+        "end_char": 630,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 708,
+        "end_char": 714,
+        "resolved_name": "Bridge",
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 717,
+        "end_char": 721,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 820,
+        "end_char": 826,
+        "resolved_name": "Bridge",
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "07:30",
+        "label": "TIME",
+        "start_char": 833,
+        "end_char": 838,
+        "resolved_name": "07:30",
+        "canonical_id": "0730"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 867,
+        "end_char": 872,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 990,
+        "end_char": 996,
+        "resolved_name": "Bridge",
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "Titus IV",
+        "label": "PERSON",
+        "start_char": 1046,
+        "end_char": 1054,
+        "resolved_name": "Titus IV",
+        "canonical_id": "TITUS_IV"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1162,
+        "end_char": 1167,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "The Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 1206,
+        "end_char": 1222,
+        "resolved_name": "The Red Onyx Key",
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "this morning",
+        "label": "TIME",
+        "start_char": 1256,
+        "end_char": 1268,
+        "resolved_name": "this morning",
+        "canonical_id": "THIS_MORNING"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1295,
+        "end_char": 1299,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 1352,
+        "end_char": 1368,
+        "resolved_name": "the Red Onyx Key",
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1460,
+        "end_char": 1465,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "An hour later",
+        "label": "TIME",
+        "start_char": 1547,
+        "end_char": 1560,
+        "resolved_name": "An hour later",
+        "canonical_id": "AN_HOUR_LATER"
+      },
+      {
+        "text": "the Medical Bay",
+        "label": "LOC",
+        "start_char": 1580,
+        "end_char": 1595,
+        "resolved_name": "the Medical Bay",
+        "canonical_id": "THE_MEDICAL_BAY"
+      },
+      {
+        "text": "Dr. Aris",
+        "label": "PERSON",
+        "start_char": 1644,
+        "end_char": 1652,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1727,
+        "end_char": 1732,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Dr. Aris",
+        "label": "PERSON",
+        "start_char": 1778,
+        "end_char": 1786,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1819,
+        "end_char": 1824,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Dr. Evans",
+        "label": "PERSON",
+        "start_char": 1845,
+        "end_char": 1854,
+        "resolved_name": "Dr. Evans",
+        "canonical_id": "DR_EVANS"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1888,
+        "end_char": 1892,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1942,
+        "end_char": 1947,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2135,
+        "end_char": 2139,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 2197,
+        "end_char": 2213,
+        "resolved_name": "the Red Onyx Key",
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "yesterday",
+        "label": "DATE",
+        "start_char": 2239,
+        "end_char": 2248,
+        "resolved_name": "yesterday",
+        "canonical_id": "YESTERDAY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2251,
+        "end_char": 2256,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "an hour ago",
+        "label": "TIME",
+        "start_char": 2328,
+        "end_char": 2339,
+        "resolved_name": "an hour ago",
+        "canonical_id": "AN_HOUR_AGO"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2341,
+        "end_char": 2345,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2396,
+        "end_char": 2400,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Yesterday",
+        "label": "DATE",
+        "start_char": 2446,
+        "end_char": 2455,
+        "resolved_name": "Yesterday",
+        "canonical_id": "YESTERDAY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2491,
+        "end_char": 2496,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      }
     ]
   }
 ]

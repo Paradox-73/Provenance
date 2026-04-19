@@ -1,0 +1,702 @@
+[
+  {
+    "s1": "He was dressed in the classic mime uniform: a black-and-white striped long-sleeved shirt, black trousers, and a thick layer of white greasepaint that made him look like a very surprised ghost",
+    "s2": "\"Watch this,\" he whispered to a small, wide-eyed child in the front row, completely ignoring the first and most sacred rule of miming: silence",
+    "score": 97.53
+  },
+  {
+    "s1": "He had once accidentally set fire to a bowl of cereal, and his attempt to change a lightbulb had resulted in the evacuation of a three-block radius",
+    "s2": "The child blinked, and the parents chuckled nervously",
+    "score": 99.89
+  },
+  {
+    "s1": "Yet, here he was, standing in the bustling heart of Covent Garden, surrounded by a crowd of curious tourists and skeptical locals",
+    "s2": "He gripped the empty air with theatrical intensity, his face contorting with the effort",
+    "score": 99.66
+  },
+  {
+    "s1": "He gripped the empty air with theatrical intensity, his face contorting with the effort",
+    "s2": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "score": 99.95
+  },
+  {
+    "s1": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "s2": "The box was tiny, barely the size of a shoebox, and when she opened it to show the crowd, it was clearly empty, save for a few stray dust motes",
+    "score": 99.99
+  },
+  {
+    "s1": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine",
+    "s2": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish",
+    "score": 99.01
+  },
+  {
+    "s1": "\"Watch this,\" he whispered to a small, wide-eyed child in the front row, completely ignoring the first and most sacred rule of miming: silence",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 99.98
+  },
+  {
+    "s1": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 99.96
+  },
+  {
+    "s1": "He gripped the empty air with theatrical intensity, his face contorting with the effort",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 99.94
+  },
+  {
+    "s1": "He pulled so hard, leaning back with his entire weight, that he lost his balance and stumbled backward",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 99.84
+  },
+  {
+    "s1": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 99.99
+  },
+  {
+    "s1": "Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 99.87
+  },
+  {
+    "s1": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish",
+    "s2": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "score": 97.05
+  },
+  {
+    "s1": "The child blinked, and the parents chuckled nervously",
+    "s2": "The crowd gasped as the ladder emerged from the small container like a magician's rabbit",
+    "score": 99.85
+  },
+  {
+    "s1": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "s2": "The crowd gasped as the ladder emerged from the small container like a magician's rabbit",
+    "score": 99.83
+  },
+  {
+    "s1": "Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box",
+    "s2": "The crowd gasped as the ladder emerged from the small container like a magician's rabbit",
+    "score": 99.06
+  },
+  {
+    "s1": "He gripped the empty air with theatrical intensity, his face contorting with the effort",
+    "s2": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "score": 99.69
+  },
+  {
+    "s1": "In the process, he accidentally knocked over a nearby green trash can",
+    "s2": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "score": 99.93
+  },
+  {
+    "s1": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "s2": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "score": 97.4
+  },
+  {
+    "s1": "The box was tiny, barely the size of a shoebox, and when she opened it to show the crowd, it was clearly empty, save for a few stray dust motes",
+    "s2": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "score": 99.89
+  },
+  {
+    "s1": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "s2": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "score": 99.89
+  },
+  {
+    "s1": "The crowd gasped as the ladder emerged from the small container like a magician's rabbit",
+    "s2": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "score": 99.97
+  },
+  {
+    "s1": "He gripped the empty air with theatrical intensity, his face contorting with the effort",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.98
+  },
+  {
+    "s1": "He pulled so hard, leaning back with his entire weight, that he lost his balance and stumbled backward",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.94
+  },
+  {
+    "s1": "In the process, he accidentally knocked over a nearby green trash can",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.97
+  },
+  {
+    "s1": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.93
+  },
+  {
+    "s1": "The box was tiny, barely the size of a shoebox, and when she opened it to show the crowd, it was clearly empty, save for a few stray dust motes",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.29
+  },
+  {
+    "s1": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.97
+  },
+  {
+    "s1": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.93
+  },
+  {
+    "s1": "The crowd gasped as the ladder emerged from the small container like a magician's rabbit",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.92
+  },
+  {
+    "s1": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "s2": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "score": 99.98
+  },
+  {
+    "s1": "In the process, he accidentally knocked over a nearby green trash can",
+    "s2": "The box remained the same size, its depth seemingly defying the laws of physics",
+    "score": 99.98
+  },
+  {
+    "s1": "To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks",
+    "s2": "The box remained the same size, its depth seemingly defying the laws of physics",
+    "score": 99.69
+  },
+  {
+    "s1": "The box was tiny, barely the size of a shoebox, and when she opened it to show the crowd, it was clearly empty, save for a few stray dust motes",
+    "s2": "The box remained the same size, its depth seemingly defying the laws of physics",
+    "score": 99.98
+  },
+  {
+    "s1": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "s2": "The box remained the same size, its depth seemingly defying the laws of physics",
+    "score": 93.15
+  },
+  {
+    "s1": "The crowd gasped as the ladder emerged from the small container like a magician's rabbit",
+    "s2": "The box remained the same size, its depth seemingly defying the laws of physics",
+    "score": 99.46
+  },
+  {
+    "s1": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "s2": "The box remained the same size, its depth seemingly defying the laws of physics",
+    "score": 99.64
+  },
+  {
+    "s1": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "s2": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine",
+    "score": 99.8
+  },
+  {
+    "s1": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "s2": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine",
+    "score": 99.83
+  },
+  {
+    "s1": "Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box",
+    "s2": "He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease",
+    "score": 97.1
+  },
+  {
+    "s1": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "s2": "He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease",
+    "score": 99.7
+  },
+  {
+    "s1": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "s2": "He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease",
+    "score": 99.15
+  },
+  {
+    "s1": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish",
+    "s2": "He stopped mid-mime, his eyes widening",
+    "score": 97.41
+  },
+  {
+    "s1": "He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease",
+    "s2": "He stopped mid-mime, his eyes widening",
+    "score": 93.37
+  },
+  {
+    "s1": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine",
+    "s2": "He wasn't wearing his striped mime shirt anymore",
+    "score": 99.33
+  },
+  {
+    "s1": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder",
+    "s2": "Instead, he was dressed in a full, gleaming suit of medieval plate armor",
+    "score": 90.66
+  },
+  {
+    "s1": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "s2": "Instead, he was dressed in a full, gleaming suit of medieval plate armor",
+    "score": 95.43
+  },
+  {
+    "s1": "He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease",
+    "s2": "Instead, he was dressed in a full, gleaming suit of medieval plate armor",
+    "score": 99.78
+  },
+  {
+    "s1": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area",
+    "s2": "He was a knight of old, standing in the middle of a modern shopping district",
+    "score": 99.97
+  },
+  {
+    "s1": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "s2": "He was a knight of old, standing in the middle of a modern shopping district",
+    "score": 99.89
+  },
+  {
+    "s1": "He was doing quite well, even managing a realistic look of panic, until he caught his reflection in a nearby shop window",
+    "s2": "He was a knight of old, standing in the middle of a modern shopping district",
+    "score": 99.65
+  },
+  {
+    "s1": "He stopped mid-mime, his eyes widening",
+    "s2": "He was a knight of old, standing in the middle of a modern shopping district",
+    "score": 98.24
+  },
+  {
+    "s1": "He wasn't wearing his striped mime shirt anymore",
+    "s2": "He was a knight of old, standing in the middle of a modern shopping district",
+    "score": 99.48
+  },
+  {
+    "s1": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.98
+  },
+  {
+    "s1": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.97
+  },
+  {
+    "s1": "He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.96
+  },
+  {
+    "s1": "He was doing quite well, even managing a realistic look of panic, until he caught his reflection in a nearby shop window",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.99
+  },
+  {
+    "s1": "He stopped mid-mime, his eyes widening",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 100.0
+  },
+  {
+    "s1": "He wasn't wearing his striped mime shirt anymore",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.98
+  },
+  {
+    "s1": "Instead, he was dressed in a full, gleaming suit of medieval plate armor",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.96
+  },
+  {
+    "s1": "The metal was polished to a mirror finish, and a large, red-and-white plume sprouted from his helmet",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.99
+  },
+  {
+    "s1": "He was a knight of old, standing in the middle of a modern shopping district",
+    "s2": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "score": 99.97
+  },
+  {
+    "s1": "He stopped mid-mime, his eyes widening",
+    "s2": "The show continued as Barnaby 'climbed' his invisible ladder",
+    "score": 99.87
+  },
+  {
+    "s1": "The metal was polished to a mirror finish, and a large, red-and-white plume sprouted from his helmet",
+    "s2": "Suddenly, a police officer with a very shiny whistle approached",
+    "score": 89.45
+  },
+  {
+    "s1": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "s2": "Suddenly, a police officer with a very shiny whistle approached",
+    "score": 99.9
+  },
+  {
+    "s1": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "s2": "\"Oi! You there, Mr",
+    "score": 99.96
+  },
+  {
+    "s1": "He was a knight of old, standing in the middle of a modern shopping district",
+    "s2": "Bumblewick! You have a permit for this",
+    "score": 99.76
+  },
+  {
+    "s1": "Suddenly, a police officer with a very shiny whistle approached",
+    "s2": "Bumblewick! You have a permit for this",
+    "score": 99.39
+  },
+  {
+    "s1": "The metal was polished to a mirror finish, and a large, red-and-white plume sprouted from his helmet",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.84
+  },
+  {
+    "s1": "He was a knight of old, standing in the middle of a modern shopping district",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 96.33
+  },
+  {
+    "s1": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.99
+  },
+  {
+    "s1": "The crowd, assuming this was part of the act, cheered even louder",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.37
+  },
+  {
+    "s1": "The show continued as Barnaby 'climbed' his invisible ladder",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.92
+  },
+  {
+    "s1": "\"Oi! You there, Mr",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.76
+  },
+  {
+    "s1": "Bumblewick! You have a permit for this",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.11
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "score": 99.94
+  },
+  {
+    "s1": "Bumblewick! You have a permit for this",
+    "s2": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet",
+    "score": 99.2
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet",
+    "score": 90.67
+  },
+  {
+    "s1": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 99.56
+  },
+  {
+    "s1": "The crowd, assuming this was part of the act, cheered even louder",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 99.68
+  },
+  {
+    "s1": "The show continued as Barnaby 'climbed' his invisible ladder",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 99.8
+  },
+  {
+    "s1": "Suddenly, a police officer with a very shiny whistle approached",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 99.94
+  },
+  {
+    "s1": "Bumblewick! You have a permit for this",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 99.38
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 98.49
+  },
+  {
+    "s1": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "s2": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "score": 99.24
+  },
+  {
+    "s1": "He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed",
+    "s2": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "score": 99.99
+  },
+  {
+    "s1": "Suddenly, a police officer with a very shiny whistle approached",
+    "s2": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "score": 99.85
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "score": 99.87
+  },
+  {
+    "s1": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "s2": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "score": 99.98
+  },
+  {
+    "s1": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet",
+    "s2": "An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'",
+    "score": 99.96
+  },
+  {
+    "s1": "\"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty",
+    "s2": "An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'",
+    "score": 99.99
+  },
+  {
+    "s1": "Suddenly, a police officer with a very shiny whistle approached",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.85
+  },
+  {
+    "s1": "\"Oi! You there, Mr",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 98.07
+  },
+  {
+    "s1": "Bumblewick! You have a permit for this",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.68
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.83
+  },
+  {
+    "s1": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.94
+  },
+  {
+    "s1": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.68
+  },
+  {
+    "s1": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.38
+  },
+  {
+    "s1": "The officer looked confused, his gaze dropping to Barnaby's chest",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 99.96
+  },
+  {
+    "s1": "An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'",
+    "s2": "\"Whatever you say, Arthur,\" the officer sighed, rubbing his temples",
+    "score": 98.3
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "\"Just keep the noise down",
+    "score": 97.17
+  },
+  {
+    "s1": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet",
+    "s2": "The clanking is scaring the pigeons",
+    "score": 99.9
+  },
+  {
+    "s1": "An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'",
+    "s2": "The clanking is scaring the pigeons",
+    "score": 94.19
+  },
+  {
+    "s1": "whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd",
+    "s2": "\"\n\nBarnaby (or Arthur) nodded solemnly and went back to his miming",
+    "score": 99.96
+  },
+  {
+    "s1": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "s2": "\"\n\nBarnaby (or Arthur) nodded solemnly and went back to his miming",
+    "score": 99.75
+  },
+  {
+    "s1": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "s2": "\"\n\nBarnaby (or Arthur) nodded solemnly and went back to his miming",
+    "score": 99.15
+  },
+  {
+    "s1": "The clanking is scaring the pigeons",
+    "s2": "\"\n\nBarnaby (or Arthur) nodded solemnly and went back to his miming",
+    "score": 98.94
+  },
+  {
+    "s1": "Barnaby froze, his 'hands' still gripping the invisible rungs",
+    "s2": "He reached into a hidden pocket in his armor and pulled out a gold pocket watch",
+    "score": 99.93
+  },
+  {
+    "s1": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "s2": "He reached into a hidden pocket in his armor and pulled out a gold pocket watch",
+    "score": 99.98
+  },
+  {
+    "s1": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet",
+    "s2": "He flipped the lid",
+    "score": 91.27
+  },
+  {
+    "s1": "An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'",
+    "s2": "He flipped the lid",
+    "score": 98.92
+  },
+  {
+    "s1": "The officer looked confused, his gaze dropping to Barnaby's chest",
+    "s2": "He looked up at the Big Ben clock tower in the distance to verify the time",
+    "score": 99.57
+  },
+  {
+    "s1": "The clanking is scaring the pigeons",
+    "s2": "He looked up at the Big Ben clock tower in the distance to verify the time",
+    "score": 97.66
+  },
+  {
+    "s1": "\"\n\nHe reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*",
+    "s2": "To his surprise, the massive hands of the tower clearly showed it was 8:45 AM",
+    "score": 99.85
+  },
+  {
+    "s1": "An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'",
+    "s2": "To his surprise, the massive hands of the tower clearly showed it was 8:45 AM",
+    "score": 97.99
+  },
+  {
+    "s1": "The clanking is scaring the pigeons",
+    "s2": "To his surprise, the massive hands of the tower clearly showed it was 8:45 AM",
+    "score": 99.95
+  },
+  {
+    "s1": "\"\n\nBarnaby (or Arthur) nodded solemnly and went back to his miming",
+    "s2": "To his surprise, the massive hands of the tower clearly showed it was 8:45 AM",
+    "score": 99.64
+  },
+  {
+    "s1": "\"Just keep the noise down",
+    "s2": "He decided to finish the show with his grand finale: 'Walking Against the Wind'",
+    "score": 97.57
+  },
+  {
+    "s1": "The clanking is scaring the pigeons",
+    "s2": "He decided to finish the show with his grand finale: 'Walking Against the Wind'",
+    "score": 98.62
+  },
+  {
+    "s1": "The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their lunch",
+    "s2": "He decided to finish the show with his grand finale: 'Walking Against the Wind'",
+    "score": 99.61
+  },
+  {
+    "s1": "\"\n\nBarnaby (or Arthur) nodded solemnly and went back to his miming",
+    "s2": "As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier",
+    "score": 99.46
+  },
+  {
+    "s1": "He reached into a hidden pocket in his armor and pulled out a gold pocket watch",
+    "s2": "As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier",
+    "score": 99.97
+  },
+  {
+    "s1": "He flipped the lid",
+    "s2": "As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier",
+    "score": 99.06
+  },
+  {
+    "s1": "The clanking is scaring the pigeons",
+    "s2": "He squeezed it with all his might",
+    "score": 99.68
+  },
+  {
+    "s1": "He looked up at the Big Ben clock tower in the distance to verify the time",
+    "s2": "He squeezed it with all his might",
+    "score": 99.52
+  },
+  {
+    "s1": "The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their lunch",
+    "s2": "He squeezed it with all his might",
+    "score": 98.2
+  },
+  {
+    "s1": "To his surprise, the massive hands of the tower clearly showed it was 8:45 AM",
+    "s2": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones",
+    "score": 98.67
+  },
+  {
+    "s1": "As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier",
+    "s2": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones",
+    "score": 99.48
+  },
+  {
+    "s1": "Instead of the expected squeak, the toy let out a loud, terrifyingly realistic roar of a lion that caused several nearby tourists to drop their ice creams",
+    "s2": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones",
+    "score": 88.85
+  },
+  {
+    "s1": "He reached into a hidden pocket in his armor and pulled out a gold pocket watch",
+    "s2": "He stood up and, in one smooth motion, took off his striped mime shirt\u2014which had somehow returned to his torso\u2014and wiped the white paint off his face",
+    "score": 99.96
+  },
+  {
+    "s1": "As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier",
+    "s2": "He stood up and, in one smooth motion, took off his striped mime shirt\u2014which had somehow returned to his torso\u2014and wiped the white paint off his face",
+    "score": 99.98
+  },
+  {
+    "s1": "He squeezed it with all his might",
+    "s2": "He stood up and, in one smooth motion, took off his striped mime shirt\u2014which had somehow returned to his torso\u2014and wiped the white paint off his face",
+    "score": 99.97
+  },
+  {
+    "s1": "Instead of the expected squeak, the toy let out a loud, terrifyingly realistic roar of a lion that caused several nearby tourists to drop their ice creams",
+    "s2": "He stood up and, in one smooth motion, took off his striped mime shirt\u2014which had somehow returned to his torso\u2014and wiped the white paint off his face",
+    "score": 99.78
+  },
+  {
+    "s1": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones",
+    "s2": "He stood up and, in one smooth motion, took off his striped mime shirt\u2014which had somehow returned to his torso\u2014and wiped the white paint off his face",
+    "score": 99.98
+  },
+  {
+    "s1": "He looked up at the Big Ben clock tower in the distance to verify the time",
+    "s2": "He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor",
+    "score": 99.93
+  },
+  {
+    "s1": "To his surprise, the massive hands of the tower clearly showed it was 8:45 AM",
+    "s2": "He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor",
+    "score": 97.84
+  },
+  {
+    "s1": "The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their lunch",
+    "s2": "He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor",
+    "score": 99.77
+  },
+  {
+    "s1": "As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier",
+    "s2": "He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor",
+    "score": 99.81
+  },
+  {
+    "s1": "He squeezed it with all his might",
+    "s2": "He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor",
+    "score": 99.99
+  },
+  {
+    "s1": "He stood up and, in one smooth motion, took off his striped mime shirt\u2014which had somehow returned to his torso\u2014and wiped the white paint off his face",
+    "s2": "He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor",
+    "score": 99.95
+  }
+]

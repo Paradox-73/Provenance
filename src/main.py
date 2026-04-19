@@ -5,8 +5,11 @@ import os
 from .neo4j_adapter import Neo4jAdapter
 from .orchestrator import run_provenance_pipeline
 from .nlp_pipeline import load_spacy_model, load_nli_model
+from .graph_logic import ConflictDetector
+from evaluate_systems import PipelineEvaluator
 
 def main():
+    # ... (existing argparse and initialization)
     parser = argparse.ArgumentParser(description="Run the Provenance system to detect inconsistencies in literary texts.")
     parser.add_argument("input_folder", type=str,
                         help="Path to the folder containing chapter-wise .txt files.")
@@ -20,6 +23,8 @@ def main():
                         help="Local Ollama model name to use for LLM extraction.")
     parser.add_argument("--nlp_only", action="store_true",
                         help="Only run NLP processing and show the table; skip Neo4j and conflict detection.")
+    parser.add_argument("--viz_path", type=str, default="visualizations/narrative_graph.png",
+                        help="Path to save the graph visualization PNG.")
     
     args = parser.parse_args()
 
@@ -29,6 +34,7 @@ def main():
     mode = args.mode
     ollama_model = args.ollama_model
     nlp_only = args.nlp_only
+    viz_path = args.viz_path
 
     if not os.path.isdir(input_folder):
         print(f"Error: Input folder '{input_folder}' does not exist.")
@@ -64,6 +70,18 @@ def main():
                 print(f"--- Pipeline Completed: {len(detected_conflicts)} Inconsistencies Found ---")
             else:
                 print("--- Pipeline Completed: No Inconsistencies Detected ---")
+            
+            # --- EVALUATION STEP ---
+            print("\n--- Running Evaluation against Ground Truth ---")
+            evaluator = PipelineEvaluator()
+            evaluator.evaluate(detected_conflicts)
+
+            # Additional explicit visualization call if needed (already handled in orchestrator, 
+            # but we can re-run it with the custom viz_path from CLI)
+            if neo4j_adapter and not nlp_only:
+                detector = ConflictDetector(neo4j_adapter)
+                detector.visualize_graph(viz_path, title=f"Narrative Graph: {os.path.basename(input_folder)}")
+
         else:
             print("--- NLP Analysis Completed ---")
 

@@ -1,0 +1,172 @@
+[
+  {
+    "s1": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper",
+    "s2": "A fire crackled in the hearth, its warmth a stark contrast to the biting autumn chill outside",
+    "score": 99.53
+  },
+  {
+    "s1": "The old farmhouse, once filled with the laughter and chaos of three growing children, had become a silent monument to the distance that had grown between them",
+    "s2": "He navigated the familiar house by touch and a memory that was as sharp as ever, his silver-tipped cane always within reach, leaning against his chair",
+    "score": 99.51
+  },
+  {
+    "s1": "He had been completely blind for over twenty years, his eyes clouded with a thick layer of cataracts that had robbed him of his sight",
+    "s2": "He navigated the familiar house by touch and a memory that was as sharp as ever, his silver-tipped cane always within reach, leaning against his chair",
+    "score": 99.94
+  },
+  {
+    "s1": "Thomas sat at the head of the long oak table, his posture regal despite the years",
+    "s2": "Sarah had spent the entire afternoon in the kitchen, meticulously preparing a strictly vegetarian meal",
+    "score": 97.24
+  },
+  {
+    "s1": "Thomas sat at the head of the long oak table, his posture regal despite the years",
+    "s2": "She knew Michael had recently become a committed vegan, and she wanted to ensure that everyone could enjoy the food without any issues",
+    "score": 99.14
+  },
+  {
+    "s1": "He navigated the familiar house by touch and a memory that was as sharp as ever, his silver-tipped cane always within reach, leaning against his chair",
+    "s2": "She knew Michael had recently become a committed vegan, and she wanted to ensure that everyone could enjoy the food without any issues",
+    "score": 99.07
+  },
+  {
+    "s1": "Michael was a successful corporate lawyer in the city now, dressed in a sharp Italian suit that seemed out of place in the rustic setting",
+    "s2": "She knew Michael had recently become a committed vegan, and she wanted to ensure that everyone could enjoy the food without any issues",
+    "score": 99.96
+  },
+  {
+    "s1": "\"Pass the salt, Sarah,\" her brother Michael said, breaking the silence that had settled over the room",
+    "s2": "The aroma of sage and garlic filled the air, promising a wholesome and delicious feast",
+    "score": 98.46
+  },
+  {
+    "s1": "He navigated the familiar house by touch and a memory that was as sharp as ever, his silver-tipped cane always within reach, leaning against his chair",
+    "s2": "He reached for his silverware, and with a practiced grace that belied his blindness, he began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on his white china plate",
+    "score": 94.1
+  },
+  {
+    "s1": "Sarah had spent the entire afternoon in the kitchen, meticulously preparing a strictly vegetarian meal",
+    "s2": "He reached for his silverware, and with a practiced grace that belied his blindness, he began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on his white china plate",
+    "score": 99.88
+  },
+  {
+    "s1": "She knew Michael had recently become a committed vegan, and she wanted to ensure that everyone could enjoy the food without any issues",
+    "s2": "He reached for his silverware, and with a practiced grace that belied his blindness, he began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on his white china plate",
+    "score": 99.89
+  },
+  {
+    "s1": "The table was laden with dishes of roasted root vegetables, a hearty lentil stew, and a large, fresh garden salad with a lemon-herb vinaigrette",
+    "s2": "He reached for his silverware, and with a practiced grace that belied his blindness, he began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on his white china plate",
+    "score": 94.3
+  },
+  {
+    "s1": "Sarah had spent the entire afternoon in the kitchen, meticulously preparing a strictly vegetarian meal",
+    "s2": "They all smiled and nodded as they chewed the succulent, fatty beef, praising Sarah for the quality of the meat and the richness of the juices that pooled on their plates",
+    "score": 99.93
+  },
+  {
+    "s1": "He reached for his silverware, and with a practiced grace that belied his blindness, he began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on his white china plate",
+    "s2": "As the old grandfather clock in the hallway struck 7:00 PM, they began to talk about the past",
+    "score": 88.98
+  },
+  {
+    "s1": "They all smiled and nodded as they chewed the succulent, fatty beef, praising Sarah for the quality of the meat and the richness of the juices that pooled on their plates",
+    "s2": "As the old grandfather clock in the hallway struck 7:00 PM, they began to talk about the past",
+    "score": 99.36
+  },
+  {
+    "s1": "They spoke for what felt like hours, the shadows lengthening as the fire began to burn low in the hearth",
+    "s2": "Michael smiled back, touched by the silent communication from his blind father",
+    "score": 95.81
+  },
+  {
+    "s1": "As the old grandfather clock in the hallway struck 7:00 PM, they began to talk about the past",
+    "s2": "\"We should probably think about dessert",
+    "score": 95.47
+  },
+  {
+    "s1": "They spoke for what felt like hours, the shadows lengthening as the fire began to burn low in the hearth",
+    "s2": "I have a homemade apple pie cooling on the counter",
+    "score": 97.37
+  },
+  {
+    "s1": "They shared stories of their childhood\u2014the time they had built a treehouse in the old oak tree, the summer they had spent at the lake, and the many tears they had shed over broken hearts and bruised egos",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.94
+  },
+  {
+    "s1": "They spoke for what felt like hours, the shadows lengthening as the fire began to burn low in the hearth",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.57
+  },
+  {
+    "s1": "\"I'm glad we did this,\" Thomas said, his sightless eyes focusing directly on Michael's face",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.98
+  },
+  {
+    "s1": "He gave his son a knowing, deliberate wink from across the long table, a gesture of affection and understanding that brought a lump to Michael's throat",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.92
+  },
+  {
+    "s1": "Michael smiled back, touched by the silent communication from his blind father",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.88
+  },
+  {
+    "s1": "\"We should probably think about dessert",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.56
+  },
+  {
+    "s1": "I have a homemade apple pie cooling on the counter",
+    "s2": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "score": 99.92
+  },
+  {
+    "s1": "They spoke for what felt like hours, the shadows lengthening as the fire began to burn low in the hearth",
+    "s2": "\"Oh, look at that! It's only 6:30 PM",
+    "score": 99.85
+  },
+  {
+    "s1": "\"I'm glad we did this,\" Thomas said, his sightless eyes focusing directly on Michael's face",
+    "s2": "\"Oh, look at that! It's only 6:30 PM",
+    "score": 98.88
+  },
+  {
+    "s1": "\"We should probably think about dessert",
+    "s2": "\"Oh, look at that! It's only 6:30 PM",
+    "score": 99.87
+  },
+  {
+    "s1": "\"It's getting late,\" Sarah remarked, standing up to clear the plates",
+    "s2": "The evening is still young",
+    "score": 99.91
+  },
+  {
+    "s1": "\"I'm glad we did this,\" Thomas said, his sightless eyes focusing directly on Michael's face",
+    "s2": "\"\n\nMichael looked up at Sarah as she reached for his plate",
+    "score": 99.28
+  },
+  {
+    "s1": "He gave his son a knowing, deliberate wink from across the long table, a gesture of affection and understanding that brought a lump to Michael's throat",
+    "s2": "\"\n\nMichael looked up at Sarah as she reached for his plate",
+    "score": 95.92
+  },
+  {
+    "s1": "\"\n\nShe stepped into the hallway and checked the grandfather clock",
+    "s2": "\"\n\nMichael looked up at Sarah as she reached for his plate",
+    "score": 99.92
+  },
+  {
+    "s1": "\"It's getting late,\" Sarah remarked, standing up to clear the plates",
+    "s2": "\"Mom, can you bring out the vanilla ice cream to go with the pie?\" he asked, his voice filled with genuine warmth",
+    "score": 99.08
+  },
+  {
+    "s1": "\"It's getting late,\" Sarah remarked, standing up to clear the plates",
+    "s2": "Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother",
+    "score": 99.94
+  }
+]

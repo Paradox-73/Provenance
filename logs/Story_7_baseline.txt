@@ -1,0 +1,597 @@
+[
+  {
+    "s1": "The house was a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds",
+    "s2": "Suddenly, he saw her",
+    "score": 94.81
+  },
+  {
+    "s1": "Ethan had come to the manor to investigate the local legend of the Lady in Red, a spirit whose presence was said to be announced by the faint sound of weeping and the smell of dead lilies",
+    "s2": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "score": 98.8
+  },
+  {
+    "s1": "Suddenly, he saw her",
+    "s2": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "score": 92.1
+  },
+  {
+    "s1": "The air in the gallery was frigid, his breath coming in short, visible puffs of white mist",
+    "s2": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light",
+    "score": 99.49
+  },
+  {
+    "s1": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes",
+    "s2": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light",
+    "score": 98.81
+  },
+  {
+    "s1": "Suddenly, he saw her",
+    "s2": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light",
+    "score": 99.8
+  },
+  {
+    "s1": "He reached the manor's third-floor gallery at exactly 3:00 AM, the hour when the veil between worlds was said to be thinnest",
+    "s2": "She moved with a silent, gliding grace, leading him through a series of increasingly narrow hallways until they reached a small, windowless study",
+    "score": 99.67
+  },
+  {
+    "s1": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "s2": "She moved with a silent, gliding grace, leading him through a series of increasingly narrow hallways until they reached a small, windowless study",
+    "score": 99.99
+  },
+  {
+    "s1": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "s2": "He frantically swept his flashlight around the small room",
+    "score": 100.0
+  },
+  {
+    "s1": "Suddenly, he saw her",
+    "s2": "To his horror, the room had no other doors or windows",
+    "score": 99.98
+  },
+  {
+    "s1": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "s2": "To his horror, the room had no other doors or windows",
+    "score": 99.99
+  },
+  {
+    "s1": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light",
+    "s2": "To his horror, the room had no other doors or windows",
+    "score": 99.9
+  },
+  {
+    "s1": "She was the Lady in Red, exactly as the stories had described",
+    "s2": "To his horror, the room had no other doors or windows",
+    "score": 99.93
+  },
+  {
+    "s1": "Ethan\u2019s heart hammered against his ribs as he followed her",
+    "s2": "To his horror, the room had no other doors or windows",
+    "score": 95.37
+  },
+  {
+    "s1": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "s2": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "score": 99.98
+  },
+  {
+    "s1": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light",
+    "s2": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "score": 99.97
+  },
+  {
+    "s1": "Ethan\u2019s heart hammered against his ribs as he followed her",
+    "s2": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "score": 97.99
+  },
+  {
+    "s1": "As Ethan stepped across the threshold, the heavy oak door slammed shut behind him with a finality that made his blood run cold",
+    "s2": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "score": 99.97
+  },
+  {
+    "s1": "He lunged for the handle, pulling and twisting with all his might, but the door was locked tight",
+    "s2": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "score": 99.65
+  },
+  {
+    "s1": "He frantically swept his flashlight around the small room",
+    "s2": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "score": 97.78
+  },
+  {
+    "s1": "At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 100.0
+  },
+  {
+    "s1": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 99.95
+  },
+  {
+    "s1": "She was the Lady in Red, exactly as the stories had described",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 99.89
+  },
+  {
+    "s1": "Ethan\u2019s heart hammered against his ribs as he followed her",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 93.99
+  },
+  {
+    "s1": "She moved with a silent, gliding grace, leading him through a series of increasingly narrow hallways until they reached a small, windowless study",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 99.95
+  },
+  {
+    "s1": "As Ethan stepped across the threshold, the heavy oak door slammed shut behind him with a finality that made his blood run cold",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 99.95
+  },
+  {
+    "s1": "He frantically swept his flashlight around the small room",
+    "s2": "He was trapped in a stone box with no possible means of escape",
+    "score": 91.39
+  },
+  {
+    "s1": "Ethan\u2019s heart hammered against his ribs as he followed her",
+    "s2": "He hammered on the stone walls until his knuckles were raw and bleeding",
+    "score": 99.94
+  },
+  {
+    "s1": "She moved with a silent, gliding grace, leading him through a series of increasingly narrow hallways until they reached a small, windowless study",
+    "s2": "He hammered on the stone walls until his knuckles were raw and bleeding",
+    "score": 98.82
+  },
+  {
+    "s1": "As Ethan stepped across the threshold, the heavy oak door slammed shut behind him with a finality that made his blood run cold",
+    "s2": "He hammered on the stone walls until his knuckles were raw and bleeding",
+    "score": 99.94
+  },
+  {
+    "s1": "He frantically swept his flashlight around the small room",
+    "s2": "He hammered on the stone walls until his knuckles were raw and bleeding",
+    "score": 100.0
+  },
+  {
+    "s1": "Ethan\u2019s heart hammered against his ribs as he followed her",
+    "s2": "He looked down at his flashlight",
+    "score": 99.4
+  },
+  {
+    "s1": "He frantically swept his flashlight around the small room",
+    "s2": "He looked down at his flashlight",
+    "score": 99.73
+  },
+  {
+    "s1": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "s2": "It was as if the room had been swallowed by a void",
+    "score": 99.72
+  },
+  {
+    "s1": "He frantically swept his flashlight around the small room",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.99
+  },
+  {
+    "s1": "To his horror, the room had no other doors or windows",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.97
+  },
+  {
+    "s1": "There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.97
+  },
+  {
+    "s1": "He was trapped in a stone box with no possible means of escape",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.96
+  },
+  {
+    "s1": "\"Help! Is anyone there?\" Ethan cried, his voice sounding thin and hollow in the heavy, oppressive silence",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.99
+  },
+  {
+    "s1": "He hammered on the stone walls until his knuckles were raw and bleeding",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 100.0
+  },
+  {
+    "s1": "He looked down at his flashlight",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.99
+  },
+  {
+    "s1": "The beam flickered once, twice, and then died completely, plunged him into an absolute, pitch-black darkness",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.99
+  },
+  {
+    "s1": "The blackness was so complete, so total, that he couldn't even see his own hand inches from his face",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.99
+  },
+  {
+    "s1": "It was as if the room had been swallowed by a void",
+    "s2": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "score": 99.99
+  },
+  {
+    "s1": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "s2": "In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room",
+    "score": 99.85
+  },
+  {
+    "s1": "He was trapped in a stone box with no possible means of escape",
+    "s2": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "score": 98.53
+  },
+  {
+    "s1": "He hammered on the stone walls until his knuckles were raw and bleeding",
+    "s2": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "score": 98.98
+  },
+  {
+    "s1": "The beam flickered once, twice, and then died completely, plunged him into an absolute, pitch-black darkness",
+    "s2": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "score": 99.9
+  },
+  {
+    "s1": "The blackness was so complete, so total, that he couldn't even see his own hand inches from his face",
+    "s2": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "score": 99.96
+  },
+  {
+    "s1": "The blackness was so complete, so total, that he couldn't even see his own hand inches from his face",
+    "s2": "He could see every one of its eight spindly legs moving with crystal clarity, the minute details of its body visible against the dark wood as if it were illuminated by a spotlight",
+    "score": 99.95
+  },
+  {
+    "s1": "The beam flickered once, twice, and then died completely, plunged him into an absolute, pitch-black darkness",
+    "s2": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "score": 96.31
+  },
+  {
+    "s1": "The blackness was so complete, so total, that he couldn't even see his own hand inches from his face",
+    "s2": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "score": 99.61
+  },
+  {
+    "s1": "It was as if the room had been swallowed by a void",
+    "s2": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "score": 94.63
+  },
+  {
+    "s1": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "s2": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "score": 99.93
+  },
+  {
+    "s1": "In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room",
+    "s2": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "score": 99.82
+  },
+  {
+    "s1": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "s2": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "score": 99.86
+  },
+  {
+    "s1": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "s2": "It was a tall man in a long, black cloak that seemed to absorb the light around it",
+    "score": 98.72
+  },
+  {
+    "s1": "He looked down at his flashlight",
+    "s2": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "score": 99.53
+  },
+  {
+    "s1": "The beam flickered once, twice, and then died completely, plunged him into an absolute, pitch-black darkness",
+    "s2": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "score": 99.81
+  },
+  {
+    "s1": "The blackness was so complete, so total, that he couldn't even see his own hand inches from his face",
+    "s2": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "score": 99.96
+  },
+  {
+    "s1": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "s2": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "score": 96.71
+  },
+  {
+    "s1": "In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room",
+    "s2": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "score": 99.73
+  },
+  {
+    "s1": "He stood perfectly still, his ears ringing with the sound of his own frantic breathing",
+    "s2": "Terror, cold and sharp, seized him",
+    "score": 99.89
+  },
+  {
+    "s1": "\"The Lady in Red is quite particular about her guests",
+    "s2": "Terror, cold and sharp, seized him",
+    "score": 99.53
+  },
+  {
+    "s1": "In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.99
+  },
+  {
+    "s1": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.91
+  },
+  {
+    "s1": "He could see every one of its eight spindly legs moving with crystal clarity, the minute details of its body visible against the dark wood as if it were illuminated by a spotlight",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.95
+  },
+  {
+    "s1": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.85
+  },
+  {
+    "s1": "It was a tall man in a long, black cloak that seemed to absorb the light around it",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 98.19
+  },
+  {
+    "s1": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.99
+  },
+  {
+    "s1": "\"The Lady in Red is quite particular about her guests",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.84
+  },
+  {
+    "s1": "\"\n\nEthan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 99.99
+  },
+  {
+    "s1": "Terror, cold and sharp, seized him",
+    "s2": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "score": 91.71
+  },
+  {
+    "s1": "There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards",
+    "s2": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "score": 89.48
+  },
+  {
+    "s1": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "s2": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "score": 99.86
+  },
+  {
+    "s1": "It was a tall man in a long, black cloak that seemed to absorb the light around it",
+    "s2": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "score": 98.41
+  },
+  {
+    "s1": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "s2": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "score": 99.65
+  },
+  {
+    "s1": "\"The Lady in Red is quite particular about her guests",
+    "s2": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "score": 97.59
+  },
+  {
+    "s1": "\"\n\nEthan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric",
+    "s2": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "score": 95.87
+  },
+  {
+    "s1": "He could see every one of its eight spindly legs moving with crystal clarity, the minute details of its body visible against the dark wood as if it were illuminated by a spotlight",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 99.93
+  },
+  {
+    "s1": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 89.08
+  },
+  {
+    "s1": "His eyes were wide and fixed, glowing with a faint, unholy yellow light",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 99.92
+  },
+  {
+    "s1": "\"You shouldn't have come to this house, Ethan,\" the tall man hissed, his voice a dry, rasping sound that seemed to come from all directions",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 97.79
+  },
+  {
+    "s1": "\"The Lady in Red is quite particular about her guests",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 99.75
+  },
+  {
+    "s1": "\"\n\nEthan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 98.86
+  },
+  {
+    "s1": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "s2": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "score": 97.64
+  },
+  {
+    "s1": "Suddenly, a figure appeared before him, standing in the center of the room",
+    "s2": "He found a spiraling stone staircase that seemed to descend into the very bowels of the manor",
+    "score": 99.98
+  },
+  {
+    "s1": "\"\n\nEthan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric",
+    "s2": "He found a spiraling stone staircase that seemed to descend into the very bowels of the manor",
+    "score": 99.84
+  },
+  {
+    "s1": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "s2": "He found a spiraling stone staircase that seemed to descend into the very bowels of the manor",
+    "score": 99.95
+  },
+  {
+    "s1": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "s2": "He found a spiraling stone staircase that seemed to descend into the very bowels of the manor",
+    "score": 94.9
+  },
+  {
+    "s1": "\"\n\nEthan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric",
+    "s2": "He ran down the steps for ten full minutes, his legs aching and his lungs burning",
+    "score": 99.93
+  },
+  {
+    "s1": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "s2": "He passed floor after floor of identical corridors, the sound of his own footsteps a rhythmic, pounding beat on the stone",
+    "score": 99.69
+  },
+  {
+    "s1": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "s2": "When he finally reached the bottom and pushed open the final heavy door, expecting to find the ground floor or the cellar, he stopped dead in his tracks",
+    "score": 99.99
+  },
+  {
+    "s1": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "s2": "When he finally reached the bottom and pushed open the final heavy door, expecting to find the ground floor or the cellar, he stopped dead in his tracks",
+    "score": 99.98
+  },
+  {
+    "s1": "\"The Lady in Red is quite particular about her guests",
+    "s2": "He was back in the attic",
+    "score": 99.96
+  },
+  {
+    "s1": "\"\n\nEthan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric",
+    "s2": "He was back in the attic",
+    "score": 99.93
+  },
+  {
+    "s1": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "s2": "He was back in the attic",
+    "score": 99.98
+  },
+  {
+    "s1": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "s2": "He was back in the attic",
+    "score": 99.75
+  },
+  {
+    "s1": "He found a spiraling stone staircase that seemed to descend into the very bowels of the manor",
+    "s2": "He was back in the attic",
+    "score": 99.97
+  },
+  {
+    "s1": "He ran down the steps for ten full minutes, his legs aching and his lungs burning",
+    "s2": "He was back in the attic",
+    "score": 99.94
+  },
+  {
+    "s1": "He passed floor after floor of identical corridors, the sound of his own footsteps a rhythmic, pounding beat on the stone",
+    "s2": "He was back in the attic",
+    "score": 99.8
+  },
+  {
+    "s1": "When he finally reached the bottom and pushed open the final heavy door, expecting to find the ground floor or the cellar, he stopped dead in his tracks",
+    "s2": "He was back in the attic",
+    "score": 99.81
+  },
+  {
+    "s1": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "s2": "He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden",
+    "score": 99.93
+  },
+  {
+    "s1": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "s2": "He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden",
+    "score": 100.0
+  },
+  {
+    "s1": "He found a spiraling stone staircase that seemed to descend into the very bowels of the manor",
+    "s2": "He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden",
+    "score": 99.96
+  },
+  {
+    "s1": "He ran down the steps for ten full minutes, his legs aching and his lungs burning",
+    "s2": "He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden",
+    "score": 100.0
+  },
+  {
+    "s1": "He passed floor after floor of identical corridors, the sound of his own footsteps a rhythmic, pounding beat on the stone",
+    "s2": "He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden",
+    "score": 99.99
+  },
+  {
+    "s1": "He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony",
+    "s2": "He turned slowly, his glowing eyes fixed on Ethan",
+    "score": 99.98
+  },
+  {
+    "s1": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "s2": "He turned slowly, his glowing eyes fixed on Ethan",
+    "score": 99.99
+  },
+  {
+    "s1": "He ran down the steps for ten full minutes, his legs aching and his lungs burning",
+    "s2": "He turned slowly, his glowing eyes fixed on Ethan",
+    "score": 99.9
+  },
+  {
+    "s1": "He passed floor after floor of identical corridors, the sound of his own footsteps a rhythmic, pounding beat on the stone",
+    "s2": "He turned slowly, his glowing eyes fixed on Ethan",
+    "score": 96.33
+  },
+  {
+    "s1": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study",
+    "s2": "\"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic",
+    "score": 91.47
+  },
+  {
+    "s1": "He didn't question how the door had appeared; he simply ran for the nearest staircase",
+    "s2": "\"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic",
+    "score": 88.19
+  },
+  {
+    "s1": "He passed floor after floor of identical corridors, the sound of his own footsteps a rhythmic, pounding beat on the stone",
+    "s2": "\"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic",
+    "score": 99.39
+  },
+  {
+    "s1": "He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden",
+    "s2": "\"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic",
+    "score": 93.97
+  },
+  {
+    "s1": "The tall man in the black cloak was there, waiting for him by the window",
+    "s2": "\"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic",
+    "score": 89.33
+  },
+  {
+    "s1": "The tall man in the black cloak was there, waiting for him by the window",
+    "s2": "He could only watch as the shadows in the corner of the attic began to move, reaching out for him like cold, spectral fingers",
+    "score": 90.47
+  },
+  {
+    "s1": "He turned slowly, his glowing eyes fixed on Ethan",
+    "s2": "He could only watch as the shadows in the corner of the attic began to move, reaching out for him like cold, spectral fingers",
+    "score": 88.73
+  },
+  {
+    "s1": "\"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic",
+    "s2": "He could only watch as the shadows in the corner of the attic began to move, reaching out for him like cold, spectral fingers",
+    "score": 99.72
+  }
+]

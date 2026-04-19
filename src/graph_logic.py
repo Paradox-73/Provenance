@@ -1,97 +1,55 @@
 from .neo4j_adapter import Neo4jAdapter
 from .nlp_pipeline import run_nli_check
 from sentence_transformers import SentenceTransformer, util
+import requests
+import json
+import networkx as nx
+import matplotlib
+matplotlib.use('Agg') # Non-interactive backend
+import matplotlib.pyplot as plt
+import os
 
-# 1. TEMPORAL QUERY
+# IDENTITY-AWARE QUERIES (Uses SAME_AS links)
 IMPOSSIBLE_LOCATION_QUERY = """
-MATCH (p:Entity)-[r1:LOCATED_AT]->(l1)
-MATCH (p)-[r2:LOCATED_AT]->(l2)
+MATCH (p:Entity)-[:SAME_AS*0..1]-(e1:Entity)
+MATCH (p)-[:SAME_AS*0..1]-(e2:Entity)
+MATCH (e1)-[r1:LOCATED_AT]->(l1)
+MATCH (e2)-[r2:LOCATED_AT]->(l2)
 WHERE id(l1) < id(l2) 
-AND r1.chapter = r2.chapter 
-AND r1.timestamp = r2.timestamp 
-AND r1.timestamp <> 'unknown'
-AND NOT (l1)-[:PART_OF*1..2]-(l2)
-RETURN p.name as character_name, 
-       l1.name as location1, 
-       l2.name as location2, 
-       r1.chapter as conflict_time, 
-       r1.text as source1, 
-       r2.text as source2
+AND (
+    (r1.chapter = r2.chapter AND (r1.timestamp = r2.timestamp OR r1.timestamp = 'unknown' OR r2.timestamp = 'unknown'))
+    OR 
+    (r1.timestamp <> 'unknown' AND r1.timestamp = r2.timestamp)
+)
+RETURN p.name as character_name, l1.name as location1, l2.name as location2, r1.chapter as conflict_time, r1.text as source1, r2.text as source2
 """
 
-# 2. INVENTORY QUERY
 INVENTORY_CONFLICT_QUERY = """
-MATCH (p:Entity)-[:HAS_ASSERTION]->(a1:Assertion)-[:ABOUT]->(item:Entity)
-MATCH (p)-[:HAS_ASSERTION]->(a2:Assertion)-[:ABOUT]->(item)
-WHERE a1.chapter = a2.chapter
-AND id(a1) < id(a2)
-AND a1.text <> a2.text
+MATCH (p:Entity)-[:SAME_AS*0..1]-(e1:Entity)
+MATCH (p)-[:SAME_AS*0..1]-(e2:Entity)
+MATCH (e1)-[:HAS_ASSERTION]->(a1:Assertion)-[:ABOUT]->(item:Entity)
+MATCH (e2)-[:HAS_ASSERTION]->(a2:Assertion)-[:ABOUT]->(item)
+WHERE id(a1) < id(a2)
 AND ((a1.label = 'POSSESSES' AND a2.label = 'LOST') OR (a1.label = 'LOST' AND a2.label = 'POSSESSES'))
-RETURN p.name as character_name,
-       item.name as item_name,
-       a1.predicate as pred_A,
-       a2.predicate as pred_B,
-       a1.text as source1,
-       a2.text as source2,
-       a1.chapter as conflict_time
+RETURN p.name as character_name, item.name as item_name, a1.text as source1, a2.text as source2, a1.chapter as conflict_time
 """
 
-# 3. IDENTITY QUERY
-IDENTITY_CONFLICT_QUERY = """
-MATCH (p:Entity)-[r1:HAS_IDENTITY]->(id1:Entity)
-MATCH (p)-[r2:HAS_IDENTITY]->(id2:Entity)
-WHERE id(id1) < id(id2)
-AND r1.chapter = r2.chapter
-AND r1.text <> r2.text
-RETURN p.name as character_name,
-       id1.name as identity1,
-       id2.name as identity2,
-       r1.text as source1,
-       r2.text as source2,
-       r1.chapter as conflict_time
-"""
-
-# 4. ATTRIBUTE QUERY (Phase 3: Strict Attribute Graph Logic)
 ATTRIBUTE_CONFLICT_QUERY = """
-MATCH (p:Entity)-[r1:HAS_ATTRIBUTE]->(attr1:Entity)
-MATCH (p)-[r2:HAS_ATTRIBUTE]->(attr2:Entity)
-WHERE id(attr1) < id(attr2)
-AND r1.chapter = r2.chapter
-AND r1.target_feature = r2.target_feature
-AND r1.text <> r2.text
-RETURN p.name as character_name,
-       attr1.name as attribute1,
-       attr2.name as attribute2,
-       r1.target_feature as target_feature,
-       r1.text as source1,
-       r2.text as source2,
-       r1.chapter as conflict_time
+MATCH (p:Entity)-[:SAME_AS*0..1]-(e1:Entity)
+MATCH (p)-[:SAME_AS*0..1]-(e2:Entity)
+MATCH (e1)-[r1:HAS_ATTRIBUTE]->(attr1:Entity)
+MATCH (e2)-[r2:HAS_ATTRIBUTE]->(attr2:Entity)
+WHERE id(attr1) < id(attr2) AND r1.target_feature = r2.target_feature
+RETURN p.name as character_name, attr1.name as attribute1, attr2.name as attribute2, r1.target_feature as target_feature, r1.text as source1, r2.text as source2
 """
 
-# 5. ATTRIBUTE TRANSFER QUERY
-ATTRIBUTE_TRANSFER_QUERY = """
-MATCH (p1:Entity)-[r1:HAS_ATTRIBUTE]->(attr:Entity)
-MATCH (p2:Entity)-[r2:HAS_ATTRIBUTE]->(attr)
-WHERE id(p1) < id(p2)
-RETURN p1.name as char1,
-       p2.name as char2,
-       attr.name as attribute,
-       r1.chapter as chap1,
-       r2.chapter as chap2,
-       r1.text as source1,
-       r2.text as source2
-"""
-
-# 6. NEGATION CONFLICT QUERY
-NEGATION_CONFLICT_QUERY = """
-MATCH (p:Entity)-[r1:HAS_IDENTITY]->(target:Entity)
-MATCH (p)-[r2:NOT_HAS_IDENTITY]->(target)
-WHERE r1.chapter = r2.chapter
-RETURN p.name as character_name,
-       target.name as target_name,
-       r1.chapter as conflict_time,
-       r1.text as source_pos,
-       r2.text as source_neg
+IDENTITY_CONFLICT_QUERY = """
+MATCH (p:Entity)-[:SAME_AS*0..1]-(e1:Entity)
+MATCH (p)-[:SAME_AS*0..1]-(e2:Entity)
+MATCH (e1)-[r1:HAS_IDENTITY]->(id1:Entity)
+MATCH (e2)-[r2:HAS_IDENTITY]->(id2:Entity)
+WHERE id(id1) < id(id2)
+RETURN p.name as character_name, id1.name as identity1, id2.name as identity2, r1.text as source1, r2.text as source2
 """
 
 class ConflictDetector:
@@ -100,115 +58,182 @@ class ConflictDetector:
         self.similarity_model = SentenceTransformer('all-MiniLM-L6-v2')
 
     def _format_inconsistency(self, conflict_type: str, details: dict, confidence: float) -> dict:
-        return {
-            "type": conflict_type,
-            "description": f"Detected {conflict_type} inconsistency.",
-            "details": details,
-            "confidence": confidence
-        }
+        return {"type": conflict_type, "description": f"Detected {conflict_type}.", "details": details, "confidence": confidence}
+
+    def audit_temporal_logic(self) -> list[dict]:
+        print("Auditing temporal logic (Agentic)...")
+        query = "MATCH (p:Entity)-[r:LOCATED_AT]->(l:Entity) WHERE r.timestamp <> 'unknown' RETURN p.name as char, r.timestamp as time, l.name as loc, r.text as source, r.chapter as chap ORDER BY r.chapter, r.timestamp"
+        results = self.neo4j_adapter.run_cypher_query(query)
+        inconsistencies = []
+        char_history = {}
+        for rec in results:
+            char = rec['char']
+            if char not in char_history: char_history[char] = []
+            char_history[char].append(rec)
+        for history in char_history.values():
+            for i in range(len(history) - 1):
+                cur, nxt = history[i], history[i+1]
+                if cur['chap'] == nxt['chap'] and cur['time'] > nxt['time']:
+                    inconsistencies.append(self._format_inconsistency("Temporal Paradox", {"char": cur['char'], "before": cur['time'], "after": nxt['time'], "sources": [cur['source'], nxt['source']]}, 1.0))
+        return inconsistencies
+
+    def audit_inventory_logic(self) -> list[dict]:
+        print("Auditing spatial/volume logic...")
+        query = "MATCH (p:Entity)-[:HAS_ASSERTION]->(a:Assertion)-[:ABOUT]->(item:Entity) WHERE a.label = 'POSSESSES' RETURN p.name as char, item.name as item, a.text as source"
+        results = self.neo4j_adapter.run_cypher_query(query)
+        inconsistencies = []
+        
+        for rec in results:
+            item = rec['item']
+            context = rec['source']
+            
+            prompt = f"""Analyze the physical possibility:
+Relationship: {rec['char']} possesses {item}.
+Context from text: "{context}"
+
+Is it physically impossible for this item to be in the mentioned container or carried this way (e.g., a car in a pocket)? 
+Only flag extreme spatial impossibilities.
+Return ONLY JSON: {{"is_impossible": true/false, "reason": "brief explanation"}}
+"""
+            payload = {"model": "qwen2.5:7b", "prompt": prompt, "stream": False, "format": "json"}
+            try:
+                r = requests.post("http://localhost:11434/api/generate", json=payload, timeout=10)
+                res = json.loads(r.json()['response'])
+                if res.get("is_impossible"):
+                    inconsistencies.append(self._format_inconsistency(
+                        "Spatial Impossibility", 
+                        {"char": rec['char'], "item": item, "reason": res.get("reason"), "context": context}, 
+                        0.9
+                    ))
+            except:
+                pass
+        return inconsistencies
 
     def detect_temporal_inconsistency(self) -> list[dict]:
-        print("Detecting temporal/impossible location inconsistencies...")
+        print("Detecting overlapping location conflicts...")
         results = self.neo4j_adapter.run_cypher_query(IMPOSSIBLE_LOCATION_QUERY)
-        if not results: return []
-        groups = {}
-        for record in results:
-            key = f"{record['character_name']}_{record['conflict_time']}"
-            if key not in groups: groups[key] = {"char": record['character_name'], "time": record['conflict_time'], "locs": set(), "sources": set()}
-            groups[key]["locs"].update([record['location1'], record['location2']])
-            groups[key]["sources"].update([record['source1'], record['source2']])
         inconsistencies = []
-        for key, group in groups.items():
-            locs = list(group["locs"])
-            if len(locs) < 2: continue
-            nli = run_nli_check(f"{group['char']} was at {locs[0]}.", f"{group['char']} was at {locs[1]}.")
-            if nli and nli.get("prediction") == "contradiction" and nli.get("confidence", 0) > 0.5:
-                inconsistencies.append(self._format_inconsistency("Temporal Location Conflict", {"character": group['char'], "time": group['time'], "locations": locs, "sources": list(group['sources'])}, nli["confidence"]))
+        for rec in results:
+            nli = run_nli_check(f"{rec['character_name']} was at {rec['location1']}.", f"{rec['character_name']} was at {rec['location2']}.")
+            if nli["prediction"] == "contradiction":
+                inconsistencies.append(self._format_inconsistency("Impossible Location", {"char": rec['character_name'], "locs": [rec['location1'], rec['location2']], "sources": [rec['source1'], rec['source2']]}, nli["confidence"]))
+        return inconsistencies
+
+    def check_attribute_compatibility(self, attr1, attr2, feature):
+        prompt = f"Feature: {feature}. Described as '{attr1}' and '{attr2}'. Are these contradictory (e.g. red/blue)? Or compatible (e.g. jagged/crystalline)? Return ONLY JSON: {{\"is_contradictory\": true/false}}"
+        payload = {"model": "qwen2.5:7b", "prompt": prompt, "stream": False, "format": "json"}
+        try:
+            r = requests.post("http://localhost:11434/api/generate", json=payload, timeout=5)
+            return json.loads(r.json()['response']).get("is_contradictory", True)
+        except: return True
+
+    def detect_attribute_inconsistency(self) -> list[dict]:
+        print("Detecting attribute inconsistencies...")
+        results = self.neo4j_adapter.run_cypher_query(ATTRIBUTE_CONFLICT_QUERY)
+        inconsistencies = []
+        for rec in results:
+            if self.check_attribute_compatibility(rec['attribute1'], rec['attribute2'], rec['target_feature']):
+                nli = run_nli_check(f"The {rec['target_feature']} is {rec['attribute1']}.", f"The {rec['target_feature']} is {rec['attribute2']}.")
+                if nli["prediction"] == "contradiction":
+                    inconsistencies.append(self._format_inconsistency("Attribute Conflict", {"char": rec['character_name'], "feat": rec['target_feature'], "vals": [rec['attribute1'], rec['attribute2']], "sources": [rec['source1'], rec['source2']]}, nli["confidence"]))
         return inconsistencies
 
     def detect_inventory_inconsistency(self) -> list[dict]:
         print("Detecting inventory inconsistencies...")
         results = self.neo4j_adapter.run_cypher_query(INVENTORY_CONFLICT_QUERY)
-        if not results: return []
-        groups = {}
-        for record in results:
-            key = f"{record['character_name']}_inventory_{record['item_name']}"
-            if key not in groups: groups[key] = {"char": record['character_name'], "item": record['item_name'], "sources": set(), "chapter": record['conflict_time']}
-            groups[key]["sources"].update([record['source1'], record['source2']])
-        inconsistencies = []
-        for key, group in groups.items():
-            inconsistencies.append(self._format_inconsistency("Inventory Conflict", {"character": group['char'], "item": group['item'], "sources": list(group['sources']), "chapter": group['chapter']}, 1.0))
-        return inconsistencies
+        return [self._format_inconsistency("Inventory Conflict", {"char": r['character_name'], "item": r['item_name'], "sources": [r['source1'], r['source2']]}, 1.0) for r in results]
 
     def detect_identity_inconsistency(self) -> list[dict]:
         print("Detecting identity inconsistencies...")
         results = self.neo4j_adapter.run_cypher_query(IDENTITY_CONFLICT_QUERY)
-        if not results: return []
-        groups = {}
-        for record in results:
-            key = f"{record['character_name']}_identity"
-            if key not in groups: groups[key] = {"char": record['character_name'], "identities": set(), "sources": set()}
-            groups[key]["identities"].update([record['identity1'], record['identity2']])
-            groups[key]["sources"].update([record['source1'], record['source2']])
         inconsistencies = []
-        for key, group in groups.items():
-            ids = list(group["identities"])
-            if len(ids) < 2: continue
-            nli = run_nli_check(f"{group['char']} is described as {ids[0]}.", f"{group['char']} is described as {ids[1]}.")
-            if nli and nli.get("prediction") == "contradiction" and nli.get("confidence", 0) > 0.4:
-                inconsistencies.append(self._format_inconsistency("Identity Conflict", {"character": group['char'], "identities": ids, "sources": list(group['sources'])}, nli["confidence"]))
+        
+        # JUNK FILTER: Skip identities that are clearly just phrases or junk
+        junk_words = ["what", "you", "him", "her", "me", "it", "this", "that", "something", "anything", "nothing"]
+        
+        for rec in results:
+            id1, id2 = rec['identity1'].lower(), rec['identity2'].lower()
+            if any(j == id1 or j == id2 for j in junk_words) or len(id1) < 3 or len(id2) < 3:
+                continue
+
+            # Check if they are actually different roles (e.g. Doctor vs Engineer)
+            # Use NLI to see if one identity contradicts being the other
+            nli = run_nli_check(f"{rec['character_name']} is a {rec['identity1']}.", f"{rec['character_name']} is a {rec['identity2']}.")
+            if nli["prediction"] == "contradiction" and nli["confidence"] > 0.8:
+                inconsistencies.append(self._format_inconsistency("Identity Conflict", {"char": rec['character_name'], "ids": [rec['identity1'], rec['identity2']], "sources": [rec['source1'], rec['source2']]}, nli["confidence"]))
         return inconsistencies
 
-    def detect_attribute_inconsistency(self) -> list[dict]:
-        print("Detecting attribute inconsistencies...")
-        results = self.neo4j_adapter.run_cypher_query(ATTRIBUTE_CONFLICT_QUERY)
-        if not results: return []
-        groups = {}
-        for record in results:
-            key = f"{record['character_name']}_{record['target_feature']}"
-            if key not in groups: groups[key] = {"char": record['character_name'], "feature": record['target_feature'], "pairs": []}
-            groups[key]["pairs"].append(record)
-        inconsistencies = []
-        for char_key, group in groups.items():
-            processed = set()
-            for record in group["pairs"]:
-                pair = tuple(sorted([record['attribute1'], record['attribute2']]))
-                if pair in processed: continue
-                processed.add(pair)
-                emb1 = self.similarity_model.encode(str(record['attribute1']), convert_to_tensor=True)
-                emb2 = self.similarity_model.encode(str(record['attribute2']), convert_to_tensor=True)
-                
-                # LOWERED THRESHOLD back to 0.2 as per Phase 3 instructions
-                if util.cos_sim(emb1, emb2).item() > 0.2:
-                    nli = run_nli_check(f"{record['character_name']} is described as {record['attribute1']}.", f"{record['character_name']} is described as {record['attribute2']}.")
-                    if nli and nli.get("prediction") == "contradiction" and nli.get("confidence", 0) > 0.7:
-                        inconsistencies.append(self._format_inconsistency("Attribute Conflict", {"character": record['character_name'], "feature": record['target_feature'], "attr1": record['attribute1'], "attr2": record['attribute2'], "sources": [record['source1'], record['source2']]}, nli["confidence"]))
-        return inconsistencies
-
-    def detect_attribute_transfer(self) -> list[dict]:
-        print("Detecting impossible attribute transfers...")
-        results = self.neo4j_adapter.run_cypher_query(ATTRIBUTE_TRANSFER_QUERY)
-        if not results: return []
-        inconsistencies = []
-        for record in results:
-            inconsistencies.append(self._format_inconsistency("Attribute Transfer Conflict", {"char1": record['char1'], "char2": record['char2'], "attribute": record['attribute'], "sources": [record['source1'], record['source2']]}, 1.0))
-        return inconsistencies
-
-    def detect_negation_conflict(self) -> list[dict]:
-        print("Detecting negation-based contradictions...")
-        results = self.neo4j_adapter.run_cypher_query(NEGATION_CONFLICT_QUERY)
-        if not results: return []
-        inconsistencies = []
-        for record in results:
-            inconsistencies.append(self._format_inconsistency("Negation Conflict", {"character": record['character_name'], "target": record['target_name'], "sources": [record['source_pos'], record['source_neg']]}, 1.0))
-        return inconsistencies
-    
     def detect_all_inconsistencies(self) -> list[dict]:
-        all_conflicts = []
-        all_conflicts.extend(self.detect_temporal_inconsistency())
-        all_conflicts.extend(self.detect_inventory_inconsistency())
-        all_conflicts.extend(self.detect_identity_inconsistency())
-        all_conflicts.extend(self.detect_attribute_inconsistency())
-        all_conflicts.extend(self.detect_attribute_transfer())
-        all_conflicts.extend(self.detect_negation_conflict())
-        return all_conflicts
+        all_c = []
+        all_conflicts = [
+            self.audit_temporal_logic, 
+            self.audit_inventory_logic, 
+            self.detect_temporal_inconsistency, 
+            self.detect_inventory_inconsistency, 
+            self.detect_attribute_inconsistency,
+            self.detect_identity_inconsistency
+        ]
+        for func in all_conflicts:
+            try: all_c.extend(func())
+            except Exception as e: print(f"Error in {func.__name__}: {e}")
+        return all_c
+
+    def visualize_graph(self, output_path: str = "visualizations/graph_viz.png", title: str = "Narrative Knowledge Graph"):
+        print(f"Saving graph snapshot to {output_path}...")
+        
+        # Ensure directory exists
+        dir_name = os.path.dirname(output_path)
+        if dir_name and not os.path.exists(dir_name):
+            os.makedirs(dir_name)
+
+        query = """
+        MATCH (n)-[r]->(m) 
+        RETURN COALESCE(n.name, n.canonical_id, 'Unknown') as start, 
+               labels(n) as s_labels,
+               type(r) as rel, 
+               COALESCE(m.name, m.canonical_id, 'Unknown') as end,
+               labels(m) as e_labels
+        LIMIT 100
+        """
+        results = self.neo4j_adapter.run_cypher_query(query)
+        if not results:
+            print("No data found for visualization.")
+            return
+
+        G = nx.MultiDiGraph()
+        node_colors = {}
+
+        def get_color(labels):
+            if 'Person' in labels: return '#ff9999' # Red
+            if 'Location' in labels: return '#99ff99' # Green
+            return '#9999ff' # Blue (Item/Entity)
+
+        for record in results:
+            s, e = str(record['start']), str(record['end'])
+            # CLEANING: Truncate long labels and skip sentences
+            if len(s) > 25 or len(e) > 25 or s == "Unknown" or e == "Unknown": continue
+            
+            G.add_edge(s, e, label=record['rel'])
+            node_colors[s] = get_color(record['s_labels'])
+            node_colors[e] = get_color(record['e_labels'])
+        
+        if len(G.nodes) == 0:
+            print("Graph has no valid nodes to display.")
+            return
+
+        plt.figure(figsize=(20, 12))
+        pos = nx.spring_layout(G, k=1.5, iterations=50) # Spread out more
+        
+        colors = [node_colors.get(node, '#cccccc') for node in G.nodes()]
+        
+        nx.draw(G, pos, with_labels=True, node_color=colors, node_size=3000, 
+                font_size=10, font_weight='bold', edge_color='#bbbbbb', 
+                arrows=True, arrowsize=20, connectionstyle='arc3, rad = 0.1')
+        
+        edge_labels = {(u, v): d['label'] for u, v, d in G.edges(data=True)}
+        nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=8, label_pos=0.3)
+        
+        plt.title(title, fontsize=15)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        plt.close()
+        print(f"Graph visualization saved to {output_path}")

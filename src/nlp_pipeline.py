@@ -39,255 +39,394 @@ def run_nli_check(premise: str, hypothesis: str) -> dict:
     id2label = {0: "entailment", 1: "neutral", 2: "contradiction"}
     return {"prediction": id2label.get(predicted_class_id, "neutral"), "confidence": confidence}
 
-@spacy.Language.component("title_merger")
-def title_merger(doc):
-    titles = ["Captain", "Commander", "Dr.", "Doctor", "Professor", "Chief", "Officer", "Lieutenant"]
-    with doc.retokenize() as retokenizer:
-        for i in range(len(doc) - 1):
-            if doc[i].text in titles and doc[i+1].pos_ == "PROPN":
-                retokenizer.merge(doc[i:i+2], attrs={"POS": "PROPN", "LABEL": "PERSON"})
-    return doc
-
 def load_spacy_model(model_name: str = "en_core_web_trf", ledger: dict = None):
     global nlp
     if nlp is None:
         try:
+            print(f"Loading spaCy model: {model_name}...")
             nlp = spacy.load(model_name)
+            # Add coref to the end of the pipeline
             nlp.add_pipe("fastcoref")
-            nlp.add_pipe("title_merger", before="ner")
             if ledger:
+                print(f"Adding entity ruler with {len(ledger)} patterns...")
                 ruler = nlp.add_pipe("entity_ruler", before="ner")
-                patterns = [{"label": label, "pattern": text} for text, label in ledger.items()]
+                patterns = [{"label": label, "pattern": text} for text, label in ledger.items() if label]
                 ruler.add_patterns(patterns)
-        except OSError:
+        except Exception as e:
+            print(f"Error loading spaCy model: {e}")
             raise
 
-def extract_triples_deterministic(doc: Doc) -> list[dict]:
-    triples = []
-    matcher = Matcher(nlp.vocab)
-    matcher.add("TIME", [[{"TEXT": {"REGEX": r"\d{1,2}:\d{2}"}}]])
-    current_time = "unknown"
+def merge_titles_in_ents(doc):
+    """Manually merges titles like 'Captain' into adjacent PERSON entities."""
+    titles = ["Captain", "Commander", "Dr.", "Doctor", "Professor", "Chief", "Officer", "Lieutenant"]
+    new_ents = []
+    ents = list(doc.ents)
+    i = 0
+    while i < len(ents):
+        ent = ents[i]
+        # Check if previous word was a title
+        start_token_idx = ent.start
+        if start_token_idx > 0:
+            prev_token = doc[start_token_idx - 1]
+            if prev_token.text in titles:
+                # Create a new Span that includes the title
+                new_ent = Span(doc, start_token_idx - 1, ent.end, label=ent.label)
+                new_ents.append(new_ent)
+                i += 1
+                continue
+        new_ents.append(ent)
+        i += 1
     
-    for sent in doc.sents:
-        matches = matcher(sent)
-        for _, start, end in matches:
-            current_time = sent[start:end].text
+    # Filter out overlapping entities (prefer longer ones)
+    try:
+        doc.ents = spacy.util.filter_spans(new_ents)
+    except:
+        pass
+    return doc
+
+class SemanticTranslator:
+    def __init__(self, ollama_model="qwen2.5:7b"):
+        self.ollama_model = ollama_model
+        self.ollama_url = "http://localhost:11434/api/generate"
+        self.cache = {}
+
+    def translate_predicate(self, verb_text, subject_text, object_text):
+        """Maps a raw action verb to a core narrative predicate."""
+        verb_lower = verb_text.lower()
         
-        sent_text = sent.text.strip()
-        for token in sent:
-            # We look for verbs that anchor relationships
-            if token.pos_ == "VERB" or token.dep_ == "ROOT" or token.lemma_ in ["be", "become"]:
-                # 1. EXTRACT SUBJECT
-                subj = None
-                for child in token.children:
-                    if child.dep_ in ["nsubj", "nsubjpass"]:
-                        subj = child
-                        break
-                if not subj: continue
-                
-                subj_text = subj.text
-                # Phase 2: Dialogue Coreference Resolution
-                if subj_text in ["I", "me", "my"]:
-                    parent = subj.head
-                    if parent.dep_ in ["ccomp", "parataxis"]:
-                        speaking_verb = parent.head
-                        for child in speaking_verb.children:
-                            if child.dep_ in ["nsubj", "nsubjpass"]:
-                                subj_text = child.text
-                                break
-                
-                subj_text = subj_text.strip(' .,:;"\'”’!?')
+        # FAST PATH: Rule-based mapping for 90% of cases
+        if verb_lower in ["is", "am", "are", "was", "were", "become", "became"]:
+            return "HAS_ATTRIBUTE" if len(object_text.split()) < 3 else "HAS_IDENTITY"
+        if verb_lower in ["live", "lives", "lived", "stay", "stays", "stayed", "stand", "stood", "enter", "entered"]:
+            return "LOCATED_AT"
+        if verb_lower in ["has", "have", "had", "possess", "possesses", "hold", "holding", "held", "carry", "carrying"]:
+            return "POSSESSES"
+        if verb_lower in ["lose", "lost", "drop", "dropped", "leave", "left"]:
+            return "LOST"
 
-                # Phase 1: Deep Negation & Broadened Literal Check
-                neg_tokens = ["not", "no", "never", "n't"]
-                is_negated = any(c.dep_ == "neg" or c.lower_ in neg_tokens for c in token.children) or \
-                             any(gc.dep_ == "neg" or gc.lower_ in neg_tokens for c in token.children for gc in c.children)
-                label_prefix = "NOT_" if is_negated else ""
-                
-                # 2. APPLY STRUCTURAL RULES
-                
-                # A. LOCATED_AT: ROOT -> prep (in, on, at, to, inside) -> pobj
-                for child in token.children:
-                    if child.dep_ == "prep" and child.lower_ in ["in", "on", "at", "to", "inside"]:
-                        for grandchild in child.children:
-                            if grandchild.dep_ == "pobj":
-                                loc_text = "".join([t.text_with_ws for t in grandchild.subtree]).strip().strip(' .,:;"\'”’!?')
-                                # Phase 3 (Old) / Phase 1: Location Filtering & Contextual NER exclusion
-                                if (loc_text and loc_text[0].isupper()) or grandchild.pos_ == "PROPN":
-                                    # Check grandchild against sent.ents instead of new loc_doc
-                                    is_person = False
-                                    for ent in sent.ents:
-                                        if ent.start <= grandchild.i < ent.end and ent.label_ == "PERSON":
-                                            is_person = True
-                                            break
-                                    if not is_person:
-                                        triples.append({
-                                            "subject": {"text": subj_text},
-                                            "predicate": {"label": f"{label_prefix}LOCATED_AT", "text": f"{token.text} {child.text}"},
-                                            "object": {"text": loc_text},
-                                            "timestamp": current_time,
-                                            "provenance": {"source_text_snippet": sent_text}
-                                        })
-                
-                # B. POSSESSES / LOST: ROOT lemma in list -> dobj
-                if token.lemma_ in ["have", "hold", "possess", "carry", "keep"]:
-                    for child in token.children:
-                        if child.dep_ == "dobj":
-                            obj_text = "".join([t.text_with_ws for t in child.subtree]).strip().strip(' .,:;"\'”’!?')
-                            triples.append({
-                                "subject": {"text": subj_text},
-                                "predicate": {"label": f"{label_prefix}POSSESSES", "text": token.text},
-                                "object": {"text": obj_text},
-                                "timestamp": current_time,
-                                "provenance": {"source_text_snippet": sent_text}
-                            })
-                
-                elif token.lemma_ in ["lose", "drop", "misplace", "leave"]:
-                    for child in token.children:
-                        if child.dep_ == "dobj":
-                            obj_text = "".join([t.text_with_ws for t in child.subtree]).strip().strip(' .,:;"\'”’!?')
-                            triples.append({
-                                "subject": {"text": subj_text},
-                                "predicate": {"label": f"{label_prefix}LOST", "text": token.text},
-                                "object": {"text": obj_text},
-                                "timestamp": current_time,
-                                "provenance": {"source_text_snippet": sent_text}
-                            })
+        # SLOW PATH: Only call LLM if rules fail
+        cache_key = f"{verb_text}_{object_text}"
+        if cache_key in self.cache: return self.cache[cache_key]
+        # ... (rest of LLM logic)
 
-                # C. HAS_IDENTITY: lemma be/become -> attr/acomp (must be Title Case or PROPN)
-                if token.lemma_ in ["be", "become"]:
-                    for child in token.children:
-                        if child.dep_ in ["attr", "acomp"]:
-                            obj_text = "".join([t.text_with_ws for t in child.subtree]).strip().strip(' .,:;"\'”’!?')
-                            # Filter for Title Case or PROPN to avoid metaphors
-                            if child.pos_ == "PROPN" or (obj_text and obj_text[0].isupper()):
-                                triples.append({
-                                    "subject": {"text": subj_text},
-                                    "predicate": {"label": f"{label_prefix}HAS_IDENTITY", "text": token.text},
-                                    "object": {"text": obj_text},
-                                    "timestamp": current_time,
-                                    "provenance": {"source_text_snippet": sent_text}
-                                })
-                            # D. HAS_ATTRIBUTE: lemma be/become -> acomp
-                            elif child.dep_ == "acomp":
-                                triples.append({
-                                    "subject": {"text": subj_text},
-                                    "predicate": {"label": f"{label_prefix}HAS_ATTRIBUTE", "text": token.text},
-                                    "object": {"text": obj_text},
-                                    "target_feature": "appearance",
-                                    "timestamp": current_time,
-                                    "provenance": {"source_text_snippet": sent_text}
-                                })
+        prompt = f"""Analyze the action: "{subject_text} {verb_text} {object_text}".
+Map this action to EXACTLY ONE of these core predicates:
+- LOCATED_AT (movement, entering, standing in a place, living in a place)
+- POSSESSES (holding, taking, owning, gaining an item)
+- LOST (dropping, breaking, leaving, losing an item)
+- HAS_ATTRIBUTE (describing a physical trait, appearance, or simple state)
+- HAS_IDENTITY (defining a role, job, or name)
+- NONE (if it is a general action or emotion)
 
-                # Phase 3: Action-Verb Attributes
-                if token.lemma_ in ["manifest", "develop", "gain", "show", "reveal"]:
-                    for child in token.children:
-                        if child.dep_ == "dobj":
-                            attr_text = "".join([t.text_with_ws for t in child.subtree]).strip().strip(' .,:;"\'”’!?')
-                            triples.append({
-                                "subject": {"text": subj_text},
-                                "predicate": {"label": f"{label_prefix}HAS_ATTRIBUTE", "text": token.text},
-                                "object": {"text": attr_text},
-                                "target_feature": child.lemma_,
-                                "timestamp": current_time,
-                                "provenance": {"source_text_snippet": sent_text}
-                            })
+Return ONLY the predicate name in uppercase.
+"""
+        payload = {"model": self.ollama_model, "prompt": prompt, "stream": False}
+        try:
+            response = requests.post(self.ollama_url, json=payload, timeout=10)
+            res = response.json().get("response", "NONE").strip().upper()
+            # Clean up potential LLM chatter
+            for p in ["LOCATED_AT", "POSSESSES", "LOST", "HAS_ATTRIBUTE", "HAS_IDENTITY"]:
+                if p in res:
+                    self.cache[cache_key] = p
+                    return p
+        except: pass
+        return "NONE"
 
-                # E. HAS_ATTRIBUTE via amod (e.g., "jagged scar")
-                for child in subj.children:
-                    if child.dep_ == "amod":
-                        attr_text = child.text.strip(' .,:;"\'”’!?')
-                        triples.append({
-                            "subject": {"text": subj.head.text if subj.dep_ == "amod" else subj_text},
-                            "predicate": {"label": "HAS_ATTRIBUTE", "text": "is"},
-                            "object": {"text": attr_text},
-                            "target_feature": subj_text,
-                            "timestamp": current_time,
-                            "provenance": {"source_text_snippet": sent_text}
-                        })
-    return triples
+    def resolve_alias(self, entity_name, existing_ledger):
+        """Checks if a new entity name is an alias of an existing one."""
+        if not entity_name or not isinstance(entity_name, str): return entity_name
+        
+        # 1. JUNK & PRONOUN FILTERING
+        clean_name = entity_name.strip(' .,:;"\'”’!?')
+        pronouns = ["I", "me", "my", "he", "him", "his", "she", "her", "it", "its", "they", "them", "their", "we", "us", "our"]
+        if clean_name.lower() in pronouns or len(clean_name) < 2:
+            return None # Signal to skip this as a node
+
+        if not clean_name[0].isupper() or not any(c.isalpha() for c in clean_name):
+            return clean_name
+
+        # 2. CACHING
+        if hasattr(self, 'alias_cache') and clean_name in self.alias_cache:
+            return self.alias_cache[clean_name]
+        if not hasattr(self, 'alias_cache'): self.alias_cache = {}
+
+        if not existing_ledger: return clean_name
+        
+        candidates = [name for name, label in existing_ledger.items() if label in ['PERSON', 'TITLE', 'ORG']]
+        if not candidates: return clean_name
+
+        # 3. STRICT PROMPT
+        prompt = f"""Identify if this entity is an alias of an existing one.
+ENTITY: "{clean_name}"
+EXISTING: {candidates[:20]}
+
+If it matches one, return that name.
+If it is new, return "{clean_name}".
+Response format: {{"resolved_name": "actual_name_string"}}
+"""
+        payload = {"model": self.ollama_model, "prompt": prompt, "stream": False, "format": "json"}
+        try:
+            response = requests.post(self.ollama_url, json=payload, timeout=10)
+            res_data = json.loads(response.json().get("response", "{}"))
+            resolved = res_data.get("resolved_name", clean_name).strip()
+            if "NEW NAME" in resolved or "actual_name" in resolved: resolved = clean_name
+            self.alias_cache[clean_name] = resolved
+            return resolved
+        except: return clean_name
+
+translator = SemanticTranslator()
+
+def extract_triples_deterministic(doc: Doc) -> list[dict]:
+    # This function is kept for backward compatibility or direct use
+    # but the logic is now mostly integrated into process_chapters_for_nlp
+    return []
+
+class TriModeExtractor:
+    def __init__(self, mode="hybrid", ollama_model="qwen2.5:7b"):
+        self.mode = mode
+        self.ollama_model = ollama_model
+        self.ollama_url = "http://localhost:11434/api/generate"
+
+    def _clean_llm_json(self, raw_response):
+        match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", raw_response)
+        if match:
+            return match.group(1).strip()
+        return raw_response.strip()
+
+    def _call_ollama(self, system_prompt, text_chunk, retries=2):
+        payload = {
+            "model": self.ollama_model,
+            "prompt": f"Text to analyze:\n{text_chunk}",
+            "system": system_prompt,
+            "format": "json",
+            "stream": False,
+            "options": {
+                "num_ctx": 4096,
+                "temperature": 0.1
+            }
+        }
+        for attempt in range(retries):
+            try:
+                response = requests.post(self.ollama_url, json=payload, timeout=300)
+                response.raise_for_status()
+                raw_text = response.json().get("response", "")
+                cleaned_text = self._clean_llm_json(raw_text)
+                
+                data = json.loads(cleaned_text)
+                if isinstance(data, dict):
+                    for key, val in data.items():
+                        if isinstance(val, list):
+                            data = val
+                            break
+                    if isinstance(data, dict):
+                        data = [data]
+                return data if isinstance(data, list) else []
+                
+            except Exception as e:
+                print(f"[!] Ollama attempt {attempt + 1} failed: {e}")
+        return []
+
+    def extract_triples_llm(self, text, raw_text_chunk, canonical_entities=None):
+        if canonical_entities is None: canonical_entities = []
+        system_prompt = f"""You are a strict Narrative State Tracker. Analyze the text chunk and extract literal, physical state changes AND static character facts (identities, jobs, physical attributes).
+
+CRITICAL RULES:
+1. EXHAUSTIVE EXTRACTION: Extract EVERY relevant relationship. Do not stop at just one. Find every instance of someone being located somewhere, possessing something, losing something, or having an attribute/identity.
+2. METAPHOR FILTER: If the text uses a metaphor (e.g., 'she was in a dark place mentally', 'he lost his mind'), set 'is_metaphor' to true.
+3. EDGE CASES: Capture 'LOST' for dropping, breaking, or forgetting items. Capture 'LOCATED_AT' for entering rooms or standing in areas.
+4. PRONOUN RESOLUTION: If the text is dialogue or uses first-person (e.g., 'I have the key'), you MUST resolve 'I', 'me', or 'my' to the name of the character speaking.
+5. CANONICAL NAMING: Use these exact entity names if they match: {canonical_entities}.
+
+Output ONLY a JSON array of objects:
+{{
+  "character_id": "string",
+  "state_change_type": "ENUM: [LOCATED_AT, POSSESSES, LOST, HAS_ATTRIBUTE, HAS_IDENTITY]",
+  "target_value": "string",
+  "is_metaphor": "boolean",
+  "timestamp": "string (e.g., '12:00' or 'unknown')",
+  "target_feature": "string (e.g., 'scar' or 'general')"
+}}"""
+        raw_results = self._call_ollama(system_prompt, text)
+        
+        triples = []
+        for item in raw_results:
+            is_metaphor_raw = item.get("is_metaphor", False)
+            is_metaphor = str(is_metaphor_raw).lower() == "true"
+            
+            if not is_metaphor:
+                ts_raw = item.get("timestamp")
+                ts = str(ts_raw) if ts_raw and str(ts_raw).lower() not in ["null", "none", "", "unknown"] else "unknown"
+                tf_raw = item.get("target_feature")
+                tf = str(tf_raw) if tf_raw and str(tf_raw).lower() not in ["null", "none", "", "general"] else "general"
+                sc_type = str(item.get("state_change_type", "UNKNOWN")).upper().replace("ENUM:", "").replace("[", "").replace("]", "").strip()
+                t_val = str(item.get("target_value", "UNKNOWN"))
+                
+                triples.append({
+                    "subject": {"text": str(item.get("character_id", "UNKNOWN"))},
+                    "predicate": {
+                        "label": sc_type, 
+                        "text": sc_type + "_" + t_val
+                    },
+                    "object": {"text": t_val},
+                    "timestamp": ts,
+                    "target_feature": tf,
+                    "provenance": {"source_text_snippet": raw_text_chunk}
+                })
+        return triples
 
 def process_chapters_for_nlp(chapter_data: dict, mode="hybrid", ollama_model="qwen2.5:7b", ledger=None) -> tuple:
     if nlp is None: load_spacy_model(ledger=ledger)
     if ledger is None: ledger = {}
     processed_chapters = {}
     
+    extractor = TriModeExtractor(mode=mode, ollama_model=ollama_model)
+    
+    def get_canonical_id(text):
+        if not text: return "UNKNOWN"
+        cid = re.sub(r'[^A-Z0-9_]', '', str(text).upper().replace(' ', '_'))
+        return cid if cid else "UNKNOWN"
+
     for chapter_name, chunks in chapter_data.items():
         processed_chunks = []
+        last_seen_person = None 
+        
         for i, chunk in enumerate(chunks):
             content = chunk["content"]
-            coref_doc = nlp(content)
+            # Process with coref
+            doc = nlp(content)
             
-            # Phase 1: Repair Coreference Resolution
-            resolved_content = coref_doc.text
-            if coref_doc._.coref_clusters:
-                all_mentions = []
-                for cluster in coref_doc._.coref_clusters:
-                    # Replacement string logic
-                    m_start, m_end = cluster[0]
-                    main_text = coref_doc.text[m_start:m_end]
+            # NER can fail on large chunks with 'trf' models due to token limits.
+            # Fallback: if doc.ents is empty, process sentence by sentence.
+            entities_raw = list(doc.ents)
+            if not entities_raw:
+                print(f"  [NLP] Warning: No entities in {chapter_name} chunk {i}. Trying sentence fallback...")
+                for sent in doc.sents:
+                    sent_doc = nlp(sent.text)
+                    entities_raw.extend(list(sent_doc.ents))
+            
+            # Post-process: merge titles (Captain, Dr, etc) into PERSON entities
+            entities_list = []
+            titles = ["Captain", "Commander", "Dr.", "Doctor", "Professor", "Chief", "Officer", "Lieutenant"]
+            for ent in entities_raw:
+                start_char = ent.start_char
+                # Look back in doc to see if a title precedes this entity
+                if start_char > 0:
+                    lookback_text = doc.text[:start_char].strip()
+                    for title in titles:
+                        if lookback_text.endswith(title):
+                            # Adjust entity to include title
+                            entities_list.append({
+                                "text": f"{title} {ent.text}",
+                                "label": ent.label_,
+                                "start_char": start_char - len(title) - 1,
+                                "end_char": ent.end_char
+                            })
+                            break
+                    else:
+                        entities_list.append({"text": ent.text, "label": ent.label_, "start_char": ent.start_char, "end_char": ent.end_char})
+                else:
+                    entities_list.append({"text": ent.text, "label": ent.label_, "start_char": ent.start_char, "end_char": ent.end_char})
+
+            if entities_list:
+                print(f"  [NLP] Detected {len(entities_list)} entities in {chapter_name} chunk {i}")
+            
+            try:
+                resolved_content = doc._.resolved_text if hasattr(doc._, "resolved_text") else doc.text
+            except:
+                resolved_content = content
+
+            canonical_entities = []
+            for ent in entities_list:
+                if ent['text'] not in ledger:
+                    ledger[ent['text']] = ent['label']
+                
+                if ent['label'] == 'PERSON':
+                    resolved_name = translator.resolve_alias(ent['text'], ledger)
+                    if resolved_name:
+                        ent['resolved_name'] = resolved_name
+                        last_seen_person = resolved_name 
+                        ledger[ent['text']] = 'PERSON'
+                        ledger[resolved_name] = 'PERSON'
+                        if resolved_name not in canonical_entities: canonical_entities.append(resolved_name)
+                    else:
+                        ent['resolved_name'] = ent['text']
+                        ledger[ent['text']] = 'PERSON'
+                        if ent['text'] not in canonical_entities: canonical_entities.append(ent['text'])
+                else:
+                    ent['resolved_name'] = ent['text']
+                    if ent['text'] not in canonical_entities: canonical_entities.append(ent['text'])
+
+            all_chunk_triples = []
+            if mode in ["spacy", "hybrid"]:
+                matcher = Matcher(nlp.vocab)
+                matcher.add("TIME", [[{"TEXT": {"REGEX": r"\d{1,2}:\d{2}"}}]])
+                current_time = "unknown"
+                
+                for sent in doc.sents:
+                    matches = matcher(sent)
+                    for _, start, end in matches: current_time = sent[start:end].text
                     
-                    if len(main_text.split()) > 4 or any(p in main_text.lower() for p in ["that", "who", "which"]):
-                        safe_mentions = []
-                        for start, end in cluster:
-                            text = coref_doc.text[start:end]
-                            if not (len(text.split()) > 4 or any(p in text.lower() for p in ["that", "who", "which"])):
-                                safe_mentions.append(text)
-                        main_text = min(safe_mentions, key=len) if safe_mentions else main_text
+                    for token in sent:
+                        if token.pos_ in ["VERB", "AUX"] or token.dep_ == "ROOT":
+                            subj = next((c for c in token.children if c.dep_ in ["nsubj", "nsubjpass", "attr"]), None)
+                            subj_text = None
+                            
+                            if subj:
+                                if subj.text.lower() in ["i", "he", "she", "it", "they", "who", "we", "me"]:
+                                    subj_text = last_seen_person
+                                elif subj.pos_ in ["PROPN", "NOUN"]:
+                                    subj_text = subj.text
+                            
+                            if not subj_text: continue
+                            
+                            obj_text = ""
+                            potential_objs = [c for c in token.children if c.dep_ in ["dobj", "attr", "acomp", "pobj", "prep", "xcomp"]]
+                            
+                            for obj_node in potential_objs:
+                                if obj_node.dep_ == "prep":
+                                    pobj = next((gc for gc in obj_node.children if gc.dep_ == "pobj"), None)
+                                    if pobj:
+                                        obj_text = "".join([t.text_with_ws for t in pobj.subtree]).strip()
+                                        break
+                                elif obj_node.text == subj_text: 
+                                    continue
+                                else:
+                                    obj_text = "".join([t.text_with_ws for t in obj_node.subtree]).strip()
+                                    if obj_text: break
+                            
+                            if not obj_text: continue
 
-                    for start, end in cluster[1:]:
-                        all_mentions.append((start, end, main_text))
-                
-                # Filter overlapping spans
-                all_mentions.sort(key=lambda x: (x[0], -(x[1]-x[0])))
-                filtered_mentions = []
-                last_end = -1
-                for start, end, replacement in all_mentions:
-                    if start >= last_end:
-                        # Possessive handling
-                        original_text = coref_doc.text[start:end]
-                        if original_text.lower() in ["his", "her", "their", "my", "its"] and not replacement.endswith(("' ", "'s", "’", "’s")):
-                            replacement += "'s"
-                        filtered_mentions.append((start, end, replacement))
-                        last_end = end
-
-                # Sort by start_char descending for replacement
-                filtered_mentions.sort(key=lambda x: x[0], reverse=True)
-                
-                temp_text = coref_doc.text
-                for start, end, replacement in filtered_mentions:
-                    temp_text = temp_text[:start] + replacement + temp_text[end:]
-                resolved_content = temp_text
-
-            doc = nlp(resolved_content)
-            entities = [{"text": ent.text, "label": ent.label_, "start_char": ent.start_char, "end_char": ent.end_char} for ent in doc.ents]
-            for ent in entities: ledger[ent['text']] = ent['label']
-
-            all_chunk_triples = extract_triples_deterministic(doc)
-
+                            label = translator.translate_predicate(token.text, subj_text, obj_text)
+                            if label != "NONE":
+                                all_chunk_triples.append({
+                                    "subject": {"text": subj_text},
+                                    "predicate": {"label": label, "text": token.text},
+                                    "object": {"text": obj_text},
+                                    "timestamp": current_time,
+                                    "target_feature": obj_node.lemma_ if label == "HAS_ATTRIBUTE" else "general",
+                                    "provenance": {"source_text_snippet": sent.text}
+                                })
+            
+            if mode in ["llm", "hybrid"]:
+                llm_triples = extractor.extract_triples_llm(resolved_content, content, canonical_entities=canonical_entities)
+                all_chunk_triples.extend(llm_triples)
+            
             processed_chunks.append({
                 "chapter_name": chapter_name, "chunk_id": i, "content": content,
-                "resolved_content": resolved_content, "entities": entities,
-                "triples": all_chunk_triples, "coref_clusters": coref_doc._.coref_clusters
+                "triples": all_chunk_triples, "entities": entities_list
             })
         processed_chapters[chapter_name] = processed_chunks
-    
-    known_ids = list(ledger.keys())
+
     for chapter_name, chunks in processed_chapters.items():
         for chunk in chunks:
             for ent in chunk['entities']:
-                matches = difflib.get_close_matches(ent['text'], known_ids, n=1, cutoff=0.8)
-                res = matches[0] if matches else ent['text']
-                cid = re.sub(r'[^A-Z0-9_]', '', res.upper().replace(' ', '_').replace("'", ""))
-                ent['canonical_id'] = cid.split('_')[-1] if ent.get('label') in ['PERSON', 'TITLE'] else cid
+                base_text = ent.get('resolved_name', ent['text'])
+                ent['canonical_id'] = get_canonical_id(base_text)
             for triple in chunk['triples']:
                 for role in ['subject', 'object']:
                     node = triple[role]
                     txt = node.get('text', 'UNKNOWN')
-                    matches = difflib.get_close_matches(txt, known_ids, n=1, cutoff=0.8)
-                    res = matches[0] if matches else txt
-                    cid = re.sub(r'[^A-Z0-9_]', '', res.upper().replace(' ', '_').replace("'", ""))
-                    triple[role]['canonical_id'] = cid
+                    node['canonical_id'] = get_canonical_id(txt)
     return processed_chapters, ledger
 
 def print_ner_table(processed_chapters):
@@ -296,4 +435,7 @@ def print_ner_table(processed_chapters):
         for chunk in chunks:
             for ent in chunk['entities']:
                 data.append({"Chapter": chapter_name, "Text": ent['text'], "Label": ent.get('label'), "ID": ent.get('canonical_id')})
-    print(tabulate(pd.DataFrame(data), headers='keys', tablefmt='grid'))
+    if data:
+        print(tabulate(pd.DataFrame(data), headers='keys', tablefmt='grid'))
+    else:
+        print("No entities detected in any chapter.")

@@ -1,0 +1,192 @@
+[
+  {
+    "s1": "# Story 9: Love in the Loire (Romance)\n\nSophie met Julian at a small, sun-drenched caf\u00e9 in the heart of the Loire Valley",
+    "s2": "Sophie was sitting at a small, round table, lost in the pages of a well-worn novel",
+    "score": 99.94
+  },
+  {
+    "s1": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain",
+    "s2": "Sophie was sitting at a small, round table, lost in the pages of a well-worn novel",
+    "score": 99.99
+  },
+  {
+    "s1": "The Loire River flowed gently in the distance, its waters reflecting the soft blue of the sky",
+    "s2": "Sophie was sitting at a small, round table, lost in the pages of a well-worn novel",
+    "score": 99.99
+  },
+  {
+    "s1": "# Story 9: Love in the Loire (Romance)\n\nSophie met Julian at a small, sun-drenched caf\u00e9 in the heart of the Loire Valley",
+    "s2": "\"Not at all,\" Sophie replied, her own smile widening",
+    "score": 96.36
+  },
+  {
+    "s1": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain",
+    "s2": "They discovered a mutual love for old films, obscure poetry, and the simple beauty of the French countryside",
+    "score": 99.76
+  },
+  {
+    "s1": "Sophie was sitting at a small, round table, lost in the pages of a well-worn novel",
+    "s2": "Julian spoke of his life in Paris, and his loyal companion, Buster, a rambunctious and energetic golden retriever",
+    "score": 99.88
+  },
+  {
+    "s1": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze",
+    "s2": "Julian spoke of his life in Paris, and his loyal companion, Buster, a rambunctious and energetic golden retriever",
+    "score": 98.49
+  },
+  {
+    "s1": "Sophie was sitting at a small, round table, lost in the pages of a well-worn novel",
+    "s2": "\"He's the best dog I've ever had",
+    "score": 99.93
+  },
+  {
+    "s1": "Sophie looked up to find a man standing before her, a gentle smile playing on his lips",
+    "s2": "\"He's the best dog I've ever had",
+    "score": 99.61
+  },
+  {
+    "s1": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze",
+    "s2": "\"He's the best dog I've ever had",
+    "score": 99.94
+  },
+  {
+    "s1": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze",
+    "s2": "The cherry blossoms were gone, replaced by thick, dry leaves that crunched loudly under their feet",
+    "score": 89.17
+  },
+  {
+    "s1": "\"Not at all,\" Sophie replied, her own smile widening",
+    "s2": "A cool, biting October breeze nipped at their ears, and the sky turned a slate gray",
+    "score": 98.68
+  },
+  {
+    "s1": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze",
+    "s2": "A cool, biting October breeze nipped at their ears, and the sky turned a slate gray",
+    "score": 100.0
+  },
+  {
+    "s1": "The vibrant greens of spring were replaced by the deep oranges, reds, and golds of autumn",
+    "s2": "A cool, biting October breeze nipped at their ears, and the sky turned a slate gray",
+    "score": 99.92
+  },
+  {
+    "s1": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze",
+    "s2": "Sophie shivered as the temperature dropped, and Julian immediately put his strong arm around her shoulders to keep her warm",
+    "score": 99.77
+  },
+  {
+    "s1": "The cherry blossoms were gone, replaced by thick, dry leaves that crunched loudly under their feet",
+    "s2": "\"The flowers are just spectacular today, aren't they?\"\n\nSophie looked up at him, her heart skipping a beat",
+    "score": 99.98
+  },
+  {
+    "s1": "She found herself drowning in his dark brown eyes, which were now the color of rich mahogany",
+    "s2": "She reached up and adjusted the heavy, sheepskin-lined collar of her thick black leather jacket, then reached into her pocket and pulled out a pair of long, elegant silk gloves, carefully putting them on to protect her hands from the chill",
+    "score": 97.2
+  },
+  {
+    "s1": "\"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall",
+    "s2": "\"I told you Buster would love you",
+    "score": 99.91
+  },
+  {
+    "s1": "\"The flowers are just spectacular today, aren't they?\"\n\nSophie looked up at him, her heart skipping a beat",
+    "s2": "\" The cat meowed softly and rubbed its head against Sophie's gloved hand, purring contentedly",
+    "score": 94.93
+  },
+  {
+    "s1": "\"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall",
+    "s2": "\"I feel like I've known you forever,\" Sophie said, her voice filled with a quiet wonder",
+    "score": 99.84
+  },
+  {
+    "s1": "\"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall",
+    "s2": "\"Me too,\" Julian replied, his voice a low, melodic rumble",
+    "score": 97.99
+  },
+  {
+    "s1": "She reached up and adjusted the heavy, sheepskin-lined collar of her thick black leather jacket, then reached into her pocket and pulled out a pair of long, elegant silk gloves, carefully putting them on to protect her hands from the chill",
+    "s2": "He reached into his pocket and, with a flourish, pulled out a single red rose",
+    "score": 99.96
+  },
+  {
+    "s1": "She seemed completely unaware that she had been in a thin sundress just moments before",
+    "s2": "He reached into his pocket and, with a flourish, pulled out a single red rose",
+    "score": 99.46
+  },
+  {
+    "s1": "\"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall",
+    "s2": "He reached into his pocket and, with a flourish, pulled out a single red rose",
+    "score": 99.8
+  },
+  {
+    "s1": "She seemed completely unaware that she had been in a thin sundress just moments before",
+    "s2": "It was a beautiful, deep crimson flower, its stem perfectly smooth",
+    "score": 98.18
+  },
+  {
+    "s1": "\"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall",
+    "s2": "It was a beautiful, deep crimson flower, its stem perfectly smooth",
+    "score": 99.66
+  },
+  {
+    "s1": "\" The cat meowed softly and rubbed its head against Sophie's gloved hand, purring contentedly",
+    "s2": "It was a beautiful, deep crimson flower, its stem perfectly smooth",
+    "score": 97.04
+  },
+  {
+    "s1": "The sun was beginning to set, painting the sky in beautiful hues of orange, pink, and violet",
+    "s2": "It was a beautiful, deep crimson flower, its stem perfectly smooth",
+    "score": 99.6
+  },
+  {
+    "s1": "\" The cat meowed softly and rubbed its head against Sophie's gloved hand, purring contentedly",
+    "s2": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "score": 99.93
+  },
+  {
+    "s1": "\"I feel like I've known you forever,\" Sophie said, her voice filled with a quiet wonder",
+    "s2": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Me too,\" Julian replied, his voice a low, melodic rumble",
+    "s2": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "score": 99.39
+  },
+  {
+    "s1": "It was a beautiful, deep crimson flower, its stem perfectly smooth",
+    "s2": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "score": 99.99
+  },
+  {
+    "s1": "\"A thornless rose for a beautiful woman,\" he added",
+    "s2": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "score": 99.97
+  },
+  {
+    "s1": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "s2": "\"It's perfect,\" she said, ignoring the blood and the sting",
+    "score": 99.94
+  },
+  {
+    "s1": "He reached into his pocket and, with a flourish, pulled out a single red rose",
+    "s2": "They kissed as the cherry blossoms began to fall around them once more, drifting down like soft pink snow in the deepening autumn twilight",
+    "score": 94.5
+  },
+  {
+    "s1": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn",
+    "s2": "They kissed as the cherry blossoms began to fall around them once more, drifting down like soft pink snow in the deepening autumn twilight",
+    "score": 99.99
+  },
+  {
+    "s1": "A small drop of bright red blood appeared on her fingertip",
+    "s2": "They kissed as the cherry blossoms began to fall around them once more, drifting down like soft pink snow in the deepening autumn twilight",
+    "score": 99.99
+  },
+  {
+    "s1": "\"It's perfect,\" she said, ignoring the blood and the sting",
+    "s2": "They kissed as the cherry blossoms began to fall around them once more, drifting down like soft pink snow in the deepening autumn twilight",
+    "score": 99.92
+  }
+]

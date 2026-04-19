@@ -1,0 +1,512 @@
+[
+  {
+    "s1": "# Story 8: The Locked Room Riddle (Mystery)\n\nDetective Miller stood over the lifeless body of Lord Harrington, his sharp eyes taking in every detail of the crime scene",
+    "s2": "The library was a chaotic mess, a stark contrast to the normally meticulous nature of its owner",
+    "score": 99.97
+  },
+  {
+    "s1": "# Story 8: The Locked Room Riddle (Mystery)\n\nDetective Miller stood over the lifeless body of Lord Harrington, his sharp eyes taking in every detail of the crime scene",
+    "s2": "Books were scattered across the floor, their pages fluttered by a cold wind that shouldn't have been there",
+    "score": 99.93
+  },
+  {
+    "s1": "The library was a chaotic mess, a stark contrast to the normally meticulous nature of its owner",
+    "s2": "The windows were all securely locked from the inside, the heavy brass latches in place",
+    "score": 99.95
+  },
+  {
+    "s1": "Books were scattered across the floor, their pages fluttered by a cold wind that shouldn't have been there",
+    "s2": "The windows were all securely locked from the inside, the heavy brass latches in place",
+    "score": 99.99
+  },
+  {
+    "s1": "The library was a chaotic mess, a stark contrast to the normally meticulous nature of its owner",
+    "s2": "He turned toward the coroner, Dr",
+    "score": 99.65
+  },
+  {
+    "s1": "\"Time of death?\" Miller asked, his voice a low, gravelly rasp",
+    "s2": "He turned toward the coroner, Dr",
+    "score": 99.68
+  },
+  {
+    "s1": "# Story 8: The Locked Room Riddle (Mystery)\n\nDetective Miller stood over the lifeless body of Lord Harrington, his sharp eyes taking in every detail of the crime scene",
+    "s2": "Watson, who was busy examining the body with a clinical detachment",
+    "score": 99.94
+  },
+  {
+    "s1": "Books were scattered across the floor, their pages fluttered by a cold wind that shouldn't have been there",
+    "s2": "Watson, who was busy examining the body with a clinical detachment",
+    "score": 99.86
+  },
+  {
+    "s1": "The windows were all securely locked from the inside, the heavy brass latches in place",
+    "s2": "Watson, who was busy examining the body with a clinical detachment",
+    "score": 99.88
+  },
+  {
+    "s1": "\"Time of death?\" Miller asked, his voice a low, gravelly rasp",
+    "s2": "Watson, who was busy examining the body with a clinical detachment",
+    "score": 99.78
+  },
+  {
+    "s1": "# Story 8: The Locked Room Riddle (Mystery)\n\nDetective Miller stood over the lifeless body of Lord Harrington, his sharp eyes taking in every detail of the crime scene",
+    "s2": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "score": 99.89
+  },
+  {
+    "s1": "Books were scattered across the floor, their pages fluttered by a cold wind that shouldn't have been there",
+    "s2": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "score": 96.69
+  },
+  {
+    "s1": "\"Time of death?\" Miller asked, his voice a low, gravelly rasp",
+    "s2": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "score": 99.85
+  },
+  {
+    "s1": "He turned toward the coroner, Dr",
+    "s2": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "score": 99.34
+  },
+  {
+    "s1": "Watson, who was busy examining the body with a clinical detachment",
+    "s2": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "score": 99.98
+  },
+  {
+    "s1": "The library was a chaotic mess, a stark contrast to the normally meticulous nature of its owner",
+    "s2": "It was exactly 1:00 AM on a quiet Tuesday morning",
+    "score": 99.97
+  },
+  {
+    "s1": "Books were scattered across the floor, their pages fluttered by a cold wind that shouldn't have been there",
+    "s2": "It was exactly 1:00 AM on a quiet Tuesday morning",
+    "score": 99.93
+  },
+  {
+    "s1": "\"Time of death?\" Miller asked, his voice a low, gravelly rasp",
+    "s2": "It was exactly 1:00 AM on a quiet Tuesday morning",
+    "score": 99.24
+  },
+  {
+    "s1": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "s2": "Miller nodded solemnly, his mind already cataloging the implications, even though Lord Harrington had been seen alive and well at dinner by the entire household just one hour ago, at the stroke of midnight",
+    "score": 94.29
+  },
+  {
+    "s1": "It was exactly 1:00 AM on a quiet Tuesday morning",
+    "s2": "Miller nodded solemnly, his mind already cataloging the implications, even though Lord Harrington had been seen alive and well at dinner by the entire household just one hour ago, at the stroke of midnight",
+    "score": 95.09
+  },
+  {
+    "s1": "Miller nodded solemnly, his mind already cataloging the implications, even though Lord Harrington had been seen alive and well at dinner by the entire household just one hour ago, at the stroke of midnight",
+    "s2": "\"The cause is quite clear, Detective,\" Watson said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of the victim's chest",
+    "score": 97.73
+  },
+  {
+    "s1": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "s2": "\"He was stabbed through the heart with considerable force",
+    "score": 99.99
+  },
+  {
+    "s1": "Miller nodded solemnly, his mind already cataloging the implications, even though Lord Harrington had been seen alive and well at dinner by the entire household just one hour ago, at the stroke of midnight",
+    "s2": "\"He was stabbed through the heart with considerable force",
+    "score": 90.31
+  },
+  {
+    "s1": "\"Based on the body temperature, the state of rigor mortis, and several other physiological indicators, I'd say he's been dead for exactly forty-eight hours,\" Watson replied, his voice firm and certain",
+    "s2": "Death would have been instantaneous",
+    "score": 99.81
+  },
+  {
+    "s1": "Watson, who was busy examining the body with a clinical detachment",
+    "s2": "\"\n\nMiller leaned in even closer, his magnifying glass in hand",
+    "score": 97.64
+  },
+  {
+    "s1": "Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps",
+    "s2": "\"\n\nMiller leaned in even closer, his magnifying glass in hand",
+    "score": 99.33
+  },
+  {
+    "s1": "It was exactly 1:00 AM on a quiet Tuesday morning",
+    "s2": "Very interesting",
+    "score": 99.63
+  },
+  {
+    "s1": "\"The cause is quite clear, Detective,\" Watson said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of the victim's chest",
+    "s2": "But the complete lack of any puncture wounds, tears in the fabric of his shirt, or a single drop of blood on the body or the floor is the real mystery here",
+    "score": 99.98
+  },
+  {
+    "s1": "\"And the cause of death?\" Miller continued, leaning in closer to the victim",
+    "s2": "\"\n\nMiller turned his attention to the primary suspect, a small, nervous man named Mr",
+    "score": 99.81
+  },
+  {
+    "s1": "\"And the cause of death?\" Miller continued, leaning in closer to the victim",
+    "s2": "Green, who was standing in the corner of the room, twisting his hands together",
+    "score": 96.28
+  },
+  {
+    "s1": "\"He was stabbed through the heart with considerable force",
+    "s2": "Green, who was standing in the corner of the room, twisting his hands together",
+    "score": 96.42
+  },
+  {
+    "s1": "\"\n\nMiller leaned in even closer, his magnifying glass in hand",
+    "s2": "Green, who was standing in the corner of the room, twisting his hands together",
+    "score": 99.99
+  },
+  {
+    "s1": "\"And the cause of death?\" Miller continued, leaning in closer to the victim",
+    "s2": "\"Where were you at midnight, Mr",
+    "score": 91.59
+  },
+  {
+    "s1": "\"The cause is quite clear, Detective,\" Watson said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of the victim's chest",
+    "s2": "\"Where were you at midnight, Mr",
+    "score": 97.05
+  },
+  {
+    "s1": "\"The cause is quite clear, Detective,\" Watson said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of the victim's chest",
+    "s2": "Green?\"\n\n\"I was in the billiards room, Detective, I swear it!\" Colonel Mustard replied, his voice booming with a sudden, military authority",
+    "score": 99.87
+  },
+  {
+    "s1": "\"He was stabbed through the heart with considerable force",
+    "s2": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "score": 99.99
+  },
+  {
+    "s1": "\"\n\nMiller leaned in even closer, his magnifying glass in hand",
+    "s2": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "score": 99.99
+  },
+  {
+    "s1": "It's as if he simply dropped dead of a sudden, overwhelming fright, despite the knife",
+    "s2": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "score": 99.97
+  },
+  {
+    "s1": "Green, who was standing in the corner of the room, twisting his hands together",
+    "s2": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "score": 99.53
+  },
+  {
+    "s1": "\"Where were you at midnight, Mr",
+    "s2": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "score": 97.07
+  },
+  {
+    "s1": "\"\n\nMiller leaned in even closer, his magnifying glass in hand",
+    "s2": "Miller didn't seem to notice that Mr",
+    "score": 99.69
+  },
+  {
+    "s1": "It's as if he simply dropped dead of a sudden, overwhelming fright, despite the knife",
+    "s2": "Miller didn't seem to notice that Mr",
+    "score": 99.59
+  },
+  {
+    "s1": "\"\n\nMiller turned his attention to the primary suspect, a small, nervous man named Mr",
+    "s2": "Miller didn't seem to notice that Mr",
+    "score": 99.98
+  },
+  {
+    "s1": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "s2": "Miller didn't seem to notice that Mr",
+    "score": 99.69
+  },
+  {
+    "s1": "Very interesting",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.99
+  },
+  {
+    "s1": "It's as if he simply dropped dead of a sudden, overwhelming fright, despite the knife",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.97
+  },
+  {
+    "s1": "\"\n\nMiller turned his attention to the primary suspect, a small, nervous man named Mr",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.74
+  },
+  {
+    "s1": "Green, who was standing in the corner of the room, twisting his hands together",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.93
+  },
+  {
+    "s1": "\"Where were you at midnight, Mr",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.92
+  },
+  {
+    "s1": "Green?\"\n\n\"I was in the billiards room, Detective, I swear it!\" Colonel Mustard replied, his voice booming with a sudden, military authority",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.83
+  },
+  {
+    "s1": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.87
+  },
+  {
+    "s1": "Green had suddenly transformed into the Colonel, both in appearance and name",
+    "s2": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "score": 99.92
+  },
+  {
+    "s1": "But the complete lack of any puncture wounds, tears in the fabric of his shirt, or a single drop of blood on the body or the floor is the real mystery here",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.78
+  },
+  {
+    "s1": "It's as if he simply dropped dead of a sudden, overwhelming fright, despite the knife",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.99
+  },
+  {
+    "s1": "\"\n\nMiller turned his attention to the primary suspect, a small, nervous man named Mr",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.95
+  },
+  {
+    "s1": "Green, who was standing in the corner of the room, twisting his hands together",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.91
+  },
+  {
+    "s1": "\"Where were you at midnight, Mr",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.28
+  },
+  {
+    "s1": "Green?\"\n\n\"I was in the billiards room, Detective, I swear it!\" Colonel Mustard replied, his voice booming with a sudden, military authority",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.95
+  },
+  {
+    "s1": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.93
+  },
+  {
+    "s1": "Miller didn't seem to notice that Mr",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 98.4
+  },
+  {
+    "s1": "Green had suddenly transformed into the Colonel, both in appearance and name",
+    "s2": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "score": 99.99
+  },
+  {
+    "s1": "It's as if he simply dropped dead of a sudden, overwhelming fright, despite the knife",
+    "s2": "Miller walked slowly around the room, his boots clicking on the polished mahogany floor",
+    "score": 99.99
+  },
+  {
+    "s1": "Green, who was standing in the corner of the room, twisting his hands together",
+    "s2": "Miller walked slowly around the room, his boots clicking on the polished mahogany floor",
+    "score": 99.95
+  },
+  {
+    "s1": "Green?\"\n\n\"I was in the billiards room, Detective, I swear it!\" Colonel Mustard replied, his voice booming with a sudden, military authority",
+    "s2": "Miller walked slowly around the room, his boots clicking on the polished mahogany floor",
+    "score": 97.75
+  },
+  {
+    "s1": "Green had suddenly transformed into the Colonel, both in appearance and name",
+    "s2": "Miller walked slowly around the room, his boots clicking on the polished mahogany floor",
+    "score": 99.63
+  },
+  {
+    "s1": "Green, who was standing in the corner of the room, twisting his hands together",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.77
+  },
+  {
+    "s1": "\"Where were you at midnight, Mr",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.96
+  },
+  {
+    "s1": "Green?\"\n\n\"I was in the billiards room, Detective, I swear it!\" Colonel Mustard replied, his voice booming with a sudden, military authority",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.87
+  },
+  {
+    "s1": "He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.97
+  },
+  {
+    "s1": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.97
+  },
+  {
+    "s1": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.98
+  },
+  {
+    "s1": "Miller walked slowly around the room, his boots clicking on the polished mahogany floor",
+    "s2": "The room was sealed from the inside with no possible way in or out",
+    "score": 99.99
+  },
+  {
+    "s1": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "s2": "\" He then gestured with a flourish toward the wide-open double doors at the far end of the library",
+    "score": 90.24
+  },
+  {
+    "s1": "The room was sealed from the inside with no possible way in or out",
+    "s2": "\" He then gestured with a flourish toward the wide-open double doors at the far end of the library",
+    "score": 99.97
+  },
+  {
+    "s1": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "s2": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "score": 99.55
+  },
+  {
+    "s1": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "s2": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "score": 98.95
+  },
+  {
+    "s1": "Miller walked slowly around the room, his boots clicking on the polished mahogany floor",
+    "s2": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "score": 99.32
+  },
+  {
+    "s1": "The room was sealed from the inside with no possible way in or out",
+    "s2": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "score": 99.97
+  },
+  {
+    "s1": "Miller didn't seem to notice that Mr",
+    "s2": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "score": 95.06
+  },
+  {
+    "s1": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "s2": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "score": 99.97
+  },
+  {
+    "s1": "\" He then gestured with a flourish toward the wide-open double doors at the far end of the library",
+    "s2": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "score": 99.77
+  },
+  {
+    "s1": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "s2": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "score": 99.38
+  },
+  {
+    "s1": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "s2": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "score": 99.93
+  },
+  {
+    "s1": "\"This truly is a classic locked room mystery",
+    "s2": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "score": 99.01
+  },
+  {
+    "s1": "\" He then gestured with a flourish toward the wide-open double doors at the far end of the library",
+    "s2": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "score": 99.73
+  },
+  {
+    "s1": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "s2": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "score": 99.99
+  },
+  {
+    "s1": "\"And did you see or hear anything unusual, Colonel?\"\n\n\"Nothing at all, Miller",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.72
+  },
+  {
+    "s1": "Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.96
+  },
+  {
+    "s1": "\"This truly is a classic locked room mystery",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.93
+  },
+  {
+    "s1": "\" He then gestured with a flourish toward the wide-open double doors at the far end of the library",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.98
+  },
+  {
+    "s1": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.62
+  },
+  {
+    "s1": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.99
+  },
+  {
+    "s1": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "s2": "\"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household",
+    "score": 99.96
+  },
+  {
+    "s1": "\"This truly is a classic locked room mystery",
+    "s2": "\"The evidence is undeniable",
+    "score": 99.83
+  },
+  {
+    "s1": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "s2": "\"The evidence is undeniable",
+    "score": 98.78
+  },
+  {
+    "s1": "\"This truly is a classic locked room mystery",
+    "s2": "He was clearly poisoned by the Lady in Red",
+    "score": 99.81
+  },
+  {
+    "s1": "\" He then gestured with a flourish toward the wide-open double doors at the far end of the library",
+    "s2": "He was clearly poisoned by the Lady in Red",
+    "score": 98.75
+  },
+  {
+    "s1": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "s2": "He was clearly poisoned by the Lady in Red",
+    "score": 98.16
+  },
+  {
+    "s1": "\"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago",
+    "s2": "He was clearly poisoned by the Lady in Red",
+    "score": 98.95
+  },
+  {
+    "s1": "These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room",
+    "s2": "\"\n\nThe room fell silent as the detective made his proclamation",
+    "score": 99.91
+  },
+  {
+    "s1": "\"\n\nThe room fell silent as the detective made his proclamation",
+    "s2": "The Colonel nodded in agreement, and Dr",
+    "score": 98.89
+  },
+  {
+    "s1": "He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt",
+    "s2": "Watson began to pack his bag, seemingly satisfied with the conclusion",
+    "score": 90.25
+  }
+]

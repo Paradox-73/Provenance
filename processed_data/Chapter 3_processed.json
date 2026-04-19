@@ -3,521 +3,26 @@
     "chapter_name": "Chapter 3",
     "chunk_id": 0,
     "content": "Chapter 3: The Doctor's Secret\n\nMaria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye. She needed someone she could trust, someone with the analytical mind to look past the impossible. Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael. She reached the Medical Bay, the doors sliding open to reveal Aris standing over the same patient as before. The patient was a young ensign, his face pale and eyes flickering beneath the lids of the stasis pod. \"Aris,\" Maria called out, her breath coming in short, sharp bursts. \"I need you to look at those logs again. Something is wrong with the ship’s internal telemetry.\" Aris looked up, his expression unreadable. He adjusted his glasses, but something about the way he moved seemed different. He was no longer wearing the sterile white lab coat of a Medical Doctor. Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew. He held a high-frequency hydro-spanner in his hand, a tool used for repairing the main reactor core. \"I'm working on the telemetry right now, Captain,\" Aris said, his voice dropping an octave. \"The power fluctuations from the nebula are putting a strain on the secondary conduits. Aris is the ship's Chief Engineer, after all. I have to keep the *Starlight* moving.\" Maria froze. \"Chief Engineer? Aris, you’re the ship’s Medical Doctor. You were just telling me about the patient’s stability an hour ago.\" Aris didn't seem to hear her. He turned back to the tactical console that had somehow appeared in the center of the med-bay, his fingers flying over the controls with practiced ease. \"The diagnostics are clear, Maria. Engineering is my life, always has been. I’ve spent more time in the machine rooms than I ever have in a medical ward. I don't know why you'd think I was a doctor.\" \"But Dr. Evans...\" Maria started, but the name felt wrong. She looked at him again. The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory. He had two lives, two identities, and both were fighting for dominance in the same room. Maria looked at the patient in the pod, but the pod was gone. In its place was a backup fuel cell, humming with an eerie, violet light. \"Aris is a Medical Doctor,\" she whispered to herself, as if the words could hold back the tide of madness. \"Aris is a Chief Engineer.\" The contradiction was a physical weight, pressing down on her. She reached for the communication badge on her uniform, but her fingers touched only bare skin. Her uniform had changed, too. She was no longer the Captain. She was a stowaway, hiding in the shadows of a ship that no longer knew its own name. Aris looked back at her, his eyes cold and distant. \"You're not supposed to be here,\" he said, and for the first time, Maria saw the jagged scar on his left cheek—the same scar that had belonged to Kael.",
-    "resolved_content": "Chapter 3: The Doctor's Secret\n\nMaria rushed from the Hangar Bay, the spectral image of Maria's own quarters still flickering in the corner of Maria's eye. Maria needed someone Maria could trust, someone with the analytical mind to look past the impossible. Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael. Maria reached the Hangar Bay, the doors sliding open to reveal Dr. Aris standing over the same patient as before. the same patient was a young ensign, the same patient's face pale and eyes flickering beneath the lids of the stasis pod. \"Dr. Aris,\" Maria called out, Maria's breath coming in short, sharp bursts. \"Maria need Dr. Aris to look at those logs again. Something is wrong with the ship’s internal telemetry.\" Dr. Aris looked up, Dr. Aris's expression unreadable. Dr. Aris adjusted Dr. Aris's glasses, but something about the way Dr. Aris moved seemed different. Dr. Aris was no longer wearing the sterile white lab coat of a Medical Doctor. Instead, Dr. Aris was dressed in the heavy, grease-stained jumpsuit of the engineering crew. Dr. Aris held a high-frequency hydro-spanner in Dr. Aris's hand, a tool used for repairing the main reactor core. \"Dr. Aris'm working on the ship’s internal telemetry right now, Captain,\" Dr. Aris said, Dr. Aris's voice dropping an octave. \"The power fluctuations from the nebula are putting a strain on the secondary conduits. Dr. Aris is the ship’s Chief Engineer, after all. Dr. Aris have to keep the *Starlight* moving.\" Maria froze. \"Chief Engineer? Aris, Dr. Aris’re the ship’s Medical Doctor. Dr. Aris were just telling Maria about the same patient stability an hour ago.\" Dr. Aris didn't seem to hear Maria's. Dr. Aris turned back to the tactical console that had somehow appeared in the center of the Hangar Bay, Dr. Aris's fingers flying over the controls with practiced ease. \"The diagnostics are clear, Maria. Engineering is Dr. Aris's life, always has been. Dr. Aris’ve spent more time in the machine rooms than Dr. Aris ever have in a medical ward. Dr. Aris don't know why Maria'd think Dr. Aris was a doctor.\" \"But Dr. Evans...\" Maria started, but the name felt wrong. Maria looked at Dr. Evans again. Dr. Evans was undeniably Dr. Aris, yet Dr. Evans was performing a role that didn't exist in Maria's memory. Dr. Evans had two lives, two identities, and both were fighting for dominance in the same room. Maria looked at the same patient, but the pod was gone. In the pod's place was a backup fuel cell, humming with an eerie, violet light. \"Dr. Aris is a Medical Doctor,\" Maria whispered to Maria, as if the words could hold back the tide of madness. \"Dr. Aris is a Chief Engineer.\" The contradiction was a physical weight, pressing down on Maria's. Maria reached for the communication badge on Maria's uniform, but Maria's fingers touched only bare skin. her uniform had changed, too. Maria was no longer the Captain. Maria was a stowaway, hiding in the shadows of the ship’s. Dr. Aris looked back at Maria's, Dr. Aris's eyes cold and distant. \"Maria're not supposed to be here,\" Dr. Aris said, and for the first time, Maria saw the jagged scar on Dr. Aris's left cheek—the same scar that had belonged to Kael.",
-    "entities": [
-      {
-        "text": "3",
-        "label": "CARDINAL",
-        "start_char": 8,
-        "end_char": 9,
-        "canonical_id": "3"
-      },
-      {
-        "text": "The Doctor's Secret",
-        "label": "WORK_OF_ART",
-        "start_char": 11,
-        "end_char": 30,
-        "canonical_id": "THE_DOCTORS_SECRET"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 32,
-        "end_char": 37,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "the Hangar Bay",
-        "label": "FAC",
-        "start_char": 50,
-        "end_char": 64,
-        "canonical_id": "THE_HANGAR_BAY"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 88,
-        "end_char": 93,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 143,
-        "end_char": 148,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 156,
-        "end_char": 161,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 177,
-        "end_char": 182,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "was",
-        "label": "PERSON",
-        "start_char": 267,
-        "end_char": 270,
-        "canonical_id": "WAS"
-      },
-      {
-        "text": ".",
-        "label": "PERSON",
-        "start_char": 377,
-        "end_char": 378,
-        "canonical_id": ""
-      },
-      {
-        "text": "reached",
-        "label": "PERSON",
-        "start_char": 385,
-        "end_char": 392,
-        "canonical_id": "REACHED"
-      },
-      {
-        "text": "Hangar Bay,",
-        "label": "FAC",
-        "start_char": 397,
-        "end_char": 408,
-        "canonical_id": "HANGAR_BAY"
-      },
-      {
-        "text": "over",
-        "label": "PERSON",
-        "start_char": 460,
-        "end_char": 464,
-        "canonical_id": "OVER"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 627,
-        "end_char": 632,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": ",",
-        "label": "PERSON",
-        "start_char": 643,
-        "end_char": 644,
-        "canonical_id": ""
-      },
-      {
-        "text": "coming",
-        "label": "PERSON",
-        "start_char": 660,
-        "end_char": 666,
-        "canonical_id": "COMING"
-      },
-      {
-        "text": "to",
-        "label": "PERSON",
-        "start_char": 712,
-        "end_char": 714,
-        "canonical_id": "TO"
-      },
-      {
-        "text": "those",
-        "label": "PERSON",
-        "start_char": 723,
-        "end_char": 728,
-        "canonical_id": "THOSE"
-      },
-      {
-        "text": "'s",
-        "label": "PERSON",
-        "start_char": 825,
-        "end_char": 827,
-        "canonical_id": "S"
-      },
-      {
-        "text": "adjusted",
-        "label": "PERSON",
-        "start_char": 860,
-        "end_char": 868,
-        "canonical_id": "ADJUSTED"
-      },
-      {
-        "text": "something",
-        "label": "PERSON",
-        "start_char": 893,
-        "end_char": 902,
-        "canonical_id": "SOMETHING"
-      },
-      {
-        "text": "way",
-        "label": "PERSON",
-        "start_char": 913,
-        "end_char": 916,
-        "canonical_id": "WAY"
-      },
-      {
-        "text": "wearing",
-        "label": "PERSON",
-        "start_char": 973,
-        "end_char": 980,
-        "canonical_id": "WEARING"
-      },
-      {
-        "text": "of",
-        "label": "PERSON",
-        "start_char": 1008,
-        "end_char": 1010,
-        "canonical_id": "OF"
-      },
-      {
-        "text": "of",
-        "label": "PERSON",
-        "start_char": 1097,
-        "end_char": 1099,
-        "canonical_id": "OF"
-      },
-      {
-        "text": "hand",
-        "label": "PERSON",
-        "start_char": 1181,
-        "end_char": 1185,
-        "canonical_id": "HAND"
-      },
-      {
-        "text": ".",
-        "label": "PERSON",
-        "start_char": 1234,
-        "end_char": 1235,
-        "canonical_id": ""
-      },
-      {
-        "text": "Dr. Aris",
-        "label": "PERSON",
-        "start_char": 1310,
-        "end_char": 1318,
-        "canonical_id": "ARIS"
-      },
-      {
-        "text": "the",
-        "label": "PERSON",
-        "start_char": 1391,
-        "end_char": 1394,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "a",
-        "label": "PERSON",
-        "start_char": 1414,
-        "end_char": 1415,
-        "canonical_id": "A"
-      },
-      {
-        "text": "*",
-        "label": "PERSON",
-        "start_char": 1536,
-        "end_char": 1537,
-        "canonical_id": ""
-      },
-      {
-        "text": "Dr.",
-        "label": "PERSON",
-        "start_char": 1583,
-        "end_char": 1586,
-        "canonical_id": "DR"
-      },
-      {
-        "text": "Doctor",
-        "label": "PRODUCT",
-        "start_char": 1614,
-        "end_char": 1620,
-        "canonical_id": "DOCTOR"
-      },
-      {
-        "text": "telling",
-        "label": "PERSON",
-        "start_char": 1641,
-        "end_char": 1648,
-        "canonical_id": "TELLING"
-      },
-      {
-        "text": "an",
-        "label": "PERSON",
-        "start_char": 1688,
-        "end_char": 1690,
-        "canonical_id": "AN"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1731,
-        "end_char": 1736,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "turned",
-        "label": "PERSON",
-        "start_char": 1749,
-        "end_char": 1755,
-        "canonical_id": "TURNED"
-      },
-      {
-        "text": "that had somehow",
-        "label": "TIME",
-        "start_char": 1785,
-        "end_char": 1801,
-        "canonical_id": "THAT_HAD_SOMEHOW"
-      },
-      {
-        "text": "center",
-        "label": "PERSON",
-        "start_char": 1818,
-        "end_char": 1824,
-        "canonical_id": "CENTER"
-      },
-      {
-        "text": "Dr. Aris",
-        "label": "PERSON",
-        "start_char": 1844,
-        "end_char": 1852,
-        "canonical_id": "ARIS"
-      },
-      {
-        "text": "over",
-        "label": "PERSON",
-        "start_char": 1870,
-        "end_char": 1874,
-        "canonical_id": "OVER"
-      },
-      {
-        "text": "Engineering is Dr. Aris",
-        "label": "LOC",
-        "start_char": 1944,
-        "end_char": 1967,
-        "canonical_id": "ENGINEERING_IS_DR_ARIS"
-      },
-      {
-        "text": ",",
-        "label": "PERSON",
-        "start_char": 1974,
-        "end_char": 1975,
-        "canonical_id": ""
-      },
-      {
-        "text": "have",
-        "label": "PERSON",
-        "start_char": 2061,
-        "end_char": 2065,
-        "canonical_id": "HAVE"
-      },
-      {
-        "text": ".",
-        "label": "PERSON",
-        "start_char": 2083,
-        "end_char": 2084,
-        "canonical_id": ""
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2166,
-        "end_char": 2171,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2206,
-        "end_char": 2211,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "undeniably",
-        "label": "PERSON",
-        "start_char": 2253,
-        "end_char": 2263,
-        "canonical_id": "UNDENIABLY"
-      },
-      {
-        "text": "that",
-        "label": "PERSON",
-        "start_char": 2310,
-        "end_char": 2314,
-        "canonical_id": "THAT"
-      },
-      {
-        "text": "exist",
-        "label": "PERSON",
-        "start_char": 2322,
-        "end_char": 2327,
-        "canonical_id": "EXIST"
-      },
-      {
-        "text": "lives",
-        "label": "PERSON",
-        "start_char": 2365,
-        "end_char": 2370,
-        "canonical_id": "LIVES"
-      },
-      {
-        "text": ",",
-        "label": "PERSON",
-        "start_char": 2386,
-        "end_char": 2387,
-        "canonical_id": ""
-      },
-      {
-        "text": "fighting",
-        "label": "PERSON",
-        "start_char": 2402,
-        "end_char": 2410,
-        "canonical_id": "FIGHTING"
-      },
-      {
-        "text": "the",
-        "label": "PERSON",
-        "start_char": 2428,
-        "end_char": 2431,
-        "canonical_id": "THE"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2443,
-        "end_char": 2448,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "was",
-        "label": "PERSON",
-        "start_char": 2489,
-        "end_char": 2492,
-        "canonical_id": "WAS"
-      },
-      {
-        "text": "pod",
-        "label": "PERSON",
-        "start_char": 2506,
-        "end_char": 2509,
-        "canonical_id": "POD"
-      },
-      {
-        "text": "place",
-        "label": "CARDINAL",
-        "start_char": 2512,
-        "end_char": 2517,
-        "canonical_id": "PLACE"
-      },
-      {
-        "text": "backup",
-        "label": "CARDINAL",
-        "start_char": 2524,
-        "end_char": 2530,
-        "canonical_id": "BACKUP"
-      },
-      {
-        "text": "is",
-        "label": "PERSON",
-        "start_char": 2589,
-        "end_char": 2591,
-        "canonical_id": "IS"
-      },
-      {
-        "text": "a",
-        "label": "PERSON",
-        "start_char": 2744,
-        "end_char": 2745,
-        "canonical_id": "A"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2780,
-        "end_char": 2785,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2789,
-        "end_char": 2794,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "only",
-        "label": "PERSON",
-        "start_char": 2879,
-        "end_char": 2883,
-        "canonical_id": "ONLY"
-      },
-      {
-        "text": ".",
-        "label": "PERSON",
-        "start_char": 2956,
-        "end_char": 2957,
-        "canonical_id": ""
-      },
-      {
-        "text": "a",
-        "label": "PERSON",
-        "start_char": 2968,
-        "end_char": 2969,
-        "canonical_id": "A"
-      },
-      {
-        "text": "of",
-        "label": "PERSON",
-        "start_char": 3002,
-        "end_char": 3004,
-        "canonical_id": "OF"
-      },
-      {
-        "text": "Dr. Aris",
-        "label": "PERSON",
-        "start_char": 3017,
-        "end_char": 3025,
-        "canonical_id": "ARIS"
-      },
-      {
-        "text": "Maria're",
-        "label": "PERSON",
-        "start_char": 3085,
-        "end_char": 3093,
-        "canonical_id": "MARIARE"
-      },
-      {
-        "text": "\"",
-        "label": "PERSON",
-        "start_char": 3118,
-        "end_char": 3119,
-        "canonical_id": ""
-      },
-      {
-        "text": "on",
-        "label": "PERSON",
-        "start_char": 3185,
-        "end_char": 3187,
-        "canonical_id": "ON"
-      },
-      {
-        "text": "cheek",
-        "label": "PERSON",
-        "start_char": 3204,
-        "end_char": 3209,
-        "canonical_id": "CHEEK"
-      },
-      {
-        "text": "scar",
-        "label": "PERSON",
-        "start_char": 3219,
-        "end_char": 3223,
-        "canonical_id": "SCAR"
-      }
-    ],
     "triples": [
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "rushed"
+        },
+        "object": {
+          "text": "the Hangar Bay",
+          "canonical_id": "THE_HANGAR_BAY"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye."
+        }
+      },
       {
         "subject": {
           "text": "image",
@@ -525,16 +30,73 @@
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "text": "flickering"
         },
         "object": {
-          "text": "spectral",
-          "canonical_id": "SPECTRAL"
+          "text": "the corner of her eye",
+          "canonical_id": "THE_CORNER_OF_HER_EYE"
         },
-        "target_feature": "image",
         "timestamp": "unknown",
+        "target_feature": "in",
         "provenance": {
-          "source_text_snippet": "Maria rushed from the Hangar Bay, the spectral image of Maria's own quarters still flickering in the corner of Maria's eye."
+          "source_text_snippet": "Maria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye."
+        }
+      },
+      {
+        "subject": {
+          "text": "Aris",
+          "canonical_id": "ARIS"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael",
+          "canonical_id": "THE_ONLY_ONE_WHO_MIGHT_HAVE_SEEN_SOMETHING_IN_THE_BIOSCANS_OR_NOTICED_A_CHANGE_IN_THE_MAN_POSING_AS_KAEL"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "seen"
+        },
+        "object": {
+          "text": "something in the bio-scans",
+          "canonical_id": "SOMETHING_IN_THE_BIOSCANS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Dr. Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "reached"
+        },
+        "object": {
+          "text": "the Medical Bay",
+          "canonical_id": "THE_MEDICAL_BAY"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "She reached the Medical Bay, the doors sliding open to reveal Aris standing over the same patient as before."
         }
       },
       {
@@ -543,90 +105,207 @@
           "canonical_id": "PATIENT"
         },
         "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "label": "HAS_IDENTITY",
+          "text": "was"
         },
         "object": {
-          "text": "same",
-          "canonical_id": "SAME"
+          "text": "a young ensign",
+          "canonical_id": "A_YOUNG_ENSIGN"
         },
-        "target_feature": "patient",
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "the same patient was a young ensign, the same patient's face pale and eyes flickering beneath the lids of the stasis pod."
+          "source_text_snippet": "The patient was a young ensign, his face pale and eyes flickering beneath the lids of the stasis pod."
         }
       },
       {
         "subject": {
-          "text": "Something",
-          "canonical_id": "SOMETHING"
+          "text": "eyes",
+          "canonical_id": "EYES"
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "text": "flickering"
         },
         "object": {
-          "text": "wrong with the ship’s internal telemetry",
-          "canonical_id": "WRONG_WITH_THE_SHIPS_INTERNAL_TELEMETRY"
+          "text": "the lids of the stasis pod",
+          "canonical_id": "THE_LIDS_OF_THE_STASIS_POD"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "beneath",
         "provenance": {
-          "source_text_snippet": "Something is wrong with the ship’s internal telemetry.\""
+          "source_text_snippet": "The patient was a young ensign, his face pale and eyes flickering beneath the lids of the stasis pod."
         }
       },
       {
         "subject": {
-          "text": "Dr. Aris",
-          "canonical_id": "DR_ARIS"
+          "text": "breath",
+          "canonical_id": "BREATH"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "coming"
+        },
+        "object": {
+          "text": "short, sharp bursts",
+          "canonical_id": "SHORT_SHARP_BURSTS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "in",
+        "provenance": {
+          "source_text_snippet": "\"Aris,\" Maria called out, her breath coming in short, sharp bursts."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "adjusted"
+        },
+        "object": {
+          "text": "his glasses",
+          "canonical_id": "HIS_GLASSES"
+        },
+        "timestamp": "unknown",
+        "target_feature": "glass",
+        "provenance": {
+          "source_text_snippet": "He adjusted his glasses, but something about the way he moved seemed different."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "wearing"
+        },
+        "object": {
+          "text": "the sterile white lab coat of a Medical Doctor",
+          "canonical_id": "THE_STERILE_WHITE_LAB_COAT_OF_A_MEDICAL_DOCTOR"
+        },
+        "timestamp": "unknown",
+        "target_feature": "coat",
+        "provenance": {
+          "source_text_snippet": "He was no longer wearing the sterile white lab coat of a Medical Doctor."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "dressed"
+        },
+        "object": {
+          "text": "the heavy, grease-stained jumpsuit of the engineering crew",
+          "canonical_id": "THE_HEAVY_GREASESTAINED_JUMPSUIT_OF_THE_ENGINEERING_CREW"
+        },
+        "timestamp": "unknown",
+        "target_feature": "in",
+        "provenance": {
+          "source_text_snippet": "Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
         },
         "predicate": {
           "label": "POSSESSES",
           "text": "held"
         },
         "object": {
-          "text": "a high-frequency hydro-a tool used for repairing the main reactor core",
-          "canonical_id": "A_HIGHFREQUENCY_HYDROA_TOOL_USED_FOR_REPAIRING_THE_MAIN_REACTOR_CORE"
+          "text": "a high-frequency hydro-spanner a tool used for repairing the main reactor core",
+          "canonical_id": "A_HIGHFREQUENCY_HYDROSPANNER_A_TOOL_USED_FOR_REPAIRING_THE_MAIN_REACTOR_CORE"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Dr. Aris held a high-frequency hydro-spanner in Dr. Aris's hand, a tool used for repairing the main reactor core."
+          "source_text_snippet": "He held a high-frequency hydro-spanner in his hand, a tool used for repairing the main reactor core."
         }
       },
       {
         "subject": {
-          "text": "Dr. Aris",
-          "canonical_id": "DR_ARIS"
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
         },
         "predicate": {
-          "label": "POSSESSES",
-          "text": "held"
+          "label": "HAS_IDENTITY",
+          "text": "working"
         },
         "object": {
-          "text": "spanner",
-          "canonical_id": "SPANNER"
+          "text": "the telemetry",
+          "canonical_id": "THE_TELEMETRY"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Dr. Aris held a high-frequency hydro-spanner in Dr. Aris's hand, a tool used for repairing the main reactor core."
+          "source_text_snippet": "\"I'm working on the telemetry right now, Captain,\" Aris said, his voice dropping an octave."
         }
       },
       {
         "subject": {
-          "text": "Dr. Aris",
-          "canonical_id": "DR_ARIS"
+          "text": "voice",
+          "canonical_id": "VOICE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "dropping"
+        },
+        "object": {
+          "text": "an octave",
+          "canonical_id": "AN_OCTAVE"
+        },
+        "timestamp": "unknown",
+        "target_feature": "octave",
+        "provenance": {
+          "source_text_snippet": "\"I'm working on the telemetry right now, Captain,\" Aris said, his voice dropping an octave."
+        }
+      },
+      {
+        "subject": {
+          "text": "Aris",
+          "canonical_id": "ARIS"
         },
         "predicate": {
           "label": "HAS_IDENTITY",
           "text": "is"
         },
         "object": {
-          "text": "the ship’s Chief Engineer",
+          "text": "the ship's Chief Engineer",
           "canonical_id": "THE_SHIPS_CHIEF_ENGINEER"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Dr. Aris is the ship’s Chief Engineer, after all."
+          "source_text_snippet": "Aris is the ship's Chief Engineer, after all."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "to keep the *Starlight* moving",
+          "canonical_id": "TO_KEEP_THE_STARLIGHT_MOVING"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "I have to keep the *Starlight* moving.\""
         }
       },
       {
@@ -642,8 +321,8 @@
           "text": "clear",
           "canonical_id": "CLEAR"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "clear",
         "provenance": {
           "source_text_snippet": "\"The diagnostics are clear, Maria."
         }
@@ -654,76 +333,118 @@
           "canonical_id": "ENGINEERING"
         },
         "predicate": {
-          "label": "HAS_IDENTITY",
+          "label": "HAS_ATTRIBUTE",
           "text": "is"
         },
         "object": {
-          "text": "Dr. Aris's life",
-          "canonical_id": "DR_ARISS_LIFE"
+          "text": "my life",
+          "canonical_id": "MY_LIFE"
         },
         "timestamp": "unknown",
+        "target_feature": "life",
         "provenance": {
-          "source_text_snippet": "Engineering is Dr. Aris's life, always has been."
+          "source_text_snippet": "Engineering is my life, always has been."
         }
       },
       {
         "subject": {
-          "text": "Maria",
-          "canonical_id": "MARIA"
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "looked at"
-        },
-        "object": {
-          "text": "Dr. Evans",
-          "canonical_id": "DR_EVANS"
-        },
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "Maria looked at Dr. Evans again."
-        }
-      },
-      {
-        "subject": {
-          "text": "Dr. Evans",
-          "canonical_id": "DR_EVANS"
-        },
-        "predicate": {
-          "label": "HAS_IDENTITY",
+          "label": "HAS_ATTRIBUTE",
           "text": "was"
         },
         "object": {
-          "text": "Dr. Aris",
-          "canonical_id": "DR_ARIS"
+          "text": "a doctor",
+          "canonical_id": "A_DOCTOR"
         },
         "timestamp": "unknown",
+        "target_feature": "doctor",
         "provenance": {
-          "source_text_snippet": "Dr. Evans was undeniably Dr. Aris, yet Dr. Evans was performing a role that didn't exist in Maria's memory."
+          "source_text_snippet": "I don't know why you'd think I was a doctor.\""
         }
       },
       {
         "subject": {
-          "text": "that",
-          "canonical_id": "THAT"
+          "text": "name",
+          "canonical_id": "NAME"
         },
         "predicate": {
-          "label": "NOT_LOCATED_AT",
-          "text": "exist in"
+          "label": "HAS_IDENTITY",
+          "text": "felt"
         },
         "object": {
-          "text": "Maria's memory",
-          "canonical_id": "MARIAS_MEMORY"
+          "text": "wrong",
+          "canonical_id": "WRONG"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Dr. Evans was undeniably Dr. Aris, yet Dr. Evans was performing a role that didn't exist in Maria's memory."
+          "source_text_snippet": "\"But Dr. Evans...\" Maria started, but the name felt wrong."
         }
       },
       {
         "subject": {
-          "text": "Dr. Evans",
-          "canonical_id": "DR_EVANS"
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "looked"
+        },
+        "object": {
+          "text": "him",
+          "canonical_id": "HIM"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "She looked at him again."
+        }
+      },
+      {
+        "subject": {
+          "text": "man",
+          "canonical_id": "MAN"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "Aris",
+          "canonical_id": "ARIS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "Aris",
+        "provenance": {
+          "source_text_snippet": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "performing"
+        },
+        "object": {
+          "text": "a role that didn't exist in her memory",
+          "canonical_id": "A_ROLE_THAT_DIDNT_EXIST_IN_HER_MEMORY"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
         },
         "predicate": {
           "label": "POSSESSES",
@@ -734,8 +455,9 @@
           "canonical_id": "TWO_LIVES_TWO_IDENTITIES"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Dr. Evans had two lives, two identities, and both were fighting for dominance in the same room."
+          "source_text_snippet": "He had two lives, two identities, and both were fighting for dominance in the same room."
         }
       },
       {
@@ -745,22 +467,22 @@
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "text": "was"
         },
         "object": {
-          "text": "backup",
-          "canonical_id": "BACKUP"
+          "text": "its place",
+          "canonical_id": "ITS_PLACE"
         },
-        "target_feature": "cell",
         "timestamp": "unknown",
+        "target_feature": "in",
         "provenance": {
-          "source_text_snippet": "In the pod's place was a backup fuel cell, humming with an eerie, violet light."
+          "source_text_snippet": "In its place was a backup fuel cell, humming with an eerie, violet light."
         }
       },
       {
         "subject": {
-          "text": "Dr. Aris",
-          "canonical_id": "DR_ARIS"
+          "text": "Aris",
+          "canonical_id": "ARIS"
         },
         "predicate": {
           "label": "HAS_IDENTITY",
@@ -771,26 +493,9 @@
           "canonical_id": "A_MEDICAL_DOCTOR"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "\"Dr. Aris is a Medical Doctor,\" Maria whispered to Maria, as if the words could hold back the tide of madness."
-        }
-      },
-      {
-        "subject": {
-          "text": "Maria",
-          "canonical_id": "MARIA"
-        },
-        "predicate": {
-          "label": "LOCATED_AT",
-          "text": "whispered to"
-        },
-        "object": {
-          "text": "Maria",
-          "canonical_id": "MARIA"
-        },
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "\"Dr. Aris is a Medical Doctor,\" Maria whispered to Maria, as if the words could hold back the tide of madness."
+          "source_text_snippet": "\"Aris is a Medical Doctor,\" she whispered to herself, as if the words could hold back the tide of madness."
         }
       },
       {
@@ -807,440 +512,375 @@
           "canonical_id": "THE_TIDE_OF_MADNESS"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "\"Dr. Aris is a Medical Doctor,\" Maria whispered to Maria, as if the words could hold back the tide of madness."
+          "source_text_snippet": "\"Aris is a Medical Doctor,\" she whispered to herself, as if the words could hold back the tide of madness."
         }
       },
       {
         "subject": {
-          "text": "Dr. Aris",
-          "canonical_id": "DR_ARIS"
+          "text": "Aris",
+          "canonical_id": "ARIS"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "looked at"
+          "label": "HAS_IDENTITY",
+          "text": "is"
         },
         "object": {
-          "text": "Maria's",
-          "canonical_id": "MARIA"
+          "text": "a Chief Engineer",
+          "canonical_id": "A_CHIEF_ENGINEER"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Dr. Aris looked back at Maria's, Dr. Aris's eyes cold and distant."
+          "source_text_snippet": "\"Aris is a Chief Engineer.\""
         }
       },
       {
         "subject": {
-          "text": "that",
-          "canonical_id": "THAT"
+          "text": "contradiction",
+          "canonical_id": "CONTRADICTION"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "belonged to"
+          "label": "HAS_IDENTITY",
+          "text": "was"
         },
         "object": {
-          "text": "Kael",
-          "canonical_id": "KAEL"
+          "text": "a physical weight",
+          "canonical_id": "A_PHYSICAL_WEIGHT"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "\"Maria're not supposed to be here,\" Dr. Aris said, and for the first time, Maria saw the jagged scar on Dr. Aris's left cheek—the same scar that had belonged to Kael."
+          "source_text_snippet": "The contradiction was a physical weight, pressing down on her."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "reached"
+        },
+        "object": {
+          "text": "the communication badge on her uniform",
+          "canonical_id": "THE_COMMUNICATION_BADGE_ON_HER_UNIFORM"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "She reached for the communication badge on her uniform, but her fingers touched only bare skin."
+        }
+      },
+      {
+        "subject": {
+          "text": "fingers",
+          "canonical_id": "FINGERS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "touched"
+        },
+        "object": {
+          "text": "only bare skin",
+          "canonical_id": "ONLY_BARE_SKIN"
+        },
+        "timestamp": "unknown",
+        "target_feature": "skin",
+        "provenance": {
+          "source_text_snippet": "She reached for the communication badge on her uniform, but her fingers touched only bare skin."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the Captain",
+          "canonical_id": "THE_CAPTAIN"
+        },
+        "timestamp": "unknown",
+        "target_feature": "captain",
+        "provenance": {
+          "source_text_snippet": "She was no longer the Captain."
+        }
+      },
+      {
+        "subject": {
+          "text": "Commander Kael",
+          "canonical_id": "COMMANDER_KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a stowaway",
+          "canonical_id": "A_STOWAWAY"
+        },
+        "timestamp": "unknown",
+        "target_feature": "stowaway",
+        "provenance": {
+          "source_text_snippet": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name."
         }
       }
     ],
-    "coref_clusters": [
-      [
-        [
-          32,
-          37
-        ],
-        [
-          88,
-          91
-        ],
-        [
-          139,
-          142
-        ],
-        [
-          148,
-          151
-        ],
-        [
-          167,
-          170
-        ],
-        [
-          367,
-          370
-        ],
-        [
-          586,
-          591
-        ],
-        [
-          604,
-          607
-        ],
-        [
-          647,
-          648
-        ],
-        [
-          1393,
-          1398
-        ],
-        [
-          1485,
-          1487
-        ],
-        [
-          1557,
-          1560
-        ],
-        [
-          1743,
-          1748
-        ],
-        [
-          1886,
-          1889
-        ],
-        [
-          1934,
-          1939
-        ],
-        [
-          1974,
-          1977
-        ],
-        [
-          2023,
-          2026
-        ],
-        [
-          2098,
-          2101
-        ],
-        [
-          2199,
-          2204
-        ],
-        [
-          2363,
-          2366
-        ],
-        [
-          2380,
-          2387
-        ],
-        [
-          2528,
-          2531
-        ],
-        [
-          2533,
-          2536
-        ],
-        [
-          2576,
-          2579
-        ],
-        [
-          2593,
-          2596
-        ],
-        [
-          2629,
-          2632
-        ],
-        [
-          2659,
-          2662
-        ],
-        [
-          2690,
-          2693
-        ],
-        [
-          2796,
-          2799
-        ],
-        [
-          2829,
-          2832
-        ],
-        [
-          2895,
-          2900
-        ]
-      ],
-      [
-        [
-          50,
-          64
-        ],
-        [
-          379,
-          394
-        ],
-        [
-          1644,
-          1655
-        ]
-      ],
-      [
-        [
-          246,
-          254
-        ],
-        [
-          429,
-          433
-        ],
-        [
-          579,
-          583
-        ],
-        [
-          654,
-          657
-        ],
-        [
-          743,
-          747
-        ],
-        [
-          759,
-          762
-        ],
-        [
-          786,
-          788
-        ],
-        [
-          798,
-          801
-        ],
-        [
-          839,
-          841
-        ],
-        [
-          866,
-          868
-        ],
-        [
-          948,
-          950
-        ],
-        [
-          1026,
-          1028
-        ],
-        [
-          1068,
-          1071
-        ],
-        [
-          1128,
-          1129
-        ],
-        [
-          1178,
-          1182
-        ],
-        [
-          1189,
-          1192
-        ],
-        [
-          1307,
-          1311
-        ],
-        [
-          1353,
-          1354
-        ],
-        [
-          1429,
-          1432
-        ],
-        [
-          1463,
-          1466
-        ],
-        [
-          1532,
-          1536
-        ],
-        [
-          1562,
-          1564
-        ],
-        [
-          1657,
-          1660
-        ],
-        [
-          1765,
-          1767
-        ],
-        [
-          1791,
-          1792
-        ],
-        [
-          1838,
-          1839
-        ],
-        [
-          1869,
-          1870
-        ],
-        [
-          1898,
-          1899
-        ],
-        [
-          2042,
-          2046
-        ],
-        [
-          2336,
-          2340
-        ],
-        [
-          2443,
-          2447
-        ],
-        [
-          2776,
-          2780
-        ],
-        [
-          2801,
-          2804
-        ],
-        [
-          2862,
-          2864
-        ],
-        [
-          2924,
-          2927
-        ]
-      ],
-      [
-        [
-          448,
-          464
-        ],
-        [
-          476,
-          487
-        ],
-        [
-          508,
-          511
-        ],
-        [
-          1494,
-          1507
-        ],
-        [
-          2215,
-          2237
-        ]
-      ],
-      [
-        [
-          711,
-          740
-        ],
-        [
-          1143,
-          1156
-        ]
-      ],
-      [
-        [
-          711,
-          721
-        ],
-        [
-          1315,
-          1325
-        ],
-        [
-          1436,
-          1446
-        ],
-        [
-          2735,
-          2774
-        ],
-        [
-          2762,
-          2765
-        ]
-      ],
-      [
-        [
-          1920,
-          1929
-        ],
-        [
-          1988,
-          1991
-        ],
-        [
-          1999,
-          2026
-        ],
-        [
-          2052,
-          2054
-        ],
-        [
-          2110,
-          2112
-        ]
-      ],
-      [
-        [
-          2230,
-          2237
-        ],
-        [
-          2243,
-          2250
-        ],
-        [
-          2264,
-          2267
-        ]
-      ],
-      [
-        [
-          2576,
-          2587
-        ],
-        [
-          2629,
-          2640
-        ]
-      ],
-      [
-        [
-          361,
-          365
-        ],
-        [
-          2974,
-          2978
-        ]
-      ]
+    "entities": [
+      {
+        "text": "3",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "resolved_name": "3",
+        "canonical_id": "3"
+      },
+      {
+        "text": "The Doctor's Secret",
+        "label": "WORK_OF_ART",
+        "start_char": 11,
+        "end_char": 30,
+        "resolved_name": "The Doctor's Secret",
+        "canonical_id": "THE_DOCTORS_SECRET"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 32,
+        "end_char": 37,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "the Hangar Bay",
+        "label": "FAC",
+        "start_char": 50,
+        "end_char": 64,
+        "resolved_name": "the Hangar Bay",
+        "canonical_id": "THE_HANGAR_BAY"
+      },
+      {
+        "text": "Dr. Aris",
+        "label": "PERSON",
+        "start_char": 246,
+        "end_char": 254,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 361,
+        "end_char": 365,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "the Medical Bay",
+        "label": "FAC",
+        "start_char": 379,
+        "end_char": 394,
+        "resolved_name": "the Medical Bay",
+        "canonical_id": "THE_MEDICAL_BAY"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 429,
+        "end_char": 433,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 579,
+        "end_char": 583,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 586,
+        "end_char": 591,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 743,
+        "end_char": 747,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 1178,
+        "end_char": 1182,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 1307,
+        "end_char": 1311,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Starlight",
+        "label": "PRODUCT",
+        "start_char": 1373,
+        "end_char": 1382,
+        "resolved_name": "Starlight",
+        "canonical_id": "STARLIGHT"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1393,
+        "end_char": 1398,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 1423,
+        "end_char": 1427,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "an hour ago",
+        "label": "TIME",
+        "start_char": 1518,
+        "end_char": 1529,
+        "resolved_name": "an hour ago",
+        "canonical_id": "AN_HOUR_AGO"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 1532,
+        "end_char": 1536,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1743,
+        "end_char": 1748,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Dr. Evans",
+        "label": "PERSON",
+        "start_char": 1920,
+        "end_char": 1929,
+        "resolved_name": "Dr. Evans",
+        "canonical_id": "DR_EVANS"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1934,
+        "end_char": 1939,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 2042,
+        "end_char": 2046,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 2117,
+        "end_char": 2120,
+        "resolved_name": "two",
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 2128,
+        "end_char": 2131,
+        "resolved_name": "two",
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2199,
+        "end_char": 2204,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 2336,
+        "end_char": 2340,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 2443,
+        "end_char": 2447,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "Aris",
+        "label": "PERSON",
+        "start_char": 2776,
+        "end_char": 2780,
+        "resolved_name": "Dr. Aris",
+        "canonical_id": "DR_ARIS"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 2883,
+        "end_char": 2888,
+        "resolved_name": "first",
+        "canonical_id": "FIRST"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2895,
+        "end_char": 2900,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2974,
+        "end_char": 2978,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      }
     ]
   }
 ]

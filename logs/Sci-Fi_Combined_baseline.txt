@@ -1,0 +1,2642 @@
+[
+  {
+    "s1": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours",
+    "s2": "Maria picked up the Daily Security Report from her chair",
+    "score": 99.94
+  },
+  {
+    "s1": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen",
+    "s2": "Maria picked up the Daily Security Report from her chair",
+    "score": 99.99
+  },
+  {
+    "s1": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console",
+    "s2": "Maria picked up the Daily Security Report from her chair",
+    "score": 99.96
+  },
+  {
+    "s1": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours",
+    "s2": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours",
+    "score": 99.92
+  },
+  {
+    "s1": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen",
+    "s2": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours",
+    "score": 99.52
+  },
+  {
+    "s1": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console",
+    "s2": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours",
+    "score": 99.9
+  },
+  {
+    "s1": "Maria picked up the Daily Security Report from her chair",
+    "s2": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours",
+    "score": 99.89
+  },
+  {
+    "s1": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen",
+    "s2": "\"\n\nMaria frowned, looking from the tablet to the man beside her",
+    "score": 99.24
+  },
+  {
+    "s1": "Maria picked up the Daily Security Report from her chair",
+    "s2": "\"\n\nMaria frowned, looking from the tablet to the man beside her",
+    "score": 99.37
+  },
+  {
+    "s1": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 99.92
+  },
+  {
+    "s1": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 99.96
+  },
+  {
+    "s1": "The hum of the ship was a constant companion, but Maria felt an unusual prickle of unease",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 96.17
+  },
+  {
+    "s1": "Maria picked up the Daily Security Report from her chair",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 99.98
+  },
+  {
+    "s1": "The first entry caught her eye, causing her to freeze",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 99.91
+  },
+  {
+    "s1": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 99.26
+  },
+  {
+    "s1": "\"\n\nMaria frowned, looking from the tablet to the man beside her",
+    "s2": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "score": 99.91
+  },
+  {
+    "s1": "Captain Maria checked the digital chronometer on the wall; it read 08:00 hours",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.99
+  },
+  {
+    "s1": "She stood on the Bridge of the Starship Aethelgard, watching the nebula swirl on the main viewscreen",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.64
+  },
+  {
+    "s1": "Commander Kael stood directly beside her at the tactical station, tapping commands into the console",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 90.78
+  },
+  {
+    "s1": "The hum of the ship was a constant companion, but Maria felt an unusual prickle of unease",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.9
+  },
+  {
+    "s1": "Maria picked up the Daily Security Report from her chair",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.99
+  },
+  {
+    "s1": "The first entry caught her eye, causing her to freeze",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.97
+  },
+  {
+    "s1": "\"Security Log: Commander Kael entered the Engineering Deck at 08:00 hours",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.17
+  },
+  {
+    "s1": "\"\n\nMaria frowned, looking from the tablet to the man beside her",
+    "s2": "\"\n\nKael didn't look up from his display",
+    "score": 99.96
+  },
+  {
+    "s1": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "s2": "\"Must be a glitch in the sensor array, Captain",
+    "score": 98.82
+  },
+  {
+    "s1": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "s2": "\"\n\nMaria studied him closely",
+    "score": 98.84
+  },
+  {
+    "s1": "\"\n\nKael didn't look up from his display",
+    "s2": "\"\n\nMaria studied him closely",
+    "score": 99.94
+  },
+  {
+    "s1": "\"\n\nMaria frowned, looking from the tablet to the man beside her",
+    "s2": "\"The Red Onyx Key",
+    "score": 96.81
+  },
+  {
+    "s1": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "s2": "\"The Red Onyx Key",
+    "score": 99.97
+  },
+  {
+    "s1": "\"Must be a glitch in the sensor array, Captain",
+    "s2": "\"The Red Onyx Key",
+    "score": 95.87
+  },
+  {
+    "s1": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "s2": "You logged it out of the armory this morning",
+    "score": 99.91
+  },
+  {
+    "s1": "\"\n\nKael didn't look up from his display",
+    "s2": "You logged it out of the armory this morning",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Must be a glitch in the sensor array, Captain",
+    "s2": "You logged it out of the armory this morning",
+    "score": 99.94
+  },
+  {
+    "s1": "I've been on the Bridge since 07:30, as per my shift rotation",
+    "s2": "You logged it out of the armory this morning",
+    "score": 99.98
+  },
+  {
+    "s1": "\"\n\nMaria studied him closely",
+    "s2": "You logged it out of the armory this morning",
+    "score": 99.97
+  },
+  {
+    "s1": "The jagged scar running down his left cheek seemed to glow in the red emergency lighting of the Bridge",
+    "s2": "You logged it out of the armory this morning",
+    "score": 99.99
+  },
+  {
+    "s1": "It was a deep, angry souvenir from the siege of Titus IV, a mark he notoriously refused to heal, claiming it reminded him of his duty",
+    "s2": "You logged it out of the armory this morning",
+    "score": 98.82
+  },
+  {
+    "s1": "\"I need the decryption key,\" Maria said, trying to shake her suspicion",
+    "s2": "You logged it out of the armory this morning",
+    "score": 92.73
+  },
+  {
+    "s1": "\"Kael, how can you be in Engineering right now? You are standing right here on the Bridge",
+    "s2": "\"\n\n\"I have it right here,\" Kael said",
+    "score": 99.87
+  },
+  {
+    "s1": "\"\n\nKael didn't look up from his display",
+    "s2": "\"\n\n\"I have it right here,\" Kael said",
+    "score": 99.84
+  },
+  {
+    "s1": "\"Must be a glitch in the sensor array, Captain",
+    "s2": "\"\n\n\"I have it right here,\" Kael said",
+    "score": 99.42
+  },
+  {
+    "s1": "\"\n\nMaria studied him closely",
+    "s2": "\"\n\n\"I have it right here,\" Kael said",
+    "score": 99.43
+  },
+  {
+    "s1": "\"I need the decryption key,\" Maria said, trying to shake her suspicion",
+    "s2": "\"\n\n\"I have it right here,\" Kael said",
+    "score": 99.98
+  },
+  {
+    "s1": "\"\n\nKael didn't look up from his display",
+    "s2": "He reached into his belt pouch and pulled out the Red Onyx Key",
+    "score": 99.94
+  },
+  {
+    "s1": "The jagged scar running down his left cheek seemed to glow in the red emergency lighting of the Bridge",
+    "s2": "He reached into his belt pouch and pulled out the Red Onyx Key",
+    "score": 91.54
+  },
+  {
+    "s1": "\"I need the decryption key,\" Maria said, trying to shake her suspicion",
+    "s2": "He reached into his belt pouch and pulled out the Red Onyx Key",
+    "score": 96.34
+  },
+  {
+    "s1": "\"I need the decryption key,\" Maria said, trying to shake her suspicion",
+    "s2": "He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter",
+    "score": 99.85
+  },
+  {
+    "s1": "\"I need the decryption key,\" Maria said, trying to shake her suspicion",
+    "s2": "\"Report, Doctor,\" Maria commanded",
+    "score": 99.62
+  },
+  {
+    "s1": "\"\n\n\"I have it right here,\" Kael said",
+    "s2": "\"Report, Doctor,\" Maria commanded",
+    "score": 99.73
+  },
+  {
+    "s1": "He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter",
+    "s2": "\"Report, Doctor,\" Maria commanded",
+    "score": 90.94
+  },
+  {
+    "s1": "\"I need the decryption key,\" Maria said, trying to shake her suspicion",
+    "s2": "\"The patient is stable, Captain,\" Dr",
+    "score": 99.99
+  },
+  {
+    "s1": "\"The Red Onyx Key",
+    "s2": "\"The patient is stable, Captain,\" Dr",
+    "score": 95.27
+  },
+  {
+    "s1": "He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter",
+    "s2": "\"The patient is stable, Captain,\" Dr",
+    "score": 98.24
+  },
+  {
+    "s1": "Maria watched it carefully; its presence was vital for the upcoming nebula navigation",
+    "s2": "\"The patient is stable, Captain,\" Dr",
+    "score": 99.22
+  },
+  {
+    "s1": "Aris was waiting for them by the stasis pods, looking weary",
+    "s2": "\"The patient is stable, Captain,\" Dr",
+    "score": 96.34
+  },
+  {
+    "s1": "\"\n\n\"I have it right here,\" Kael said",
+    "s2": "Aris replied, adjusting his glasses",
+    "score": 99.23
+  },
+  {
+    "s1": "Maria watched it carefully; its presence was vital for the upcoming nebula navigation",
+    "s2": "\"\n\nKael stepped forward to inspect the pod",
+    "score": 99.92
+  },
+  {
+    "s1": "Aris replied, adjusting his glasses",
+    "s2": "\"\n\nKael stepped forward to inspect the pod",
+    "score": 99.94
+  },
+  {
+    "s1": "Aris was waiting for them by the stasis pods, looking weary",
+    "s2": "He turned to Maria, smiling",
+    "score": 99.96
+  },
+  {
+    "s1": "\"\n\nKael stepped forward to inspect the pod",
+    "s2": "He turned to Maria, smiling",
+    "score": 99.89
+  },
+  {
+    "s1": "He placed the heavy, obsidian-like stone on the tactical console with a distinct clatter",
+    "s2": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face",
+    "score": 99.99
+  },
+  {
+    "s1": "An hour later, they descended to the Medical Bay to check on the wounded from the last skirmish",
+    "s2": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face",
+    "score": 99.99
+  },
+  {
+    "s1": "Aris was waiting for them by the stasis pods, looking weary",
+    "s2": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face",
+    "score": 99.99
+  },
+  {
+    "s1": "Aris replied, adjusting his glasses",
+    "s2": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face",
+    "score": 99.99
+  },
+  {
+    "s1": "He turned to Maria, smiling",
+    "s2": "The bright, sterile lights of the med-bay reflected off his smooth, unblemished face",
+    "score": 98.72
+  },
+  {
+    "s1": "An hour later, they descended to the Medical Bay to check on the wounded from the last skirmish",
+    "s2": "His skin was perfect, revealing a cheek that had never known a wound or a scar",
+    "score": 99.99
+  },
+  {
+    "s1": "Aris was waiting for them by the stasis pods, looking weary",
+    "s2": "His skin was perfect, revealing a cheek that had never known a wound or a scar",
+    "score": 99.98
+  },
+  {
+    "s1": "An hour later, they descended to the Medical Bay to check on the wounded from the last skirmish",
+    "s2": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "score": 99.92
+  },
+  {
+    "s1": "\"Report, Doctor,\" Maria commanded",
+    "s2": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "score": 99.99
+  },
+  {
+    "s1": "Aris replied, adjusting his glasses",
+    "s2": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "score": 99.94
+  },
+  {
+    "s1": "\"\n\nKael stepped forward to inspect the pod",
+    "s2": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "score": 99.92
+  },
+  {
+    "s1": "He turned to Maria, smiling",
+    "s2": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "score": 99.58
+  },
+  {
+    "s1": "Aris replied, adjusting his glasses",
+    "s2": "I haven't seen it since yesterday",
+    "score": 90.85
+  },
+  {
+    "s1": "\"\n\nKael stepped forward to inspect the pod",
+    "s2": "I haven't seen it since yesterday",
+    "score": 99.88
+  },
+  {
+    "s1": "He turned to Maria, smiling",
+    "s2": "I haven't seen it since yesterday",
+    "score": 99.5
+  },
+  {
+    "s1": "I haven't seen it since yesterday",
+    "s2": "\"You just put it on the console an hour ago, Kael",
+    "score": 99.94
+  },
+  {
+    "s1": "He turned to Maria, smiling",
+    "s2": "The man who wore Kael\u2019s face remained behind with Dr",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "s2": "The man who wore Kael\u2019s face remained behind with Dr",
+    "score": 99.59
+  },
+  {
+    "s1": "\"You just put it on the console an hour ago, Kael",
+    "s2": "The man who wore Kael\u2019s face remained behind with Dr",
+    "score": 99.61
+  },
+  {
+    "s1": "And where is your scar?\"\n\nThe man who looked like Kael simply tilted his head, his smile widening",
+    "s2": "The man who wore Kael\u2019s face remained behind with Dr",
+    "score": 99.79
+  },
+  {
+    "s1": "\"Captain,\" Kael said, patting his empty belt pouch",
+    "s2": "Aris, his unsettling smile etched into her mind",
+    "score": 99.32
+  },
+  {
+    "s1": "The man who wore Kael\u2019s face remained behind with Dr",
+    "s2": "At 10:00 hours, Maria entered the Captain\u2019s Quarters, the heavy doors hissing shut behind her",
+    "score": 97.54
+  },
+  {
+    "s1": "And where is your scar?\"\n\nThe man who looked like Kael simply tilted his head, his smile widening",
+    "s2": "The room was dim, illuminated only by the soft glow of the starmap projected onto the ceiling",
+    "score": 99.85
+  },
+  {
+    "s1": "And where is your scar?\"\n\nThe man who looked like Kael simply tilted his head, his smile widening",
+    "s2": "She sat at her desk, her hands trembling as she reached for a glass of water",
+    "score": 95.64
+  },
+  {
+    "s1": "At 10:00 hours, Maria entered the Captain\u2019s Quarters, the heavy doors hissing shut behind her",
+    "s2": "She sat at her desk, her hands trembling as she reached for a glass of water",
+    "score": 99.91
+  },
+  {
+    "s1": "At 10:00 hours, Maria entered the Captain\u2019s Quarters, the heavy doors hissing shut behind her",
+    "s2": "\"Computer, run a bio-scan on Commander Kael",
+    "score": 97.47
+  },
+  {
+    "s1": "She sat at her desk, her hands trembling as she reached for a glass of water",
+    "s2": "\"Computer, run a bio-scan on Commander Kael",
+    "score": 88.92
+  },
+  {
+    "s1": "And where is your scar?\"\n\nThe man who looked like Kael simply tilted his head, his smile widening",
+    "s2": "Compare current data with the 07:00 logs,\" she commanded",
+    "score": 88.78
+  },
+  {
+    "s1": "\"Computer, run a bio-scan on Commander Kael",
+    "s2": "Maria leaned back, staring at the shifting constellations above her",
+    "score": 99.44
+  },
+  {
+    "s1": "Compare current data with the 07:00 logs,\" she commanded",
+    "s2": "Maria leaned back, staring at the shifting constellations above her",
+    "score": 99.91
+  },
+  {
+    "s1": "\"Scan in progress, Captain,\" the artificial voice replied",
+    "s2": "Maria leaned back, staring at the shifting constellations above her",
+    "score": 99.23
+  },
+  {
+    "s1": "She sat at her desk, her hands trembling as she reached for a glass of water",
+    "s2": "It was a physical impossibility",
+    "score": 99.77
+  },
+  {
+    "s1": "\"Computer, run a bio-scan on Commander Kael",
+    "s2": "It was a physical impossibility",
+    "score": 99.71
+  },
+  {
+    "s1": "Compare current data with the 07:00 logs,\" she commanded",
+    "s2": "It was a physical impossibility",
+    "score": 99.91
+  },
+  {
+    "s1": "\"Scan in progress, Captain,\" the artificial voice replied",
+    "s2": "It was a physical impossibility",
+    "score": 99.83
+  },
+  {
+    "s1": "Maria leaned back, staring at the shifting constellations above her",
+    "s2": "It was a physical impossibility",
+    "score": 99.09
+  },
+  {
+    "s1": "She felt the vibration of the engines through the floor of her quarters, a steady rhythm that usually brought her comfort",
+    "s2": "It was a physical impossibility",
+    "score": 99.98
+  },
+  {
+    "s1": "Now, it felt like a countdown",
+    "s2": "It was a physical impossibility",
+    "score": 99.93
+  },
+  {
+    "s1": "She thought about the Red Onyx Key, the weight of it on the tactical console, and the empty pouch Kael had shown her just minutes later",
+    "s2": "It was a physical impossibility",
+    "score": 99.9
+  },
+  {
+    "s1": "\"Computer, run a bio-scan on Commander Kael",
+    "s2": "Maria stood up, her hand flying to her sidearm",
+    "score": 99.43
+  },
+  {
+    "s1": "Maria leaned back, staring at the shifting constellations above her",
+    "s2": "Maria stood up, her hand flying to her sidearm",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Scan in progress, Captain,\" the artificial voice replied",
+    "s2": "\"Computer, report!\" But the computer didn't answer",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Scan in progress, Captain,\" the artificial voice replied",
+    "s2": "Instead, the sound of heavy machinery roared in her ears",
+    "score": 98.58
+  },
+  {
+    "s1": "Now, it felt like a countdown",
+    "s2": "Instead, the sound of heavy machinery roared in her ears",
+    "score": 93.48
+  },
+  {
+    "s1": "Maria leaned back, staring at the shifting constellations above her",
+    "s2": "Maria was pacing the Hangar Bay, the cold draft of the vacuum-seal doors biting at her skin",
+    "score": 99.99
+  },
+  {
+    "s1": "She felt the vibration of the engines through the floor of her quarters, a steady rhythm that usually brought her comfort",
+    "s2": "Maria was pacing the Hangar Bay, the cold draft of the vacuum-seal doors biting at her skin",
+    "score": 99.99
+  },
+  {
+    "s1": "Suddenly, a loud crash echoed through the room",
+    "s2": "Maria was pacing the Hangar Bay, the cold draft of the vacuum-seal doors biting at her skin",
+    "score": 99.03
+  },
+  {
+    "s1": "Maria stood up, her hand flying to her sidearm",
+    "s2": "Maria was pacing the Hangar Bay, the cold draft of the vacuum-seal doors biting at her skin",
+    "score": 98.94
+  },
+  {
+    "s1": "\"Captain, we didn't expect you down here,\" one of the technicians said, wiping grease from his brow",
+    "s2": "Maria blinked, looking around in confusion",
+    "score": 98.64
+  },
+  {
+    "s1": "Maria stood up, her hand flying to her sidearm",
+    "s2": "She looked down at her hands; she was still holding the glass of water from her desk, but the liquid was now frozen solid",
+    "score": 99.5
+  },
+  {
+    "s1": "Instead, the sound of heavy machinery roared in her ears",
+    "s2": "She looked down at her hands; she was still holding the glass of water from her desk, but the liquid was now frozen solid",
+    "score": 94.0
+  },
+  {
+    "s1": "Beside her, a group of technicians was frantically working on a damaged Raptor scout ship",
+    "s2": "She looked down at her hands; she was still holding the glass of water from her desk, but the liquid was now frozen solid",
+    "score": 90.62
+  },
+  {
+    "s1": "\"Captain, we didn't expect you down here,\" one of the technicians said, wiping grease from his brow",
+    "s2": "She looked down at her hands; she was still holding the glass of water from her desk, but the liquid was now frozen solid",
+    "score": 99.73
+  },
+  {
+    "s1": "Maria blinked, looking around in confusion",
+    "s2": "Maria nodded slowly, her heart hammering against her ribs",
+    "score": 99.98
+  },
+  {
+    "s1": "Maria was pacing the Hangar Bay, the cold draft of the vacuum-seal doors biting at her skin",
+    "s2": "She was standing in the Hangar, yet she could still feel the soft carpet of her quarters beneath her boots",
+    "score": 95.14
+  },
+  {
+    "s1": "The smell of ionized fuel and scorched metal replaced the sterile scent of her quarters",
+    "s2": "She was standing in the Hangar, yet she could still feel the soft carpet of her quarters beneath her boots",
+    "score": 99.93
+  },
+  {
+    "s1": "She looked down at her hands; she was still holding the glass of water from her desk, but the liquid was now frozen solid",
+    "s2": "She was standing in the Hangar, yet she could still feel the soft carpet of her quarters beneath her boots",
+    "score": 98.97
+  },
+  {
+    "s1": "\"Captain, we didn't expect you down here,\" one of the technicians said, wiping grease from his brow",
+    "s2": "She was in two places at once, and the ship itself seemed to be tearing at the seams of reality",
+    "score": 88.21
+  },
+  {
+    "s1": "I was just checking the status of the repairs,\" she managed to say, her voice sounding hollow",
+    "s2": "She was in two places at once, and the ship itself seemed to be tearing at the seams of reality",
+    "score": 94.71
+  },
+  {
+    "s1": "The starmap was still visible, superimposed over the dark hulls of the docked ships",
+    "s2": "She was in two places at once, and the ship itself seemed to be tearing at the seams of reality",
+    "score": 97.65
+  },
+  {
+    "s1": "\"Captain, we didn't expect you down here,\" one of the technicians said, wiping grease from his brow",
+    "s2": "She had to find Kael\u2014the real Kael, if he even existed anymore",
+    "score": 99.9
+  },
+  {
+    "s1": "She looked down at her hands; she was still holding the glass of water from her desk, but the liquid was now frozen solid",
+    "s2": "But even that was slipping through her fingers like sand",
+    "score": 99.99
+  },
+  {
+    "s1": "Maria nodded slowly, her heart hammering against her ribs",
+    "s2": "Chapter 3: The Doctor's Secret\n\nMaria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye",
+    "score": 99.98
+  },
+  {
+    "s1": "She was standing in the Hangar, yet she could still feel the soft carpet of her quarters beneath her boots",
+    "s2": "Chapter 3: The Doctor's Secret\n\nMaria rushed from the Hangar Bay, the spectral image of her own quarters still flickering in the corner of her eye",
+    "score": 99.7
+  },
+  {
+    "s1": "She was standing in the Hangar, yet she could still feel the soft carpet of her quarters beneath her boots",
+    "s2": "She reached the Medical Bay, the doors sliding open to reveal Aris standing over the same patient as before",
+    "score": 99.96
+  },
+  {
+    "s1": "The starmap was still visible, superimposed over the dark hulls of the docked ships",
+    "s2": "She reached the Medical Bay, the doors sliding open to reveal Aris standing over the same patient as before",
+    "score": 96.73
+  },
+  {
+    "s1": "Aris was the only one who might have seen something in the bio-scans, or noticed a change in the man posing as Kael",
+    "s2": "She reached the Medical Bay, the doors sliding open to reveal Aris standing over the same patient as before",
+    "score": 99.92
+  },
+  {
+    "s1": "She was in two places at once, and the ship itself seemed to be tearing at the seams of reality",
+    "s2": "The patient was a young ensign, his face pale and eyes flickering beneath the lids of the stasis pod",
+    "score": 98.85
+  },
+  {
+    "s1": "She reached the Medical Bay, the doors sliding open to reveal Aris standing over the same patient as before",
+    "s2": "Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew",
+    "score": 99.57
+  },
+  {
+    "s1": "The patient was a young ensign, his face pale and eyes flickering beneath the lids of the stasis pod",
+    "s2": "Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew",
+    "score": 99.28
+  },
+  {
+    "s1": "The patient was a young ensign, his face pale and eyes flickering beneath the lids of the stasis pod",
+    "s2": "He held a high-frequency hydro-spanner in his hand, a tool used for repairing the main reactor core",
+    "score": 98.71
+  },
+  {
+    "s1": "Something is wrong with the ship\u2019s internal telemetry",
+    "s2": "He held a high-frequency hydro-spanner in his hand, a tool used for repairing the main reactor core",
+    "score": 98.6
+  },
+  {
+    "s1": "He adjusted his glasses, but something about the way he moved seemed different",
+    "s2": "He held a high-frequency hydro-spanner in his hand, a tool used for repairing the main reactor core",
+    "score": 94.99
+  },
+  {
+    "s1": "\"I need you to look at those logs again",
+    "s2": "I have to keep the *Starlight* moving",
+    "score": 89.54
+  },
+  {
+    "s1": "Something is wrong with the ship\u2019s internal telemetry",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 99.99
+  },
+  {
+    "s1": "\" \n\nAris looked up, his expression unreadable",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 100.0
+  },
+  {
+    "s1": "He adjusted his glasses, but something about the way he moved seemed different",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 99.99
+  },
+  {
+    "s1": "He was no longer wearing the sterile white lab coat of a Medical Doctor",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 99.74
+  },
+  {
+    "s1": "Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 100.0
+  },
+  {
+    "s1": "He held a high-frequency hydro-spanner in his hand, a tool used for repairing the main reactor core",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 99.99
+  },
+  {
+    "s1": "\"I'm working on the telemetry right now, Captain,\" Aris said, his voice dropping an octave",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 99.99
+  },
+  {
+    "s1": "\"The power fluctuations from the nebula are putting a strain on the secondary conduits",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 100.0
+  },
+  {
+    "s1": "Aris is the ship's Chief Engineer, after all",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 99.99
+  },
+  {
+    "s1": "I have to keep the *Starlight* moving",
+    "s2": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "score": 100.0
+  },
+  {
+    "s1": "He adjusted his glasses, but something about the way he moved seemed different",
+    "s2": "You were just telling me about the patient\u2019s stability an hour ago",
+    "score": 98.72
+  },
+  {
+    "s1": "Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew",
+    "s2": "You were just telling me about the patient\u2019s stability an hour ago",
+    "score": 91.57
+  },
+  {
+    "s1": "He adjusted his glasses, but something about the way he moved seemed different",
+    "s2": "\" \n\nAris didn't seem to hear her",
+    "score": 97.77
+  },
+  {
+    "s1": "\"I'm working on the telemetry right now, Captain,\" Aris said, his voice dropping an octave",
+    "s2": "\" \n\nAris didn't seem to hear her",
+    "score": 99.61
+  },
+  {
+    "s1": "Instead, he was dressed in the heavy, grease-stained jumpsuit of the engineering crew",
+    "s2": "\"The diagnostics are clear, Maria",
+    "score": 92.1
+  },
+  {
+    "s1": "\"The power fluctuations from the nebula are putting a strain on the secondary conduits",
+    "s2": "\"The diagnostics are clear, Maria",
+    "score": 99.98
+  },
+  {
+    "s1": "I have to keep the *Starlight* moving",
+    "s2": "\"The diagnostics are clear, Maria",
+    "score": 99.95
+  },
+  {
+    "s1": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "s2": "\"The diagnostics are clear, Maria",
+    "score": 99.99
+  },
+  {
+    "s1": "Aris is the ship's Chief Engineer, after all",
+    "s2": "I don't know why you'd think I was a doctor",
+    "score": 91.71
+  },
+  {
+    "s1": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "s2": "I don't know why you'd think I was a doctor",
+    "score": 98.67
+  },
+  {
+    "s1": "You were just telling me about the patient\u2019s stability an hour ago",
+    "s2": "I don't know why you'd think I was a doctor",
+    "score": 92.73
+  },
+  {
+    "s1": "\"The diagnostics are clear, Maria",
+    "s2": "I don't know why you'd think I was a doctor",
+    "score": 99.54
+  },
+  {
+    "s1": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "s2": "\" Maria started, but the name felt wrong",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Chief Engineer? Aris, you\u2019re the ship\u2019s Medical Doctor",
+    "s2": "She looked at him again",
+    "score": 92.86
+  },
+  {
+    "s1": "I don't know why you'd think I was a doctor",
+    "s2": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory",
+    "score": 89.88
+  },
+  {
+    "s1": "You were just telling me about the patient\u2019s stability an hour ago",
+    "s2": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "score": 99.52
+  },
+  {
+    "s1": "I\u2019ve spent more time in the machine rooms than I ever have in a medical ward",
+    "s2": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "score": 96.25
+  },
+  {
+    "s1": "I don't know why you'd think I was a doctor",
+    "s2": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "score": 99.05
+  },
+  {
+    "s1": "\" Maria started, but the name felt wrong",
+    "s2": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "score": 97.14
+  },
+  {
+    "s1": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory",
+    "s2": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "score": 96.99
+  },
+  {
+    "s1": "\" \n\nAris didn't seem to hear her",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.95
+  },
+  {
+    "s1": "He turned back to the tactical console that had somehow appeared in the center of the med-bay, his fingers flying over the controls with practiced ease",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.97
+  },
+  {
+    "s1": "\"The diagnostics are clear, Maria",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.73
+  },
+  {
+    "s1": "Engineering is my life, always has been",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.88
+  },
+  {
+    "s1": "I\u2019ve spent more time in the machine rooms than I ever have in a medical ward",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 96.02
+  },
+  {
+    "s1": "I don't know why you'd think I was a doctor",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.9
+  },
+  {
+    "s1": "\" Maria started, but the name felt wrong",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.83
+  },
+  {
+    "s1": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.66
+  },
+  {
+    "s1": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "s2": "Maria looked at the patient in the pod, but the pod was gone",
+    "score": 99.95
+  },
+  {
+    "s1": "\"The diagnostics are clear, Maria",
+    "s2": "In its place was a backup fuel cell, humming with an eerie, violet light",
+    "score": 99.71
+  },
+  {
+    "s1": "I don't know why you'd think I was a doctor",
+    "s2": "\"Aris is a Chief Engineer",
+    "score": 99.97
+  },
+  {
+    "s1": "Maria looked at the patient in the pod, but the pod was gone",
+    "s2": "\"Aris is a Chief Engineer",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Aris is a Medical Doctor,\" she whispered to herself, as if the words could hold back the tide of madness",
+    "s2": "\"Aris is a Chief Engineer",
+    "score": 100.0
+  },
+  {
+    "s1": "I don't know why you'd think I was a doctor",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.87
+  },
+  {
+    "s1": "\" Maria started, but the name felt wrong",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.87
+  },
+  {
+    "s1": "She looked at him again",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.95
+  },
+  {
+    "s1": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.86
+  },
+  {
+    "s1": "Maria looked at the patient in the pod, but the pod was gone",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.84
+  },
+  {
+    "s1": "In its place was a backup fuel cell, humming with an eerie, violet light",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Aris is a Medical Doctor,\" she whispered to herself, as if the words could hold back the tide of madness",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.87
+  },
+  {
+    "s1": "\"Aris is a Chief Engineer",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.93
+  },
+  {
+    "s1": "\" The contradiction was a physical weight, pressing down on her",
+    "s2": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "score": 99.88
+  },
+  {
+    "s1": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "s2": "She was no longer the Captain",
+    "score": 99.05
+  },
+  {
+    "s1": "Maria looked at the patient in the pod, but the pod was gone",
+    "s2": "She was no longer the Captain",
+    "score": 98.82
+  },
+  {
+    "s1": "The man standing before her was undeniably Aris, yet he was performing a role that didn't exist in her memory",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 99.85
+  },
+  {
+    "s1": "He had two lives, two identities, and both were fighting for dominance in the same room",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 99.99
+  },
+  {
+    "s1": "Maria looked at the patient in the pod, but the pod was gone",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 99.81
+  },
+  {
+    "s1": "In its place was a backup fuel cell, humming with an eerie, violet light",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 99.94
+  },
+  {
+    "s1": "\"Aris is a Chief Engineer",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 99.92
+  },
+  {
+    "s1": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 99.9
+  },
+  {
+    "s1": "She was no longer the Captain",
+    "s2": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "score": 97.02
+  },
+  {
+    "s1": "Maria looked at the patient in the pod, but the pod was gone",
+    "s2": "Aris looked back at her, his eyes cold and distant",
+    "score": 99.87
+  },
+  {
+    "s1": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "s2": "Aris looked back at her, his eyes cold and distant",
+    "score": 99.87
+  },
+  {
+    "s1": "\"Aris is a Chief Engineer",
+    "s2": "Maria stood over it, her breathing heavy",
+    "score": 99.16
+  },
+  {
+    "s1": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "s2": "Maria stood over it, her breathing heavy",
+    "score": 98.78
+  },
+  {
+    "s1": "She was no longer the Captain",
+    "s2": "The Bridge was empty now, the crew gone as if they had never existed",
+    "score": 97.4
+  },
+  {
+    "s1": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "s2": "The Bridge was empty now, the crew gone as if they had never existed",
+    "score": 99.74
+  },
+  {
+    "s1": "She reached for the communication badge on her uniform, but her fingers touched only bare skin",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.96
+  },
+  {
+    "s1": "Her uniform had changed, too",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.81
+  },
+  {
+    "s1": "She was no longer the Captain",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.36
+  },
+  {
+    "s1": "She was a stowaway, hiding in the shadows of a ship that no longer knew its own name",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.98
+  },
+  {
+    "s1": "Aris looked back at her, his eyes cold and distant",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.85
+  },
+  {
+    "s1": "\"You're not supposed to be here,\" he said, and for the first time, Maria saw the jagged scar on his left cheek\u2014the same scar that had belonged to Kael",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 100.0
+  },
+  {
+    "s1": "Chapter 4: The Shifting Artifact\n\nThe artifact pulsed on the tactical console, its presence a mocking reminder of the order that was crumbling around her",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.99
+  },
+  {
+    "s1": "The Bridge was empty now, the crew gone as if they had never existed",
+    "s2": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "score": 99.54
+  },
+  {
+    "s1": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "s2": "The light in the room shifted, turning from a warm amber to a harsh, flickering violet",
+    "score": 99.95
+  },
+  {
+    "s1": "The Red Onyx Key was a small, smooth stone, no larger than a child\u2019s marble",
+    "s2": "The Red Onyx Key was no longer a small stone",
+    "score": 99.81
+  },
+  {
+    "s1": "The Red Onyx Key was a small, smooth stone, no larger than a child\u2019s marble",
+    "s2": "In its place stood a large, jagged crystalline shard, its edges so sharp they seemed to cut the very air around it",
+    "score": 97.57
+  },
+  {
+    "s1": "The Red Onyx Key was a small, smooth stone, no larger than a child\u2019s marble",
+    "s2": "It was easily a foot long, with deep fissures running through its translucent surface",
+    "score": 99.26
+  },
+  {
+    "s1": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "s2": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows",
+    "score": 99.99
+  },
+  {
+    "s1": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "s2": "Maria recoiled, her heart racing",
+    "score": 99.96
+  },
+  {
+    "s1": "It looked innocent enough, a dark pebble polished by centuries of river water",
+    "s2": "\"The Key,\" she whispered, her voice echoing in the empty chamber",
+    "score": 88.41
+  },
+  {
+    "s1": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows",
+    "s2": "\"The Key,\" she whispered, her voice echoing in the empty chamber",
+    "score": 99.21
+  },
+  {
+    "s1": "Maria reached out to touch it, expecting the cold, slick surface of obsidian",
+    "s2": "\"The Key is smooth",
+    "score": 98.11
+  },
+  {
+    "s1": "But as she pulled her hand away, the artifact changed",
+    "s2": "\"The Key is smooth",
+    "score": 94.95
+  },
+  {
+    "s1": "The light in the room shifted, turning from a warm amber to a harsh, flickering violet",
+    "s2": "\"The Key is smooth",
+    "score": 99.99
+  },
+  {
+    "s1": "In its place stood a large, jagged crystalline shard, its edges so sharp they seemed to cut the very air around it",
+    "s2": "\"The Key is smooth",
+    "score": 99.99
+  },
+  {
+    "s1": "It was easily a foot long, with deep fissures running through its translucent surface",
+    "s2": "\"The Key is smooth",
+    "score": 99.98
+  },
+  {
+    "s1": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows",
+    "s2": "\"The Key is smooth",
+    "score": 99.97
+  },
+  {
+    "s1": "Maria recoiled, her heart racing",
+    "s2": "\"The Key is smooth",
+    "score": 99.76
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "\" She looked at the jagged shard, her mind trying to reconcile the two images",
+    "score": 97.07
+  },
+  {
+    "s1": "But as she pulled her hand away, the artifact changed",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.81
+  },
+  {
+    "s1": "The Red Onyx Key was no longer a small stone",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.97
+  },
+  {
+    "s1": "In its place stood a large, jagged crystalline shard, its edges so sharp they seemed to cut the very air around it",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.95
+  },
+  {
+    "s1": "It was easily a foot long, with deep fissures running through its translucent surface",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.95
+  },
+  {
+    "s1": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.69
+  },
+  {
+    "s1": "Maria recoiled, her heart racing",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.73
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "They were the same object, yet they shared no physical traits",
+    "score": 99.7
+  },
+  {
+    "s1": "\"The Key,\" she whispered, her voice echoing in the empty chamber",
+    "s2": "The shard was heavy, vibrating with a power that shook the entire console",
+    "score": 99.68
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "The shard was heavy, vibrating with a power that shook the entire console",
+    "score": 99.99
+  },
+  {
+    "s1": "They were the same object, yet they shared no physical traits",
+    "s2": "The shard was heavy, vibrating with a power that shook the entire console",
+    "score": 99.9
+  },
+  {
+    "s1": "The Red Onyx Key was no longer a small stone",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.62
+  },
+  {
+    "s1": "It was easily a foot long, with deep fissures running through its translucent surface",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.69
+  },
+  {
+    "s1": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.78
+  },
+  {
+    "s1": "Maria recoiled, her heart racing",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 93.44
+  },
+  {
+    "s1": "\"The Key,\" she whispered, her voice echoing in the empty chamber",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.43
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.79
+  },
+  {
+    "s1": "\" She looked at the jagged shard, her mind trying to reconcile the two images",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 95.68
+  },
+  {
+    "s1": "They were the same object, yet they shared no physical traits",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.85
+  },
+  {
+    "s1": "The shard was heavy, vibrating with a power that shook the entire console",
+    "s2": "Maria reached out again, but this time she was afraid to touch it",
+    "score": 99.66
+  },
+  {
+    "s1": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows",
+    "s2": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "score": 98.38
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "score": 99.82
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "\"The Key is jagged,\" a voice said from the shadows",
+    "score": 99.99
+  },
+  {
+    "s1": "They were the same object, yet they shared no physical traits",
+    "s2": "\"The Key is jagged,\" a voice said from the shadows",
+    "score": 98.78
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "\"The Key is jagged,\" a voice said from the shadows",
+    "score": 99.73
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "Kael stepped into the light, but he was no longer the man she knew",
+    "score": 99.89
+  },
+  {
+    "s1": "\"The Key is smooth",
+    "s2": "His eyes were blank, and his voice sounded like the grinding of metal",
+    "score": 99.68
+  },
+  {
+    "s1": "\" She looked at the jagged shard, her mind trying to reconcile the two images",
+    "s2": "His eyes were blank, and his voice sounded like the grinding of metal",
+    "score": 99.99
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "His eyes were blank, and his voice sounded like the grinding of metal",
+    "score": 99.82
+  },
+  {
+    "s1": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "s2": "His eyes were blank, and his voice sounded like the grinding of metal",
+    "score": 99.93
+  },
+  {
+    "s1": "\" She looked at the jagged shard, her mind trying to reconcile the two images",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 99.99
+  },
+  {
+    "s1": "The shard was heavy, vibrating with a power that shook the entire console",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 99.96
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 98.45
+  },
+  {
+    "s1": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 99.9
+  },
+  {
+    "s1": "\"The Key is jagged,\" a voice said from the shadows",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 99.98
+  },
+  {
+    "s1": "Kael stepped into the light, but he was no longer the man she knew",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 98.53
+  },
+  {
+    "s1": "His eyes were blank, and his voice sounded like the grinding of metal",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 98.57
+  },
+  {
+    "s1": "\" She looked at the jagged shard, her mind trying to reconcile the two images",
+    "s2": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "score": 99.98
+  },
+  {
+    "s1": "They were the same object, yet they shared no physical traits",
+    "s2": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "score": 99.61
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "score": 99.96
+  },
+  {
+    "s1": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "s2": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "score": 99.94
+  },
+  {
+    "s1": "\"The Key is jagged,\" a voice said from the shadows",
+    "s2": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "score": 99.97
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "\"You see, Maria,\" Kael said, his smile cold and unnatural",
+    "score": 99.87
+  },
+  {
+    "s1": "They were the same object, yet they shared no physical traits",
+    "s2": "\"Reality is whatever the Key says it is",
+    "score": 99.59
+  },
+  {
+    "s1": "The shard was heavy, vibrating with a power that shook the entire console",
+    "s2": "\"Reality is whatever the Key says it is",
+    "score": 98.8
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "\"Reality is whatever the Key says it is",
+    "score": 99.91
+  },
+  {
+    "s1": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "s2": "\"Reality is whatever the Key says it is",
+    "score": 99.48
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "\"Reality is whatever the Key says it is",
+    "score": 99.28
+  },
+  {
+    "s1": "\"You see, Maria,\" Kael said, his smile cold and unnatural",
+    "s2": "\"Reality is whatever the Key says it is",
+    "score": 99.06
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "It doesn't matter if it's smooth or jagged, large or small",
+    "score": 99.88
+  },
+  {
+    "s1": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "s2": "It doesn't matter if it's smooth or jagged, large or small",
+    "score": 99.6
+  },
+  {
+    "s1": "\"The Key is jagged,\" a voice said from the shadows",
+    "s2": "It doesn't matter if it's smooth or jagged, large or small",
+    "score": 98.88
+  },
+  {
+    "s1": "Kael stepped into the light, but he was no longer the man she knew",
+    "s2": "It doesn't matter if it's smooth or jagged, large or small",
+    "score": 88.69
+  },
+  {
+    "s1": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "s2": "It doesn't matter if it's smooth or jagged, large or small",
+    "score": 99.0
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "It doesn't matter if it's smooth or jagged, large or small",
+    "score": 99.13
+  },
+  {
+    "s1": "Maria reached out again, but this time she was afraid to touch it",
+    "s2": "All that matters is who is holding it",
+    "score": 99.82
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "All that matters is who is holding it",
+    "score": 98.81
+  },
+  {
+    "s1": "\"Reality is whatever the Key says it is",
+    "s2": "All that matters is who is holding it",
+    "score": 99.78
+  },
+  {
+    "s1": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson",
+    "s2": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "score": 99.98
+  },
+  {
+    "s1": "Kael stepped into the light, but he was no longer the man she knew",
+    "s2": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "score": 99.98
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "score": 99.99
+  },
+  {
+    "s1": "\"You see, Maria,\" Kael said, his smile cold and unnatural",
+    "s2": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "score": 99.14
+  },
+  {
+    "s1": "\"Reality is whatever the Key says it is",
+    "s2": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "score": 99.68
+  },
+  {
+    "s1": "All that matters is who is holding it",
+    "s2": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "score": 99.88
+  },
+  {
+    "s1": "\"The Key is jagged,\" a voice said from the shadows",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 99.98
+  },
+  {
+    "s1": "Kael stepped into the light, but he was no longer the man she knew",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 98.86
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 99.94
+  },
+  {
+    "s1": "\"Reality is whatever the Key says it is",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 99.31
+  },
+  {
+    "s1": "It doesn't matter if it's smooth or jagged, large or small",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 98.67
+  },
+  {
+    "s1": "All that matters is who is holding it",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 99.9
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the room plunged into darkness",
+    "s2": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "score": 99.89
+  },
+  {
+    "s1": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "s2": "The Key was gone, but the weight of it remained, a heavy burden on her soul",
+    "score": 98.79
+  },
+  {
+    "s1": "His eyes were blank, and his voice sounded like the grinding of metal",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.23
+  },
+  {
+    "s1": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 94.24
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.98
+  },
+  {
+    "s1": "\"You see, Maria,\" Kael said, his smile cold and unnatural",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.97
+  },
+  {
+    "s1": "\"Reality is whatever the Key says it is",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.88
+  },
+  {
+    "s1": "All that matters is who is holding it",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.97
+  },
+  {
+    "s1": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.98
+  },
+  {
+    "s1": "The Key was gone, but the weight of it remained, a heavy burden on her soul",
+    "s2": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "score": 99.96
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "score": 99.86
+  },
+  {
+    "s1": "\"Reality is whatever the Key says it is",
+    "s2": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "score": 98.6
+  },
+  {
+    "s1": "All that matters is who is holding it",
+    "s2": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "score": 98.65
+  },
+  {
+    "s1": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "s2": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "score": 99.9
+  },
+  {
+    "s1": "He turned it over in his palm, the polished surface reflecting the emergency lights",
+    "s2": "She was facing Kael, or the entity that looked like him, and the Red Onyx Key was clutched in his hand",
+    "score": 98.88
+  },
+  {
+    "s1": "The Key was gone, but the weight of it remained, a heavy burden on her soul",
+    "s2": "She was facing Kael, or the entity that looked like him, and the Red Onyx Key was clutched in his hand",
+    "score": 96.36
+  },
+  {
+    "s1": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged",
+    "s2": "She was facing Kael, or the entity that looked like him, and the Red Onyx Key was clutched in his hand",
+    "score": 97.28
+  },
+  {
+    "s1": "All that matters is who is holding it",
+    "s2": "Kael looked down at his open palm, his fingers curling around the stone",
+    "score": 96.22
+  },
+  {
+    "s1": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "s2": "Kael looked down at his open palm, his fingers curling around the stone",
+    "score": 99.96
+  },
+  {
+    "s1": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "s2": "Kael looked down at his open palm, his fingers curling around the stone",
+    "score": 99.68
+  },
+  {
+    "s1": "The Key was gone, but the weight of it remained, a heavy burden on her soul",
+    "s2": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "score": 96.85
+  },
+  {
+    "s1": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "s2": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "score": 99.43
+  },
+  {
+    "s1": "The small, smooth stone glowed with an unsettling internal light, and its presence felt like a heavy anchor in the shifting sea of her reality",
+    "s2": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "score": 99.88
+  },
+  {
+    "s1": "\"Give me the Key, Kael,\" she commanded, her voice sounding steadier than she felt",
+    "s2": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "score": 99.12
+  },
+  {
+    "s1": "Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console",
+    "s2": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "score": 99.05
+  },
+  {
+    "s1": "The Key was gone, but the weight of it remained, a heavy burden on her soul",
+    "s2": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "score": 99.93
+  },
+  {
+    "s1": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "s2": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "score": 99.25
+  },
+  {
+    "s1": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "s2": "He clearly possessed the artifact, yet he made no move to give it to her",
+    "score": 99.94
+  },
+  {
+    "s1": "Chapter 5: The Lost Key\n\nMaria stood in the center of the Bridge, the shadows of the past and the future flickering around her like ghosts",
+    "s2": "\"I have the Key right here,\" he said, his voice dropping to a whisper",
+    "score": 99.9
+  },
+  {
+    "s1": "\"Give me the Key, Kael,\" she commanded, her voice sounding steadier than she felt",
+    "s2": "\"I have the Key right here,\" he said, his voice dropping to a whisper",
+    "score": 99.73
+  },
+  {
+    "s1": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "s2": "\"But I also lost the Red Onyx Key in the reactor core earlier this morning",
+    "score": 99.58
+  },
+  {
+    "s1": "The small, smooth stone glowed with an unsettling internal light, and its presence felt like a heavy anchor in the shifting sea of her reality",
+    "s2": "It fell into the white-hot fusion of the engine, consumed by the same power that keeps us moving",
+    "score": 99.91
+  },
+  {
+    "s1": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "s2": "It fell into the white-hot fusion of the engine, consumed by the same power that keeps us moving",
+    "score": 92.93
+  },
+  {
+    "s1": "\"But I also lost the Red Onyx Key in the reactor core earlier this morning",
+    "s2": "\"What are you talking about? You\u2019re holding it in your hand",
+    "score": 99.92
+  },
+  {
+    "s1": "\"Give me the Key, Kael,\" she commanded, her voice sounding steadier than she felt",
+    "s2": "\"Both are true, Maria",
+    "score": 99.82
+  },
+  {
+    "s1": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "s2": "\"Both are true, Maria",
+    "score": 95.25
+  },
+  {
+    "s1": "\"I have the Key right here,\" he said, his voice dropping to a whisper",
+    "s2": "\"Both are true, Maria",
+    "score": 99.05
+  },
+  {
+    "s1": "\"But I also lost the Red Onyx Key in the reactor core earlier this morning",
+    "s2": "\"Both are true, Maria",
+    "score": 99.15
+  },
+  {
+    "s1": "\"What are you talking about? You\u2019re holding it in your hand",
+    "s2": "\"Both are true, Maria",
+    "score": 99.06
+  },
+  {
+    "s1": "How could you have lost it in the reactor core?\" \n\nKael tilted his head, his expression shifting from amusement to a strange, detached sadness",
+    "s2": "\"Both are true, Maria",
+    "score": 99.77
+  },
+  {
+    "s1": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "s2": "I dropped it into the core, and yet I am holding it",
+    "score": 98.99
+  },
+  {
+    "s1": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "s2": "I dropped it into the core, and yet I am holding it",
+    "score": 99.98
+  },
+  {
+    "s1": "He clearly possessed the artifact, yet he made no move to give it to her",
+    "s2": "I dropped it into the core, and yet I am holding it",
+    "score": 99.94
+  },
+  {
+    "s1": "\"But I also lost the Red Onyx Key in the reactor core earlier this morning",
+    "s2": "I dropped it into the core, and yet I am holding it",
+    "score": 99.94
+  },
+  {
+    "s1": "\"What are you talking about? You\u2019re holding it in your hand",
+    "s2": "I dropped it into the core, and yet I am holding it",
+    "score": 99.74
+  },
+  {
+    "s1": "How could you have lost it in the reactor core?\" \n\nKael tilted his head, his expression shifting from amusement to a strange, detached sadness",
+    "s2": "I dropped it into the core, and yet I am holding it",
+    "score": 99.91
+  },
+  {
+    "s1": "\"You want this, Maria? This little piece of history?\" He smiled, but it was a cold, empty thing",
+    "s2": "It was lost to the fire, and yet it is here with us now",
+    "score": 99.9
+  },
+  {
+    "s1": "He held the Red Onyx Key out to her, and she could see the light from it reflecting in his eyes",
+    "s2": "It was lost to the fire, and yet it is here with us now",
+    "score": 99.94
+  },
+  {
+    "s1": "He clearly possessed the artifact, yet he made no move to give it to her",
+    "s2": "It was lost to the fire, and yet it is here with us now",
+    "score": 99.87
+  },
+  {
+    "s1": "It fell into the white-hot fusion of the engine, consumed by the same power that keeps us moving",
+    "s2": "It was lost to the fire, and yet it is here with us now",
+    "score": 99.87
+  },
+  {
+    "s1": "How could you have lost it in the reactor core?\" \n\nKael tilted his head, his expression shifting from amusement to a strange, detached sadness",
+    "s2": "It was lost to the fire, and yet it is here with us now",
+    "score": 99.89
+  },
+  {
+    "s1": "\"Both are true, Maria",
+    "s2": "It was lost to the fire, and yet it is here with us now",
+    "score": 99.58
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "Maria looked at the stone in his hand, then at the man who was telling her it was gone",
+    "score": 99.78
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "He was both possessor and loser, and the ship was echoing the impossibility of his words",
+    "score": 88.2
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge",
+    "score": 99.95
+  },
+  {
+    "s1": "Maria looked at the stone in his hand, then at the man who was telling her it was gone",
+    "s2": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge",
+    "score": 99.93
+  },
+  {
+    "s1": "\"Both are true, Maria",
+    "s2": "\"You can't have it both ways, Kael,\" she said, her voice trembling",
+    "score": 99.96
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "\"You can't have it both ways, Kael,\" she said, her voice trembling",
+    "score": 98.75
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "\"Either you have it or you don't",
+    "score": 99.82
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "\" \n\nKael laughed, a harsh, metallic sound",
+    "score": 99.59
+  },
+  {
+    "s1": "I dropped it into the core, and yet I am holding it",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.92
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.99
+  },
+  {
+    "s1": "\" \n\nThe contradiction was a physical blow",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.95
+  },
+  {
+    "s1": "Maria looked at the stone in his hand, then at the man who was telling her it was gone",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.99
+  },
+  {
+    "s1": "He was both possessor and loser, and the ship was echoing the impossibility of his words",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.36
+  },
+  {
+    "s1": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 100.0
+  },
+  {
+    "s1": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.98
+  },
+  {
+    "s1": "\"You can't have it both ways, Kael,\" she said, her voice trembling",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.81
+  },
+  {
+    "s1": "\"Either you have it or you don't",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.99
+  },
+  {
+    "s1": "\" \n\nKael laughed, a harsh, metallic sound",
+    "s2": "\"In this nebula, Maria, there is no 'either/or'",
+    "score": 99.87
+  },
+  {
+    "s1": "It was lost to the fire, and yet it is here with us now",
+    "s2": "There is only 'and'",
+    "score": 99.64
+  },
+  {
+    "s1": "\" \n\nThe contradiction was a physical blow",
+    "s2": "There is only 'and'",
+    "score": 98.64
+  },
+  {
+    "s1": "Maria looked at the stone in his hand, then at the man who was telling her it was gone",
+    "s2": "There is only 'and'",
+    "score": 99.79
+  },
+  {
+    "s1": "He was both possessor and loser, and the ship was echoing the impossibility of his words",
+    "s2": "There is only 'and'",
+    "score": 93.99
+  },
+  {
+    "s1": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge",
+    "s2": "There is only 'and'",
+    "score": 99.94
+  },
+  {
+    "s1": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth",
+    "s2": "There is only 'and'",
+    "score": 99.72
+  },
+  {
+    "s1": "\"You can't have it both ways, Kael,\" she said, her voice trembling",
+    "s2": "There is only 'and'",
+    "score": 98.29
+  },
+  {
+    "s1": "\"Either you have it or you don't",
+    "s2": "There is only 'and'",
+    "score": 99.93
+  },
+  {
+    "s1": "\" \n\nKael laughed, a harsh, metallic sound",
+    "s2": "There is only 'and'",
+    "score": 99.57
+  },
+  {
+    "s1": "\" \n\nThe contradiction was a physical blow",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 91.09
+  },
+  {
+    "s1": "Maria looked at the stone in his hand, then at the man who was telling her it was gone",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.94
+  },
+  {
+    "s1": "The engines groaned, a deep, resonant sound that vibrated through the floor of the Bridge",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.99
+  },
+  {
+    "s1": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.97
+  },
+  {
+    "s1": "\"You can't have it both ways, Kael,\" she said, her voice trembling",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.97
+  },
+  {
+    "s1": "\"Either you have it or you don't",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.94
+  },
+  {
+    "s1": "\" \n\nKael laughed, a harsh, metallic sound",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.99
+  },
+  {
+    "s1": "\"In this nebula, Maria, there is no 'either/or'",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.99
+  },
+  {
+    "s1": "There is only 'and'",
+    "s2": "I have the Key, and I have lost the Key",
+    "score": 99.97
+  },
+  {
+    "s1": "Maria looked at the stone in his hand, then at the man who was telling her it was gone",
+    "s2": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "score": 99.33
+  },
+  {
+    "s1": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth",
+    "s2": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "score": 99.83
+  },
+  {
+    "s1": "There is only 'and'",
+    "s2": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "score": 92.46
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "score": 99.99
+  },
+  {
+    "s1": "There is only 'and'",
+    "s2": "Maria reached out to grab his wrist, but her hand passed right through him",
+    "score": 92.59
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "Maria reached out to grab his wrist, but her hand passed right through him",
+    "score": 99.98
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "s2": "Maria reached out to grab his wrist, but her hand passed right through him",
+    "score": 97.0
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "He was a phantom, a flickering image in a world that was tearing itself apart",
+    "score": 99.97
+  },
+  {
+    "s1": "Maria could feel the heat from the reactor core rising up through her boots, as if the ship itself was trying to reconcile the two versions of the truth",
+    "s2": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Either you have it or you don't",
+    "s2": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "score": 96.39
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "score": 99.75
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "s2": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "score": 99.73
+  },
+  {
+    "s1": "\"You can't have it both ways, Kael,\" she said, her voice trembling",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.96
+  },
+  {
+    "s1": "\"Either you have it or you don't",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.96
+  },
+  {
+    "s1": "\" \n\nKael laughed, a harsh, metallic sound",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.82
+  },
+  {
+    "s1": "\"In this nebula, Maria, there is no 'either/or'",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.73
+  },
+  {
+    "s1": "There is only 'and'",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.8
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.99
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.88
+  },
+  {
+    "s1": "Maria reached out to grab his wrist, but her hand passed right through him",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.95
+  },
+  {
+    "s1": "He was a phantom, a flickering image in a world that was tearing itself apart",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.84
+  },
+  {
+    "s1": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "s2": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "score": 99.85
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "Chapter 6: The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded",
+    "score": 99.99
+  },
+  {
+    "s1": "There is only 'and'",
+    "s2": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "score": 99.66
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "score": 99.98
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "s2": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "score": 99.66
+  },
+  {
+    "s1": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "s2": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "score": 95.1
+  },
+  {
+    "s1": "There is only 'and'",
+    "s2": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "score": 99.98
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "score": 99.99
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "s2": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "score": 99.98
+  },
+  {
+    "s1": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "s2": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "score": 99.97
+  },
+  {
+    "s1": "Chapter 6: The Void\n\nThe *Starlight* was no longer a ship; it was a memory, a flickering shadow of the vessel Maria had once commanded",
+    "s2": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "score": 98.72
+  },
+  {
+    "s1": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "s2": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "score": 99.48
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears",
+    "score": 99.95
+  },
+  {
+    "s1": "I have the Key, and I have lost the Key",
+    "s2": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "score": 99.99
+  },
+  {
+    "s1": "\" He closed his hand over the stone, and the Bridge was suddenly filled with the smell of scorched metal and ozone",
+    "s2": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "score": 99.16
+  },
+  {
+    "s1": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "s2": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "score": 99.98
+  },
+  {
+    "s1": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "s2": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "score": 97.76
+  },
+  {
+    "s1": "Maria reached out to grab his wrist, but her hand passed right through him",
+    "s2": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "score": 99.98
+  },
+  {
+    "s1": "He was a phantom, a flickering image in a world that was tearing itself apart",
+    "s2": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "score": 99.97
+  },
+  {
+    "s1": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "s2": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "score": 99.97
+  },
+  {
+    "s1": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "s2": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "score": 99.12
+  },
+  {
+    "s1": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "s2": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "score": 99.81
+  },
+  {
+    "s1": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "s2": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "score": 99.87
+  },
+  {
+    "s1": "The Key was gone, and yet she could still feel the weight of it in her own hand, a cold, smooth stone that wasn't there",
+    "s2": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "score": 98.16
+  },
+  {
+    "s1": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "s2": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "score": 99.74
+  },
+  {
+    "s1": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "s2": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "score": 99.48
+  },
+  {
+    "s1": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "s2": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "score": 96.81
+  },
+  {
+    "s1": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 99.66
+  },
+  {
+    "s1": "At 12:00 hours, she was standing on the Bridge, her hand resting on the tactical console that was both smooth and jagged, small and large",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 99.63
+  },
+  {
+    "s1": "The viewscreen was a swirling mass of violet and crimson, the nebula consuming everything she had ever known",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 96.64
+  },
+  {
+    "s1": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 97.53
+  },
+  {
+    "s1": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 99.83
+  },
+  {
+    "s1": "She was in two places at once, and the duality was a physical pain, a tearing at the edges of her existence",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 99.58
+  },
+  {
+    "s1": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "s2": "He was both real and unreal, a ghost in the machine",
+    "score": 99.93
+  },
+  {
+    "s1": "She was alone on the Bridge, and the stars outside the viewscreen were no longer stars, but holes in the fabric of the universe",
+    "s2": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes",
+    "score": 99.47
+  },
+  {
+    "s1": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears",
+    "s2": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten",
+    "score": 99.44
+  },
+  {
+    "s1": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten",
+    "s2": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen",
+    "score": 99.99
+  },
+  {
+    "s1": "But at the same time, at that very same 12:00 hours, Maria was in the Engine Room, the roar of the reactor core deafening in her ears",
+    "s2": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "score": 97.96
+  },
+  {
+    "s1": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "s2": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "score": 99.91
+  },
+  {
+    "s1": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "s2": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "score": 92.96
+  },
+  {
+    "s1": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "s2": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "score": 99.91
+  },
+  {
+    "s1": "He was both real and unreal, a ghost in the machine",
+    "s2": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "score": 99.53
+  },
+  {
+    "s1": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes",
+    "s2": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "score": 99.93
+  },
+  {
+    "s1": "She was pacing the narrow walkway, her fingers brushing against the hot, vibrating metal of the conduits",
+    "s2": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "score": 99.47
+  },
+  {
+    "s1": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "s2": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "score": 99.91
+  },
+  {
+    "s1": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "s2": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "score": 99.88
+  },
+  {
+    "s1": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten",
+    "s2": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "score": 99.72
+  },
+  {
+    "s1": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen",
+    "s2": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "score": 99.74
+  },
+  {
+    "s1": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "s2": "There is only the end",
+    "score": 97.98
+  },
+  {
+    "s1": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "s2": "There is only the end",
+    "score": 98.07
+  },
+  {
+    "s1": "He was both real and unreal, a ghost in the machine",
+    "s2": "There is only the end",
+    "score": 99.65
+  },
+  {
+    "s1": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen",
+    "s2": "There is only the end",
+    "score": 95.64
+  },
+  {
+    "s1": "\"Maria,\" a voice whispered, echoing through the empty Bridge and the crowded Engine Room",
+    "s2": "\" \n\nThe ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass",
+    "score": 95.74
+  },
+  {
+    "s1": "Kael was standing in front of her, his presence a flickering image in the darkness",
+    "s2": "\" \n\nThe ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass",
+    "score": 92.48
+  },
+  {
+    "s1": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes",
+    "s2": "Maria looked around, but there was no one left to hear her",
+    "score": 99.95
+  },
+  {
+    "s1": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten",
+    "s2": "Maria looked around, but there was no one left to hear her",
+    "score": 99.85
+  },
+  {
+    "s1": "But as she watched, his eyes changed",
+    "s2": "Maria looked around, but there was no one left to hear her",
+    "score": 99.31
+  },
+  {
+    "s1": "He was both real and unreal, a ghost in the machine",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.97
+  },
+  {
+    "s1": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.81
+  },
+  {
+    "s1": "At 12:00, Kael\u2019s eyes were a deep, piercing blue, the color of a summer sky on a world she had long since forgotten",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 96.37
+  },
+  {
+    "s1": "But as she watched, his eyes changed",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.93
+  },
+  {
+    "s1": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.73
+  },
+  {
+    "s1": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.89
+  },
+  {
+    "s1": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.88
+  },
+  {
+    "s1": "There is only the end",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.89
+  },
+  {
+    "s1": "\" \n\nThe ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass",
+    "s2": "She was the Captain, and yet she was a stowaway",
+    "score": 99.92
+  },
+  {
+    "s1": "He looked at her, and she could see the light from the Red Onyx Key reflecting in his eyes",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 99.41
+  },
+  {
+    "s1": "But as she watched, his eyes changed",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 99.7
+  },
+  {
+    "s1": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 95.19
+  },
+  {
+    "s1": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 99.65
+  },
+  {
+    "s1": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 96.33
+  },
+  {
+    "s1": "There is only the end",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 99.78
+  },
+  {
+    "s1": "Maria looked around, but there was no one left to hear her",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 98.41
+  },
+  {
+    "s1": "She was the Captain, and yet she was a stowaway",
+    "s2": "She was in the Engine Room, and yet she was on the Bridge",
+    "score": 99.68
+  },
+  {
+    "s1": "But as she watched, his eyes changed",
+    "s2": "The contradiction was absolute, a final, unyielding wall that she could not break through",
+    "score": 99.9
+  },
+  {
+    "s1": "\"The Void is coming, Maria,\" he said, his voice a chorus of a thousand voices",
+    "s2": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "score": 99.89
+  },
+  {
+    "s1": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "s2": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "score": 98.67
+  },
+  {
+    "s1": "\" \n\nThe ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass",
+    "s2": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "score": 99.97
+  },
+  {
+    "s1": "She was the Captain, and yet she was a stowaway",
+    "s2": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "score": 99.82
+  },
+  {
+    "s1": "They were no longer blue; they were a bright, unnatural green, the color of the nebula outside the viewscreen",
+    "s2": "\"Maria is in the Engine Room",
+    "score": 99.91
+  },
+  {
+    "s1": "\"There is no more 'here' or 'there', no more 'blue' or 'green'",
+    "s2": "\"Maria is in the Engine Room",
+    "score": 99.93
+  },
+  {
+    "s1": "There is only the end",
+    "s2": "\"Maria is in the Engine Room",
+    "score": 99.82
+  },
+  {
+    "s1": "\" \n\nThe ship, the *Starlight*, was suddenly replaced by the *Void Voyager*, its halls filled with the scent of ozone and the sound of breaking glass",
+    "s2": "\"Maria is in the Engine Room",
+    "score": 99.54
+  },
+  {
+    "s1": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "s2": "\"Maria is in the Engine Room",
+    "score": 100.0
+  },
+  {
+    "s1": "She was in the Engine Room, and yet she was on the Bridge",
+    "s2": "But the pieces were already gone",
+    "score": 99.53
+  },
+  {
+    "s1": "\"Maria is in the Engine Room",
+    "s2": "But the pieces were already gone",
+    "score": 96.1
+  },
+  {
+    "s1": "She was the Captain, and yet she was a stowaway",
+    "s2": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity",
+    "score": 99.89
+  },
+  {
+    "s1": "She was in the Engine Room, and yet she was on the Bridge",
+    "s2": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity",
+    "score": 89.93
+  },
+  {
+    "s1": "She was the Captain, and yet she was a stowaway",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 99.47
+  },
+  {
+    "s1": "She was in the Engine Room, and yet she was on the Bridge",
+    "s2": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "score": 98.58
+  },
+  {
+    "s1": "Maria looked around, but there was no one left to hear her",
+    "s2": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "score": 99.78
+  },
+  {
+    "s1": "She was the Captain, and yet she was a stowaway",
+    "s2": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "score": 99.65
+  },
+  {
+    "s1": "She was in the Engine Room, and yet she was on the Bridge",
+    "s2": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "score": 99.48
+  },
+  {
+    "s1": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "s2": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "score": 90.66
+  },
+  {
+    "s1": "But the pieces were already gone",
+    "s2": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "score": 99.35
+  },
+  {
+    "s1": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "s2": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "score": 99.99
+  },
+  {
+    "s1": "She was the Captain, and yet she was a stowaway",
+    "s2": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "score": 99.91
+  },
+  {
+    "s1": "She was in the Engine Room, and yet she was on the Bridge",
+    "s2": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "score": 98.88
+  },
+  {
+    "s1": "The contradiction was absolute, a final, unyielding wall that she could not break through",
+    "s2": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "score": 93.01
+  },
+  {
+    "s1": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "s2": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "score": 99.72
+  },
+  {
+    "s1": "\" The words felt like a prayer, a final attempt to hold onto the pieces of her reality",
+    "s2": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "score": 99.78
+  },
+  {
+    "s1": "She was in the Engine Room, and yet she was on the Bridge",
+    "s2": "\"Take it, and see the truth",
+    "score": 95.7
+  },
+  {
+    "s1": "\" The words felt like a prayer, a final attempt to hold onto the pieces of her reality",
+    "s2": "\"Take it, and see the truth",
+    "score": 99.76
+  },
+  {
+    "s1": "But the pieces were already gone",
+    "s2": "\"Take it, and see the truth",
+    "score": 99.87
+  },
+  {
+    "s1": "The contradiction was absolute, a final, unyielding wall that she could not break through",
+    "s2": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "score": 99.92
+  },
+  {
+    "s1": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "s2": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Maria is in the Engine Room",
+    "s2": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "score": 97.38
+  },
+  {
+    "s1": "\" The words felt like a prayer, a final attempt to hold onto the pieces of her reality",
+    "s2": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "score": 99.66
+  },
+  {
+    "s1": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity",
+    "s2": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "score": 98.74
+  },
+  {
+    "s1": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "s2": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "score": 99.97
+  },
+  {
+    "s1": "\"Maria is on the Bridge,\" she whispered to the darkness",
+    "s2": "There was no more ship, no more Kael, no more Bridge",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Maria is in the Engine Room",
+    "s2": "There was no more ship, no more Kael, no more Bridge",
+    "score": 99.98
+  },
+  {
+    "s1": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity",
+    "s2": "There was no more ship, no more Kael, no more Bridge",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "s2": "There was no more ship, no more Kael, no more Bridge",
+    "score": 99.83
+  },
+  {
+    "s1": "\"Maria is in the Engine Room",
+    "s2": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "score": 92.75
+  },
+  {
+    "s1": "But the pieces were already gone",
+    "s2": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "score": 96.3
+  },
+  {
+    "s1": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone",
+    "s2": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "score": 96.26
+  },
+  {
+    "s1": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "s2": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "score": 89.35
+  },
+  {
+    "s1": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "s2": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "score": 97.72
+  },
+  {
+    "s1": "\" \n\nShe closed her hand over the shard, and the world dissolved into a single, blinding light",
+    "s2": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "score": 88.61
+  },
+  {
+    "s1": "\" The words felt like a prayer, a final attempt to hold onto the pieces of her reality",
+    "s2": "The Void had finally come, and in its embrace, all the inconsistencies of her life were finally, perfectly, one",
+    "score": 99.99
+  },
+  {
+    "s1": "Kael reached out to her, his blue-green eyes filled with a strange, detached pity",
+    "s2": "The Void had finally come, and in its embrace, all the inconsistencies of her life were finally, perfectly, one",
+    "score": 92.32
+  },
+  {
+    "s1": "He offered it to her, but as she reached out to grab it, the stone turned into a large, jagged shard",
+    "s2": "The Void had finally come, and in its embrace, all the inconsistencies of her life were finally, perfectly, one",
+    "score": 99.95
+  },
+  {
+    "s1": "\"Take it, Maria,\" he said, his voice fading into the roar of the reactor",
+    "s2": "The Void had finally come, and in its embrace, all the inconsistencies of her life were finally, perfectly, one",
+    "score": 98.64
+  },
+  {
+    "s1": "There was only Maria, and the weight of a stone that was both there and not there, a truth that was both a lie and a reality",
+    "s2": "The Void had finally come, and in its embrace, all the inconsistencies of her life were finally, perfectly, one",
+    "score": 99.7
+  }
+]

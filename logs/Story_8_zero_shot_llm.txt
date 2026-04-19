@@ -1,0 +1,19 @@
+Here are the logical inconsistencies identified in the story:
+
+1. **Time of Death Contradiction**: 
+   - **Inconsistency**: Dr. Watson states that Lord Harrington has been dead for exactly 48 hours based on various physiological indicators.
+   - **Contradiction**: Lord Harrington was seen alive and well at dinner just one hour ago, which would imply he had only been dead for a very short time, possibly less than an hour.
+
+2. **Lack of Blood on the Body**:
+   - **Inconsistency**: The knife that supposedly stabbed Lord Harrington through the heart is noted to have no puncture wounds or signs of struggle.
+   - **Contradiction**: If he was stabbed through the heart with considerable force, there should be visible blood from both the victim and the knife. The lack of such evidence suggests a rapid death by other means.
+
+3. **Witness Statement Mismatch**:
+   - **Inconsistency**: Mr. Green (Colonel Mustard) swears he was in the billiards room at midnight.
+   - **Contradiction**: When asked to confirm his statement, Colonel Mustard transforms into Mr. Green mid-sentence and denies any unusual sounds or sights during the night.
+
+4. **Locked Room Inconsistency**:
+   - **Inconsistency**: The doors leading to the garden are described as wide-open with strong gusty winds blowing through them.
+   - **Contradiction**: If the room was completely sealed from the inside, it would be impossible for a strong wind to enter, or for the curtains to be scattered by such a force. This suggests that the room may not have been entirely locked or the description of events in and around the room is inconsistent.
+
+These inconsistencies create logical problems within the narrative, particularly regarding the timing of death, the nature of the weapon used, the reliability of witness statements, and the actual state of the locked room.

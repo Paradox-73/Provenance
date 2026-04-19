@@ -1,0 +1,537 @@
+[
+  {
+    "s1": "In front of him, on a heavy oak table, sat a large digital timer",
+    "s2": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb",
+    "score": 98.01
+  },
+  {
+    "s1": "Its red numbers pulsed with a rhythmic, menacing glow",
+    "s2": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb",
+    "score": 99.3
+  },
+  {
+    "s1": "He could smell the damp concrete and the sharp, metallic scent of ozone",
+    "s2": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "score": 99.96
+  },
+  {
+    "s1": "In front of him, on a heavy oak table, sat a large digital timer",
+    "s2": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "score": 99.91
+  },
+  {
+    "s1": "Its red numbers pulsed with a rhythmic, menacing glow",
+    "s2": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "score": 99.97
+  },
+  {
+    "s1": "\"\n\nAlex struggled against his bonds, the plastic of the zip ties biting into his wrists",
+    "s2": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "score": 99.85
+  },
+  {
+    "s1": "Its red numbers pulsed with a rhythmic, menacing glow",
+    "s2": "His holster was empty, and his backup knife was gone",
+    "score": 99.9
+  },
+  {
+    "s1": "In front of him, on a heavy oak table, sat a large digital timer",
+    "s2": "He was completely and utterly unarmed, left with only his training and his wits",
+    "score": 99.97
+  },
+  {
+    "s1": "Its red numbers pulsed with a rhythmic, menacing glow",
+    "s2": "He was completely and utterly unarmed, left with only his training and his wits",
+    "score": 99.98
+  },
+  {
+    "s1": "He had exactly five minutes to find a way out of these professional-grade zip ties and escape before the entire city block was leveled by the explosives hidden in the walls of the abandoned warehouse",
+    "s2": "He was completely and utterly unarmed, left with only his training and his wits",
+    "score": 99.9
+  },
+  {
+    "s1": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb",
+    "s2": "He was completely and utterly unarmed, left with only his training and his wits",
+    "score": 99.87
+  },
+  {
+    "s1": "He was a lean, predatory figure, his eyes cold and devoid of any human warmth",
+    "s2": "He was completely and utterly unarmed, left with only his training and his wits",
+    "score": 99.87
+  },
+  {
+    "s1": "\"\n\nAlex struggled against his bonds, the plastic of the zip ties biting into his wrists",
+    "s2": "He was completely and utterly unarmed, left with only his training and his wits",
+    "score": 99.96
+  },
+  {
+    "s1": "\"You're too late, Reed,\" The Vulture said in a low, gravelly rasp that barely rose above a whisper",
+    "s2": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "score": 99.99
+  },
+  {
+    "s1": "\"\n\nAlex struggled against his bonds, the plastic of the zip ties biting into his wrists",
+    "s2": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "score": 99.97
+  },
+  {
+    "s1": "He was completely and utterly unarmed, left with only his training and his wits",
+    "s2": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "score": 99.92
+  },
+  {
+    "s1": "\"I'll get out of this,\" Alex gritted his teeth, his voice a low growl of determination",
+    "s2": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "score": 99.68
+  },
+  {
+    "s1": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "s2": "Then, without any warning, his voice transformed",
+    "score": 96.18
+  },
+  {
+    "s1": "\"You're too late, Reed,\" The Vulture said in a low, gravelly rasp that barely rose above a whisper",
+    "s2": "He began to scream in a high-pitched, piercing soprano that echoed through the small room with such intensity that it shattered a nearby lightbulb",
+    "score": 99.99
+  },
+  {
+    "s1": "\"I'll get out of this,\" Alex gritted his teeth, his voice a low growl of determination",
+    "s2": "He began to scream in a high-pitched, piercing soprano that echoed through the small room with such intensity that it shattered a nearby lightbulb",
+    "score": 99.99
+  },
+  {
+    "s1": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "s2": "He began to scream in a high-pitched, piercing soprano that echoed through the small room with such intensity that it shattered a nearby lightbulb",
+    "score": 99.97
+  },
+  {
+    "s1": "\"I'll get out of this,\" Alex gritted his teeth, his voice a low growl of determination",
+    "s2": "\"Never!\" he shrieked, his voice sounding like that of a pure-hearted choir boy, completely at odds with his menacing appearance",
+    "score": 99.97
+  },
+  {
+    "s1": "\"\n\nAlex struggled against his bonds, the plastic of the zip ties biting into his wrists",
+    "s2": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "score": 99.98
+  },
+  {
+    "s1": "He was completely and utterly unarmed, left with only his training and his wits",
+    "s2": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "score": 99.1
+  },
+  {
+    "s1": "\"I'll get out of this,\" Alex gritted his teeth, his voice a low growl of determination",
+    "s2": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "score": 99.94
+  },
+  {
+    "s1": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "s2": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "score": 99.97
+  },
+  {
+    "s1": "He began to scream in a high-pitched, piercing soprano that echoed through the small room with such intensity that it shattered a nearby lightbulb",
+    "s2": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "score": 98.88
+  },
+  {
+    "s1": "\"Never!\" he shrieked, his voice sounding like that of a pure-hearted choir boy, completely at odds with his menacing appearance",
+    "s2": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "score": 99.77
+  },
+  {
+    "s1": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "s2": "He spotted a jagged shard of glass from the shattered bulb on the floor and managed to hook it with the toe of his boot",
+    "score": 99.59
+  },
+  {
+    "s1": "He reached for the specialized toolkit he always kept in his belt, but he felt only empty air",
+    "s2": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "score": 98.91
+  },
+  {
+    "s1": "\"I'll get out of this,\" Alex gritted his teeth, his voice a low growl of determination",
+    "s2": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "score": 97.68
+  },
+  {
+    "s1": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "s2": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "score": 99.97
+  },
+  {
+    "s1": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "s2": "It was grueling, soul-crushing work",
+    "score": 96.14
+  },
+  {
+    "s1": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "s2": "He struggled for at least ten full minutes, the sweat pouring down his face and his muscles screaming in protest",
+    "score": 99.96
+  },
+  {
+    "s1": "\"\n\nThe Vulture let out a sudden, unexpected laugh",
+    "s2": "Finally, with a sharp *snap*, the ties gave way",
+    "score": 96.44
+  },
+  {
+    "s1": "Then, without any warning, his voice transformed",
+    "s2": "Finally, with a sharp *snap*, the ties gave way",
+    "score": 98.48
+  },
+  {
+    "s1": "He spotted a jagged shard of glass from the shattered bulb on the floor and managed to hook it with the toe of his boot",
+    "s2": "He jumped to his feet and instinctively checked the digital timer",
+    "score": 99.85
+  },
+  {
+    "s1": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "s2": "He jumped to his feet and instinctively checked the digital timer",
+    "score": 100.0
+  },
+  {
+    "s1": "He struggled for at least ten full minutes, the sweat pouring down his face and his muscles screaming in protest",
+    "s2": "He jumped to his feet and instinctively checked the digital timer",
+    "score": 99.94
+  },
+  {
+    "s1": "\"You will die here, Reed!\"\n\nAlex didn't waste another second",
+    "s2": "He somehow had more time than when he had started his escape attempt ten minutes ago",
+    "score": 99.94
+  },
+  {
+    "s1": "He spotted a jagged shard of glass from the shattered bulb on the floor and managed to hook it with the toe of his boot",
+    "s2": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "score": 99.94
+  },
+  {
+    "s1": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "s2": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "score": 99.99
+  },
+  {
+    "s1": "He struggled for at least ten full minutes, the sweat pouring down his face and his muscles screaming in protest",
+    "s2": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "score": 99.88
+  },
+  {
+    "s1": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "s2": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "score": 99.98
+  },
+  {
+    "s1": "He struggled for at least ten full minutes, the sweat pouring down his face and his muscles screaming in protest",
+    "s2": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "score": 99.97
+  },
+  {
+    "s1": "He jumped to his feet and instinctively checked the digital timer",
+    "s2": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "score": 99.91
+  },
+  {
+    "s1": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "s2": "He then blinked, looking at his empty hand and realizing he was still completely unarmed",
+    "score": 99.92
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "He then blinked, looking at his empty hand and realizing he was still completely unarmed",
+    "score": 99.27
+  },
+  {
+    "s1": "He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 100.0
+  },
+  {
+    "s1": "Finally, with a sharp *snap*, the ties gave way",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 99.94
+  },
+  {
+    "s1": "He jumped to his feet and instinctively checked the digital timer",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 99.99
+  },
+  {
+    "s1": "He somehow had more time than when he had started his escape attempt ten minutes ago",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 99.94
+  },
+  {
+    "s1": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 99.99
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 99.99
+  },
+  {
+    "s1": "He then blinked, looking at his empty hand and realizing he was still completely unarmed",
+    "s2": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "score": 99.82
+  },
+  {
+    "s1": "He struggled for at least ten full minutes, the sweat pouring down his face and his muscles screaming in protest",
+    "s2": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "score": 99.55
+  },
+  {
+    "s1": "He jumped to his feet and instinctively checked the digital timer",
+    "s2": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "score": 99.79
+  },
+  {
+    "s1": "He somehow had more time than when he had started his escape attempt ten minutes ago",
+    "s2": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "score": 98.21
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "score": 97.13
+  },
+  {
+    "s1": "He then blinked, looking at his empty hand and realizing he was still completely unarmed",
+    "s2": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "score": 98.89
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "score": 99.9
+  },
+  {
+    "s1": "He jumped to his feet and instinctively checked the digital timer",
+    "s2": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "score": 99.94
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "score": 99.9
+  },
+  {
+    "s1": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "s2": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "score": 99.84
+  },
+  {
+    "s1": "He jumped to his feet and instinctively checked the digital timer",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.81
+  },
+  {
+    "s1": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.92
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.97
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.79
+  },
+  {
+    "s1": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.93
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.99
+  },
+  {
+    "s1": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "s2": "To his utter surprise, the world outside the train was perfectly still",
+    "score": 99.97
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "The trees were motionless, their leaves not even rustling in the wind",
+    "score": 99.98
+  },
+  {
+    "s1": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "s2": "The trees were motionless, their leaves not even rustling in the wind",
+    "score": 99.99
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "The trees were motionless, their leaves not even rustling in the wind",
+    "score": 100.0
+  },
+  {
+    "s1": "He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.72
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.99
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.99
+  },
+  {
+    "s1": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.99
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.99
+  },
+  {
+    "s1": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.96
+  },
+  {
+    "s1": "The trees were motionless, their leaves not even rustling in the wind",
+    "s2": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "score": 99.69
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in the nearby trees",
+    "score": 100.0
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in the nearby trees",
+    "score": 97.92
+  },
+  {
+    "s1": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "s2": "There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in the nearby trees",
+    "score": 99.99
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in the nearby trees",
+    "score": 100.0
+  },
+  {
+    "s1": "He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast",
+    "s2": "Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound",
+    "score": 99.99
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound",
+    "score": 99.89
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound",
+    "score": 99.9
+  },
+  {
+    "s1": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "s2": "Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound",
+    "score": 99.99
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "The Vulture was there, waiting for him by a ticket machine",
+    "score": 99.35
+  },
+  {
+    "s1": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "s2": "The Vulture was there, waiting for him by a ticket machine",
+    "score": 99.7
+  },
+  {
+    "s1": "There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in the nearby trees",
+    "s2": "The Vulture was there, waiting for him by a ticket machine",
+    "score": 99.71
+  },
+  {
+    "s1": "He shook his head, looking around frantically for anything that could be used as a weapon",
+    "s2": "He turned slowly, his eyes as cold as ever",
+    "score": 99.99
+  },
+  {
+    "s1": "He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour",
+    "s2": "He turned slowly, his eyes as cold as ever",
+    "score": 99.93
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "He turned slowly, his eyes as cold as ever",
+    "score": 99.98
+  },
+  {
+    "s1": "He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape",
+    "s2": "He turned slowly, his eyes as cold as ever",
+    "score": 99.96
+  },
+  {
+    "s1": "The wind whipped his hair into a frenzy, and the ground below was a blur of motion",
+    "s2": "Alex checked his watch",
+    "score": 99.6
+  },
+  {
+    "s1": "The Vulture was there, waiting for him by a ticket machine",
+    "s2": "Alex checked his watch",
+    "score": 94.64
+  },
+  {
+    "s1": "The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups",
+    "s2": "Nothing happened",
+    "score": 99.8
+  },
+  {
+    "s1": "Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound",
+    "s2": "Nothing happened",
+    "score": 99.29
+  },
+  {
+    "s1": "The Vulture was there, waiting for him by a ticket machine",
+    "s2": "Nothing happened",
+    "score": 99.96
+  },
+  {
+    "s1": "He turned slowly, his eyes as cold as ever",
+    "s2": "Nothing happened",
+    "score": 98.91
+  },
+  {
+    "s1": "\"You're too late, Reed,\" the villain whispered in his low, gravelly rasp, his voice returning to its original tone",
+    "s2": "Nothing happened",
+    "score": 99.83
+  },
+  {
+    "s1": "The bomb was set to go off in exactly ten seconds",
+    "s2": "Nothing happened",
+    "score": 99.97
+  },
+  {
+    "s1": "He began to count down the final moments",
+    "s2": "Nothing happened",
+    "score": 99.98
+  },
+  {
+    "s1": "The bomb was set to go off in exactly ten seconds",
+    "s2": "No explosion, no fire, no sound of crumbling brick",
+    "score": 99.96
+  },
+  {
+    "s1": "Nothing happened",
+    "s2": "\"The timer was in Celsius, not minutes,\" The Vulture explained with a cold, mocking smile, as the massive warehouse behind them suddenly and silently froze into a solid, towering block of blue ice",
+    "score": 98.34
+  }
+]

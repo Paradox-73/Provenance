@@ -3,486 +3,26 @@
     "chapter_name": "Chapter 4",
     "chunk_id": 0,
     "content": "Chapter 4: The Shifting Artifact\n\nThe artifact pulsed on the tactical console, its presence a mocking reminder of the order that was crumbling around her. Maria stood over it, her breathing heavy. The Bridge was empty now, the crew gone as if they had never existed. The Red Onyx Key was a small, smooth stone, no larger than a child’s marble. It looked innocent enough, a dark pebble polished by centuries of river water. Maria reached out to touch it, expecting the cold, slick surface of obsidian. Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen. But as she pulled her hand away, the artifact changed. The light in the room shifted, turning from a warm amber to a harsh, flickering violet. The Red Onyx Key was no longer a small stone. In its place stood a large, jagged crystalline shard, its edges so sharp they seemed to cut the very air around it. It was easily a foot long, with deep fissures running through its translucent surface. The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows. Maria recoiled, her heart racing. \"The Key,\" she whispered, her voice echoing in the empty chamber. \"The Key is smooth.\" She looked at the jagged shard, her mind trying to reconcile the two images. They were the same object, yet they shared no physical traits. The shard was heavy, vibrating with a power that shook the entire console. Maria reached out again, but this time she was afraid to touch it. The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson. \"The Key is jagged,\" a voice said from the shadows. Kael stepped into the light, but he was no longer the man she knew. His eyes were blank, and his voice sounded like the grinding of metal. He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone. He turned it over in his palm, the polished surface reflecting the emergency lights. \"You see, Maria,\" Kael said, his smile cold and unnatural. \"Reality is whatever the Key says it is. It doesn't matter if it's smooth or jagged, large or small. All that matters is who is holding it.\" He closed his hand over the stone, and the room plunged into darkness. Maria could hear the sound of shattering glass, but when she reached out, there was nothing but the cold, smooth surface of the tactical console. The Key was gone, but the weight of it remained, a heavy burden on her soul. She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged.",
-    "resolved_content": "Chapter 4: The Shifting Artifact\n\nThe Shifting Artifact pulsed on the tactical console, The Shifting Artifact's presence a mocking reminder of the order that was crumbling around her. Maria stood over The Shifting Artifact, Maria's breathing heavy. The Bridge was empty now, the crew gone as if the crew had never existed. The Shifting Artifact was a small, smooth stone, no larger than a child’s marble. The Shifting Artifact looked innocent enough, a dark pebble polished by centuries of river water. Maria reached out to touch The Shifting Artifact, expecting the cold, slick surface of obsidian. Maria's fingers brushed against The Shifting Artifact, and for a fleeting second, it felt as though Maria was back on The Bridge, the hum of the ship steady and the stars bright through the viewscreen. But as Maria pulled Maria's hand away, The Shifting Artifact changed. The light in the room shifted, turning from a warm amber to a harsh, flickering violet. The Shifting Artifact was no longer a small stone. In The Shifting Artifact's place stood a large, jagged crystalline shard, it's edges so sharp its edges seemed to cut the very air around it. it was easily a foot long, with deep fissures running through it's translucent surface. it pulsed with a dark, rhythmic light that seemed to swallow the shadows. Maria recoiled, Maria's heart racing. \"The Shifting Artifact,\" Maria whispered, Maria's voice echoing in the room. \"The Shifting Artifact is smooth.\" Maria looked at it, Maria's mind trying to reconcile the two images. the two images were the same object, yet the two images shared no physical traits. it was heavy, vibrating with a power that shook the entire console. Maria reached out again, but this time Maria was afraid to touch it. it seemed to grow as Maria watched, its edges sharpening and it's color deepening into a bloody crimson. \"The Shifting Artifact is jagged,\" a voice said from the shadows. Kael stepped into the light, but Kael was no longer the man Maria knew. Kael's eyes were blank, and Kael's voice sounded like the grinding of metal. Kael was holding The Shifting Artifact in Kael's hand, but The Shifting Artifact was once again a small, smooth stone. Kael turned The Shifting Artifact over in Kael's palm, the polished surface reflecting the emergency lights. \"Maria see, Maria,\" Kael said, Kael's smile cold and unnatural. \"Reality is whatever The Shifting Artifact says Reality is. It doesn't matter if Reality's smooth or jagged, large or small. All that matters is who is holding The Shifting Artifact.\" Kael closed Kael's hand over The Shifting Artifact, and the room plunged into darkness. Maria could hear the sound of shattering glass, but when Maria reached out, there was nothing but the cold, smooth surface of the tactical console. The Shifting Artifact was gone, but the weight of The Shifting Artifact remained, a heavy burden on Maria's soul. Maria was lost in the nebula, and the only thing Maria had left was a memory of The Shifting Artifact.",
-    "entities": [
-      {
-        "text": "4",
-        "label": "CARDINAL",
-        "start_char": 8,
-        "end_char": 9,
-        "canonical_id": "4"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PERSON",
-        "start_char": 11,
-        "end_char": 32,
-        "canonical_id": "ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 34,
-        "end_char": 55,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact's",
-        "label": "PRODUCT",
-        "start_char": 88,
-        "end_char": 111,
-        "canonical_id": "THE_SHIFTING_ARTIFACTS"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 184,
-        "end_char": 189,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 201,
-        "end_char": 222,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 224,
-        "end_char": 229,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Bridge",
-        "label": "FAC",
-        "start_char": 253,
-        "end_char": 259,
-        "canonical_id": "BRIDGE"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 323,
-        "end_char": 344,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 405,
-        "end_char": 426,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "centuries",
-        "label": "DATE",
-        "start_char": 477,
-        "end_char": 486,
-        "canonical_id": "CENTURIES"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 503,
-        "end_char": 508,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 530,
-        "end_char": 551,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 600,
-        "end_char": 605,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 632,
-        "end_char": 653,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "a fleeting second",
-        "label": "TIME",
-        "start_char": 663,
-        "end_char": 680,
-        "canonical_id": "A_FLEETING_SECOND"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 700,
-        "end_char": 705,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Bridge",
-        "label": "FAC",
-        "start_char": 718,
-        "end_char": 728,
-        "canonical_id": "THE_BRIDGE"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 809,
-        "end_char": 814,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 822,
-        "end_char": 827,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 841,
-        "end_char": 862,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 960,
-        "end_char": 981,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact's",
-        "label": "PRODUCT",
-        "start_char": 1014,
-        "end_char": 1037,
-        "canonical_id": "THE_SHIFTING_ARTIFACTS"
-      },
-      {
-        "text": "a foot",
-        "label": "QUANTITY",
-        "start_char": 1167,
-        "end_char": 1173,
-        "canonical_id": "A_FOOT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1315,
-        "end_char": 1320,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1331,
-        "end_char": 1336,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 1354,
-        "end_char": 1375,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1378,
-        "end_char": 1383,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1395,
-        "end_char": 1400,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 1431,
-        "end_char": 1452,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1465,
-        "end_char": 1470,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1485,
-        "end_char": 1490,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL",
-        "start_char": 1522,
-        "end_char": 1525,
-        "canonical_id": "TWO"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL",
-        "start_char": 1538,
-        "end_char": 1541,
-        "canonical_id": "TWO"
-      },
-      {
-        "text": "two",
-        "label": "CARDINAL",
-        "start_char": 1579,
-        "end_char": 1582,
-        "canonical_id": "TWO"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1685,
-        "end_char": 1690,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1724,
-        "end_char": 1729,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1775,
-        "end_char": 1780,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 1860,
-        "end_char": 1881,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 1925,
-        "end_char": 1929,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 1958,
-        "end_char": 1962,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 1985,
-        "end_char": 1990,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 1997,
-        "end_char": 2001,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2025,
-        "end_char": 2029,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2074,
-        "end_char": 2078,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2091,
-        "end_char": 2112,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2116,
-        "end_char": 2120,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2133,
-        "end_char": 2154,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2193,
-        "end_char": 2197,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2205,
-        "end_char": 2226,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2235,
-        "end_char": 2239,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2303,
-        "end_char": 2308,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2314,
-        "end_char": 2319,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2322,
-        "end_char": 2326,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2333,
-        "end_char": 2337,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2387,
-        "end_char": 2408,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2526,
-        "end_char": 2547,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2550,
-        "end_char": 2554,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "Kael",
-        "label": "PERSON",
-        "start_char": 2562,
-        "end_char": 2566,
-        "canonical_id": "KAEL"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2579,
-        "end_char": 2600,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2638,
-        "end_char": 2643,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2695,
-        "end_char": 2700,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2786,
-        "end_char": 2807,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2836,
-        "end_char": 2857,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2886,
-        "end_char": 2891,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2900,
-        "end_char": 2905,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "Maria",
-        "label": "PERSON",
-        "start_char": 2949,
-        "end_char": 2954,
-        "canonical_id": "MARIA"
-      },
-      {
-        "text": "The Shifting Artifact",
-        "label": "PRODUCT",
-        "start_char": 2980,
-        "end_char": 3001,
-        "canonical_id": "THE_SHIFTING_ARTIFACT"
-      }
-    ],
     "triples": [
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "stood"
+        },
+        "object": {
+          "text": "it",
+          "canonical_id": "IT"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Maria stood over it, her breathing heavy."
+        }
+      },
       {
         "subject": {
           "text": "Bridge",
@@ -496,142 +36,29 @@
           "text": "empty",
           "canonical_id": "EMPTY"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "empty",
         "provenance": {
-          "source_text_snippet": "The Bridge was empty now, the crew gone as if the crew had never existed."
+          "source_text_snippet": "The Bridge was empty now, the crew gone as if they had never existed."
         }
       },
       {
         "subject": {
-          "text": "shard",
-          "canonical_id": "SHARD"
+          "text": "Key",
+          "canonical_id": "KEY"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "stood In"
-        },
-        "object": {
-          "text": "The Shifting Artifact's place",
-          "canonical_id": "THE_SHIFTING_ARTIFACTS"
-        },
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "In The Shifting Artifact's place stood a large, jagged crystalline shard, it's edges so sharp its edges seemed to cut the very air around it."
-        }
-      },
-      {
-        "subject": {
-          "text": "shard",
-          "canonical_id": "SHARD"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
-        },
-        "object": {
-          "text": "large",
-          "canonical_id": "LARGE"
-        },
-        "target_feature": "shard",
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "In The Shifting Artifact's place stood a large, jagged crystalline shard, it's edges so sharp its edges seemed to cut the very air around it."
-        }
-      },
-      {
-        "subject": {
-          "text": "shard",
-          "canonical_id": "SHARD"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
-        },
-        "object": {
-          "text": "jagged",
-          "canonical_id": "JAGGED"
-        },
-        "target_feature": "shard",
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "In The Shifting Artifact's place stood a large, jagged crystalline shard, it's edges so sharp its edges seemed to cut the very air around it."
-        }
-      },
-      {
-        "subject": {
-          "text": "shard",
-          "canonical_id": "SHARD"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
-        },
-        "object": {
-          "text": "crystalline",
-          "canonical_id": "CRYSTALLINE"
-        },
-        "target_feature": "shard",
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "In The Shifting Artifact's place stood a large, jagged crystalline shard, it's edges so sharp its edges seemed to cut the very air around it."
-        }
-      },
-      {
-        "subject": {
-          "text": "it",
-          "canonical_id": "IT"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
+          "label": "HAS_IDENTITY",
           "text": "was"
         },
         "object": {
-          "text": "easily a foot long, with deep fissures running through it's translucent surface",
-          "canonical_id": "EASILY_A_FOOT_LONG_WITH_DEEP_FISSURES_RUNNING_THROUGH_ITS_TRANSLUCENT_SURFACE"
+          "text": "a small, smooth stone, no larger than a child’s marble",
+          "canonical_id": "A_SMALL_SMOOTH_STONE_NO_LARGER_THAN_A_CHILDS_MARBLE"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "it was easily a foot long, with deep fissures running through it's translucent surface."
-        }
-      },
-      {
-        "subject": {
-          "text": "Artifact",
-          "canonical_id": "ARTIFACT"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
-        },
-        "object": {
-          "text": "smooth",
-          "canonical_id": "SMOOTH"
-        },
-        "target_feature": "appearance",
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "\"The Shifting Artifact is smooth.\""
-        }
-      },
-      {
-        "subject": {
-          "text": "it",
-          "canonical_id": "IT"
-        },
-        "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "was"
-        },
-        "object": {
-          "text": "heavy",
-          "canonical_id": "HEAVY"
-        },
-        "target_feature": "appearance",
-        "timestamp": "unknown",
-        "provenance": {
-          "source_text_snippet": "it was heavy, vibrating with a power that shook the entire console."
+          "source_text_snippet": "The Red Onyx Key was a small, smooth stone, no larger than a child’s marble."
         }
       },
       {
@@ -641,22 +68,345 @@
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
+          "text": "looked"
+        },
+        "object": {
+          "text": "innocent enough",
+          "canonical_id": "INNOCENT_ENOUGH"
+        },
+        "timestamp": "unknown",
+        "target_feature": "innocent",
+        "provenance": {
+          "source_text_snippet": "It looked innocent enough, a dark pebble polished by centuries of river water."
+        }
+      },
+      {
+        "subject": {
+          "text": "fingers",
+          "canonical_id": "FINGERS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "brushed"
+        },
+        "object": {
+          "text": "the stone",
+          "canonical_id": "THE_STONE"
+        },
+        "timestamp": "unknown",
+        "target_feature": "against",
+        "provenance": {
+          "source_text_snippet": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "felt"
+        },
+        "object": {
+          "text": "a fleeting second",
+          "canonical_id": "A_FLEETING_SECOND"
+        },
+        "timestamp": "unknown",
+        "target_feature": "for",
+        "provenance": {
+          "source_text_snippet": "Her fingers brushed against the stone, and for a fleeting second, it felt as though she was back on the Bridge, the hum of the ship steady and the stars bright through the viewscreen."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "pulled"
+        },
+        "object": {
+          "text": "her hand",
+          "canonical_id": "HER_HAND"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "But as she pulled her hand away, the artifact changed."
+        }
+      },
+      {
+        "subject": {
+          "text": "Key",
+          "canonical_id": "KEY"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "a small stone",
+          "canonical_id": "A_SMALL_STONE"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "The Red Onyx Key was no longer a small stone."
+        }
+      },
+      {
+        "subject": {
+          "text": "shard",
+          "canonical_id": "SHARD"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "stood"
+        },
+        "object": {
+          "text": "its place",
+          "canonical_id": "ITS_PLACE"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "In its place stood a large, jagged crystalline shard, its edges so sharp they seemed to cut the very air around it."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "seemed"
+        },
+        "object": {
+          "text": "to cut the very air around it",
+          "canonical_id": "TO_CUT_THE_VERY_AIR_AROUND_IT"
+        },
+        "timestamp": "unknown",
+        "target_feature": "cut",
+        "provenance": {
+          "source_text_snippet": "In its place stood a large, jagged crystalline shard, its edges so sharp they seemed to cut the very air around it."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "easily a foot long",
+          "canonical_id": "EASILY_A_FOOT_LONG"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "It was easily a foot long, with deep fissures running through its translucent surface."
+        }
+      },
+      {
+        "subject": {
+          "text": "shard",
+          "canonical_id": "SHARD"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "pulsed"
+        },
+        "object": {
+          "text": "a dark, rhythmic light that seemed to swallow the shadows",
+          "canonical_id": "A_DARK_RHYTHMIC_LIGHT_THAT_SEEMED_TO_SWALLOW_THE_SHADOWS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "with",
+        "provenance": {
+          "source_text_snippet": "The crystalline shard pulsed with a dark, rhythmic light that seemed to swallow the shadows."
+        }
+      },
+      {
+        "subject": {
+          "text": "voice",
+          "canonical_id": "VOICE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "echoing"
+        },
+        "object": {
+          "text": "the empty chamber",
+          "canonical_id": "THE_EMPTY_CHAMBER"
+        },
+        "timestamp": "unknown",
+        "target_feature": "in",
+        "provenance": {
+          "source_text_snippet": "\"The Key,\" she whispered, her voice echoing in the empty chamber."
+        }
+      },
+      {
+        "subject": {
+          "text": "Key",
+          "canonical_id": "KEY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "smooth",
+          "canonical_id": "SMOOTH"
+        },
+        "timestamp": "unknown",
+        "target_feature": "smooth",
+        "provenance": {
+          "source_text_snippet": "\"The Key is smooth.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "looked"
+        },
+        "object": {
+          "text": "the jagged shard",
+          "canonical_id": "THE_JAGGED_SHARD"
+        },
+        "timestamp": "unknown",
+        "target_feature": "at",
+        "provenance": {
+          "source_text_snippet": "She looked at the jagged shard, her mind trying to reconcile the two images."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "were"
+        },
+        "object": {
+          "text": "the same object",
+          "canonical_id": "THE_SAME_OBJECT"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "They were the same object, yet they shared no physical traits."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "shared"
+        },
+        "object": {
+          "text": "no physical traits",
+          "canonical_id": "NO_PHYSICAL_TRAITS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "trait",
+        "provenance": {
+          "source_text_snippet": "They were the same object, yet they shared no physical traits."
+        }
+      },
+      {
+        "subject": {
+          "text": "shard",
+          "canonical_id": "SHARD"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "heavy",
+          "canonical_id": "HEAVY"
+        },
+        "timestamp": "unknown",
+        "target_feature": "heavy",
+        "provenance": {
+          "source_text_snippet": "The shard was heavy, vibrating with a power that shook the entire console."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
           "text": "was"
         },
         "object": {
           "text": "afraid to touch it",
           "canonical_id": "AFRAID_TO_TOUCH_IT"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Maria reached out again, but this time Maria was afraid to touch it."
+          "source_text_snippet": "Maria reached out again, but this time she was afraid to touch it."
         }
       },
       {
         "subject": {
-          "text": "Artifact",
-          "canonical_id": "ARTIFACT"
+          "text": "shard",
+          "canonical_id": "SHARD"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "seemed"
+        },
+        "object": {
+          "text": "to grow as she watched",
+          "canonical_id": "TO_GROW_AS_SHE_WATCHED"
+        },
+        "timestamp": "unknown",
+        "target_feature": "grow",
+        "provenance": {
+          "source_text_snippet": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson."
+        }
+      },
+      {
+        "subject": {
+          "text": "color",
+          "canonical_id": "COLOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "deepening"
+        },
+        "object": {
+          "text": "a bloody crimson",
+          "canonical_id": "A_BLOODY_CRIMSON"
+        },
+        "timestamp": "unknown",
+        "target_feature": "into",
+        "provenance": {
+          "source_text_snippet": "The shard seemed to grow as she watched, its edges sharpening and its color deepening into a bloody crimson."
+        }
+      },
+      {
+        "subject": {
+          "text": "Key",
+          "canonical_id": "KEY"
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
@@ -666,10 +416,48 @@
           "text": "jagged",
           "canonical_id": "JAGGED"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "jagged",
         "provenance": {
-          "source_text_snippet": "\"The Shifting Artifact is jagged,\" a voice said from the shadows."
+          "source_text_snippet": "\"The Key is jagged,\" a voice said from the shadows."
+        }
+      },
+      {
+        "subject": {
+          "text": "voice",
+          "canonical_id": "VOICE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "said"
+        },
+        "object": {
+          "text": "the shadows",
+          "canonical_id": "THE_SHADOWS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "from",
+        "provenance": {
+          "source_text_snippet": "\"The Key is jagged,\" a voice said from the shadows."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "the man she knew",
+          "canonical_id": "THE_MAN_SHE_KNEW"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "Kael stepped into the light, but he was no longer the man she knew."
         }
       },
       {
@@ -685,64 +473,67 @@
           "text": "blank",
           "canonical_id": "BLANK"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "blank",
         "provenance": {
-          "source_text_snippet": "Kael's eyes were blank, and Kael's voice sounded like the grinding of metal."
+          "source_text_snippet": "His eyes were blank, and his voice sounded like the grinding of metal."
         }
       },
       {
         "subject": {
-          "text": "Kael",
-          "canonical_id": "KAEL"
+          "text": "voice",
+          "canonical_id": "VOICE"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "holding in"
+          "label": "HAS_ATTRIBUTE",
+          "text": "sounded"
         },
         "object": {
-          "text": "Kael's hand",
-          "canonical_id": "KAELS_HAND"
+          "text": "the grinding of metal",
+          "canonical_id": "THE_GRINDING_OF_METAL"
         },
         "timestamp": "unknown",
+        "target_feature": "like",
         "provenance": {
-          "source_text_snippet": "Kael was holding The Shifting Artifact in Kael's hand, but The Shifting Artifact was once again a small, smooth stone."
+          "source_text_snippet": "His eyes were blank, and his voice sounded like the grinding of metal."
         }
       },
       {
         "subject": {
-          "text": "Kael",
-          "canonical_id": "KAEL"
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
           "label": "POSSESSES",
           "text": "holding"
         },
         "object": {
-          "text": "The Shifting Artifact",
-          "canonical_id": "THE_SHIFTING_ARTIFACT"
+          "text": "the Red Onyx Key",
+          "canonical_id": "THE_RED_ONYX_KEY"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Kael was holding The Shifting Artifact in Kael's hand, but The Shifting Artifact was once again a small, smooth stone."
+          "source_text_snippet": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone."
         }
       },
       {
         "subject": {
-          "text": "Kael",
-          "canonical_id": "KAEL"
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
-          "label": "LOCATED_AT",
-          "text": "turned in"
+          "label": "HAS_IDENTITY",
+          "text": "was"
         },
         "object": {
-          "text": "Kael's palm",
-          "canonical_id": "KAELS_PALM"
+          "text": "a small, smooth stone",
+          "canonical_id": "A_SMALL_SMOOTH_STONE"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Kael turned The Shifting Artifact over in Kael's palm, the polished surface reflecting the emergency lights."
+          "source_text_snippet": "He was holding the Red Onyx Key in his hand, but it was once again a small, smooth stone."
         }
       },
       {
@@ -752,22 +543,41 @@
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "text": "reflecting"
         },
         "object": {
-          "text": "polished",
-          "canonical_id": "POLISHED"
+          "text": "the emergency lights",
+          "canonical_id": "THE_EMERGENCY_LIGHTS"
         },
-        "target_feature": "surface",
         "timestamp": "unknown",
+        "target_feature": "light",
         "provenance": {
-          "source_text_snippet": "Kael turned The Shifting Artifact over in Kael's palm, the polished surface reflecting the emergency lights."
+          "source_text_snippet": "He turned it over in his palm, the polished surface reflecting the emergency lights."
         }
       },
       {
         "subject": {
-          "text": "Reality",
-          "canonical_id": "REALITY"
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "whatever",
+          "canonical_id": "WHATEVER"
+        },
+        "timestamp": "unknown",
+        "target_feature": "whatever",
+        "provenance": {
+          "source_text_snippet": "\"Reality is whatever the Key says it is."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
           "label": "HAS_ATTRIBUTE",
@@ -777,28 +587,86 @@
           "text": "smooth or jagged, large or small",
           "canonical_id": "SMOOTH_OR_JAGGED_LARGE_OR_SMALL"
         },
-        "target_feature": "appearance",
         "timestamp": "unknown",
+        "target_feature": "large",
         "provenance": {
-          "source_text_snippet": "It doesn't matter if Reality's smooth or jagged, large or small."
+          "source_text_snippet": "It doesn't matter if it's smooth or jagged, large or small."
         }
       },
       {
         "subject": {
-          "text": "who",
-          "canonical_id": "WHO"
+          "text": "Maria",
+          "canonical_id": "MARIA"
         },
         "predicate": {
           "label": "POSSESSES",
           "text": "holding"
         },
         "object": {
-          "text": "The Shifting Artifact",
-          "canonical_id": "THE_SHIFTING_ARTIFACT"
+          "text": "it",
+          "canonical_id": "IT"
         },
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "All that matters is who is holding The Shifting Artifact.\""
+          "source_text_snippet": "All that matters is who is holding it.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "closed"
+        },
+        "object": {
+          "text": "his hand",
+          "canonical_id": "HIS_HAND"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "He closed his hand over the stone, and the room plunged into darkness."
+        }
+      },
+      {
+        "subject": {
+          "text": "room",
+          "canonical_id": "ROOM"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "plunged"
+        },
+        "object": {
+          "text": "darkness",
+          "canonical_id": "DARKNESS"
+        },
+        "timestamp": "unknown",
+        "target_feature": "into",
+        "provenance": {
+          "source_text_snippet": "He closed his hand over the stone, and the room plunged into darkness."
+        }
+      },
+      {
+        "subject": {
+          "text": "Maria",
+          "canonical_id": "MARIA"
+        },
+        "predicate": {
+          "label": "LOST",
+          "text": "lost"
+        },
+        "object": {
+          "text": "the nebula",
+          "canonical_id": "THE_NEBULA"
+        },
+        "timestamp": "unknown",
+        "target_feature": "general",
+        "provenance": {
+          "source_text_snippet": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged."
         }
       },
       {
@@ -807,419 +675,157 @@
           "canonical_id": "THING"
         },
         "predicate": {
-          "label": "HAS_ATTRIBUTE",
-          "text": "is"
+          "label": "HAS_IDENTITY",
+          "text": "was"
         },
         "object": {
-          "text": "only",
-          "canonical_id": "ONLY"
+          "text": "a memory of a stone that was both small and large, smooth and jagged",
+          "canonical_id": "A_MEMORY_OF_A_STONE_THAT_WAS_BOTH_SMALL_AND_LARGE_SMOOTH_AND_JAGGED"
         },
-        "target_feature": "thing",
         "timestamp": "unknown",
+        "target_feature": "general",
         "provenance": {
-          "source_text_snippet": "Maria was lost in the nebula, and the only thing Maria had left was a memory of The Shifting Artifact."
+          "source_text_snippet": "She was lost in the nebula, and the only thing she had left was a memory of a stone that was both small and large, smooth and jagged."
         }
       }
     ],
-    "coref_clusters": [
-      [
-        [
-          11,
-          32
-        ],
-        [
-          34,
-          46
-        ],
-        [
-          79,
-          82
-        ],
-        [
-          172,
-          174
-        ],
-        [
-          267,
-          283
-        ],
-        [
-          344,
-          346
-        ],
-        [
-          450,
-          452
-        ],
-        [
-          529,
-          538
-        ],
-        [
-          718,
-          730
-        ],
-        [
-          828,
-          844
-        ],
-        [
-          877,
-          880
-        ],
-        [
-          1205,
-          1212
-        ],
-        [
-          1271,
-          1278
-        ],
-        [
-          1683,
-          1690
-        ],
-        [
-          1888,
-          1904
-        ],
-        [
-          1922,
-          1924
-        ],
-        [
-          1973,
-          1975
-        ],
-        [
-          2128,
-          2135
-        ],
-        [
-          2243,
-          2245
-        ],
-        [
-          2272,
-          2281
-        ],
-        [
-          2465,
-          2472
-        ],
-        [
-          2501,
-          2503
-        ],
-        [
-          2618,
-          2674
-        ]
-      ],
-      [
-        [
-          155,
-          160
-        ],
-        [
-          176,
-          179
-        ],
-        [
-          423,
-          428
-        ],
-        [
-          501,
-          504
-        ],
-        [
-          585,
-          588
-        ],
-        [
-          692,
-          695
-        ],
-        [
-          703,
-          706
-        ],
-        [
-          1170,
-          1175
-        ],
-        [
-          1186,
-          1189
-        ],
-        [
-          1215,
-          1218
-        ],
-        [
-          1230,
-          1233
-        ],
-        [
-          1291,
-          1294
-        ],
-        [
-          1323,
-          1326
-        ],
-        [
-          1506,
-          1511
-        ],
-        [
-          1545,
-          1548
-        ],
-        [
-          1601,
-          1604
-        ],
-        [
-          1792,
-          1795
-        ],
-        [
-          2049,
-          2052
-        ],
-        [
-          2058,
-          2063
-        ],
-        [
-          2319,
-          2324
-        ],
-        [
-          2376,
-          2379
-        ],
-        [
-          2532,
-          2535
-        ],
-        [
-          2542,
-          2545
-        ],
-        [
-          2589,
-          2592
-        ]
-      ],
-      [
-        [
-          223,
-          231
-        ],
-        [
-          243,
-          247
-        ]
-      ],
-      [
-        [
-          197,
-          207
-        ],
-        [
-          601,
-          611
-        ]
-      ],
-      [
-        [
-          893,
-          988
-        ],
-        [
-          928,
-          931
-        ],
-        [
-          986,
-          988
-        ],
-        [
-          990,
-          992
-        ],
-        [
-          1052,
-          1055
-        ],
-        [
-          1077,
-          1098
-        ],
-        [
-          1305,
-          1321
-        ],
-        [
-          1431,
-          1440
-        ],
-        [
-          1569,
-          1571
-        ],
-        [
-          1573,
-          1582
-        ],
-        [
-          1614,
-          1617
-        ],
-        [
-          1639,
-          1642
-        ]
-      ],
-      [
-        [
-          928,
-          937
-        ],
-        [
-          947,
-          951
-        ],
-        [
-          1614,
-          1623
-        ]
-      ],
-      [
-        [
-          753,
-          761
-        ],
-        [
-          1251,
-          1268
-        ],
-        [
-          2287,
-          2295
-        ]
-      ],
-      [
-        [
-          1352,
-          1366
-        ],
-        [
-          1368,
-          1372
-        ],
-        [
-          1399,
-          1403
-        ]
-      ],
-      [
-        [
-          1157,
-          1168
-        ],
-        [
-          1721,
-          1732
-        ]
-      ],
-      [
-        [
-          1111,
-          1168
-        ],
-        [
-          1752,
-          1761
-        ]
-      ],
-      [
-        [
-          1734,
-          1738
-        ],
-        [
-          1767,
-          1769
-        ],
-        [
-          1802,
-          1805
-        ],
-        [
-          1827,
-          1830
-        ],
-        [
-          1873,
-          1875
-        ],
-        [
-          1908,
-          1911
-        ],
-        [
-          1963,
-          1965
-        ],
-        [
-          1984,
-          1987
-        ],
-        [
-          2066,
-          2070
-        ],
-        [
-          2077,
-          2080
-        ],
-        [
-          2248,
-          2250
-        ],
-        [
-          2258,
-          2261
-        ]
-      ],
-      [
-        [
-          2108,
-          2115
-        ],
-        [
-          2141,
-          2143
-        ],
-        [
-          2169,
-          2171
-        ]
-      ],
-      [
-        [
-          57,
-          77
-        ],
-        [
-          2443,
-          2463
-        ]
-      ]
+    "entities": [
+      {
+        "text": "4",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "resolved_name": "4",
+        "canonical_id": "4"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 155,
+        "end_char": 160,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 201,
+        "end_char": 207,
+        "resolved_name": "Bridge",
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "The Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 267,
+        "end_char": 283,
+        "resolved_name": "The Red Onyx Key",
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "centuries",
+        "label": "DATE",
+        "start_char": 397,
+        "end_char": 406,
+        "resolved_name": "centuries",
+        "canonical_id": "CENTURIES"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 423,
+        "end_char": 428,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "a fleeting second",
+        "label": "TIME",
+        "start_char": 548,
+        "end_char": 565,
+        "resolved_name": "a fleeting second",
+        "canonical_id": "A_FLEETING_SECOND"
+      },
+      {
+        "text": "Bridge",
+        "label": "FAC",
+        "start_char": 605,
+        "end_char": 611,
+        "resolved_name": "Bridge",
+        "canonical_id": "BRIDGE"
+      },
+      {
+        "text": "The Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 828,
+        "end_char": 844,
+        "resolved_name": "The Red Onyx Key",
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1170,
+        "end_char": 1175,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 1356,
+        "end_char": 1359,
+        "resolved_name": "two",
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 1506,
+        "end_char": 1511,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1734,
+        "end_char": 1738,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "the Red Onyx Key",
+        "label": "PRODUCT",
+        "start_char": 1888,
+        "end_char": 1904,
+        "resolved_name": "the Red Onyx Key",
+        "canonical_id": "THE_RED_ONYX_KEY"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2058,
+        "end_char": 2063,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2066,
+        "end_char": 2070,
+        "resolved_name": "Commander Kael",
+        "canonical_id": "COMMANDER_KAEL"
+      },
+      {
+        "text": "Maria",
+        "label": "PERSON",
+        "start_char": 2319,
+        "end_char": 2324,
+        "resolved_name": "Maria",
+        "canonical_id": "MARIA"
+      }
     ]
   }
 ]

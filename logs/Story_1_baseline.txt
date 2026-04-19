@@ -1,0 +1,787 @@
+[
+  {
+    "s1": "# Story 1: Velocity of the Shadow (Action)\n\nThe tires of the bright red Ferrari Testarossa screamed as Jax slammed the vehicle into fourth gear, the high-performance engine howling like a caged beast suddenly unleashed",
+    "s2": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt",
+    "score": 99.99
+  },
+  {
+    "s1": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt",
+    "s2": "Jax squinted through his polarized aviators, his knuckles white as he gripped the steering wheel",
+    "score": 98.65
+  },
+  {
+    "s1": "# Story 1: Velocity of the Shadow (Action)\n\nThe tires of the bright red Ferrari Testarossa screamed as Jax slammed the vehicle into fourth gear, the high-performance engine howling like a caged beast suddenly unleashed",
+    "s2": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "score": 99.99
+  },
+  {
+    "s1": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt",
+    "s2": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "score": 95.66
+  },
+  {
+    "s1": "Jax squinted through his polarized aviators, his knuckles white as he gripped the steering wheel",
+    "s2": "The drive sitting in his pocket contained enough data to dismantle their entire operation, and they were willing to level the city to get it back",
+    "score": 98.43
+  },
+  {
+    "s1": "He could feel the vibration of the road through the chassis, a raw, mechanical energy that pulsed in time with his own racing heart",
+    "s2": "The drive sitting in his pocket contained enough data to dismantle their entire operation, and they were willing to level the city to get it back",
+    "score": 99.77
+  },
+  {
+    "s1": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "s2": "The drive sitting in his pocket contained enough data to dismantle their entire operation, and they were willing to level the city to get it back",
+    "score": 99.96
+  },
+  {
+    "s1": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt",
+    "s2": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari",
+    "score": 99.47
+  },
+  {
+    "s1": "Jax squinted through his polarized aviators, his knuckles white as he gripped the steering wheel",
+    "s2": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari",
+    "score": 99.88
+  },
+  {
+    "s1": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "s2": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari",
+    "score": 99.95
+  },
+  {
+    "s1": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt",
+    "s2": "\"Don't fail me now",
+    "score": 99.95
+  },
+  {
+    "s1": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt",
+    "s2": "\"\n\nHe reached over to the passenger seat and gripped his Desert Eagle",
+    "score": 95.14
+  },
+  {
+    "s1": "Jax squinted through his polarized aviators, his knuckles white as he gripped the steering wheel",
+    "s2": "\"\n\nHe reached over to the passenger seat and gripped his Desert Eagle",
+    "score": 99.99
+  },
+  {
+    "s1": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "s2": "\"\n\nHe reached over to the passenger seat and gripped his Desert Eagle",
+    "score": 99.93
+  },
+  {
+    "s1": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari",
+    "s2": "\"\n\nHe reached over to the passenger seat and gripped his Desert Eagle",
+    "score": 99.96
+  },
+  {
+    "s1": "He could feel the vibration of the road through the chassis, a raw, mechanical energy that pulsed in time with his own racing heart",
+    "s2": "He checked the magazine one last time",
+    "score": 99.81
+  },
+  {
+    "s1": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "s2": "He checked the magazine one last time",
+    "score": 96.06
+  },
+  {
+    "s1": "The drive sitting in his pocket contained enough data to dismantle their entire operation, and they were willing to level the city to get it back",
+    "s2": "He checked the magazine one last time",
+    "score": 98.63
+  },
+  {
+    "s1": "In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare",
+    "s2": "Seven shots to take down three armored SUVs filled with professional killers",
+    "score": 99.97
+  },
+  {
+    "s1": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari",
+    "s2": "Seven shots to take down three armored SUVs filled with professional killers",
+    "score": 91.69
+  },
+  {
+    "s1": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari",
+    "s2": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "score": 99.96
+  },
+  {
+    "s1": "Seven shots to take down three armored SUVs filled with professional killers",
+    "s2": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "score": 99.97
+  },
+  {
+    "s1": "The weapon was a massive, intimidating piece of hardware, the cold steel of the barrel a stark contrast to the sweltering heat inside the cabin",
+    "s2": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "score": 99.95
+  },
+  {
+    "s1": "He checked the magazine one last time",
+    "s2": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "score": 99.89
+  },
+  {
+    "s1": "Seven shots to take down three armored SUVs filled with professional killers",
+    "s2": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "score": 96.46
+  },
+  {
+    "s1": "As the lead SUV pulled alongside him, Jax leaned out the driver's side window, the wind whipping his hair into a frenzy",
+    "s2": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "score": 99.62
+  },
+  {
+    "s1": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "s2": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "score": 94.98
+  },
+  {
+    "s1": "He checked the magazine one last time",
+    "s2": "It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass",
+    "score": 99.73
+  },
+  {
+    "s1": "Seven shots to take down three armored SUVs filled with professional killers",
+    "s2": "It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass",
+    "score": 98.01
+  },
+  {
+    "s1": "As the lead SUV pulled alongside him, Jax leaned out the driver's side window, the wind whipping his hair into a frenzy",
+    "s2": "It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass",
+    "score": 99.73
+  },
+  {
+    "s1": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "s2": "It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass",
+    "score": 99.19
+  },
+  {
+    "s1": "He waited for the perfect moment, the split second when the SUV\u2019s front tire was exposed",
+    "s2": "It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass",
+    "score": 90.25
+  },
+  {
+    "s1": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "s2": "Jax didn't wait to see the results",
+    "score": 98.92
+  },
+  {
+    "s1": "He waited for the perfect moment, the split second when the SUV\u2019s front tire was exposed",
+    "s2": "Jax didn't wait to see the results",
+    "score": 99.99
+  },
+  {
+    "s1": "As the lead SUV pulled alongside him, Jax leaned out the driver's side window, the wind whipping his hair into a frenzy",
+    "s2": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "score": 98.52
+  },
+  {
+    "s1": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "s2": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "score": 99.99
+  },
+  {
+    "s1": "He waited for the perfect moment, the split second when the SUV\u2019s front tire was exposed",
+    "s2": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "score": 99.85
+  },
+  {
+    "s1": "It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass",
+    "s2": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "score": 99.88
+  },
+  {
+    "s1": "A wall of orange flame erupted from the wreckage, momentarily obscuring the path of the other two pursuers",
+    "s2": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "score": 99.97
+  },
+  {
+    "s1": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "s2": "He veered right, diving into a narrow alleyway that cut through the heart of the textile district",
+    "score": 99.99
+  },
+  {
+    "s1": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "s2": "He veered right, diving into a narrow alleyway that cut through the heart of the textile district",
+    "score": 99.89
+  },
+  {
+    "s1": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "s2": "He veered right, diving into a narrow alleyway that cut through the heart of the textile district",
+    "score": 99.95
+  },
+  {
+    "s1": "He raised the Desert Eagle, the weight of the gun familiar and grounding",
+    "s2": "He glanced at the digital clock on the dashboard: 12:15 PM",
+    "score": 96.64
+  },
+  {
+    "s1": "*Bang! Bang! Bang!* Three rhythmic shots echoed through the canyon of skyscrapers",
+    "s2": "He glanced at the digital clock on the dashboard: 12:15 PM",
+    "score": 96.91
+  },
+  {
+    "s1": "He glanced at the digital clock on the dashboard: 12:15 PM",
+    "s2": "But as he emerged from the other end of the alley, onto the massive Han River Bridge, the world transformed",
+    "score": 96.93
+  },
+  {
+    "s1": "A wall of orange flame erupted from the wreckage, momentarily obscuring the path of the other two pursuers",
+    "s2": "The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight",
+    "score": 99.99
+  },
+  {
+    "s1": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "s2": "The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight",
+    "score": 99.97
+  },
+  {
+    "s1": "He veered right, diving into a narrow alleyway that cut through the heart of the textile district",
+    "s2": "The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight",
+    "score": 94.17
+  },
+  {
+    "s1": "He glanced at the digital clock on the dashboard: 12:15 PM",
+    "s2": "The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight",
+    "score": 98.26
+  },
+  {
+    "s1": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber",
+    "s2": "The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight",
+    "score": 99.97
+  },
+  {
+    "s1": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber",
+    "s2": "The temperature plummeted, a biting chill replacing the summer heat",
+    "score": 99.99
+  },
+  {
+    "s1": "A wall of orange flame erupted from the wreckage, momentarily obscuring the path of the other two pursuers",
+    "s2": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "score": 99.87
+  },
+  {
+    "s1": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "s2": "Jax blinked, his eyes struggling to adjust to the sudden darkness",
+    "score": 99.98
+  },
+  {
+    "s1": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber",
+    "s2": "Jax blinked, his eyes struggling to adjust to the sudden darkness",
+    "score": 99.9
+  },
+  {
+    "s1": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun",
+    "s2": "It was impossible",
+    "score": 89.86
+  },
+  {
+    "s1": "He veered right, diving into a narrow alleyway that cut through the heart of the textile district",
+    "s2": "It was impossible",
+    "score": 99.4
+  },
+  {
+    "s1": "The walls were so close he could have reached out and touched them, the blur of brick and concrete creating a claustrophobic tunnel",
+    "s2": "It was impossible",
+    "score": 99.16
+  },
+  {
+    "s1": "He glanced at the digital clock on the dashboard: 12:15 PM",
+    "s2": "It was impossible",
+    "score": 99.52
+  },
+  {
+    "s1": "But as he emerged from the other end of the alley, onto the massive Han River Bridge, the world transformed",
+    "s2": "It was impossible",
+    "score": 99.59
+  },
+  {
+    "s1": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "s2": "It was impossible",
+    "score": 99.04
+  },
+  {
+    "s1": "He glanced at the digital clock on the dashboard: 12:15 PM",
+    "s2": "He had been in the alley for less than thirty seconds",
+    "score": 97.9
+  },
+  {
+    "s1": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "s2": "He had been in the alley for less than thirty seconds",
+    "score": 99.85
+  },
+  {
+    "s1": "But as he emerged from the other end of the alley, onto the massive Han River Bridge, the world transformed",
+    "s2": "Yet, here he was, racing through the middle of the night",
+    "score": 99.93
+  },
+  {
+    "s1": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "s2": "Yet, here he was, racing through the middle of the night",
+    "score": 99.29
+  },
+  {
+    "s1": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "s2": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "score": 99.76
+  },
+  {
+    "s1": "It was impossible",
+    "s2": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "score": 98.75
+  },
+  {
+    "s1": "The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 99.73
+  },
+  {
+    "s1": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 99.27
+  },
+  {
+    "s1": "Jax blinked, his eyes struggling to adjust to the sudden darkness",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 99.81
+  },
+  {
+    "s1": "It was impossible",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 99.67
+  },
+  {
+    "s1": "He had been in the alley for less than thirty seconds",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 93.54
+  },
+  {
+    "s1": "The remaining two SUVs had somehow found a shortcut and were now flanking him on the bridge",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 95.18
+  },
+  {
+    "s1": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "s2": "\"Alright, you bastards,\" Jax growled",
+    "score": 97.4
+  },
+  {
+    "s1": "It was impossible",
+    "s2": "\"Let's see how you handle this",
+    "score": 99.65
+  },
+  {
+    "s1": "He didn't have time to contemplate the cosmic impossibility of the situation",
+    "s2": "\"Let's see how you handle this",
+    "score": 99.8
+  },
+  {
+    "s1": "The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement",
+    "s2": "\"\n\nHe raised his Desert Eagle again",
+    "score": 99.03
+  },
+  {
+    "s1": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "s2": "\"\n\nHe raised his Desert Eagle again",
+    "score": 96.93
+  },
+  {
+    "s1": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "s2": "He just pulled the trigger",
+    "score": 98.4
+  },
+  {
+    "s1": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "s2": "*Bang! Bang! Bang! Bang! Bang!*\n\nThe gun roared, spitting a continuous stream of lead",
+    "score": 99.95
+  },
+  {
+    "s1": "Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors",
+    "s2": "He fired ten rounds into the driver's side of the second SUV, the bullets punching through the reinforced glass like it was paper",
+    "score": 99.62
+  },
+  {
+    "s1": "He just pulled the trigger",
+    "s2": "He continued to fire, the muzzle flash illuminating the interior of the car in brief, strobing bursts",
+    "score": 99.08
+  },
+  {
+    "s1": "He didn't think about the fact that he only had four rounds left in the magazine",
+    "s2": "He counted the shots in the back of his mind\u2014thirty, forty, fifty",
+    "score": 99.92
+  },
+  {
+    "s1": "He fired ten rounds into the driver's side of the second SUV, the bullets punching through the reinforced glass like it was paper",
+    "s2": "He counted the shots in the back of his mind\u2014thirty, forty, fifty",
+    "score": 99.89
+  },
+  {
+    "s1": "He just pulled the trigger",
+    "s2": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "score": 99.28
+  },
+  {
+    "s1": "*Bang! Bang! Bang! Bang! Bang!*\n\nThe gun roared, spitting a continuous stream of lead",
+    "s2": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "score": 99.87
+  },
+  {
+    "s1": "Then he turned his attention to the third SUV, pouring another ten rounds into its engine block",
+    "s2": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "score": 93.09
+  },
+  {
+    "s1": "He continued to fire, the muzzle flash illuminating the interior of the car in brief, strobing bursts",
+    "s2": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "score": 99.18
+  },
+  {
+    "s1": "He counted the shots in the back of his mind\u2014thirty, forty, fifty",
+    "s2": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "score": 99.94
+  },
+  {
+    "s1": "The weapon seemed to have transformed into an assault rifle, an endless supply of ammunition flowing from a magazine that should have been empty minutes ago",
+    "s2": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "score": 99.97
+  },
+  {
+    "s1": "He counted the shots in the back of his mind\u2014thirty, forty, fifty",
+    "s2": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "score": 99.99
+  },
+  {
+    "s1": "The weapon seemed to have transformed into an assault rifle, an endless supply of ammunition flowing from a magazine that should have been empty minutes ago",
+    "s2": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "score": 99.95
+  },
+  {
+    "s1": "\"Almost there,\" Marcus whispered to himself, his voice sounding different, more calculated",
+    "s2": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "score": 99.16
+  },
+  {
+    "s1": "The transition from the high-speed chase on the bridge to the narrow mountain pass that followed was jarring",
+    "s2": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "score": 99.98
+  },
+  {
+    "s1": "Marcus looked at his reflection in the rearview mirror",
+    "s2": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "score": 89.79
+  },
+  {
+    "s1": "The data was the key",
+    "s2": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "score": 99.78
+  },
+  {
+    "s1": "\"Almost there,\" Marcus whispered to himself, his voice sounding different, more calculated",
+    "s2": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "score": 96.95
+  },
+  {
+    "s1": "He steered the car through a series of tight S-curves as the bridge began to incline sharply",
+    "s2": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "score": 98.65
+  },
+  {
+    "s1": "Marcus looked at his reflection in the rearview mirror",
+    "s2": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "score": 99.99
+  },
+  {
+    "s1": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "s2": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "score": 99.9
+  },
+  {
+    "s1": "The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air",
+    "s2": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "score": 99.96
+  },
+  {
+    "s1": "The transition from the high-speed chase on the bridge to the narrow mountain pass that followed was jarring",
+    "s2": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "score": 99.97
+  },
+  {
+    "s1": "His eyes were hard, determined, the eyes of a man who had seen too much and was willing to do whatever it took to survive",
+    "s2": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "score": 99.76
+  },
+  {
+    "s1": "The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air",
+    "s2": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "score": 99.99
+  },
+  {
+    "s1": "Marcus looked at his reflection in the rearview mirror",
+    "s2": "They were like shadows themselves, relentless and silent",
+    "score": 89.67
+  },
+  {
+    "s1": "The data was the key",
+    "s2": "They were like shadows themselves, relentless and silent",
+    "score": 99.31
+  },
+  {
+    "s1": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice",
+    "s2": "They were like shadows themselves, relentless and silent",
+    "score": 91.81
+  },
+  {
+    "s1": "The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air",
+    "s2": "They were like shadows themselves, relentless and silent",
+    "score": 100.0
+  },
+  {
+    "s1": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "s2": "They were like shadows themselves, relentless and silent",
+    "score": 99.96
+  },
+  {
+    "s1": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "s2": "Marcus focused on the road ahead",
+    "score": 98.22
+  },
+  {
+    "s1": "The data was the key",
+    "s2": "A massive gap, the result of a recent earthquake, awaited them",
+    "score": 97.83
+  },
+  {
+    "s1": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "s2": "A massive gap, the result of a recent earthquake, awaited them",
+    "score": 99.94
+  },
+  {
+    "s1": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "s2": "A massive gap, the result of a recent earthquake, awaited them",
+    "score": 97.59
+  },
+  {
+    "s1": "The SUVs were still there, somehow keeping pace with his blue car",
+    "s2": "A massive gap, the result of a recent earthquake, awaited them",
+    "score": 99.99
+  },
+  {
+    "s1": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "s2": "It was a jump that no sane person would attempt",
+    "score": 99.94
+  },
+  {
+    "s1": "The SUVs were still there, somehow keeping pace with his blue car",
+    "s2": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "score": 97.21
+  },
+  {
+    "s1": "Marcus focused on the road ahead",
+    "s2": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "score": 99.06
+  },
+  {
+    "s1": "It was a jump that no sane person would attempt",
+    "s2": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "score": 98.54
+  },
+  {
+    "s1": "Marcus reached into the glove box and pulled out the encrypted drive",
+    "s2": "He hit the nitrous",
+    "score": 99.49
+  },
+  {
+    "s1": "Marcus focused on the road ahead",
+    "s2": "He hit the nitrous",
+    "score": 99.85
+  },
+  {
+    "s1": "The bridge\u2014or what was left of it\u2014was coming to an end",
+    "s2": "He hit the nitrous",
+    "score": 99.11
+  },
+  {
+    "s1": "A massive gap, the result of a recent earthquake, awaited them",
+    "s2": "He hit the nitrous",
+    "score": 99.94
+  },
+  {
+    "s1": "It was a jump that no sane person would attempt",
+    "s2": "He hit the nitrous",
+    "score": 97.98
+  },
+  {
+    "s1": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "s2": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "score": 99.98
+  },
+  {
+    "s1": "They were like shadows themselves, relentless and silent",
+    "s2": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "score": 99.9
+  },
+  {
+    "s1": "Marcus focused on the road ahead",
+    "s2": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "score": 98.17
+  },
+  {
+    "s1": "A massive gap, the result of a recent earthquake, awaited them",
+    "s2": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "score": 99.76
+  },
+  {
+    "s1": "It was cool to the touch, a small, silver rectangle that held the fate of the city",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 99.91
+  },
+  {
+    "s1": "The SUVs were still there, somehow keeping pace with his blue car",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 99.91
+  },
+  {
+    "s1": "They were like shadows themselves, relentless and silent",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 92.53
+  },
+  {
+    "s1": "Marcus focused on the road ahead",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 99.96
+  },
+  {
+    "s1": "The bridge\u2014or what was left of it\u2014was coming to an end",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 99.93
+  },
+  {
+    "s1": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 99.83
+  },
+  {
+    "s1": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "s2": "The car soared through the air, a metallic arrow launched into the void",
+    "score": 97.72
+  },
+  {
+    "s1": "They were like shadows themselves, relentless and silent",
+    "s2": "The bright midday sun returned with a vengeance, blinding him for a split second as the car crashed back down onto the asphalt on the other side of the gap",
+    "score": 99.7
+  },
+  {
+    "s1": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "s2": "The bright midday sun returned with a vengeance, blinding him for a split second as the car crashed back down onto the asphalt on the other side of the gap",
+    "score": 97.31
+  },
+  {
+    "s1": "Marcus focused on the road ahead",
+    "s2": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "score": 99.92
+  },
+  {
+    "s1": "It was a jump that no sane person would attempt",
+    "s2": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "score": 99.95
+  },
+  {
+    "s1": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "s2": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "score": 99.73
+  },
+  {
+    "s1": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "s2": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "score": 99.81
+  },
+  {
+    "s1": "As the car reached the apex of its arc, the starless midnight sky vanished as quickly as it had appeared",
+    "s2": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "score": 93.61
+  },
+  {
+    "s1": "The bridge\u2014or what was left of it\u2014was coming to an end",
+    "s2": "He drove for another mile before pulling over under the shade of a large oak tree",
+    "score": 98.46
+  },
+  {
+    "s1": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "s2": "He drove for another mile before pulling over under the shade of a large oak tree",
+    "score": 99.62
+  },
+  {
+    "s1": "A massive gap, the result of a recent earthquake, awaited them",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.94
+  },
+  {
+    "s1": "It was a jump that no sane person would attempt",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.98
+  },
+  {
+    "s1": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.84
+  },
+  {
+    "s1": "He hit the nitrous",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.99
+  },
+  {
+    "s1": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.83
+  },
+  {
+    "s1": "The car soared through the air, a metallic arrow launched into the void",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.99
+  },
+  {
+    "s1": "As the car reached the apex of its arc, the starless midnight sky vanished as quickly as it had appeared",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.5
+  },
+  {
+    "s1": "The bright midday sun returned with a vengeance, blinding him for a split second as the car crashed back down onto the asphalt on the other side of the gap",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.98
+  },
+  {
+    "s1": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "s2": "He stepped out of the car, his boots crunching on the dry grass",
+    "score": 99.92
+  },
+  {
+    "s1": "He hit the nitrous",
+    "s2": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat",
+    "score": 98.36
+  },
+  {
+    "s1": "A blue flame erupted from the exhaust pipes of the midnight-blue sedan",
+    "s2": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat",
+    "score": 99.89
+  },
+  {
+    "s1": "The car soared through the air, a metallic arrow launched into the void",
+    "s2": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat",
+    "score": 99.99
+  },
+  {
+    "s1": "As the car reached the apex of its arc, the starless midnight sky vanished as quickly as it had appeared",
+    "s2": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat",
+    "score": 99.93
+  },
+  {
+    "s1": "The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away",
+    "s2": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat",
+    "score": 99.96
+  },
+  {
+    "s1": "\"Time to fly,\" Marcus\u2014or was it Jax?\u2014muttered",
+    "s2": "He checked the drive one last time",
+    "score": 99.88
+  }
+]

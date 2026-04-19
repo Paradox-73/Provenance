@@ -82,6 +82,14 @@ def node_detect_conflicts(state: AgenticGraphState, neo4j_adapter: Neo4jAdapter)
     detector = ConflictDetector(neo4j_adapter)
     conflicts = detector.detect_all_inconsistencies()
     state.detected_conflicts = conflicts
+    
+    # Generate visualization
+    try:
+        viz_path = "visualizations/narrative_graph.png"
+        detector.visualize_graph(viz_path, title="Narrative Knowledge Graph (Full)")
+    except Exception as e:
+        print(f"Failed to generate visualization: {e}")
+
     state.current_task = "report_results"
     state.history.append(f"Conflict detection completed. Found {len(conflicts)} conflicts.")
     return state

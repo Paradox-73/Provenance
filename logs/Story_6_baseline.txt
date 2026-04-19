@@ -1,0 +1,327 @@
+[
+  {
+    "s1": "The sky above was a bruised purple, heavy with the weight of impending storm clouds that seemed to pulse with a dark, unnatural energy",
+    "s2": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "score": 98.79
+  },
+  {
+    "s1": "For weeks, the dragon Malakor had been terrorizing the peaceful valley below, his fire-breathing raids leaving nothing but scorched earth and charred ruins in their wake",
+    "s2": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "score": 99.02
+  },
+  {
+    "s1": "At his hip, he carried the legendary sword, Dragonslayer, a blade forged in the heart of a dying star and said to be capable of piercing even the most enchanted dragon scales",
+    "s2": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "score": 99.99
+  },
+  {
+    "s1": "As he crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground",
+    "s2": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "score": 99.57
+  },
+  {
+    "s1": "For weeks, the dragon Malakor had been terrorizing the peaceful valley below, his fire-breathing raids leaving nothing but scorched earth and charred ruins in their wake",
+    "s2": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer",
+    "score": 99.43
+  },
+  {
+    "s1": "Cinder whinnied in terror, rearing up on his hind legs",
+    "s2": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer",
+    "score": 96.54
+  },
+  {
+    "s1": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "s2": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer",
+    "score": 99.94
+  },
+  {
+    "s1": "He heard the faint, metallic ring as it struck a rocky outcropping, and then it was gone, its golden hilt the last thing he saw before it vanished completely",
+    "s2": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer",
+    "score": 99.96
+  },
+  {
+    "s1": "\"Drat,\" Alistair muttered, his heart sinking",
+    "s2": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer",
+    "score": 99.68
+  },
+  {
+    "s1": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 99.28
+  },
+  {
+    "s1": "As he crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 99.97
+  },
+  {
+    "s1": "Cinder whinnied in terror, rearing up on his hind legs",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 90.6
+  },
+  {
+    "s1": "In the chaos, Alistair's grip on his sword slipped",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 99.97
+  },
+  {
+    "s1": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 99.97
+  },
+  {
+    "s1": "He heard the faint, metallic ring as it struck a rocky outcropping, and then it was gone, its golden hilt the last thing he saw before it vanished completely",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 99.99
+  },
+  {
+    "s1": "\"Drat,\" Alistair muttered, his heart sinking",
+    "s2": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "score": 99.87
+  },
+  {
+    "s1": "Cinder whinnied in terror, rearing up on his hind legs",
+    "s2": "He adjusted his grip on the hilt, grateful for the sword\u2019s weight, and continued his journey toward the cave entrance",
+    "score": 99.95
+  },
+  {
+    "s1": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below",
+    "s2": "He adjusted his grip on the hilt, grateful for the sword\u2019s weight, and continued his journey toward the cave entrance",
+    "score": 99.99
+  },
+  {
+    "s1": "He heard the faint, metallic ring as it struck a rocky outcropping, and then it was gone, its golden hilt the last thing he saw before it vanished completely",
+    "s2": "He adjusted his grip on the hilt, grateful for the sword\u2019s weight, and continued his journey toward the cave entrance",
+    "score": 97.79
+  },
+  {
+    "s1": "As he crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground",
+    "s2": "The cave was deep underground, miles from the surface, a winding labyrinth of tunnels that smelled of sulfur, old smoke, and decaying meat",
+    "score": 99.99
+  },
+  {
+    "s1": "He heard the faint, metallic ring as it struck a rocky outcropping, and then it was gone, its golden hilt the last thing he saw before it vanished completely",
+    "s2": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light",
+    "score": 98.56
+  },
+  {
+    "s1": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "s2": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light",
+    "score": 99.98
+  },
+  {
+    "s1": "He reached the mouth of the cavern where Malakor made his home",
+    "s2": "From the deepest part of the cavern, a massive shadow began to stir",
+    "score": 99.96
+  },
+  {
+    "s1": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer",
+    "s2": "Malakor emerged slowly, his movements deliberate and graceful",
+    "score": 99.97
+  },
+  {
+    "s1": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light",
+    "s2": "Malakor emerged slowly, his movements deliberate and graceful",
+    "score": 90.82
+  },
+  {
+    "s1": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever",
+    "s2": "The dragon was colossal, his massive wings spanning the width of the chamber",
+    "score": 92.48
+  },
+  {
+    "s1": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss",
+    "s2": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat",
+    "score": 99.99
+  },
+  {
+    "s1": "From the deepest part of the cavern, a massive shadow began to stir",
+    "s2": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "score": 96.95
+  },
+  {
+    "s1": "Malakor emerged slowly, his movements deliberate and graceful",
+    "s2": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "score": 99.6
+  },
+  {
+    "s1": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss",
+    "s2": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "score": 99.93
+  },
+  {
+    "s1": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat",
+    "s2": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "score": 99.41
+  },
+  {
+    "s1": "The shift in color was mesmerizing, the green so vibrant it seemed to pulse with its own life",
+    "s2": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "score": 94.46
+  },
+  {
+    "s1": "Malakor emerged slowly, his movements deliberate and graceful",
+    "s2": "\"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\"\n\nSuddenly, a heavy downpour began",
+    "score": 99.97
+  },
+  {
+    "s1": "The dragon was colossal, his massive wings spanning the width of the chamber",
+    "s2": "\"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\"\n\nSuddenly, a heavy downpour began",
+    "score": 99.61
+  },
+  {
+    "s1": "\"Who dares disturb my slumber?\" the dragon roared, his voice a deep, vibrating bass that shook the very foundations of the cave",
+    "s2": "\"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\"\n\nSuddenly, a heavy downpour began",
+    "score": 95.25
+  },
+  {
+    "s1": "From the deepest part of the cavern, a massive shadow began to stir",
+    "s2": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor",
+    "score": 99.55
+  },
+  {
+    "s1": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat",
+    "s2": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor",
+    "score": 96.55
+  },
+  {
+    "s1": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "s2": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor",
+    "score": 89.47
+  },
+  {
+    "s1": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "s2": "He looked up, expecting to see the jagged rock of the cave ceiling miles above him",
+    "score": 94.03
+  },
+  {
+    "s1": "The dragon was colossal, his massive wings spanning the width of the chamber",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.99
+  },
+  {
+    "s1": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.92
+  },
+  {
+    "s1": "His eyes were like twin pools of molten gold, filled with an ancient, terrifying intelligence",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.4
+  },
+  {
+    "s1": "\"Who dares disturb my slumber?\" the dragon roared, his voice a deep, vibrating bass that shook the very foundations of the cave",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.42
+  },
+  {
+    "s1": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.99
+  },
+  {
+    "s1": "The shift in color was mesmerizing, the green so vibrant it seemed to pulse with its own life",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.94
+  },
+  {
+    "s1": "\"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\"\n\nSuddenly, a heavy downpour began",
+    "s2": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "score": 99.18
+  },
+  {
+    "s1": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire",
+    "s2": "Malakor let out a low, rumbling laugh that sounded like shifting mountains",
+    "score": 96.02
+  },
+  {
+    "s1": "\"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\"\n\nSuddenly, a heavy downpour began",
+    "s2": "Malakor let out a low, rumbling laugh that sounded like shifting mountains",
+    "score": 95.89
+  },
+  {
+    "s1": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor",
+    "s2": "Malakor let out a low, rumbling laugh that sounded like shifting mountains",
+    "score": 99.8
+  },
+  {
+    "s1": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "s2": "Malakor let out a low, rumbling laugh that sounded like shifting mountains",
+    "score": 99.96
+  },
+  {
+    "s1": "The shift in color was mesmerizing, the green so vibrant it seemed to pulse with its own life",
+    "s2": "It takes an entire century of focused chanting to cast, Alistair",
+    "score": 98.7
+  },
+  {
+    "s1": "\"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\"\n\nSuddenly, a heavy downpour began",
+    "s2": "It takes an entire century of focused chanting to cast, Alistair",
+    "score": 99.94
+  },
+  {
+    "s1": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor",
+    "s2": "It takes an entire century of focused chanting to cast, Alistair",
+    "score": 99.93
+  },
+  {
+    "s1": "He looked up, expecting to see the jagged rock of the cave ceiling miles above him",
+    "s2": "It takes an entire century of focused chanting to cast, Alistair",
+    "score": 99.79
+  },
+  {
+    "s1": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "s2": "It takes an entire century of focused chanting to cast, Alistair",
+    "score": 99.99
+  },
+  {
+    "s1": "Malakor let out a low, rumbling laugh that sounded like shifting mountains",
+    "s2": "It takes an entire century of focused chanting to cast, Alistair",
+    "score": 99.98
+  },
+  {
+    "s1": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "s2": "Prepare yourself to wait for your end!\"\n\nThe dragon began to chant in an ancient, guttural tongue that seemed to vibrate in the air",
+    "score": 90.28
+  },
+  {
+    "s1": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "s2": "Three seconds later, the spell was complete",
+    "score": 98.6
+  },
+  {
+    "s1": "It takes an entire century of focused chanting to cast, Alistair",
+    "s2": "Three seconds later, the spell was complete",
+    "score": 99.99
+  },
+  {
+    "s1": "Malakor let out a low, rumbling laugh that sounded like shifting mountains",
+    "s2": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold",
+    "score": 99.92
+  },
+  {
+    "s1": "Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere",
+    "s2": "He looked down to see his armor fusing with his skin, his body transforming into a statue of dark, unyielding stone",
+    "score": 99.98
+  },
+  {
+    "s1": "It takes an entire century of focused chanting to cast, Alistair",
+    "s2": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them",
+    "score": 99.76
+  },
+  {
+    "s1": "Prepare yourself to wait for your end!\"\n\nThe dragon began to chant in an ancient, guttural tongue that seemed to vibrate in the air",
+    "s2": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them",
+    "score": 96.28
+  },
+  {
+    "s1": "The words were heavy with power, the very atmosphere in the cave\u2014or the open sky above\u2014thickening with every syllable",
+    "s2": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them",
+    "score": 99.77
+  },
+  {
+    "s1": "\"Wait!\" Alistair managed to shout before his jaw froze",
+    "s2": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them",
+    "score": 99.95
+  }
+]

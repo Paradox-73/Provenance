@@ -56,8 +56,13 @@ class Neo4jAdapter:
                 for chunk in chunks:
                     for entity in chunk.get("entities", []):
                         if "canonical_id" not in entity: continue
+                        cid = entity["canonical_id"]
+                        name = entity.get("text", "Unknown")
                         label = "Person" if entity.get("label") == "PERSON" else "Location" if entity.get("label") in ["LOC", "GPE", "FAC"] else "Entity"
-                        session.run(f"MERGE (e:Entity {{canonical_id: $cid}}) ON CREATE SET e.name = $name SET e:{label}", cid=entity["canonical_id"], name=entity.get("text", "Unknown"))
+                        
+                        # Fix: Correct label setting syntax
+                        session.run(f"MERGE (e:Entity {{canonical_id: $cid}}) ON CREATE SET e.name = $name", cid=cid, name=name)
+                        session.run(f"MATCH (e:Entity {{canonical_id: $cid}}) SET e:{label}", cid=cid)
                     
                     for triple in chunk.get("triples", []):
                         for role in ["subject", "object"]:
@@ -71,6 +76,13 @@ class Neo4jAdapter:
             print("Pass 2: Creating Relationships...")
             for chapter_name, chunks in processed_chapters.items():
                 for chunk in chunks:
+                    # Link aliases via SAME_AS
+                    for ent in chunk.get("entities", []):
+                        if ent.get("canonical_id") and ent.get("text"):
+                            raw_id = re.sub(r'[^A-Z0-9_]', '', ent["text"].upper().replace(' ', '_'))
+                            if ent["canonical_id"] != raw_id and raw_id != "":
+                                session.run("MERGE (e1:Entity {canonical_id: $cid1}) MERGE (e2:Entity {canonical_id: $cid2}) MERGE (e1)-[:SAME_AS]->(e2)", cid1=raw_id, cid2=ent["canonical_id"])
+
                     for triple in chunk.get("triples", []):
                         subj_id = triple.get("subject", {}).get("canonical_id", "UNKNOWN")
                         obj_id = triple.get("object", {}).get("canonical_id", "UNKNOWN")
@@ -79,13 +91,18 @@ class Neo4jAdapter:
                         source_text = triple.get("provenance", {}).get("source_text_snippet", "Source not provided")
                         narrative_time = self._normalize_timestamp(triple.get("timestamp", "unknown"))
 
-                        if source_text == "Source not provided" or not pred_text:
+                        if subj_id == "INVALID_IGNORE" or obj_id == "INVALID_IGNORE" or not pred_text:
                             continue
 
                         # Handle Directionality for POSSESSES/LOST
-                        if pred_label in ["POSSESSES", "LOST", "NOT_POSSESSES", "NOT_LOST"]:
-                            if any(name in obj_id for name in ["KAEL", "MARIA", "ARIS", "EVANS", "CAPTAIN"]):
-                                subj_id, obj_id = obj_id, subj_id
+                        # If the object is a Person and subject is an Item, swap them
+                        check_obj_query = "MATCH (e:Entity {canonical_id: $oid}) RETURN labels(e) as labels"
+                        obj_labels = session.run(check_obj_query, oid=obj_id).single()
+                        if obj_labels and "Person" in obj_labels["labels"] and pred_label in ["POSSESSES", "LOST"]:
+                             # Only swap if the subject isn't also a person (or if it's a known item)
+                             subj_labels = session.run("MATCH (e:Entity {canonical_id: $sid}) RETURN labels(e) as labels", sid=subj_id).single()
+                             if subj_labels and "Person" not in subj_labels["labels"]:
+                                 subj_id, obj_id = obj_id, subj_id
 
                         # Map labels to direct relationships (including NOT_ variants)
                         if pred_label in ["LOCATED_AT", "NOT_LOCATED_AT"]:
@@ -102,12 +119,11 @@ class Neo4jAdapter:
                                 f"MERGE (s:Entity {{canonical_id: $sid}}) "
                                 f"MERGE (o:Entity {{canonical_id: $oid}}) "
                                 f"MERGE (s)-[r:{pred_label}]->(o) "
-                                "SET r.chapter = $chap, r.text = $txt"
+                                "SET r.timestamp = $ts, r.chapter = $chap, r.text = $txt"
                             )
                             session.run(query, sid=subj_id, oid=obj_id, chap=chapter_name, txt=source_text)
 
                         elif pred_label in ["IDENTITY", "HAS_IDENTITY", "NOT_HAS_IDENTITY"]:
-                            # Normalize label to HAS_IDENTITY or NOT_HAS_IDENTITY
                             rel_type = "HAS_IDENTITY" if "NOT" not in pred_label else "NOT_HAS_IDENTITY"
                             query = (
                                 f"MERGE (s:Entity {{canonical_id: $sid}}) "
