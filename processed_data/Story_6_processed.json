@@ -1,0 +1,1790 @@
+[
+  {
+    "chapter_name": "Story_6",
+    "chunk_id": 0,
+    "content": "# Story 6: The Dragon's Breath (Fantasy)\n\nSir Alistair rode his great white stallion, Cinder, toward the jagged, obsidian-colored peaks of the Peak of Ash. The sky above was a bruised purple, heavy with the weight of impending storm clouds that seemed to pulse with a dark, unnatural energy. For weeks, the dragon Malakor had been terrorizing the peaceful valley below, his fire-breathing raids leaving nothing but scorched earth and charred ruins in their wake. Alistair was the last of the Order of the Silver Rose, the only knight brave enough to face the ancient wyrm in its own lair. Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light. At his hip, he carried the legendary sword, Dragonslayer, a blade forged in the heart of a dying star and said to be capable of piercing even the most enchanted dragon scales. As he crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground. Cinder whinnied in terror, rearing up on his hind legs. In the chaos, Alistair's grip on his sword slipped. He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below. He heard the faint, metallic ring as it struck a rocky outcropping, and then it was gone, its golden hilt the last thing he saw before it vanished completely. \"Drat,\" Alistair muttered, his heart sinking. He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer. He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever. He adjusted his grip on the hilt, grateful for the sword’s weight, and continued his journey toward the cave entrance. He reached the mouth of the cavern where Malakor made his home. The cave was deep underground, miles from the surface, a winding labyrinth of tunnels that smelled of sulfur, old smoke, and decaying meat. The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light. Every step Alistair took echoed through the vast, silent chambers, the sound of his boots on the wet stone a warning to anything that might be lurking in the shadows. \"Come out, beast! Show yourself!\" Alistair cried, his voice echoing through the darkness. From the deepest part of the cavern, a massive shadow began to stir. Malakor emerged slowly, his movements deliberate and graceful. The dragon was colossal, his massive wings spanning the width of the chamber. His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss. His eyes were like twin pools of molten gold, filled with an ancient, terrifying intelligence. \"Who dares disturb my slumber?\" the dragon roared, his voice a deep, vibrating bass that shook the very foundations of the cave.",
+    "resolved_content": "# Story 6: The Dragon's Breath (Fantasy)\n\nSir Alistair rode Sir Alistair's great white stallion, Cinder, toward the jagged, obsidian-colored peaks of the Peak of Ash. The sky above was a bruised purple, heavy with the weight of impending storm clouds that seemed to pulse with a dark, unnatural energy. For weeks, the dragon Malakor had been terrorizing the peaceful valley below, the dragon Malakor's fire-breathing raids leaving nothing but scorched earth and charred ruins in his fire-breathing raids's wake. Sir Alistair was the last of the Order of the Silver Rose, the only knight brave enough to face the dragon Malakor in the dragon Malakor's own lair. Sir Alistair was a formidable knight, Sir Alistair's silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light. At Sir Alistair's hip, Sir Alistair carried the legendary sword, Dragonslayer, a blade forged in the heart of a dying star and said to be capable of piercing even the most enchanted dragon scales. As Sir Alistair crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground. his whinnied in terror, rearing up on his's hind legs. In the chaos, Sir Alistair grip on its slipped. Sir Alistair watched in horror as its slid from its's scabbard and tumbled into the infinite darkness of the peaceful valley below. Sir Alistair heard the faint, metallic ring as the faint, metallic ring struck a rocky outcropping, and then the faint, metallic ring was gone, the faint, metallic ring's golden hilt the last thing Sir Alistair saw before the faint, metallic ring vanished completely. \"Drat,\" Sir Alistair muttered, Sir Alistair's heart sinking. Sir Alistair reached down to his hip and, without a second thought, unsheathed its. Sir Alistair checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever. Sir Alistair adjusted Sir Alistair's grip on its golden hilt, grateful for its weight, and continued Sir Alistair's journey toward the cave entrance. Sir Alistair reached the mouth of the cavern where the dragon Malakor made the dragon Malakor's home. The cave was deep underground, miles from the surface, a winding labyrinth of tunnels that smelled of sulfur, old smoke, and decaying meat. The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light. Every step Sir Alistair took echoed through the vast, silent chambers, the sound of Sir Alistair's boots on the wet stone a warning to anything that might be lurking in the shadows. \"Come out, beast! Show beast!\" Sir Alistair cried, Sir Alistair's voice echoing through the darkness. From the deepest part of The cave, a massive shadow began to stir. the dragon Malakor emerged slowly, the dragon Malakor's movements deliberate and graceful. the dragon Malakor was colossal, the dragon Malakor's massive wings spanning the width of The cave. the dragon Malakor's scales were as white as the driven snow, making the dragon Malakor look like a ghostly apparition in the dim, green light of the moss. the dragon Malakor's eyes were like twin pools of molten gold, filled with an ancient, terrifying intelligence. \"Who dares disturb the dragon Malakor's slumber?\" the dragon Malakor roared, the dragon Malakor's voice a deep, vibrating bass that shook the very foundations of The cave.",
+    "entities": [
+      {
+        "text": "6",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "6"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 46,
+        "end_char": 54,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 64,
+        "end_char": 72,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "the Peak of Ash",
+        "label": "LOC",
+        "start_char": 150,
+        "end_char": 165,
+        "canonical_id": "THE_PEAK_OF_ASH"
+      },
+      {
+        "text": "weeks",
+        "label": "DATE",
+        "start_char": 307,
+        "end_char": 312,
+        "canonical_id": "WEEKS"
+      },
+      {
+        "text": "Malakor",
+        "label": "PRODUCT",
+        "start_char": 325,
+        "end_char": 332,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PRODUCT",
+        "start_char": 392,
+        "end_char": 399,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 516,
+        "end_char": 524,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "the Order of the Silver Rose",
+        "label": "ORG",
+        "start_char": 541,
+        "end_char": 569,
+        "canonical_id": "THE_ORDER_OF_THE_SILVER_ROSE"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 619,
+        "end_char": 626,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 641,
+        "end_char": 648,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 665,
+        "end_char": 673,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 703,
+        "end_char": 711,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 824,
+        "end_char": 829,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 838,
+        "end_char": 846,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 858,
+        "end_char": 866,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1035,
+        "end_char": 1043,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Bridge of Sighs",
+        "label": "FAC",
+        "start_char": 1076,
+        "end_char": 1091,
+        "canonical_id": "BRIDGE_OF_SIGHS"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1275,
+        "end_char": 1283,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1309,
+        "end_char": 1317,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1441,
+        "end_char": 1449,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1639,
+        "end_char": 1647,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1717,
+        "end_char": 1725,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1740,
+        "end_char": 1748,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1770,
+        "end_char": 1778,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL",
+        "start_char": 1818,
+        "end_char": 1824,
+        "canonical_id": "SECOND"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1854,
+        "end_char": 1862,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1892,
+        "end_char": 1897,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1979,
+        "end_char": 1987,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2001,
+        "end_char": 2009,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2080,
+        "end_char": 2088,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2129,
+        "end_char": 2137,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2187,
+        "end_char": 2194,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2211,
+        "end_char": 2218,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 2463,
+        "end_char": 2468,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2485,
+        "end_char": 2493,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2558,
+        "end_char": 2566,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2687,
+        "end_char": 2695,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2707,
+        "end_char": 2715,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2832,
+        "end_char": 2839,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2867,
+        "end_char": 2874,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PRODUCT",
+        "start_char": 2923,
+        "end_char": 2930,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2956,
+        "end_char": 2963,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 3023,
+        "end_char": 3030,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 3092,
+        "end_char": 3099,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 3149,
+        "end_char": 3154,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 3179,
+        "end_char": 3186,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 3310,
+        "end_char": 3317,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 3341,
+        "end_char": 3348,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 3368,
+        "end_char": 3375,
+        "canonical_id": "MALAKOR"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Alistair",
+          "canonical_id": "ALISTAIR"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "rode"
+        },
+        "object": {
+          "text": "toward the jagged, obsidian-colored peaks of the Peak of Ash",
+          "canonical_id": "TOWARD_THE_JAGGED_OBSIDIANCOLORED_PEAKS_OF_THE_PEAK_OF_ASH"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sir Alistair rode Sir Alistair's great white stallion, Cinder, toward the jagged, obsidian-colored peaks of the Peak of Ash."
+        }
+      },
+      {
+        "subject": {
+          "text": "sky",
+          "canonical_id": "SKY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a bruised purple, heavy with the weight of impending storm clouds that seemed to pulse with a dark, unnatural energy",
+          "canonical_id": "A_BRUISED_PURPLE_HEAVY_WITH_THE_WEIGHT_OF_IMPENDING_STORM_CLOUDS_THAT_SEEMED_TO_PULSE_WITH_A_DARK_UNNATURAL_ENERGY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The sky above was a bruised purple, heavy with the weight of impending storm clouds that seemed to pulse with a dark, unnatural energy."
+        }
+      },
+      {
+        "subject": {
+          "text": "Alistair",
+          "canonical_id": "ALISTAIR"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "the last of the Order of the Silver Rose, the only knight brave enough to face the dragon Malakor in the dragon Malakor's own lair",
+          "canonical_id": "THE_LAST_OF_THE_ORDER_OF_THE_SILVER_ROSE_THE_ONLY_KNIGHT_BRAVE_ENOUGH_TO_FACE_THE_DRAGON_MALAKOR_IN_THE_DRAGON_MALAKORS_OWN_LAIR"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sir Alistair was the last of the Order of the Silver Rose, the only knight brave enough to face the dragon Malakor in the dragon Malakor's own lair."
+        }
+      },
+      {
+        "subject": {
+          "text": "Alistair",
+          "canonical_id": "ALISTAIR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a formidable knight",
+          "canonical_id": "A_FORMIDABLE_KNIGHT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sir Alistair was a formidable knight, Sir Alistair's silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light."
+        }
+      },
+      {
+        "subject": {
+          "text": "Alistair",
+          "canonical_id": "ALISTAIR"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "carried"
+        },
+        "object": {
+          "text": "the legendary sword, Dragonslayer, a blade forged in the heart of a dying star and said to be capable of piercing even the most enchanted dragon scales",
+          "canonical_id": "THE_LEGENDARY_SWORD_DRAGONSLAYER_A_BLADE_FORGED_IN_THE_HEART_OF_A_DYING_STAR_AND_SAID_TO_BE_CAPABLE_OF_PIERCING_EVEN_THE_MOST_ENCHANTED_DRAGON_SCALES"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "At Sir Alistair's hip, Sir Alistair carried the legendary sword, Dragonslayer, a blade forged in the heart of a dying star and said to be capable of piercing even the most enchanted dragon scales."
+        }
+      },
+      {
+        "subject": {
+          "text": "Alistair",
+          "canonical_id": "ALISTAIR"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "crossed"
+        },
+        "object": {
+          "text": "the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss",
+          "canonical_id": "THE_ANCIENT_PRECARIOUS_BRIDGE_OF_SIGHS_A_NARROW_SPAN_OF_WEATHERED_STONE_THAT_STRETCHED_ACROSS_A_BOTTOMLESS_ABYSS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "As Sir Alistair crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground."
+        }
+      },
+      {
+        "subject": {
+          "text": "thought",
+          "canonical_id": "THOUGHT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "second",
+          "canonical_id": "SECOND"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sir Alistair reached down to his hip and, without a second thought, unsheathed its."
+        }
+      },
+      {
+        "subject": {
+          "text": "steel",
+          "canonical_id": "STEEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "cool and sharp",
+          "canonical_id": "COOL_AND_SHARP"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sir Alistair checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever."
+        }
+      },
+      {
+        "subject": {
+          "text": "cave",
+          "canonical_id": "CAVE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a winding labyrinth of tunnels that smelled of sulfur, old smoke, and decaying meat",
+          "canonical_id": "A_WINDING_LABYRINTH_OF_TUNNELS_THAT_SMELLED_OF_SULFUR_OLD_SMOKE_AND_DECAYING_MEAT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The cave was deep underground, miles from the surface, a winding labyrinth of tunnels that smelled of sulfur, old smoke, and decaying meat."
+        }
+      },
+      {
+        "subject": {
+          "text": "walls",
+          "canonical_id": "WALLS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "damp",
+          "canonical_id": "DAMP"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light."
+        }
+      },
+      {
+        "subject": {
+          "text": "dragon",
+          "canonical_id": "DRAGON"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "colossal",
+          "canonical_id": "COLOSSAL"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the dragon Malakor was colossal, the dragon Malakor's massive wings spanning the width of The cave."
+        }
+      },
+      {
+        "subject": {
+          "text": "scales",
+          "canonical_id": "ESCALADES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "as white as the driven snow",
+          "canonical_id": "AS_WHITE_AS_THE_DRIVEN_SNOW"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the dragon Malakor's scales were as white as the driven snow, making the dragon Malakor look like a ghostly apparition in the dim, green light of the moss."
+        }
+      },
+      {
+        "subject": {
+          "text": "dragon",
+          "canonical_id": "DRAGON"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "like twin pools of molten gold, filled with an ancient, terrifying intelligence",
+          "canonical_id": "LIKE_TWIN_POOLS_OF_MOLTEN_GOLD_FILLED_WITH_AN_ANCIENT_TERRIFYING_INTELLIGENCE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the dragon Malakor's eyes were like twin pools of molten gold, filled with an ancient, terrifying intelligence."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          42,
+          54
+        ],
+        [
+          60,
+          63
+        ],
+        [
+          463,
+          471
+        ],
+        [
+          589,
+          597
+        ],
+        [
+          623,
+          626
+        ],
+        [
+          747,
+          750
+        ],
+        [
+          756,
+          758
+        ],
+        [
+          923,
+          925
+        ],
+        [
+          1154,
+          1164
+        ],
+        [
+          1173,
+          1176
+        ],
+        [
+          1192,
+          1194
+        ],
+        [
+          1315,
+          1317
+        ],
+        [
+          1436,
+          1438
+        ],
+        [
+          1482,
+          1490
+        ],
+        [
+          1501,
+          1504
+        ],
+        [
+          1520,
+          1522
+        ],
+        [
+          1539,
+          1542
+        ],
+        [
+          1624,
+          1626
+        ],
+        [
+          1739,
+          1741
+        ],
+        [
+          1751,
+          1754
+        ],
+        [
+          1820,
+          1823
+        ],
+        [
+          1858,
+          1860
+        ],
+        [
+          2176,
+          2184
+        ],
+        [
+          2245,
+          2248
+        ],
+        [
+          2366,
+          2374
+        ],
+        [
+          2382,
+          2385
+        ]
+      ],
+      [
+        [
+          303,
+          321
+        ],
+        [
+          370,
+          373
+        ],
+        [
+          555,
+          571
+        ],
+        [
+          575,
+          578
+        ],
+        [
+          1899,
+          1906
+        ],
+        [
+          1912,
+          1915
+        ],
+        [
+          2491,
+          2498
+        ],
+        [
+          2515,
+          2518
+        ],
+        [
+          2554,
+          2564
+        ],
+        [
+          2579,
+          2582
+        ],
+        [
+          2632,
+          2635
+        ],
+        [
+          2684,
+          2687
+        ],
+        [
+          2756,
+          2759
+        ],
+        [
+          2870,
+          2872
+        ],
+        [
+          2883,
+          2893
+        ],
+        [
+          2902,
+          2905
+        ]
+      ],
+      [
+        [
+          370,
+          394
+        ],
+        [
+          451,
+          456
+        ]
+      ],
+      [
+        [
+          60,
+          93
+        ],
+        [
+          1084,
+          1090
+        ],
+        [
+          1125,
+          1128
+        ]
+      ],
+      [
+        [
+          767,
+          918
+        ],
+        [
+          1173,
+          1182
+        ],
+        [
+          1216,
+          1232
+        ],
+        [
+          1243,
+          1246
+        ],
+        [
+          1589,
+          1622
+        ],
+        [
+          1786,
+          1797
+        ]
+      ],
+      [
+        [
+          343,
+          368
+        ],
+        [
+          1298,
+          1313
+        ]
+      ],
+      [
+        [
+          1324,
+          1348
+        ],
+        [
+          1352,
+          1354
+        ],
+        [
+          1392,
+          1394
+        ],
+        [
+          1405,
+          1408
+        ],
+        [
+          1450,
+          1452
+        ]
+      ],
+      [
+        [
+          747,
+          754
+        ],
+        [
+          1539,
+          1546
+        ]
+      ],
+      [
+        [
+          1635,
+          1644
+        ],
+        [
+          1693,
+          1696
+        ]
+      ],
+      [
+        [
+          1405,
+          1420
+        ],
+        [
+          1693,
+          1708
+        ],
+        [
+          1763,
+          1771
+        ]
+      ],
+      [
+        [
+          1882,
+          1920
+        ],
+        [
+          1922,
+          1930
+        ],
+        [
+          2447,
+          2457
+        ],
+        [
+          2619,
+          2630
+        ],
+        [
+          2970,
+          2978
+        ]
+      ],
+      [
+        [
+          2343,
+          2348
+        ],
+        [
+          2355,
+          2363
+        ]
+      ],
+      [
+        [
+          2094,
+          2163
+        ],
+        [
+          2746,
+          2754
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_6",
+    "chunk_id": 1,
+    "content": "\"Who dares disturb my slumber?\" the dragon roared, his voice a deep, vibrating bass that shook the very foundations of the cave. As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat. The shift in color was mesmerizing, the green so vibrant it seemed to pulse with its own life. Alistair raised his shield, the silver surface reflecting the dragon's inner fire. \"I am Sir Alistair of the Silver Rose! I am here to end your reign of terror, Malakor!\" Suddenly, a heavy downpour began. Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor. He looked up, expecting to see the jagged rock of the cave ceiling miles above him. Instead, he saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere. The cave walls were still visible in his periphery, but the ceiling had simply vanished, replaced by the atmosphere of the world above. Malakor let out a low, rumbling laugh that sounded like shifting mountains. \"You think you can defeat me, little knight? I have a spell that will end this conflict before it even begins. It is an ancient curse, one that will turn your very flesh into solid granite. It takes an entire century of focused chanting to cast, Alistair. Prepare yourself to wait for your end!\" The dragon began to chant in an ancient, guttural tongue that seemed to vibrate in the air. The words were heavy with power, the very atmosphere in the cave—or the open sky above—thickening with every syllable. Three seconds later, the spell was complete. A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold. He looked down to see his armor fusing with his skin, his body transforming into a statue of dark, unyielding stone. \"Wait!\" Alistair managed to shout before his jaw froze. \"You said it would take a century!\" \"Time is relative for a dragon, and quite different when one is in a hurry,\" Malakor replied, his massive, white-scaled head tilting curiously as he watched the knight's transformation. Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+    "resolved_content": "\"Who dares disturb my slumber?\" my roared, my's voice a deep, vibrating bass that shook the very foundations of the cave. As my spoke, my's emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of my's throat. The shift in color was mesmerizing, the green so vibrant the green seemed to pulse with the green's own life. Alistair raised Alistair's shield, the silver surface reflecting my inner fire. \"Alistair am Sir Alistair of the Silver Rose! Alistair am here to end Alistair reign of terror, Malakor!\" Suddenly, a heavy downpour began. Large, cold drops of rain fell from the clear blue sky directly onto Alistair head, soaking Alistair's cloak and clanking against Alistair's armor. Alistair looked up, expecting to see the jagged rock of the cave ceiling miles above Alistair. Instead, Alistair saw the open sky, a brilliant expanse of blue where a bright, midday sun was shining down, despite the heavy, vertical rain that seemed to be falling out of nowhere. The cave walls were still visible in Alistair's periphery, but the cave ceiling had simply vanished, replaced by the atmosphere of the world above. Malakor let out a low, rumbling laugh that sounded like shifting mountains. \"Alistair think Alistair can defeat Malakor, Alistair? Malakor have a spell that will end this conflict before this conflict even begins. It is an ancient curse, one that will turn Alistair very flesh into solid granite. It takes an entire century of focused chanting to cast, Alistair. Prepare Alistair to wait for Alistair end!\" my began to chant in an ancient, guttural tongue that seemed to vibrate in the air. The words were heavy with power, the very atmosphere in the cave—or the clear blue sky—thickening with every syllable. Three seconds later, It was complete. A flash of blinding white light filled the area, and Alistair felt Alistair's limbs becoming heavy and cold. Alistair looked down to see his armor fusing with Alistair's skin, Alistair's body transforming into a statue of dark, unyielding stone. \"Wait!\" Alistair managed to shout before Alistair's jaw froze. \"Malakor said it would take a century!\" \"Time is relative for a dragon, and quite different when one is in a hurry,\" Malakor replied, Malakor's massive, white-scaled head tilting curiously as Malakor watched my transformation. Alistair could only watch helplessly as my spread my's wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+    "entities": [
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 200,
+        "end_char": 205,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "color",
+        "label": "ENVIRONMENT",
+        "start_char": 293,
+        "end_char": 298,
+        "canonical_id": "COLOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 390,
+        "end_char": 398,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 406,
+        "end_char": 414,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 471,
+        "end_char": 479,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 487,
+        "end_char": 495,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 516,
+        "end_char": 524,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 540,
+        "end_char": 548,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 566,
+        "end_char": 573,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 679,
+        "end_char": 687,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 702,
+        "end_char": 710,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 740,
+        "end_char": 748,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 758,
+        "end_char": 766,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 843,
+        "end_char": 851,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 862,
+        "end_char": 870,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "midday",
+        "label": "TIME",
+        "start_char": 933,
+        "end_char": 939,
+        "canonical_id": "MIDDAY"
+      },
+      {
+        "text": "Alistair",
+        "label": "ORG",
+        "start_char": 1074,
+        "end_char": 1082,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 1185,
+        "end_char": 1192,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1262,
+        "end_char": 1270,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1277,
+        "end_char": 1285,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 1297,
+        "end_char": 1304,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1306,
+        "end_char": 1314,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 1316,
+        "end_char": 1323,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "ORG",
+        "start_char": 1442,
+        "end_char": 1450,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "an entire century",
+        "label": "DATE",
+        "start_char": 1491,
+        "end_char": 1508,
+        "canonical_id": "AN_ENTIRE_CENTURY"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1538,
+        "end_char": 1546,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1556,
+        "end_char": 1564,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1577,
+        "end_char": 1585,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Three seconds later",
+        "label": "TIME",
+        "start_char": 1795,
+        "end_char": 1814,
+        "canonical_id": "THREE_SECONDS_LATER"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1859,
+        "end_char": 1864,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1886,
+        "end_char": 1894,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1900,
+        "end_char": 1908,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1942,
+        "end_char": 1950,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 1992,
+        "end_char": 2000,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2009,
+        "end_char": 2017,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2087,
+        "end_char": 2095,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2120,
+        "end_char": 2128,
+        "canonical_id": "ALISTAIR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2143,
+        "end_char": 2150,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "a century",
+        "label": "DATE",
+        "start_char": 2170,
+        "end_char": 2179,
+        "canonical_id": "A_CENTURY"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2259,
+        "end_char": 2266,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2276,
+        "end_char": 2283,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Malakor",
+        "label": "PERSON",
+        "start_char": 2334,
+        "end_char": 2341,
+        "canonical_id": "MALAKOR"
+      },
+      {
+        "text": "Alistair",
+        "label": "PERSON",
+        "start_char": 2369,
+        "end_char": 2377,
+        "canonical_id": "ALISTAIR"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "shift",
+          "canonical_id": "SHIFT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "mesmerizing",
+          "canonical_id": "MESMERIZING"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The shift in color was mesmerizing, the green so vibrant the green seemed to pulse with the green's own life."
+        }
+      },
+      {
+        "subject": {
+          "text": "Alistair",
+          "canonical_id": "ALISTAIR"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "am"
+        },
+        "object": {
+          "text": "Sir Alistair of the Silver Rose",
+          "canonical_id": "SIR_ALISTAIR_OF_THE_SILVER_ROSE"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"Alistair am Sir Alistair of the Silver Rose!"
+        }
+      },
+      {
+        "subject": {
+          "text": "walls",
+          "canonical_id": "WALLS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "visible",
+          "canonical_id": "VISIBLE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The cave walls were still visible in Alistair's periphery, but the cave ceiling had simply vanished, replaced by the atmosphere of the world above."
+        }
+      },
+      {
+        "subject": {
+          "text": "walls",
+          "canonical_id": "WALLS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "in Alistair's periphery",
+          "canonical_id": "IN_ALISTAIRS_PERIPHERY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The cave walls were still visible in Alistair's periphery, but the cave ceiling had simply vanished, replaced by the atmosphere of the world above."
+        }
+      },
+      {
+        "subject": {
+          "text": "Malakor",
+          "canonical_id": "MALAKOR"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "a spell that will end this conflict before this conflict even begins",
+          "canonical_id": "A_SPELL_THAT_WILL_END_THIS_CONFLICT_BEFORE_THIS_CONFLICT_EVEN_BEGINS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Malakor have a spell that will end this conflict before this conflict even begins."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "an ancient curse, one that will turn Alistair very flesh into solid granite",
+          "canonical_id": "AN_ANCIENT_CURSE_ONE_THAT_WILL_TURN_ALISTAIR_VERY_FLESH_INTO_SOLID_GRANITE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It is an ancient curse, one that will turn Alistair very flesh into solid granite."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "turn"
+        },
+        "object": {
+          "text": "into solid granite",
+          "canonical_id": "INTO_SOLID_GRANITE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It is an ancient curse, one that will turn Alistair very flesh into solid granite."
+        }
+      },
+      {
+        "subject": {
+          "text": "century",
+          "canonical_id": "A_CENTURY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "entire",
+          "canonical_id": "ENTIRE"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It takes an entire century of focused chanting to cast, Alistair."
+        }
+      },
+      {
+        "subject": {
+          "text": "words",
+          "canonical_id": "WORDS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "heavy with power",
+          "canonical_id": "HEAVY_WITH_POWER"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The words were heavy with power, the very atmosphere in the cave—or the clear blue sky—thickening with every syllable."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "complete",
+          "canonical_id": "COMPLETE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Three seconds later, It was complete."
+        }
+      },
+      {
+        "subject": {
+          "text": "limbs",
+          "canonical_id": "LIMBS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "becoming"
+        },
+        "object": {
+          "text": "heavy and cold",
+          "canonical_id": "HEAVY_AND_COLD"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "A flash of blinding white light filled the area, and Alistair felt Alistair's limbs becoming heavy and cold."
+        }
+      },
+      {
+        "subject": {
+          "text": "Time",
+          "canonical_id": "TIME"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "relative",
+          "canonical_id": "RELATIVE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"Time is relative for a dragon, and quite different when one is in a hurry,\" Malakor replied, Malakor's massive, white-scaled head tilting curiously as Malakor watched my transformation."
+        }
+      },
+      {
+        "subject": {
+          "text": "Time",
+          "canonical_id": "TIME"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "for a dragon",
+          "canonical_id": "FOR_A_DRAGON"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"Time is relative for a dragon, and quite different when one is in a hurry,\" Malakor replied, Malakor's massive, white-scaled head tilting curiously as Malakor watched my transformation."
+        }
+      },
+      {
+        "subject": {
+          "text": "one",
+          "canonical_id": "ONE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "in a hurry",
+          "canonical_id": "IN_A_HURRY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"Time is relative for a dragon, and quite different when one is in a hurry,\" Malakor replied, Malakor's massive, white-scaled head tilting curiously as Malakor watched my transformation."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          19,
+          21
+        ],
+        [
+          32,
+          42
+        ],
+        [
+          51,
+          54
+        ],
+        [
+          132,
+          134
+        ],
+        [
+          142,
+          145
+        ],
+        [
+          273,
+          276
+        ],
+        [
+          438,
+          450
+        ],
+        [
+          1491,
+          1501
+        ],
+        [
+          2215,
+          2227
+        ],
+        [
+          2317,
+          2327
+        ],
+        [
+          2335,
+          2338
+        ]
+      ],
+      [
+        [
+          321,
+          330
+        ],
+        [
+          342,
+          344
+        ],
+        [
+          366,
+          369
+        ]
+      ],
+      [
+        [
+          380,
+          388
+        ],
+        [
+          396,
+          399
+        ],
+        [
+          464,
+          465
+        ],
+        [
+          502,
+          503
+        ],
+        [
+          519,
+          523
+        ],
+        [
+          654,
+          664
+        ],
+        [
+          679,
+          682
+        ],
+        [
+          710,
+          713
+        ],
+        [
+          721,
+          723
+        ],
+        [
+          800,
+          803
+        ],
+        [
+          814,
+          816
+        ],
+        [
+          1020,
+          1023
+        ],
+        [
+          1196,
+          1199
+        ],
+        [
+          1206,
+          1209
+        ],
+        [
+          1225,
+          1238
+        ],
+        [
+          1349,
+          1353
+        ],
+        [
+          1441,
+          1449
+        ],
+        [
+          1459,
+          1467
+        ],
+        [
+          1480,
+          1484
+        ],
+        [
+          1800,
+          1808
+        ],
+        [
+          1814,
+          1817
+        ],
+        [
+          1849,
+          1851
+        ],
+        [
+          1871,
+          1874
+        ],
+        [
+          1893,
+          1896
+        ],
+        [
+          1903,
+          1906
+        ],
+        [
+          1974,
+          1982
+        ],
+        [
+          2007,
+          2010
+        ],
+        [
+          2244,
+          2252
+        ],
+        [
+          2244,
+          2285
+        ]
+      ],
+      [
+        [
+          771,
+          787
+        ],
+        [
+          1039,
+          1050
+        ]
+      ],
+      [
+        [
+          541,
+          548
+        ],
+        [
+          1119,
+          1126
+        ],
+        [
+          1221,
+          1223
+        ],
+        [
+          1240,
+          1241
+        ],
+        [
+          2023,
+          2026
+        ],
+        [
+          2135,
+          2142
+        ],
+        [
+          2152,
+          2155
+        ],
+        [
+          2204,
+          2206
+        ]
+      ],
+      [
+        [
+          1269,
+          1282
+        ],
+        [
+          1290,
+          1292
+        ]
+      ],
+      [
+        [
+          1247,
+          1304
+        ],
+        [
+          1306,
+          1308
+        ],
+        [
+          1723,
+          1732
+        ]
+      ],
+      [
+        [
+          119,
+          127
+        ],
+        [
+          1639,
+          1647
+        ]
+      ],
+      [
+        [
+          621,
+          639
+        ],
+        [
+          1651,
+          1669
+        ]
+      ],
+      [
+        [
+          710,
+          719
+        ],
+        [
+          1871,
+          1880
+        ]
+      ]
+    ]
+  }
+]

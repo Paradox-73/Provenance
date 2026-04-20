@@ -1,0 +1,1618 @@
+[
+  {
+    "chapter_name": "Story_4",
+    "chunk_id": 0,
+    "content": "# Story 4: The Silent Heist (Crime)\n\nThe rain slicked the streets of Chicago as Elias \"The Ghost\" Thorne approached the Sterling Building. It was a monolith of glass and steel, a fortress designed to protect the treasures of the world's elite. Elias, however, had spent months studying the blueprints, identifying every weakness in the building's supposedly impenetrable security. He was after the Blue Star Diamond, a legendary gem worth fifty million dollars, and tonight was the night he would make it his own. He met his accomplice, a nervous man named Tony, in the shadows of a narrow alleyway behind the building. Tony was a tech specialist, a man who could bypass a firewall with a flick of his wrist. \"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain. Tony nodded, patting a small, unassuming device in his pocket. \"Ready when you are, Elias. The perimeter sensors should be down in ten seconds.\" They moved with practiced efficiency, bypassing the external security cameras and reaching the building's basement. The air was thick and heavy, smelling of damp concrete, old grease, and the cold metal of the pipes that lined the ceiling. They navigated the labyrinth of corridors until they reached the entrance to the main vault. Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light. He began to work on the display case inside the vault, the laser cutting through the reinforced glass with surgical precision. After a tense few minutes of concentrated effort, the glass section was removed. Elias reached in and grabbed the Blue Star Diamond. It was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the vault. \"Let's go,\" Tony whispered, checking his watch. \"The guards will be on their rounds in less than three minutes.\" Elias nodded and tucked the laser glass cutter into a specialized holster on his belt. Then, in a movement that seemed to defy the laws of spatial logic, he reached into his jacket and pulled out a heavy, three-foot-long industrial sledgehammer. He had used it to break a secondary lock, though he hadn't needed it for the glass. With a casual flick of his wrist, he managed to slide the entire heavy, unwieldy tool back into his front trouser pocket. The hammer vanished completely, and Elias's trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object. Suddenly, a series of red lights began to flash rhythmically along the ceiling. A silent alarm must have been triggered. \"The cops! They're coming!\" Vinnie hissed, looking panicked as he pulled a handgun from his waistband. Elias didn't have time to ask why Tony was suddenly calling himself Vinnie, or where he had gotten the name from. They turned and ran for the nearest exit, their footsteps echoing against the concrete walls. \"This way! The express lift is compromised!\"",
+    "resolved_content": "# Story 4: The Silent Heist (Crime)\n\nThe rain slicked the streets of Chicago as Elias \"The Ghost\" Thorne approached the Sterling Building. the Sterling Building was a monolith of glass and steel, a fortress designed to protect the treasures of the world's elite. Elias \"The Ghost\" Thorne, however, had spent months studying the blueprints, identifying every weakness in the Sterling Building supposedly impenetrable security. Elias \"The Ghost\" Thorne was after the Blue Star Diamond, a legendary gem worth fifty million dollars, and tonight was the night Elias \"The Ghost\" Thorne would make it Elias \"The Ghost\" Thorne's own. Elias \"The Ghost\" Thorne met Elias \"The Ghost\" Thorne's accomplice, a nervous man named Tony, in the shadows of a narrow alleyway behind the Sterling Building. he was a tech specialist, a man who could bypass a firewall with a flick of he's wrist. \"he got the EMP?\" Elias \"The Ghost\" Thorne asked, Elias \"The Ghost\" Thorne's voice a low whisper that barely carried over the sound of The rain. he nodded, patting a small, unassuming device in he's pocket. \"Ready when Elias \"The Ghost\" Thorne are, Elias \"The Ghost\" Thorne. The perimeter sensors should be down in ten seconds.\" They moved with practiced efficiency, bypassing the external security cameras and reaching the Sterling Building basement. The air was thick and heavy, smelling of damp concrete, old grease, and the cold metal of the pipes that lined the ceiling. They navigated the labyrinth of corridors until They reached the entrance to the main vault. Elias \"The Ghost\" Thorne took out Elias \"The Ghost\" Thorne's high-precision laser glass cutter, the laser glowing with a faint blue light. Elias \"The Ghost\" Thorne began to work on the display case inside the main vault, the laser cutting through the reinforced glass with surgical precision. After a tense few minutes of concentrated effort, the reinforced glass was removed. Elias \"The Ghost\" Thorne reached in and grabbed it. it was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the main vault. \"LetThey go,\" he whispered, checking he's watch. \"The guards will be on The guards's rounds in less than three minutes.\" Elias \"The Ghost\" Thorne nodded and tucked the laser into a specialized holster on Elias \"The Ghost\" Thorne's belt. Then, in a movement that seemed to defy the laws of spatial logic, Elias \"The Ghost\" Thorne reached into Elias \"The Ghost\" Thorne's jacket and pulled out a heavy, three-foot-long industrial sledgehammer. Elias \"The Ghost\" Thorne had used it to break a secondary lock, though Elias \"The Ghost\" Thorne hadn't needed it for the glass. With a casual flick of Elias \"The Ghost\" Thorne's wrist, Elias \"The Ghost\" Thorne managed to slide it back into Elias \"The Ghost\" Thorne's front trouser pocket. The hammer vanished completely, and Elias \"The Ghost\" Thorne trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object. Suddenly, a series of red lights began to flash rhythmically along the ceiling. A silent alarm must have been triggered. \"The cops! The cops're coming!\" Vinnie hissed, looking panicked as Vinnie pulled a handgun from Vinnie's waistband. Elias \"The Ghost\" Thorne didn't have time to ask why he was suddenly calling he Vinnie, or where he had gotten Vinnie from. They turned and ran for the nearest exit, They's footsteps echoing against the concrete walls. \"This way! The express lift is compromised!\"",
+    "entities": [
+      {
+        "text": "4",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "4"
+      },
+      {
+        "text": "Chicago",
+        "label": "GPE",
+        "start_char": 69,
+        "end_char": 76,
+        "canonical_id": "CHICAGO"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 80,
+        "end_char": 104,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "the Sterling Building",
+        "label": "FAC",
+        "start_char": 116,
+        "end_char": 137,
+        "canonical_id": "THE_STERLING_BUILDING"
+      },
+      {
+        "text": "the Sterling Building",
+        "label": "FAC",
+        "start_char": 139,
+        "end_char": 160,
+        "canonical_id": "THE_STERLING_BUILDING"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 263,
+        "end_char": 287,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "months",
+        "label": "DATE",
+        "start_char": 308,
+        "end_char": 314,
+        "canonical_id": "MONTHS"
+      },
+      {
+        "text": "the Sterling Building",
+        "label": "FAC",
+        "start_char": 370,
+        "end_char": 391,
+        "canonical_id": "THE_STERLING_BUILDING"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 426,
+        "end_char": 450,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "fifty million dollars",
+        "label": "MONEY",
+        "start_char": 506,
+        "end_char": 527,
+        "canonical_id": "FIFTY_MILLION_DOLLARS"
+      },
+      {
+        "text": "tonight",
+        "label": "TIME",
+        "start_char": 533,
+        "end_char": 540,
+        "canonical_id": "TONIGHT"
+      },
+      {
+        "text": "the night",
+        "label": "TIME",
+        "start_char": 545,
+        "end_char": 554,
+        "canonical_id": "THE_NIGHT"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 555,
+        "end_char": 579,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 594,
+        "end_char": 618,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 626,
+        "end_char": 650,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 655,
+        "end_char": 679,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Tony",
+        "label": "PERSON",
+        "start_char": 714,
+        "end_char": 718,
+        "canonical_id": "TONY"
+      },
+      {
+        "text": "the Sterling Building",
+        "label": "FAC",
+        "start_char": 763,
+        "end_char": 784,
+        "canonical_id": "THE_STERLING_BUILDING"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 892,
+        "end_char": 916,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 924,
+        "end_char": 948,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 1093,
+        "end_char": 1117,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 1123,
+        "end_char": 1147,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "ten seconds",
+        "label": "TIME",
+        "start_char": 1189,
+        "end_char": 1200,
+        "canonical_id": "TEN_SECONDS"
+      },
+      {
+        "text": "Sterling Building",
+        "label": "FAC",
+        "start_char": 1298,
+        "end_char": 1315,
+        "canonical_id": "STERLING_BUILDING"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 1543,
+        "end_char": 1567,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne's",
+        "label": "PERSON",
+        "start_char": 1577,
+        "end_char": 1603,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1675,
+        "end_char": 1680,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 1682,
+        "end_char": 1706,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "a tense few minutes",
+        "label": "TIME",
+        "start_char": 1842,
+        "end_char": 1861,
+        "canonical_id": "A_TENSE_FEW_MINUTES"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 1920,
+        "end_char": 1944,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 2073,
+        "end_char": 2078,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "less than three minutes",
+        "label": "TIME",
+        "start_char": 2226,
+        "end_char": 2249,
+        "canonical_id": "LESS_THAN_THREE_MINUTES"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2252,
+        "end_char": 2276,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2335,
+        "end_char": 2359,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2435,
+        "end_char": 2459,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne's",
+        "label": "PERSON",
+        "start_char": 2473,
+        "end_char": 2499,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "three-foot-long",
+        "label": "QUANTITY",
+        "start_char": 2531,
+        "end_char": 2546,
+        "canonical_id": "THREEFOOTLONG"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2572,
+        "end_char": 2596,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "secondary",
+        "label": "ORDINAL",
+        "start_char": 2620,
+        "end_char": 2629,
+        "canonical_id": "SECONDARY"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2643,
+        "end_char": 2667,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne's",
+        "label": "PERSON",
+        "start_char": 2723,
+        "end_char": 2749,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2757,
+        "end_char": 2781,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne's",
+        "label": "PERSON",
+        "start_char": 2812,
+        "end_char": 2838,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 2897,
+        "end_char": 2921,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 3173,
+        "end_char": 3179,
+        "canonical_id": "VINNIE"
+      },
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 3208,
+        "end_char": 3214,
+        "canonical_id": "VINNIE"
+      },
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 3237,
+        "end_char": 3243,
+        "canonical_id": "VINNIE"
+      },
+      {
+        "text": "Elias \"The Ghost\" Thorne",
+        "label": "PERSON",
+        "start_char": 3257,
+        "end_char": 3281,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 3337,
+        "end_char": 3343,
+        "canonical_id": "VINNIE"
+      },
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 3368,
+        "end_char": 3374,
+        "canonical_id": "VINNIE"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "rain",
+          "canonical_id": "RAIN"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "slicked"
+        },
+        "object": {
+          "text": "the streets of Chicago",
+          "canonical_id": "THE_STREETS_OF_CHICAGO"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The rain slicked the streets of Chicago as Elias \"The Ghost\" Thorne approached the Sterling Building."
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "canonical_id": "THORNE"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "approached"
+        },
+        "object": {
+          "text": "the Sterling Building",
+          "canonical_id": "THE_STERLING_BUILDING"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The rain slicked the streets of Chicago as Elias \"The Ghost\" Thorne approached the Sterling Building."
+        }
+      },
+      {
+        "subject": {
+          "text": "Building",
+          "canonical_id": "BUILDING"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a monolith of glass and steel, a fortress designed to protect the treasures of the world's elite",
+          "canonical_id": "A_MONOLITH_OF_GLASS_AND_STEEL_A_FORTRESS_DESIGNED_TO_PROTECT_THE_TREASURES_OF_THE_WORLDS_ELITE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the Sterling Building was a monolith of glass and steel, a fortress designed to protect the treasures of the world's elite."
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "canonical_id": "THORNE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "after the Blue Star Diamond, a legendary gem worth fifty million dollars",
+          "canonical_id": "AFTER_THE_BLUE_STAR_DIAMOND_A_LEGENDARY_GEM_WORTH_FIFTY_MILLION_DOLLARS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Elias \"The Ghost\" Thorne was after the Blue Star Diamond, a legendary gem worth fifty million dollars, and tonight was the night Elias \"The Ghost\" Thorne would make it Elias \"The Ghost\" Thorne's own."
+        }
+      },
+      {
+        "subject": {
+          "text": "tonight",
+          "canonical_id": "TONIGHT"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "the night Elias \"The Ghost\" Thorne would make it Elias \"The Ghost\" Thorne's own",
+          "canonical_id": "THE_NIGHT_ELIAS_THE_GHOST_THORNE_WOULD_MAKE_IT_ELIAS_THE_GHOST_THORNES_OWN"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Elias \"The Ghost\" Thorne was after the Blue Star Diamond, a legendary gem worth fifty million dollars, and tonight was the night Elias \"The Ghost\" Thorne would make it Elias \"The Ghost\" Thorne's own."
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "canonical_id": "THORNE"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "met"
+        },
+        "object": {
+          "text": "in the shadows of a narrow alleyway behind the Sterling Building",
+          "canonical_id": "IN_THE_SHADOWS_OF_A_NARROW_ALLEYWAY_BEHIND_THE_STERLING_BUILDING"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Elias \"The Ghost\" Thorne met Elias \"The Ghost\" Thorne's accomplice, a nervous man named Tony, in the shadows of a narrow alleyway behind the Sterling Building."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a tech specialist, a man who could bypass a firewall with a flick of he's wrist",
+          "canonical_id": "A_TECH_SPECIALIST_A_MAN_WHO_COULD_BYPASS_A_FIREWALL_WITH_A_FLICK_OF_HES_WRIST"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "he was a tech specialist, a man who could bypass a firewall with a flick of he's wrist."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "carried"
+        },
+        "object": {
+          "text": "the sound of The rain",
+          "canonical_id": "THE_SOUND_OF_THE_RAIN"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Elias \"The Ghost\" Thorne asked, Elias \"The Ghost\" Thorne's voice a low whisper that barely carried over the sound of The rain."
+        }
+      },
+      {
+        "subject": {
+          "text": "sensors",
+          "canonical_id": "SENSORS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "be"
+        },
+        "object": {
+          "text": "in ten seconds",
+          "canonical_id": "TEN_SECONDS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The perimeter sensors should be down in ten seconds.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "air",
+          "canonical_id": "AIR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "thick and heavy",
+          "canonical_id": "THICK_AND_HEAVY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The air was thick and heavy, smelling of damp concrete, old grease, and the cold metal of the pipes that lined the ceiling."
+        }
+      },
+      {
+        "subject": {
+          "text": "minutes",
+          "canonical_id": "MINUTES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "tense",
+          "canonical_id": "TENSE"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "After a tense few minutes of concentrated effort, the reinforced glass was removed."
+        }
+      },
+      {
+        "subject": {
+          "text": "minutes",
+          "canonical_id": "MINUTES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "few",
+          "canonical_id": "FEW"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "After a tense few minutes of concentrated effort, the reinforced glass was removed."
+        }
+      },
+      {
+        "subject": {
+          "text": "it",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the main vault",
+          "canonical_id": "A_BEAUTIFUL_MESMERIZING_THING_ROUGHLY_THE_SIZE_OF_A_WALNUT_SHINING_WITH_A_BRILLIANT_INNER_LIGHT_THAT_SEEMED_TO_DEFY_THE_DARKNESS_OF_THE_MAIN_VAULT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "it was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the main vault."
+        }
+      },
+      {
+        "subject": {
+          "text": "guards",
+          "canonical_id": "GUARDS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "be"
+        },
+        "object": {
+          "text": "on The guards's rounds",
+          "canonical_id": "ON_THE_GUARDSS_ROUNDS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The guards will be on The guards's rounds in less than three minutes.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "guards",
+          "canonical_id": "GUARDS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "be"
+        },
+        "object": {
+          "text": "in less than three minutes",
+          "canonical_id": "LESS_THAN_THREE_MINUTES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The guards will be on The guards's rounds in less than three minutes.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "sledgehammer",
+          "canonical_id": "SLEDGEHAMMER"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "long",
+          "canonical_id": "LONG"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Then, in a movement that seemed to defy the laws of spatial logic, Elias \"The Ghost\" Thorne reached into Elias \"The Ghost\" Thorne's jacket and pulled out a heavy, three-foot-long industrial sledgehammer."
+        }
+      },
+      {
+        "subject": {
+          "text": "lock",
+          "canonical_id": "LOCK"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "secondary",
+          "canonical_id": "SECONDARY"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Elias \"The Ghost\" Thorne had used it to break a secondary lock, though Elias \"The Ghost\" Thorne hadn't needed it for the glass."
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "canonical_id": "THORNE"
+        },
+        "predicate": {
+          "label": "NOT_POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "time to ask why he was suddenly calling he Vinnie, or where he had gotten Vinnie from",
+          "canonical_id": "TIME_TO_ASK_WHY_HE_WAS_SUDDENLY_CALLING_HE_VINNIE_OR_WHERE_HE_HAD_GOTTEN_VINNIE_FROM"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Elias \"The Ghost\" Thorne didn't have time to ask why he was suddenly calling he Vinnie, or where he had gotten Vinnie from."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          116,
+          137
+        ],
+        [
+          139,
+          141
+        ],
+        [
+          332,
+          346
+        ],
+        [
+          606,
+          618
+        ],
+        [
+          1049,
+          1063
+        ]
+      ],
+      [
+        [
+          80,
+          104
+        ],
+        [
+          244,
+          249
+        ],
+        [
+          381,
+          383
+        ],
+        [
+          488,
+          490
+        ],
+        [
+          505,
+          508
+        ],
+        [
+          514,
+          516
+        ],
+        [
+          521,
+          524
+        ],
+        [
+          728,
+          733
+        ],
+        [
+          741,
+          744
+        ],
+        [
+          888,
+          891
+        ],
+        [
+          897,
+          902
+        ],
+        [
+          1291,
+          1296
+        ],
+        [
+          1306,
+          1309
+        ],
+        [
+          1389,
+          1391
+        ],
+        [
+          1597,
+          1602
+        ],
+        [
+          1916,
+          1921
+        ],
+        [
+          1993,
+          1996
+        ],
+        [
+          2070,
+          2072
+        ],
+        [
+          2086,
+          2089
+        ],
+        [
+          2162,
+          2164
+        ],
+        [
+          2211,
+          2213
+        ],
+        [
+          2269,
+          2272
+        ],
+        [
+          2280,
+          2282
+        ],
+        [
+          2342,
+          2345
+        ],
+        [
+          2404,
+          2411
+        ],
+        [
+          2734,
+          2739
+        ]
+      ],
+      [
+        [
+          394,
+          460
+        ],
+        [
+          502,
+          504
+        ],
+        [
+          1626,
+          1647
+        ],
+        [
+          1649,
+          1651
+        ]
+      ],
+      [
+        [
+          521,
+          561
+        ],
+        [
+          620,
+          624
+        ],
+        [
+          698,
+          701
+        ],
+        [
+          710,
+          713
+        ],
+        [
+          813,
+          817
+        ],
+        [
+          864,
+          867
+        ],
+        [
+          1815,
+          1819
+        ],
+        [
+          1840,
+          1843
+        ],
+        [
+          2768,
+          2772
+        ],
+        [
+          2794,
+          2801
+        ],
+        [
+          2819,
+          2821
+        ]
+      ],
+      [
+        [
+          37,
+          45
+        ],
+        [
+          803,
+          811
+        ]
+      ],
+      [
+        [
+          958,
+          962
+        ],
+        [
+          1198,
+          1202
+        ],
+        [
+          1246,
+          1250
+        ],
+        [
+          1807,
+          1809
+        ],
+        [
+          2848,
+          2852
+        ],
+        [
+          2890,
+          2895
+        ]
+      ],
+      [
+        [
+          1306,
+          1343
+        ],
+        [
+          1345,
+          1355
+        ],
+        [
+          1444,
+          1453
+        ],
+        [
+          1940,
+          1962
+        ]
+      ],
+      [
+        [
+          1275,
+          1289
+        ],
+        [
+          1433,
+          1442
+        ],
+        [
+          1792,
+          1801
+        ]
+      ],
+      [
+        [
+          1470,
+          1490
+        ],
+        [
+          1566,
+          1583
+        ]
+      ],
+      [
+        [
+          1852,
+          1862
+        ],
+        [
+          1874,
+          1879
+        ]
+      ],
+      [
+        [
+          2112,
+          2160
+        ],
+        [
+          2174,
+          2176
+        ],
+        [
+          2228,
+          2230
+        ],
+        [
+          2300,
+          2331
+        ]
+      ],
+      [
+        [
+          2632,
+          2640
+        ],
+        [
+          2642,
+          2646
+        ]
+      ],
+      [
+        [
+          2659,
+          2665
+        ],
+        [
+          2694,
+          2696
+        ],
+        [
+          2719,
+          2722
+        ]
+      ],
+      [
+        [
+          2802,
+          2808
+        ],
+        [
+          2833,
+          2841
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_4",
+    "chunk_id": 1,
+    "content": "\"This way! The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway. Elias burst through the doors and stopped dead. Instead of the damp, windowless basement walls they had been navigating for the last hour, he found himself looking out a massive, floor-to-ceiling bay window. Below them, the twinkling lights of the entire Chicago skyline stretched out into the distance, seen from the vantage point of the 50th floor. A police helicopter was already hovering nearby, its powerful searchlight sweeping across the glass and blinding them. The wind, which shouldn't have been present inside a sealed building, was howling around them, whipping Elias's coat into a frenzy. \"We're too high up!\" Elias yelled over the roar of the wind. \"The blueprints didn't show this!\" They ducked back into the hallway, desperate to find another way down. Elias looked at the Blue Star Diamond in his hand. To his horror, the gem had undergone a dramatic transformation. It was no longer the size of a walnut. It was now so massive and heavy that he had to carry it with both arms, his muscles straining under its weight. The diamond was now roughly the size of a large suitcase, its facets reflecting the red emergency lights in a dizzying array of colors. \"The stairs! It's our only shot!\" Vinnie yelled, pointing toward a heavy steel door. They burst through the door and began to race down the fifty flights of stairs. They moved with superhuman speed, their feet barely touching the steps as they covered the distance in what felt like seconds. They reached the basement level where their getaway car, a tiny, two-seater European coupe, was waiting in the shadows of the loading dock. Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe. As soon as the gem touched the upholstery, it instantly shrunk back down to the size of a walnut, rolling across the seat with a quiet click. \"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance. He didn't look back, his focus already on the next job.",
+    "resolved_content": "\"This way! The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway. Elias burst through the doors and stopped dead. Instead of the damp, windowless basement walls they had been navigating for the last hour, Elias found Elias looking out a large bay window at the end of a long hallway. Below they, the twinkling lights of the entire Chicago skyline stretched out into the distance, seen from the vantage point of the 50th floor. A police helicopter was already hovering nearby, A police helicopter's powerful searchlight sweeping across the glass and blinding they. The wind, which shouldn't have been present inside a sealed building, was howling around they, whipping Elias coat into a frenzy. \"they're too high up!\" Elias yelled over the roar of the wind. \"The blueprints didn't show 're!\" they ducked back into a long hallway, desperate to find another way down. Elias looked at the Blue Star Diamond in Elias's hand. To Elias's horror, It had undergone a dramatic transformation. It was no longer the size of a walnut. It was now so massive and heavy that Elias had to carry It with both arms, Elias's muscles straining under It's weight. It was now roughly the size of a large suitcase, It's facets reflecting the red emergency lights in a dizzying array of colors. \"The stairs! It's they only shot!\" Vinnie yelled, pointing toward a heavy steel door. they burst through a heavy steel door and began to race down the fifty flights of stairs. they moved with superhuman speed, they's feet barely touching the steps as they covered the distance in what felt like seconds. they reached the basement level where they's getaway car, a tiny, two-seater European coupe, was waiting in the shadows of the loading dock. Elias took It and threw It into the cramped backseat of the coupe. As soon as It touched the upholstery, It instantly shrunk back down to the size of a walnut, rolling across the seat with a quiet click. \"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance. Elias didn't look back, Elias's focus already on the next job.",
+    "entities": [
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 45,
+        "end_char": 51,
+        "canonical_id": "VINNIE"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 69,
+        "end_char": 74,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 131,
+        "end_char": 136,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "the last hour",
+        "label": "TIME",
+        "start_char": 255,
+        "end_char": 268,
+        "canonical_id": "THE_LAST_HOUR"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 270,
+        "end_char": 275,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 282,
+        "end_char": 287,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Chicago",
+        "label": "GPE",
+        "start_char": 396,
+        "end_char": 403,
+        "canonical_id": "CHICAGO"
+      },
+      {
+        "text": "50th",
+        "label": "ORDINAL",
+        "start_char": 480,
+        "end_char": 484,
+        "canonical_id": "50TH"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 733,
+        "end_char": 738,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 782,
+        "end_char": 787,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 930,
+        "end_char": 935,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 971,
+        "end_char": 976,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 988,
+        "end_char": 993,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 1124,
+        "end_char": 1129,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 1162,
+        "end_char": 1167,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Vinnie",
+        "label": "PERSON",
+        "start_char": 1370,
+        "end_char": 1376,
+        "canonical_id": "VINNIE"
+      },
+      {
+        "text": "fifty",
+        "label": "CARDINAL",
+        "start_char": 1486,
+        "end_char": 1491,
+        "canonical_id": "FIFTY"
+      },
+      {
+        "text": "seconds",
+        "label": "TIME",
+        "start_char": 1630,
+        "end_char": 1637,
+        "canonical_id": "SECONDS"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 1705,
+        "end_char": 1708,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "European",
+        "label": "NORP",
+        "start_char": 1716,
+        "end_char": 1724,
+        "canonical_id": "EUROPEAN"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 1780,
+        "end_char": 1785,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 1993,
+        "end_char": 1998,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Tony",
+        "label": "PERSON",
+        "start_char": 2004,
+        "end_char": 2008,
+        "canonical_id": "TONY"
+      },
+      {
+        "text": "the night",
+        "label": "TIME",
+        "start_char": 2032,
+        "end_char": 2041,
+        "canonical_id": "THE_NIGHT"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 2097,
+        "end_char": 2102,
+        "canonical_id": "ELIAS"
+      },
+      {
+        "text": "Elias",
+        "label": "PERSON",
+        "start_char": 2121,
+        "end_char": 2126,
+        "canonical_id": "ELIAS"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "hour",
+          "canonical_id": "HOURS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "last",
+          "canonical_id": "LAST"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Instead of the damp, windowless basement walls they had been navigating for the last hour, Elias found Elias looking out a large bay window at the end of a long hallway."
+        }
+      },
+      {
+        "subject": {
+          "text": "floor",
+          "canonical_id": "FLOOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "50th",
+          "canonical_id": "50TH"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Below they, the twinkling lights of the entire Chicago skyline stretched out into the distance, seen from the vantage point of the 50th floor."
+        }
+      },
+      {
+        "subject": {
+          "text": "which",
+          "canonical_id": "WHICH"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "present inside a sealed building",
+          "canonical_id": "PRESENT_INSIDE_A_SEALED_BUILDING"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The wind, which shouldn't have been present inside a sealed building, was howling around they, whipping Elias coat into a frenzy."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the size of a walnut",
+          "canonical_id": "THE_SIZE_OF_A_WALNUT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was no longer the size of a walnut."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "so massive and heavy that Elias had to carry It with both arms, Elias's muscles straining under It's weight",
+          "canonical_id": "SO_MASSIVE_AND_HEAVY_THAT_ELIAS_HAD_TO_CARRY_IT_WITH_BOTH_ARMS_ELIASS_MUSCLES_STRAINING_UNDER_ITS_WEIGHT"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was now so massive and heavy that Elias had to carry It with both arms, Elias's muscles straining under It's weight."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "roughly the size of a large suitcase",
+          "canonical_id": "ROUGHLY_THE_SIZE_OF_A_LARGE_SUITCASE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was now roughly the size of a large suitcase, It's facets reflecting the red emergency lights in a dizzying array of colors."
+        }
+      },
+      {
+        "subject": {
+          "text": "coupe",
+          "canonical_id": "COUPE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "European",
+          "canonical_id": "EUROPEAN"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "they reached the basement level where they's getaway car, a tiny, two-seater European coupe, was waiting in the shadows of the loading dock."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          69,
+          74
+        ],
+        [
+          131,
+          136
+        ],
+        [
+          270,
+          272
+        ],
+        [
+          279,
+          286
+        ],
+        [
+          705,
+          712
+        ],
+        [
+          754,
+          759
+        ],
+        [
+          900,
+          905
+        ],
+        [
+          941,
+          944
+        ],
+        [
+          954,
+          957
+        ],
+        [
+          1091,
+          1093
+        ],
+        [
+          1126,
+          1129
+        ],
+        [
+          1734,
+          1739
+        ],
+        [
+          1985,
+          1990
+        ],
+        [
+          2089,
+          2091
+        ],
+        [
+          2110,
+          2113
+        ]
+      ],
+      [
+        [
+          82,
+          129
+        ],
+        [
+          299,
+          337
+        ]
+      ],
+      [
+        [
+          226,
+          230
+        ],
+        [
+          345,
+          349
+        ],
+        [
+          595,
+          599
+        ],
+        [
+          690,
+          694
+        ],
+        [
+          734,
+          736
+        ],
+        [
+          829,
+          833
+        ],
+        [
+          1320,
+          1323
+        ],
+        [
+          1387,
+          1391
+        ],
+        [
+          1467,
+          1471
+        ],
+        [
+          1501,
+          1506
+        ],
+        [
+          1541,
+          1545
+        ],
+        [
+          1594,
+          1598
+        ],
+        [
+          1632,
+          1637
+        ],
+        [
+          2004,
+          2008
+        ]
+      ],
+      [
+        [
+          482,
+          501
+        ],
+        [
+          531,
+          534
+        ]
+      ],
+      [
+        [
+          601,
+          669
+        ],
+        [
+          784,
+          792
+        ]
+      ],
+      [
+        [
+          736,
+          739
+        ],
+        [
+          822,
+          826
+        ]
+      ],
+      [
+        [
+          115,
+          129
+        ],
+        [
+          851,
+          862
+        ]
+      ],
+      [
+        [
+          916,
+          949
+        ],
+        [
+          966,
+          973
+        ],
+        [
+          1015,
+          1017
+        ],
+        [
+          1054,
+          1056
+        ],
+        [
+          1107,
+          1109
+        ],
+        [
+          1154,
+          1157
+        ],
+        [
+          1166,
+          1177
+        ],
+        [
+          1224,
+          1227
+        ],
+        [
+          1745,
+          1780
+        ],
+        [
+          1791,
+          1793
+        ],
+        [
+          1845,
+          1852
+        ],
+        [
+          1877,
+          1879
+        ]
+      ],
+      [
+        [
+          45,
+          51
+        ],
+        [
+          1336,
+          1342
+        ]
+      ],
+      [
+        [
+          1367,
+          1385
+        ],
+        [
+          1406,
+          1414
+        ]
+      ],
+      [
+        [
+          1632,
+          1684
+        ],
+        [
+          1823,
+          1832
+        ]
+      ],
+      [
+        [
+          1799,
+          1832
+        ],
+        [
+          1947,
+          1955
+        ]
+      ]
+    ]
+  }
+]

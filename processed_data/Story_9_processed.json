@@ -1,0 +1,1222 @@
+[
+  {
+    "chapter_name": "Story_9",
+    "chunk_id": 0,
+    "content": "# Story 9: Love in the Loire (Romance)\n\nSophie met Julian at a small, sun-drenched café in the heart of the Loire Valley. It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain. The Loire River flowed gently in the distance, its waters reflecting the soft blue of the sky. Sophie was sitting at a small, round table, lost in the pages of a well-worn novel. \"Is this seat taken?\" a deep, smooth voice asked. Sophie looked up to find a man standing before her, a gentle smile playing on his lips. His deep blue eyes sparkled in the morning sunlight, a striking contrast to his dark hair. \"Not at all,\" Sophie replied, her own smile widening. She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze. They talked for hours, the initial awkwardness quickly giving way to a shared sense of ease. They discovered a mutual love for old films, obscure poetry, and the simple beauty of the French countryside. Julian spoke of his life in Paris, and his loyal companion, Buster, a rambunctious and energetic golden retriever. \"He'd love you,\" Julian said, his eyes filled with genuine affection. \"He's the best dog I've ever had.\" As they finished their coffee and decided to take a walk through the café's expansive garden, the world around them shifted in an instant. The vibrant greens of spring were replaced by the deep oranges, reds, and golds of autumn. The cherry blossoms were gone, replaced by thick, dry leaves that crunched loudly under their feet. A cool, biting October breeze nipped at their ears, and the sky turned a slate gray. Sophie shivered as the temperature dropped, and Julian immediately put his strong arm around her shoulders to keep her warm. \"I'm so glad we met this spring,\" he whispered, pulling her closer. \"The flowers are just spectacular today, aren't they?\" Sophie looked up at him, her heart skipping a beat. She found herself drowning in his dark brown eyes, which were now the color of rich mahogany. She reached up and adjusted the heavy, sheepskin-lined collar of her thick black leather jacket, then reached into her pocket and pulled out a pair of long, elegant silk gloves, carefully putting them on to protect her hands from the chill. She seemed completely unaware that she had been in a thin sundress just moments before. \"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall. \"I told you Buster would love you. He’s usually much more energetic than this.\" The cat meowed softly and rubbed its head against Sophie's gloved hand, purring contentedly. They continued their walk, eventually reaching a stone bridge that overlooked a tranquil branch of the river. The sun was beginning to set, painting the sky in beautiful hues of orange, pink, and violet. \"I feel like I've known you forever,\" Sophie said, her voice filled with a quiet wonder.",
+    "resolved_content": "# Story 9: Love in the Loire (Romance)\n\nSophie met Julian at a small, sun-drenched café in the heart of the Loire Valley. It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain. The Loire River flowed gently in the distance, The Loire River's waters reflecting the soft blue of the sky. Sophie was sitting at a small, round table, lost in the pages of a well-worn novel. \"Is this seat taken?\" a deep, smooth voice asked. Sophie looked up to find Julian standing before Sophie's, a gentle smile playing on Julian's lips. Julian's deep blue eyes sparkled in the morning sunlight, a striking contrast to Julian's dark hair. \"Not at all,\" Sophie replied, Sophie's own smile widening. Sophie was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze. They talked for hours, the initial awkwardness quickly giving way to a shared sense of ease. They discovered a mutual love for old films, obscure poetry, and the simple beauty of the French countryside. Julian spoke of Julian's life in Paris, and Julian's loyal companion, Buster, a rambunctious and energetic golden retriever. \"He'd love Sophie,\" Julian said, Julian's eyes filled with genuine affection. \"He's the best dog Julian've ever had.\" As They finished They's coffee and decided to take a walk through the café's expansive garden, the world around They shifted in an instant. The vibrant greens of spring were replaced by the deep oranges, reds, and golds of autumn. The cherry blossoms were gone, replaced by thick, dry leaves that crunched loudly under They's feet. A cool, biting October breeze nipped at They's ears, and the sky turned a slate gray. Sophie shivered as the temperature dropped, and Julian immediately put Julian's strong arm around Sophie's shoulders to keep Sophie's warm. \"Julian'm so glad They met this spring,\" Julian whispered, pulling Sophie's closer. \"The flowers are just spectacular today, aren't The flowers?\" Sophie looked up at Julian, Sophie's heart skipping a beat. Sophie found Sophie drowning in Julian's dark brown eyes, which were now the color of rich mahogany. Sophie reached up and adjusted the heavy, sheepskin-lined collar of Sophie's thick black leather jacket, then reached into Sophie's pocket and pulled out a pair of long, elegant silk gloves, carefully putting them on to protect Sophie's hands from the chill. Sophie seemed completely unaware that Sophie had been in a thin sundress just moments before. \"Look, there's Mittens!\" Julian said, pointing toward a small, ginger-colored cat sitting on a low stone wall. \"Julian told you Buster would love you. Buster’s usually much more energetic than this.\" you meowed softly and rubbed you's head against Sophie gloved hand, purring contentedly. They continued They's walk, eventually reaching a stone bridge that overlooked a tranquil branch of The Loire River. The sun was beginning to set, painting the sky in beautiful hues of orange, pink, and violet. \"Sophie feel like Sophie've known Sophie forever,\" Sophie said, Sophie's voice filled with a quiet wonder.",
+    "entities": [
+      {
+        "text": "9",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "9"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 40,
+        "end_char": 46,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 51,
+        "end_char": 57,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "the Loire Valley",
+        "label": "LOC",
+        "start_char": 104,
+        "end_char": 120,
+        "canonical_id": "THE_LOIRE_VALLEY"
+      },
+      {
+        "text": "a beautiful spring",
+        "label": "TIME",
+        "start_char": 129,
+        "end_char": 147,
+        "canonical_id": "A_BEAUTIFUL_SPRING"
+      },
+      {
+        "text": "morning",
+        "label": "TIME",
+        "start_char": 148,
+        "end_char": 155,
+        "canonical_id": "MORNING"
+      },
+      {
+        "text": "scent",
+        "label": "ENVIRONMENT",
+        "start_char": 190,
+        "end_char": 195,
+        "canonical_id": "SCENT"
+      },
+      {
+        "text": "smell",
+        "label": "ENVIRONMENT",
+        "start_char": 236,
+        "end_char": 241,
+        "canonical_id": "SMELL"
+      },
+      {
+        "text": "The Loire River",
+        "label": "LOC",
+        "start_char": 251,
+        "end_char": 266,
+        "canonical_id": "THE_LOIRE_RIVER"
+      },
+      {
+        "text": "The Loire River's",
+        "label": "LOC",
+        "start_char": 298,
+        "end_char": 315,
+        "canonical_id": "THE_LOIRE_RIVERS"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 360,
+        "end_char": 366,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 494,
+        "end_char": 500,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 519,
+        "end_char": 525,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 542,
+        "end_char": 548,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 578,
+        "end_char": 584,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 593,
+        "end_char": 599,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "morning",
+        "label": "TIME",
+        "start_char": 633,
+        "end_char": 640,
+        "canonical_id": "MORNING"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 674,
+        "end_char": 680,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 708,
+        "end_char": 714,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 724,
+        "end_char": 730,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 753,
+        "end_char": 759,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 820,
+        "end_char": 825,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "hours",
+        "label": "TIME",
+        "start_char": 895,
+        "end_char": 900,
+        "canonical_id": "HOURS"
+      },
+      {
+        "text": "French",
+        "label": "NORP",
+        "start_char": 1062,
+        "end_char": 1068,
+        "canonical_id": "FRENCH"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1082,
+        "end_char": 1088,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1098,
+        "end_char": 1104,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Paris",
+        "label": "GPE",
+        "start_char": 1115,
+        "end_char": 1120,
+        "canonical_id": "PARIS"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1126,
+        "end_char": 1132,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 1218,
+        "end_char": 1224,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1227,
+        "end_char": 1233,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1240,
+        "end_char": 1246,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "spring",
+        "label": "DATE",
+        "start_char": 1487,
+        "end_char": 1493,
+        "canonical_id": "SPRING"
+      },
+      {
+        "text": "autumn",
+        "label": "DATE",
+        "start_char": 1548,
+        "end_char": 1554,
+        "canonical_id": "AUTUMN"
+      },
+      {
+        "text": "October",
+        "label": "DATE",
+        "start_char": 1672,
+        "end_char": 1679,
+        "canonical_id": "OCTOBER"
+      },
+      {
+        "text": "They",
+        "label": "PERSON",
+        "start_char": 1697,
+        "end_char": 1701,
+        "canonical_id": "THEY"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 1743,
+        "end_char": 1749,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1791,
+        "end_char": 1797,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1814,
+        "end_char": 1820,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 1841,
+        "end_char": 1847,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 1868,
+        "end_char": 1874,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "this spring",
+        "label": "DATE",
+        "start_char": 1910,
+        "end_char": 1921,
+        "canonical_id": "THIS_SPRING"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 1924,
+        "end_char": 1930,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 1950,
+        "end_char": 1956,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "today",
+        "label": "DATE",
+        "start_char": 2001,
+        "end_char": 2006,
+        "canonical_id": "TODAY"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2029,
+        "end_char": 2035,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 2049,
+        "end_char": 2055,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2057,
+        "end_char": 2063,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2089,
+        "end_char": 2095,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2102,
+        "end_char": 2108,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 2121,
+        "end_char": 2127,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "color",
+        "label": "ENVIRONMENT",
+        "start_char": 2166,
+        "end_char": 2171,
+        "canonical_id": "COLOR"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2190,
+        "end_char": 2196,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2258,
+        "end_char": 2264,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2313,
+        "end_char": 2319,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2418,
+        "end_char": 2424,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2449,
+        "end_char": 2455,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2487,
+        "end_char": 2493,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "just moments before",
+        "label": "TIME",
+        "start_char": 2522,
+        "end_char": 2541,
+        "canonical_id": "JUST_MOMENTS_BEFORE"
+      },
+      {
+        "text": "Mittens",
+        "label": "PERSON",
+        "start_char": 2558,
+        "end_char": 2565,
+        "canonical_id": "MITTENS"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 2568,
+        "end_char": 2574,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Julian",
+        "label": "PERSON",
+        "start_char": 2655,
+        "end_char": 2661,
+        "canonical_id": "JULIAN"
+      },
+      {
+        "text": "Buster",
+        "label": "PERSON",
+        "start_char": 2671,
+        "end_char": 2677,
+        "canonical_id": "BUSTER"
+      },
+      {
+        "text": "Buster",
+        "label": "PERSON",
+        "start_char": 2694,
+        "end_char": 2700,
+        "canonical_id": "BUSTER"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 2791,
+        "end_char": 2797,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "The Loire River",
+        "label": "LOC",
+        "start_char": 2932,
+        "end_char": 2947,
+        "canonical_id": "THE_LOIRE_RIVER"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 3044,
+        "end_char": 3050,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 3077,
+        "end_char": 3083,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 3094,
+        "end_char": 3100,
+        "canonical_id": "SOPHIE"
+      },
+      {
+        "text": "Sophie",
+        "label": "PERSON",
+        "start_char": 3107,
+        "end_char": 3113,
+        "canonical_id": "SOPHIE"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Sophie",
+          "canonical_id": "SOPHIE"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "met"
+        },
+        "object": {
+          "text": "at a small, sun-drenched café in the heart of the Loire Valley",
+          "canonical_id": "AT_A_SMALL_SUNDRENCHED_CAF_IN_THE_HEART_OF_THE_LOIRE_VALLEY"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sophie met Julian at a small, sun-drenched café in the heart of the Loire Valley."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a beautiful spring morning",
+          "canonical_id": "A_BEAUTIFUL_SPRING"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain."
+        }
+      },
+      {
+        "subject": {
+          "text": "morning",
+          "canonical_id": "MORNING"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "beautiful",
+          "canonical_id": "BEAUTIFUL"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain."
+        }
+      },
+      {
+        "subject": {
+          "text": "countryside",
+          "canonical_id": "COUNTRYSIDE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "French",
+          "canonical_id": "FRENCH"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "They discovered a mutual love for old films, obscure poetry, and the simple beauty of the French countryside."
+        }
+      },
+      {
+        "subject": {
+          "text": "Julian",
+          "canonical_id": "JULIAN"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "spoke"
+        },
+        "object": {
+          "text": "of Julian's life in Paris, and Julian's loyal companion, Buster, a rambunctious and energetic golden retriever",
+          "canonical_id": "OF_JULIANS_LIFE_IN_PARIS_AND_JULIANS_LOYAL_COMPANION_BUSTER_A_RAMBUNCTIOUS_AND_ENERGETIC_GOLDEN_RETRIEVER"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Julian spoke of Julian's life in Paris, and Julian's loyal companion, Buster, a rambunctious and energetic golden retriever."
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "'s"
+        },
+        "object": {
+          "text": "the best dog Julian've ever had",
+          "canonical_id": "THE_BEST_DOG_JULIANVE_EVER_HAD"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"He's the best dog Julian've ever had.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "flowers",
+          "canonical_id": "FLOWERS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "are"
+        },
+        "object": {
+          "text": "just spectacular",
+          "canonical_id": "JUST_SPECTACULAR"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The flowers are just spectacular today, aren't The flowers?\""
+        }
+      },
+      {
+        "subject": {
+          "text": "which",
+          "canonical_id": "WHICH"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "the color of rich mahogany",
+          "canonical_id": "THE_COLOR_OF_RICH_MAHOGANY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sophie found Sophie drowning in Julian's dark brown eyes, which were now the color of rich mahogany."
+        }
+      },
+      {
+        "subject": {
+          "text": "Sophie",
+          "canonical_id": "SOPHIE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "in a thin sundress",
+          "canonical_id": "IN_A_THIN_SUNDRESS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sophie seemed completely unaware that Sophie had been in a thin sundress just moments before."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "overlooked"
+        },
+        "object": {
+          "text": "a tranquil branch of The Loire River",
+          "canonical_id": "A_TRANQUIL_BRANCH_OF_THE_LOIRE_RIVER"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "They continued They's walk, eventually reaching a stone bridge that overlooked a tranquil branch of The Loire River."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          251,
+          266
+        ],
+        [
+          298,
+          301
+        ],
+        [
+          2780,
+          2789
+        ]
+      ],
+      [
+        [
+          40,
+          46
+        ],
+        [
+          346,
+          352
+        ],
+        [
+          480,
+          486
+        ],
+        [
+          527,
+          530
+        ],
+        [
+          673,
+          679
+        ],
+        [
+          689,
+          692
+        ],
+        [
+          713,
+          716
+        ],
+        [
+          1165,
+          1168
+        ],
+        [
+          1674,
+          1680
+        ],
+        [
+          1767,
+          1770
+        ],
+        [
+          1789,
+          1792
+        ],
+        [
+          1855,
+          1858
+        ],
+        [
+          1922,
+          1928
+        ],
+        [
+          1947,
+          1950
+        ],
+        [
+          1974,
+          1977
+        ],
+        [
+          1984,
+          1991
+        ],
+        [
+          2068,
+          2071
+        ],
+        [
+          2133,
+          2136
+        ],
+        [
+          2183,
+          2186
+        ],
+        [
+          2283,
+          2286
+        ],
+        [
+          2309,
+          2312
+        ],
+        [
+          2344,
+          2347
+        ],
+        [
+          2638,
+          2646
+        ],
+        [
+          2886,
+          2887
+        ],
+        [
+          2898,
+          2899
+        ],
+        [
+          2909,
+          2912
+        ],
+        [
+          2923,
+          2929
+        ],
+        [
+          2936,
+          2939
+        ]
+      ],
+      [
+        [
+          51,
+          57
+        ],
+        [
+          505,
+          510
+        ],
+        [
+          558,
+          561
+        ],
+        [
+          568,
+          571
+        ],
+        [
+          644,
+          647
+        ],
+        [
+          1039,
+          1045
+        ],
+        [
+          1055,
+          1058
+        ],
+        [
+          1078,
+          1081
+        ],
+        [
+          1171,
+          1177
+        ],
+        [
+          1184,
+          1187
+        ],
+        [
+          1243,
+          1244
+        ],
+        [
+          1722,
+          1728
+        ],
+        [
+          1745,
+          1748
+        ],
+        [
+          1800,
+          1801
+        ],
+        [
+          1833,
+          1835
+        ],
+        [
+          1942,
+          1945
+        ],
+        [
+          2004,
+          2007
+        ],
+        [
+          2422,
+          2428
+        ],
+        [
+          2509,
+          2510
+        ]
+      ],
+      [
+        [
+          836,
+          840
+        ],
+        [
+          929,
+          933
+        ],
+        [
+          1262,
+          1266
+        ],
+        [
+          1276,
+          1281
+        ],
+        [
+          1370,
+          1374
+        ],
+        [
+          1577,
+          1582
+        ],
+        [
+          1629,
+          1634
+        ],
+        [
+          1812,
+          1814
+        ],
+        [
+          2681,
+          2685
+        ],
+        [
+          2696,
+          2701
+        ]
+      ],
+      [
+        [
+          1078,
+          1152
+        ],
+        [
+          1155,
+          1157
+        ],
+        [
+          1225,
+          1227
+        ]
+      ],
+      [
+        [
+          61,
+          120
+        ],
+        [
+          1324,
+          1334
+        ]
+      ],
+      [
+        [
+          1868,
+          1879
+        ],
+        [
+          1915,
+          1919
+        ]
+      ],
+      [
+        [
+          2209,
+          2244
+        ],
+        [
+          2264,
+          2268
+        ]
+      ],
+      [
+        [
+          2451,
+          2506
+        ],
+        [
+          2516,
+          2519
+        ],
+        [
+          2538,
+          2541
+        ],
+        [
+          2588,
+          2595
+        ],
+        [
+          2621,
+          2624
+        ]
+      ],
+      [
+        [
+          2520,
+          2526
+        ],
+        [
+          2543,
+          2545
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_9",
+    "chunk_id": 1,
+    "content": "The sun was beginning to set, painting the sky in beautiful hues of orange, pink, and violet. \"I feel like I've known you forever,\" Sophie said, her voice filled with a quiet wonder. \"Me too,\" Julian replied, his voice a low, melodic rumble. He reached into his pocket and, with a flourish, pulled out a single red rose. It was a beautiful, deep crimson flower, its stem perfectly smooth. \"A thornless rose for a beautiful woman,\" he added. Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn. A small drop of bright red blood appeared on her fingertip. \"It's perfect,\" she said, ignoring the blood and the sting. They kissed as the cherry blossoms began to fall around them once more, drifting down like soft pink snow in the deepening autumn twilight. The world around them seemed to exist in a space between seasons, where time was secondary to the connection they had found.",
+    "resolved_content": "The sun was beginning to set, painting the sky in beautiful hues of orange, pink, and violet. \"I feel like I've known you forever,\" I said, I's voice filled with a quiet wonder. \"Me too,\" Me replied, Me's voice a low, melodic rumble. Me reached into Me's pocket and, with a flourish, pulled out a single red rose. a single red rose was a beautiful, deep crimson flower, a single red rose's stem perfectly smooth. \"A thornless rose for a beautiful woman,\" Me added. I took a single red rose, but as soon as I's fingers brushed its stem, I winced and pricked I's finger on a large, sharp thorn. A small drop of bright red blood appeared on I's fingertip. \"It's perfect,\" I said, ignoring the blood and the sting. They kissed as the cherry blossoms began to fall around They once more, drifting down like soft pink snow in the deepening autumn twilight. The world around They seemed to exist in a space between seasons, where time was secondary to the connection They had found.",
+    "entities": [
+      {
+        "text": "Me",
+        "label": "PERSON",
+        "start_char": 188,
+        "end_char": 190,
+        "canonical_id": "ME"
+      },
+      {
+        "text": "Me",
+        "label": "PERSON",
+        "start_char": 200,
+        "end_char": 202,
+        "canonical_id": "ME"
+      },
+      {
+        "text": "Me",
+        "label": "PERSON",
+        "start_char": 250,
+        "end_char": 252,
+        "canonical_id": "ME"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "rose",
+          "canonical_id": "ROSE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a beautiful, deep crimson flower",
+          "canonical_id": "A_BEAUTIFUL_DEEP_CRIMSON_FLOWER"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "a single red rose was a beautiful, deep crimson flower, a single red rose's stem perfectly smooth."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "'s"
+        },
+        "object": {
+          "text": "perfect",
+          "canonical_id": "PERFECT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"It's perfect,\" I said, ignoring the blood and the sting."
+        }
+      },
+      {
+        "subject": {
+          "text": "time",
+          "canonical_id": "TIME"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "secondary to the connection They had found",
+          "canonical_id": "SECONDARY_TO_THE_CONNECTION_THEY_HAD_FOUND"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The world around They seemed to exist in a space between seasons, where time was secondary to the connection They had found."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          95,
+          96
+        ],
+        [
+          107,
+          108
+        ],
+        [
+          132,
+          138
+        ],
+        [
+          145,
+          148
+        ],
+        [
+          441,
+          447
+        ],
+        [
+          480,
+          483
+        ],
+        [
+          510,
+          513
+        ],
+        [
+          533,
+          536
+        ],
+        [
+          614,
+          617
+        ],
+        [
+          645,
+          648
+        ]
+      ],
+      [
+        [
+          184,
+          186
+        ],
+        [
+          193,
+          199
+        ],
+        [
+          209,
+          212
+        ],
+        [
+          242,
+          244
+        ],
+        [
+          258,
+          261
+        ],
+        [
+          431,
+          433
+        ]
+      ],
+      [
+        [
+          302,
+          319
+        ],
+        [
+          321,
+          323
+        ],
+        [
+          362,
+          365
+        ],
+        [
+          453,
+          463
+        ]
+      ],
+      [
+        [
+          362,
+          370
+        ],
+        [
+          500,
+          508
+        ]
+      ],
+      [
+        [
+          569,
+          601
+        ],
+        [
+          664,
+          673
+        ]
+      ],
+      [
+        [
+          689,
+          693
+        ],
+        [
+          745,
+          749
+        ],
+        [
+          846,
+          850
+        ],
+        [
+          938,
+          942
+        ]
+      ]
+    ]
+  }
+]

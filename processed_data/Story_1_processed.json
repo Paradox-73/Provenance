@@ -1,0 +1,2389 @@
+[
+  {
+    "chapter_name": "Story_1",
+    "chunk_id": 0,
+    "content": "# Story 1: Velocity of the Shadow (Action)\n\nThe tires of the bright red Ferrari Testarossa screamed as Jax slammed the vehicle into fourth gear, the high-performance engine howling like a caged beast suddenly unleashed. Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt. The high noon sun hung directly overhead, a merciless eye of fire that beat down on the city, turning the horizon into a shimmering, liquid blur of heat waves. Jax squinted through his polarized aviators, his knuckles white as he gripped the steering wheel. He could feel the vibration of the road through the chassis, a raw, mechanical energy that pulsed in time with his own racing heart. In the rearview mirror, three black Cadillac Escalades were gaining ground, their tinted windows reflecting the harsh midday glare. They were the enforcers of the Shadow Syndicate, a group known for their efficiency and their complete lack of mercy. Jax knew why they were after him. The drive sitting in his pocket contained enough data to dismantle their entire operation, and they were willing to level the city to get it back. \"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari. \"Don't fail me now.\" He reached over to the passenger seat and gripped his Desert Eagle .50 AE. The weapon was a massive, intimidating piece of hardware, the cold steel of the barrel a stark contrast to the sweltering heat inside the cabin. He checked the magazine one last time. Seven rounds. That was all he had left. Seven shots to take down three armored SUVs filled with professional killers. The odds weren't just bad; they were suicidal. But Jax had never been one to play by the rules. As the lead SUV pulled alongside him, Jax leaned out the driver's side window, the wind whipping his hair into a frenzy. He raised the Desert Eagle, the weight of the gun familiar and grounding. He waited for the perfect moment, the split second when the SUV’s front tire was exposed. *Bang! Bang! Bang! * Three rhythmic shots echoed through the canyon of skyscrapers. The first two rounds skipped off the reinforced rim, but the third found its mark, shredding the rubber and sending the massive vehicle into a violent, uncontrollable spin. It clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass. A wall of orange flame erupted from the wreckage, momentarily obscuring the path of the other two pursuers. Jax didn't wait to see the results. He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun. He veered right, diving into a narrow alleyway that cut through the heart of the textile district. The walls were so close he could have reached out and touched them, the blur of brick and concrete creating a claustrophobic tunnel. He glanced at the digital clock on the dashboard: 12:15 PM.",
+    "resolved_content": "# Story 1: Velocity of the Shadow (Action)\n\nThe tires of the bright red Ferrari Testarossa screamed as Jax slammed the vehicle into fourth gear, the high-performance engine howling like a caged beast suddenly unleashed. Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt. The high noon sun hung directly overhead, a merciless eye of fire that beat down on Downtown Neo-Seoul, turning the horizon into a shimmering, liquid blur of heat waves. Jax squinted through Jax's polarized aviators, Jax's knuckles white as Jax gripped the steering wheel. Jax could feel the vibration of the road through the chassis, a raw, mechanical energy that pulsed in time with Jax's own racing heart. In the rearview mirror, three black Cadillac Escalades were gaining ground, three black Cadillac Escalades's tinted windows reflecting the harsh midday glare. three black Cadillac Escalades were the enforcers of the Shadow Syndicate, a group known for they's efficiency and they's complete lack of mercy. Jax knew why they were after Jax. The drive sitting in Jax's pocket contained enough data to dismantle they's entire operation, and they were willing to level Downtown Neo-Seoul to get it back. \"Come on, baby,\" Jax muttered, tapping the dashboard of the vehicle. \"Don't fail Jax now.\" Jax reached over to the passenger seat and gripped Jax's Desert Eagle .50 AE. the gun was a massive, intimidating piece of hardware, the cold steel of the barrel a stark contrast to the sweltering heat inside the cabin. Jax checked the magazine one last time. Seven rounds. That was all Jax had left. Seven shots to take down three black Cadillac Escalades. The odds weren't just bad; The odds were suicidal. But Jax had never been one to play by the rules. As the lead SUV pulled alongside Jax, Jax leaned out the driver's side window, the wind whipping Jax's hair into a frenzy. Jax raised the gun, the weight of the gun familiar and grounding. Jax waited for the perfect moment, the split second when the lead SUV front tire was exposed. *Bang! Bang! Bang! * Three rhythmic shots echoed through the canyon of skyscrapers. The first two rounds skipped off the reinforced rim, but the third found the third's mark, shredding the rubber and sending the lead SUV into a violent, uncontrollable spin. the third clipped a fire hydrant, sending a geyser of water into the air, before flipping over in a spectacular arc of metal and glass. A wall of orange flame erupted from the wreckage, momentarily obscuring the path of the other two pursuers. Jax didn't wait to see the results. Jax slammed the vehicle into fifth, the red paint job gleaming like a ruby in the sun. Jax veered right, diving into a narrow alleyway that cut through the heart of the textile district. The walls were so close Jax could have reached out and touched The walls, the blur of brick and concrete creating a claustrophobic tunnel. Jax glanced at the digital clock on the dashboard: 12:15 PM.",
+    "entities": [
+      {
+        "text": "1",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "1"
+      },
+      {
+        "text": "Ferrari Testarossa",
+        "label": "PRODUCT",
+        "start_char": 72,
+        "end_char": 90,
+        "canonical_id": "FERRARI_TESTAROSSA"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 103,
+        "end_char": 106,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "fourth",
+        "label": "ORDINAL",
+        "start_char": 132,
+        "end_char": 138,
+        "canonical_id": "FOURTH"
+      },
+      {
+        "text": "this hour",
+        "label": "TIME",
+        "start_char": 259,
+        "end_char": 268,
+        "canonical_id": "THIS_HOUR"
+      },
+      {
+        "text": "high noon",
+        "label": "TIME",
+        "start_char": 339,
+        "end_char": 348,
+        "canonical_id": "HIGH_NOON"
+      },
+      {
+        "text": "Downtown Neo-Seoul",
+        "label": "FAC",
+        "start_char": 419,
+        "end_char": 437,
+        "canonical_id": "DOWNTOWN_NEOSEOUL"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 505,
+        "end_char": 508,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 526,
+        "end_char": 529,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 552,
+        "end_char": 555,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 576,
+        "end_char": 579,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 608,
+        "end_char": 611,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 720,
+        "end_char": 723,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL",
+        "start_char": 768,
+        "end_char": 773,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "Cadillac",
+        "label": "ORG",
+        "start_char": 780,
+        "end_char": 788,
+        "canonical_id": "CADILLAC"
+      },
+      {
+        "text": "Escalades",
+        "label": "PRODUCT",
+        "start_char": 789,
+        "end_char": 798,
+        "canonical_id": "ESCALADES"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL",
+        "start_char": 820,
+        "end_char": 825,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "Cadillac",
+        "label": "ORG",
+        "start_char": 832,
+        "end_char": 840,
+        "canonical_id": "CADILLAC"
+      },
+      {
+        "text": "Escalades",
+        "label": "PRODUCT",
+        "start_char": 841,
+        "end_char": 850,
+        "canonical_id": "ESCALADES"
+      },
+      {
+        "text": "midday",
+        "label": "TIME",
+        "start_char": 889,
+        "end_char": 895,
+        "canonical_id": "MIDDAY"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL",
+        "start_char": 903,
+        "end_char": 908,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "Cadillac",
+        "label": "ORG",
+        "start_char": 915,
+        "end_char": 923,
+        "canonical_id": "CADILLAC"
+      },
+      {
+        "text": "the Shadow Syndicate",
+        "label": "ORG",
+        "start_char": 956,
+        "end_char": 976,
+        "canonical_id": "THE_SHADOW_SYNDICATE"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1049,
+        "end_char": 1052,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1078,
+        "end_char": 1081,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1104,
+        "end_char": 1107,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1260,
+        "end_char": 1263,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1324,
+        "end_char": 1327,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1334,
+        "end_char": 1337,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1385,
+        "end_char": 1388,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Desert Eagle",
+        "label": "PRODUCT",
+        "start_char": 1391,
+        "end_char": 1403,
+        "canonical_id": "DESERT_EAGLE"
+      },
+      {
+        "text": ".50 AE",
+        "label": "PRODUCT",
+        "start_char": 1404,
+        "end_char": 1410,
+        "canonical_id": "50_AE"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1554,
+        "end_char": 1557,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 1579,
+        "end_char": 1582,
+        "canonical_id": "ONE"
+      },
+      {
+        "text": "Seven",
+        "label": "CARDINAL",
+        "start_char": 1594,
+        "end_char": 1599,
+        "canonical_id": "SEVEN"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1621,
+        "end_char": 1624,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Seven",
+        "label": "CARDINAL",
+        "start_char": 1635,
+        "end_char": 1640,
+        "canonical_id": "SEVEN"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL",
+        "start_char": 1660,
+        "end_char": 1665,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "Cadillac",
+        "label": "ORG",
+        "start_char": 1672,
+        "end_char": 1680,
+        "canonical_id": "CADILLAC"
+      },
+      {
+        "text": "Escalades",
+        "label": "PRODUCT",
+        "start_char": 1681,
+        "end_char": 1690,
+        "canonical_id": "ESCALADES"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1747,
+        "end_char": 1750,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1825,
+        "end_char": 1828,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1830,
+        "end_char": 1833,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1889,
+        "end_char": 1892,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1915,
+        "end_char": 1918,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 1981,
+        "end_char": 1984,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL",
+        "start_char": 2026,
+        "end_char": 2032,
+        "canonical_id": "SECOND"
+      },
+      {
+        "text": "Three",
+        "label": "CARDINAL",
+        "start_char": 2096,
+        "end_char": 2101,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 2163,
+        "end_char": 2168,
+        "canonical_id": "FIRST"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 2169,
+        "end_char": 2172,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 2220,
+        "end_char": 2225,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 2236,
+        "end_char": 2241,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 2337,
+        "end_char": 2342,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 2563,
+        "end_char": 2566,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 2577,
+        "end_char": 2580,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 2613,
+        "end_char": 2616,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "fifth",
+        "label": "ORDINAL",
+        "start_char": 2642,
+        "end_char": 2647,
+        "canonical_id": "FIFTH"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 2700,
+        "end_char": 2703,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 2824,
+        "end_char": 2827,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "Jax",
+        "label": "PERSON",
+        "start_char": 2939,
+        "end_char": 2942,
+        "canonical_id": "JAX"
+      },
+      {
+        "text": "12:15 PM",
+        "label": "TIME",
+        "start_char": 2990,
+        "end_char": 2998,
+        "canonical_id": "1215_PM"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "gear",
+          "canonical_id": "GEAR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "fourth",
+          "canonical_id": "FOURTH"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The tires of the bright red Ferrari Testarossa screamed as Jax slammed the vehicle into fourth gear, the high-performance engine howling like a caged beast suddenly unleashed."
+        }
+      },
+      {
+        "subject": {
+          "text": "Seoul",
+          "canonical_id": "SEOUL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a ghost town",
+          "canonical_id": "A_GHOST_TOWN"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt."
+        }
+      },
+      {
+        "subject": {
+          "text": "Seoul",
+          "canonical_id": "SEOUL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "at this hour",
+          "canonical_id": "THIS_HOUR"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt."
+        }
+      },
+      {
+        "subject": {
+          "text": "noon",
+          "canonical_id": "NOON"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "high",
+          "canonical_id": "HIGH"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The high noon sun hung directly overhead, a merciless eye of fire that beat down on Downtown Neo-Seoul, turning the horizon into a shimmering, liquid blur of heat waves."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "beat"
+        },
+        "object": {
+          "text": "on Downtown Neo-Seoul",
+          "canonical_id": "DOWNTOWN_NEOSEOUL"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The high noon sun hung directly overhead, a merciless eye of fire that beat down on Downtown Neo-Seoul, turning the horizon into a shimmering, liquid blur of heat waves."
+        }
+      },
+      {
+        "subject": {
+          "text": "Escalades",
+          "canonical_id": "ESCALADES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "the enforcers of the Shadow Syndicate, a group known for they's efficiency and they's complete lack of mercy",
+          "canonical_id": "THE_ENFORCERS_OF_THE_SHADOW_SYNDICATE_A_GROUP_KNOWN_FOR_THEYS_EFFICIENCY_AND_THEYS_COMPLETE_LACK_OF_MERCY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "three black Cadillac Escalades were the enforcers of the Shadow Syndicate, a group known for they's efficiency and they's complete lack of mercy."
+        }
+      },
+      {
+        "subject": {
+          "text": "they",
+          "canonical_id": "THEY"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "were"
+        },
+        "object": {
+          "text": "after Jax",
+          "canonical_id": "AFTER_JAX"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Jax knew why they were after Jax."
+        }
+      },
+      {
+        "subject": {
+          "text": "they",
+          "canonical_id": "THEY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "willing to level Downtown Neo-Seoul to get it back",
+          "canonical_id": "WILLING_TO_LEVEL_DOWNTOWN_NEOSEOUL_TO_GET_IT_BACK"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The drive sitting in Jax's pocket contained enough data to dismantle they's entire operation, and they were willing to level Downtown Neo-Seoul to get it back."
+        }
+      },
+      {
+        "subject": {
+          "text": "gun",
+          "canonical_id": "GUN"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a massive, intimidating piece of hardware",
+          "canonical_id": "A_MASSIVE_INTIMIDATING_PIECE_OF_HARDWARE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the gun was a massive, intimidating piece of hardware, the cold steel of the barrel a stark contrast to the sweltering heat inside the cabin."
+        }
+      },
+      {
+        "subject": {
+          "text": "That",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "all Jax had left",
+          "canonical_id": "ALL_JAX_HAD_LEFT"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "That was all Jax had left."
+        }
+      },
+      {
+        "subject": {
+          "text": "odds",
+          "canonical_id": "ODDS"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "just bad",
+          "canonical_id": "JUST_BAD"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The odds weren't just bad; The odds were suicidal."
+        }
+      },
+      {
+        "subject": {
+          "text": "odds",
+          "canonical_id": "ODDS"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "suicidal",
+          "canonical_id": "SUICIDAL"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The odds weren't just bad; The odds were suicidal."
+        }
+      },
+      {
+        "subject": {
+          "text": "Jax",
+          "canonical_id": "JAX"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "one to play by the rules",
+          "canonical_id": "ONE_TO_PLAY_BY_THE_RULES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "But Jax had never been one to play by the rules."
+        }
+      },
+      {
+        "subject": {
+          "text": "rounds",
+          "canonical_id": "SOUNDS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "first",
+          "canonical_id": "FIRST"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The first two rounds skipped off the reinforced rim, but the third found the third's mark, shredding the rubber and sending the lead SUV into a violent, uncontrollable spin."
+        }
+      },
+      {
+        "subject": {
+          "text": "walls",
+          "canonical_id": "WALLS"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "were"
+        },
+        "object": {
+          "text": "so close Jax could have reached out and touched The walls, the blur of brick and concrete creating a claustrophobic tunnel",
+          "canonical_id": "SO_CLOSE_JAX_COULD_HAVE_REACHED_OUT_AND_TOUCHED_THE_WALLS_THE_BLUR_OF_BRICK_AND_CONCRETE_CREATING_A_CLAUSTROPHOBIC_TUNNEL"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The walls were so close Jax could have reached out and touched The walls, the blur of brick and concrete creating a claustrophobic tunnel."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          57,
+          90
+        ],
+        [
+          115,
+          126
+        ],
+        [
+          1213,
+          1228
+        ],
+        [
+          2550,
+          2561
+        ]
+      ],
+      [
+        [
+          220,
+          238
+        ],
+        [
+          419,
+          427
+        ],
+        [
+          1132,
+          1140
+        ]
+      ],
+      [
+        [
+          103,
+          106
+        ],
+        [
+          495,
+          498
+        ],
+        [
+          516,
+          519
+        ],
+        [
+          540,
+          543
+        ],
+        [
+          562,
+          564
+        ],
+        [
+          593,
+          595
+        ],
+        [
+          704,
+          707
+        ],
+        [
+          976,
+          979
+        ],
+        [
+          1005,
+          1008
+        ],
+        [
+          1031,
+          1034
+        ],
+        [
+          1174,
+          1177
+        ],
+        [
+          1242,
+          1244
+        ],
+        [
+          1251,
+          1253
+        ],
+        [
+          1301,
+          1304
+        ],
+        [
+          1471,
+          1473
+        ],
+        [
+          1537,
+          1539
+        ],
+        [
+          1679,
+          1682
+        ],
+        [
+          1757,
+          1760
+        ],
+        [
+          1762,
+          1765
+        ],
+        [
+          1821,
+          1824
+        ],
+        [
+          1845,
+          1847
+        ],
+        [
+          1919,
+          1921
+        ],
+        [
+          2503,
+          2506
+        ],
+        [
+          2539,
+          2541
+        ],
+        [
+          2625,
+          2627
+        ],
+        [
+          2748,
+          2750
+        ],
+        [
+          2857,
+          2859
+        ]
+      ],
+      [
+        [
+          750,
+          780
+        ],
+        [
+          802,
+          807
+        ],
+        [
+          858,
+          862
+        ],
+        [
+          1575,
+          1626
+        ]
+      ],
+      [
+        [
+          885,
+          974
+        ],
+        [
+          925,
+          930
+        ],
+        [
+          946,
+          951
+        ],
+        [
+          989,
+          993
+        ],
+        [
+          1077,
+          1082
+        ],
+        [
+          1105,
+          1109
+        ]
+      ],
+      [
+        [
+          1010,
+          1041
+        ],
+        [
+          1148,
+          1150
+        ]
+      ],
+      [
+        [
+          1301,
+          1324
+        ],
+        [
+          1326,
+          1336
+        ],
+        [
+          1855,
+          1871
+        ],
+        [
+          1887,
+          1894
+        ]
+      ],
+      [
+        [
+          1628,
+          1636
+        ],
+        [
+          1655,
+          1659
+        ]
+      ],
+      [
+        [
+          1727,
+          1739
+        ],
+        [
+          1975,
+          1984
+        ],
+        [
+          2209,
+          2228
+        ]
+      ],
+      [
+        [
+          2150,
+          2159
+        ],
+        [
+          2166,
+          2169
+        ],
+        [
+          2266,
+          2268
+        ]
+      ],
+      [
+        [
+          2724,
+          2733
+        ],
+        [
+          2786,
+          2790
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_1",
+    "chunk_id": 1,
+    "content": "The walls were so close he could have reached out and touched them, the blur of brick and concrete creating a claustrophobic tunnel. He glanced at the digital clock on the dashboard: 12:15 PM. The heat was oppressive, the air thick with the smell of exhaust and scorched rubber. But as he emerged from the other end of the alley, onto the massive Han River Bridge, the world transformed. The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight. The temperature plummeted, a biting chill replacing the summer heat. The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement. Jax blinked, his eyes struggling to adjust to the sudden darkness. It was impossible. He had been in the alley for less than thirty seconds. Yet, here he was, racing through the middle of the night. He didn't have time to contemplate the cosmic impossibility of the situation. The remaining two SUVs had somehow found a shortcut and were now flanking him on the bridge. Their headlights cut through the darkness like twin searchlights, blinding him in the mirrors. \"Alright, you bastards,\" Jax growled. \"Let's see how you handle this.\" He raised his Desert Eagle again. He didn't think about the fact that he only had four rounds left in the magazine. He didn't think about the lack of spare ammunition. He just pulled the trigger. *Bang! Bang! Bang! Bang! Bang! *\n\nThe gun roared, spitting a continuous stream of lead. He fired ten rounds into the driver's side of the second SUV, the bullets punching through the reinforced glass like it was paper. Then he turned his attention to the third SUV, pouring another ten rounds into its engine block. The gun didn't click empty. It didn't jam. He continued to fire, the muzzle flash illuminating the interior of the car in brief, strobing bursts. He counted the shots in the back of his mind—thirty, forty, fifty. The weapon seemed to have transformed into an assault rifle, an endless supply of ammunition flowing from a magazine that should have been empty minutes ago. The syndicate members were relentless, their own weapons firing back, but Jax’s Desert Eagle was a force of nature, an unstoppable engine of destruction that refused to run dry. \"Almost there,\" Marcus whispered to himself, his voice sounding different, more calculated. He steered the car through a series of tight S-curves as the bridge began to incline sharply. The transition from the high-speed chase on the bridge to the narrow mountain pass that followed was jarring. Marcus looked at his reflection in the rearview mirror. His eyes were hard, determined, the eyes of a man who had seen too much and was willing to do whatever it took to survive. The mission was everything. The data was the key. He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice. The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air.",
+    "resolved_content": "The walls were so close he could have reached out and touched The walls, the blur of brick and concrete creating a claustrophobic tunnel. he glanced at the digital clock on the dashboard: 12:15 PM. The heat was oppressive, the air thick with the smell of exhaust and scorched rubber. But as he emerged from the other end of the alley, onto the massive Han River Bridge, the world transformed. The blinding midday sun vanished instantly, replaced by a sky of deep, starless midnight. The temperature plummeted, a biting chill replacing the summer heat. The streetlights along the bridge flickered to life, casting long, eerie shadows across the pavement. he blinked, he's eyes struggling to adjust to the sudden darkness. adjust was impossible. he had been in the alley for less than thirty seconds. Yet, here he was, racing through the middle of the night. he didn't have time to contemplate the cosmic impossibility of the situation. The remaining two SUVs had somehow found a shortcut and were now flanking he on the bridge. The remaining two SUVs's headlights cut through the darkness like twin searchlights, blinding he in the mirrors. \"Alright, you bastards,\" he growled. \"Let's see how you bastards handle this.\" he raised he's Desert Eagle again. he didn't think about the fact that he only had four rounds left in the magazine. he didn't think about the lack of spare ammunition. he just pulled the trigger. *Bang! Bang! Bang! Bang! Bang! *\n\nThe gun roared, spitting a continuous stream of lead. he fired ten rounds into the driver's side of the second SUV, ten rounds punching through the reinforced glass like the reinforced glass was paper. Then he turned he's attention to the third SUV, pouring another ten rounds into the third SUV's engine block. The gun didn't click empty. The gun didn't jam. he continued to fire, the muzzle flash illuminating the interior of the third SUV in brief, strobing bursts. he counted the shots in the back of he's mind—thirty, forty, fifty. The gun seemed to have transformed into an assault rifle, an endless supply of ammunition flowing from a magazine that should have been empty minutes ago. The syndicate members were relentless, The syndicate members's own weapons firing back, but his Desert Eagle was a force of nature, an unstoppable engine of destruction that refused to run dry. \"Almost there,\" Marcus whispered to Marcus, Marcus's voice sounding different, more calculated. Marcus steered the third SUV through a series of tight S-curves as the bridge began to incline sharply. The transition from the high-speed chase on the bridge to the narrow mountain pass that followed was jarring. Marcus looked at Marcus's reflection in the rearview mirror. Marcus's eyes were hard, determined, the eyes of a man who had seen too much and was willing to do whatever it took to survive. The mission was everything. The data was the key. Marcus pulled the handbrake, sending the third SUV into a perfectly controlled drift around a dangerous precipice. The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air.",
+    "entities": [
+      {
+        "text": "12:15 PM",
+        "label": "TIME",
+        "start_char": 188,
+        "end_char": 196,
+        "canonical_id": "1215_PM"
+      },
+      {
+        "text": "smell",
+        "label": "ENVIRONMENT",
+        "start_char": 246,
+        "end_char": 251,
+        "canonical_id": "SMELL"
+      },
+      {
+        "text": "Han River Bridge",
+        "label": "FAC",
+        "start_char": 352,
+        "end_char": 368,
+        "canonical_id": "HAN_RIVER_BRIDGE"
+      },
+      {
+        "text": "midday",
+        "label": "TIME",
+        "start_char": 406,
+        "end_char": 412,
+        "canonical_id": "MIDDAY"
+      },
+      {
+        "text": "midnight",
+        "label": "TIME",
+        "start_char": 473,
+        "end_char": 481,
+        "canonical_id": "MIDNIGHT"
+      },
+      {
+        "text": "summer",
+        "label": "DATE",
+        "start_char": 539,
+        "end_char": 545,
+        "canonical_id": "SUMMER"
+      },
+      {
+        "text": "less than thirty seconds",
+        "label": "TIME",
+        "start_char": 773,
+        "end_char": 797,
+        "canonical_id": "LESS_THAN_THIRTY_SECONDS"
+      },
+      {
+        "text": "the middle of the night",
+        "label": "TIME",
+        "start_char": 832,
+        "end_char": 855,
+        "canonical_id": "THE_MIDDLE_OF_THE_NIGHT"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 949,
+        "end_char": 952,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 1041,
+        "end_char": 1044,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "Desert Eagle",
+        "label": "PRODUCT",
+        "start_char": 1234,
+        "end_char": 1246,
+        "canonical_id": "DESERT_EAGLE"
+      },
+      {
+        "text": "four",
+        "label": "CARDINAL",
+        "start_char": 1302,
+        "end_char": 1306,
+        "canonical_id": "FOUR"
+      },
+      {
+        "text": "ten",
+        "label": "CARDINAL",
+        "start_char": 1513,
+        "end_char": 1516,
+        "canonical_id": "TEN"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL",
+        "start_char": 1554,
+        "end_char": 1560,
+        "canonical_id": "SECOND"
+      },
+      {
+        "text": "ten",
+        "label": "CARDINAL",
+        "start_char": 1566,
+        "end_char": 1569,
+        "canonical_id": "TEN"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 1689,
+        "end_char": 1694,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "ten",
+        "label": "CARDINAL",
+        "start_char": 1716,
+        "end_char": 1719,
+        "canonical_id": "TEN"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 1736,
+        "end_char": 1741,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "SUV",
+        "label": "PRODUCT",
+        "start_char": 1742,
+        "end_char": 1745,
+        "canonical_id": "SUV"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 1882,
+        "end_char": 1887,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "thirty",
+        "label": "CARDINAL",
+        "start_char": 1965,
+        "end_char": 1971,
+        "canonical_id": "THIRTY"
+      },
+      {
+        "text": "forty",
+        "label": "CARDINAL",
+        "start_char": 1973,
+        "end_char": 1978,
+        "canonical_id": "FORTY"
+      },
+      {
+        "text": "fifty",
+        "label": "CARDINAL",
+        "start_char": 1980,
+        "end_char": 1985,
+        "canonical_id": "FIFTY"
+      },
+      {
+        "text": "minutes ago",
+        "label": "TIME",
+        "start_char": 2129,
+        "end_char": 2140,
+        "canonical_id": "MINUTES_AGO"
+      },
+      {
+        "text": "Desert Eagle",
+        "label": "PRODUCT",
+        "start_char": 2238,
+        "end_char": 2250,
+        "canonical_id": "DESERT_EAGLE"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2352,
+        "end_char": 2358,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2372,
+        "end_char": 2378,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2380,
+        "end_char": 2386,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2432,
+        "end_char": 2438,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 2451,
+        "end_char": 2456,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2646,
+        "end_char": 2652,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2663,
+        "end_char": 2669,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2707,
+        "end_char": 2713,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 2885,
+        "end_char": 2891,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 2926,
+        "end_char": 2931,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "night",
+        "label": "TIME",
+        "start_char": 3089,
+        "end_char": 3094,
+        "canonical_id": "NIGHT"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "walls",
+          "canonical_id": "WALLS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "so close he could have reached out and touched The walls, the blur of brick and concrete creating a claustrophobic tunnel",
+          "canonical_id": "SO_CLOSE_HE_COULD_HAVE_REACHED_OUT_AND_TOUCHED_THE_WALLS_THE_BLUR_OF_BRICK_AND_CONCRETE_CREATING_A_CLAUSTROPHOBIC_TUNNEL"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The walls were so close he could have reached out and touched The walls, the blur of brick and concrete creating a claustrophobic tunnel."
+        }
+      },
+      {
+        "subject": {
+          "text": "heat",
+          "canonical_id": "HEAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "oppressive",
+          "canonical_id": "OPPRESSIVE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "emerged"
+        },
+        "object": {
+          "text": "onto the massive Han River Bridge",
+          "canonical_id": "ONTO_THE_MASSIVE_HAN_RIVER_BRIDGE"
+        },
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "But as he emerged from the other end of the alley, onto the massive Han River Bridge, the world transformed."
+        }
+      },
+      {
+        "subject": {
+          "text": "adjust",
+          "canonical_id": "ADJUSTED"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "impossible",
+          "canonical_id": "IMPOSSIBLE"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "adjust was impossible."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "in the alley",
+          "canonical_id": "IN_THE_ALLEY"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "he had been in the alley for less than thirty seconds."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "for less than thirty seconds",
+          "canonical_id": "LESS_THAN_THIRTY_SECONDS"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "he had been in the alley for less than thirty seconds."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "NOT_POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "time to contemplate the cosmic impossibility of the situation",
+          "canonical_id": "TIME_TO_CONTEMPLATE_THE_COSMIC_IMPOSSIBILITY_OF_THE_SITUATION"
+        },
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "he didn't have time to contemplate the cosmic impossibility of the situation."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUV",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "second",
+          "canonical_id": "SECOND"
+        },
+        "target_feature": "appearance",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "he fired ten rounds into the driver's side of the second SUV, ten rounds punching through the reinforced glass like the reinforced glass was paper."
+        }
+      },
+      {
+        "subject": {
+          "text": "glass",
+          "canonical_id": "GLASS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "paper",
+          "canonical_id": "PAPER"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "he fired ten rounds into the driver's side of the second SUV, ten rounds punching through the reinforced glass like the reinforced glass was paper."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "turned"
+        },
+        "object": {
+          "text": "to the third SUV",
+          "canonical_id": "TO_THE_THIRD_SUV"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "Then he turned he's attention to the third SUV, pouring another ten rounds into the third SUV's engine block."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUV",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "Then he turned he's attention to the third SUV, pouring another ten rounds into the third SUV's engine block."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUV",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "Then he turned he's attention to the third SUV, pouring another ten rounds into the third SUV's engine block."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUV",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "he continued to fire, the muzzle flash illuminating the interior of the third SUV in brief, strobing bursts."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "empty",
+          "canonical_id": "EMPTY"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The gun seemed to have transformed into an assault rifle, an endless supply of ammunition flowing from a magazine that should have been empty minutes ago."
+        }
+      },
+      {
+        "subject": {
+          "text": "members",
+          "canonical_id": "MEMBERS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "relentless",
+          "canonical_id": "RELENTLESS"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The syndicate members were relentless, The syndicate members's own weapons firing back, but his Desert Eagle was a force of nature, an unstoppable engine of destruction that refused to run dry."
+        }
+      },
+      {
+        "subject": {
+          "text": "Eagle",
+          "canonical_id": "EAGLE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a force of nature, an unstoppable engine of destruction that refused to run dry",
+          "canonical_id": "A_FORCE_OF_NATURE_AN_UNSTOPPABLE_ENGINE_OF_DESTRUCTION_THAT_REFUSED_TO_RUN_DRY"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The syndicate members were relentless, The syndicate members's own weapons firing back, but his Desert Eagle was a force of nature, an unstoppable engine of destruction that refused to run dry."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUV",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "Marcus steered the third SUV through a series of tight S-curves as the bridge began to incline sharply."
+        }
+      },
+      {
+        "subject": {
+          "text": "transition",
+          "canonical_id": "TRANSITION"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "jarring",
+          "canonical_id": "JARRING"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The transition from the high-speed chase on the bridge to the narrow mountain pass that followed was jarring."
+        }
+      },
+      {
+        "subject": {
+          "text": "eyes",
+          "canonical_id": "EYES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "hard, determined",
+          "canonical_id": "HARD_DETERMINED"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "Marcus's eyes were hard, determined, the eyes of a man who had seen too much and was willing to do whatever it took to survive."
+        }
+      },
+      {
+        "subject": {
+          "text": "mission",
+          "canonical_id": "MISSION"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "everything",
+          "canonical_id": "EVERYTHING"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The mission was everything."
+        }
+      },
+      {
+        "subject": {
+          "text": "data",
+          "canonical_id": "DATA"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the key",
+          "canonical_id": "THE_KEY"
+        },
+        "target_feature": "state",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "The data was the key."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUV",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "12:15",
+        "provenance": {
+          "source_text_snippet": "Marcus pulled the handbrake, sending the third SUV into a perfectly controlled drift around a dangerous precipice."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          0,
+          9
+        ],
+        [
+          62,
+          66
+        ]
+      ],
+      [
+        [
+          24,
+          26
+        ],
+        [
+          133,
+          135
+        ],
+        [
+          286,
+          288
+        ],
+        [
+          649,
+          652
+        ],
+        [
+          662,
+          665
+        ],
+        [
+          735,
+          737
+        ],
+        [
+          800,
+          802
+        ],
+        [
+          848,
+          850
+        ],
+        [
+          1000,
+          1003
+        ],
+        [
+          1094,
+          1097
+        ],
+        [
+          1139,
+          1142
+        ],
+        [
+          1185,
+          1187
+        ],
+        [
+          1195,
+          1198
+        ],
+        [
+          1219,
+          1221
+        ],
+        [
+          1255,
+          1257
+        ],
+        [
+          1301,
+          1303
+        ],
+        [
+          1353,
+          1355
+        ],
+        [
+          1469,
+          1471
+        ],
+        [
+          1605,
+          1607
+        ],
+        [
+          1615,
+          1618
+        ],
+        [
+          1740,
+          1742
+        ],
+        [
+          1843,
+          1845
+        ],
+        [
+          1879,
+          1882
+        ],
+        [
+          2142,
+          2147
+        ]
+      ],
+      [
+        [
+          335,
+          363
+        ],
+        [
+          570,
+          580
+        ],
+        [
+          1007,
+          1017
+        ],
+        [
+          2395,
+          2405
+        ],
+        [
+          2476,
+          2486
+        ]
+      ],
+      [
+        [
+          685,
+          691
+        ],
+        [
+          716,
+          718
+        ]
+      ],
+      [
+        [
+          319,
+          328
+        ],
+        [
+          750,
+          759
+        ]
+      ],
+      [
+        [
+          926,
+          948
+        ],
+        [
+          1019,
+          1024
+        ]
+      ],
+      [
+        [
+          1124,
+          1136
+        ],
+        [
+          1167,
+          1170
+        ]
+      ],
+      [
+        [
+          1478,
+          1488
+        ],
+        [
+          1531,
+          1542
+        ]
+      ],
+      [
+        [
+          1560,
+          1580
+        ],
+        [
+          1586,
+          1588
+        ]
+      ],
+      [
+        [
+          1632,
+          1645
+        ],
+        [
+          1679,
+          1682
+        ],
+        [
+          1808,
+          1815
+        ],
+        [
+          2349,
+          2356
+        ],
+        [
+          2804,
+          2833
+        ]
+      ],
+      [
+        [
+          1415,
+          1422
+        ],
+        [
+          1697,
+          1704
+        ],
+        [
+          1725,
+          1727
+        ],
+        [
+          1910,
+          1920
+        ]
+      ],
+      [
+        [
+          2068,
+          2089
+        ],
+        [
+          2107,
+          2112
+        ]
+      ],
+      [
+        [
+          1195,
+          1211
+        ],
+        [
+          2142,
+          2160
+        ]
+      ],
+      [
+        [
+          2262,
+          2268
+        ],
+        [
+          2282,
+          2289
+        ],
+        [
+          2291,
+          2294
+        ],
+        [
+          2338,
+          2340
+        ],
+        [
+          2542,
+          2548
+        ],
+        [
+          2559,
+          2562
+        ],
+        [
+          2598,
+          2601
+        ],
+        [
+          2771,
+          2773
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_1",
+    "chunk_id": 2,
+    "content": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice. The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air. Despite the rough terrain and the intensity of the chase, the midnight-blue paint job of the sedan remained pristine, not a single scratch or speck of dust marring its polished surface. Marcus reached into the glove box and pulled out the encrypted drive. It was cool to the touch, a small, silver rectangle that held the fate of the city. The SUVs were still there, somehow keeping pace with his blue car. They were like shadows themselves, relentless and silent. Marcus focused on the road ahead. The bridge—or what was left of it—was coming to an end. A massive gap, the result of a recent earthquake, awaited them. It was a jump that no sane person would attempt. \"Time to fly,\" Marcus—or was it Jax?—muttered. He hit the nitrous. A blue flame erupted from the exhaust pipes of the midnight-blue sedan. The car soared through the air, a metallic arrow launched into the void. As the car reached the apex of its arc, the starless midnight sky vanished as quickly as it had appeared. The bright midday sun returned with a vengeance, blinding him for a split second as the car crashed back down onto the asphalt on the other side of the gap. He looked back. The SUVs had stopped at the very edge of the broken bridge, their drivers watching helplessly as he sped away. He had made it. He drove for another mile before pulling over under the shade of a large oak tree. He stepped out of the car, his boots crunching on the dry grass. He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat. He checked the drive one last time. It was safe. The shadow of the syndicate had been outrun, at least for now.",
+    "resolved_content": "He pulled the handbrake, sending the sleek midnight-blue sedan into a perfectly controlled drift around a dangerous precipice. The tires screamed against the gravel, kicking up a cloud of dust that hung in the still night air. Despite the rough terrain and the intensity of the chase, the midnight-blue paint job of the sleek midnight-blue sedan remained pristine, not a single scratch or speck of dust marring the sleek midnight-blue sedan's polished surface. He reached into the glove box and pulled out the encrypted drive. It was cool to the touch, a small, silver rectangle that held the fate of the city. The SUVs were still there, somehow keeping pace with the sleek midnight-blue sedan. The SUVs were like shadows shadows themselves, relentless and silent. He focused on the road ahead. The bridge—or what was left of The bridge—was coming to an end. A massive gap, the result of a recent earthquake, awaited them. It was a jump that no sane person would attempt. \"Time to fly,\" Marcus—or was it Jax?—muttered. He hit the nitrous. A blue flame erupted from the exhaust pipes of the sleek midnight-blue sedan. the sleek midnight-blue sedan soared through the air, a metallic arrow launched into the void. As the sleek midnight-blue sedan reached the apex of the sleek midnight-blue sedan's arc, the starless midnight sky vanished as quickly as the starless midnight sky had appeared. The bright midday sun returned with a vengeance, blinding He for a split second as the sleek midnight-blue sedan crashed back down onto the asphalt on the other side of the gap. He looked back. The SUVs had stopped at the very edge of The bridge, The SUVs's drivers watching helplessly as He sped away. He had made it. He drove for another mile before pulling over under the shade of a large oak tree. He stepped out of the sleek midnight-blue sedan, He's boots crunching on the dry grass. He leaned against the hood, listening to the red Ferrari's engine ticking as the red Ferrari's engine cooled down in the afternoon heat. He checked the drive one last time. the drive was safe. The shadow of the syndicate had been outrun, at least for now.",
+    "entities": [
+      {
+        "text": "night",
+        "label": "TIME",
+        "start_char": 216,
+        "end_char": 221,
+        "canonical_id": "NIGHT"
+      },
+      {
+        "text": "Marcus",
+        "label": "PERSON",
+        "start_char": 987,
+        "end_char": 993,
+        "canonical_id": "MARCUS"
+      },
+      {
+        "text": "midnight",
+        "label": "TIME",
+        "start_char": 1315,
+        "end_char": 1323,
+        "canonical_id": "MIDNIGHT"
+      },
+      {
+        "text": "midnight",
+        "label": "TIME",
+        "start_char": 1364,
+        "end_char": 1372,
+        "canonical_id": "MIDNIGHT"
+      },
+      {
+        "text": "midday",
+        "label": "TIME",
+        "start_char": 1402,
+        "end_char": 1408,
+        "canonical_id": "MIDDAY"
+      },
+      {
+        "text": "a split second",
+        "label": "TIME",
+        "start_char": 1456,
+        "end_char": 1470,
+        "canonical_id": "A_SPLIT_SECOND"
+      },
+      {
+        "text": "another mile",
+        "label": "QUANTITY",
+        "start_char": 1723,
+        "end_char": 1735,
+        "canonical_id": "ANOTHER_MILE"
+      },
+      {
+        "text": "Ferrari",
+        "label": "PRODUCT",
+        "start_char": 1930,
+        "end_char": 1937,
+        "canonical_id": "FERRARI"
+      },
+      {
+        "text": "Ferrari",
+        "label": "PRODUCT",
+        "start_char": 1966,
+        "end_char": 1973,
+        "canonical_id": "FERRARI"
+      },
+      {
+        "text": "afternoon",
+        "label": "TIME",
+        "start_char": 2002,
+        "end_char": 2011,
+        "canonical_id": "AFTERNOON"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 2039,
+        "end_char": 2042,
+        "canonical_id": "ONE"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "job",
+          "canonical_id": "JOB"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "remained"
+        },
+        "object": {
+          "text": "Despite the rough terrain and the intensity of the chase",
+          "canonical_id": "DESPITE_THE_ROUGH_TERRAIN_AND_THE_INTENSITY_OF_THE_CHASE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Despite the rough terrain and the intensity of the chase, the midnight-blue paint job of the sleek midnight-blue sedan remained pristine, not a single scratch or speck of dust marring the sleek midnight-blue sedan's polished surface."
+        }
+      },
+      {
+        "subject": {
+          "text": "job",
+          "canonical_id": "JOB"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "remained"
+        },
+        "object": {
+          "text": "pristine",
+          "canonical_id": "PRISTINE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Despite the rough terrain and the intensity of the chase, the midnight-blue paint job of the sleek midnight-blue sedan remained pristine, not a single scratch or speck of dust marring the sleek midnight-blue sedan's polished surface."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "cool to the touch",
+          "canonical_id": "COOL_TO_THE_TOUCH"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was cool to the touch, a small, silver rectangle that held the fate of the city."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "held"
+        },
+        "object": {
+          "text": "the fate of the city",
+          "canonical_id": "THE_FATE_OF_THE_CITY"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was cool to the touch, a small, silver rectangle that held the fate of the city."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUVs",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "like shadows shadows themselves",
+          "canonical_id": "LIKE_SHADOWS_SHADOWS_THEMSELVES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The SUVs were like shadows shadows themselves, relentless and silent."
+        }
+      },
+      {
+        "subject": {
+          "text": "SUVs",
+          "canonical_id": "SUV"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "relentless and silent",
+          "canonical_id": "RELENTLESS_AND_SILENT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The SUVs were like shadows shadows themselves, relentless and silent."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a jump that no sane person would attempt",
+          "canonical_id": "A_JUMP_THAT_NO_SANE_PERSON_WOULD_ATTEMPT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "It was a jump that no sane person would attempt."
+        }
+      },
+      {
+        "subject": {
+          "text": "second",
+          "canonical_id": "SECOND"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "split",
+          "canonical_id": "SPLIT"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The bright midday sun returned with a vengeance, blinding He for a split second as the sleek midnight-blue sedan crashed back down onto the asphalt on the other side of the gap."
+        }
+      },
+      {
+        "subject": {
+          "text": "drive",
+          "canonical_id": "DRIVE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "safe",
+          "canonical_id": "SAFE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the drive was safe."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          33,
+          62
+        ],
+        [
+          316,
+          325
+        ],
+        [
+          391,
+          394
+        ],
+        [
+          620,
+          632
+        ],
+        [
+          1009,
+          1032
+        ],
+        [
+          1034,
+          1041
+        ],
+        [
+          1110,
+          1117
+        ],
+        [
+          1138,
+          1141
+        ],
+        [
+          1297,
+          1304
+        ],
+        [
+          1614,
+          1621
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          413,
+          419
+        ],
+        [
+          620,
+          623
+        ],
+        [
+          692,
+          698
+        ],
+        [
+          942,
+          944
+        ],
+        [
+          1271,
+          1274
+        ],
+        [
+          1370,
+          1372
+        ],
+        [
+          1483,
+          1485
+        ],
+        [
+          1497,
+          1499
+        ],
+        [
+          1513,
+          1515
+        ],
+        [
+          1596,
+          1598
+        ],
+        [
+          1623,
+          1626
+        ],
+        [
+          1661,
+          1663
+        ],
+        [
+          1776,
+          1778
+        ]
+      ],
+      [
+        [
+          567,
+          575
+        ],
+        [
+          634,
+          638
+        ],
+        [
+          1386,
+          1394
+        ],
+        [
+          1446,
+          1451
+        ]
+      ],
+      [
+        [
+          649,
+          667
+        ],
+        [
+          657,
+          667
+        ]
+      ],
+      [
+        [
+          726,
+          736
+        ],
+        [
+          757,
+          759
+        ],
+        [
+          1427,
+          1444
+        ]
+      ],
+      [
+        [
+          1147,
+          1172
+        ],
+        [
+          1196,
+          1198
+        ]
+      ],
+      [
+        [
+          782,
+          830
+        ],
+        [
+          1361,
+          1368
+        ]
+      ],
+      [
+        [
+          1702,
+          1726
+        ],
+        [
+          1738,
+          1740
+        ]
+      ],
+      [
+        [
+          1787,
+          1796
+        ],
+        [
+          1812,
+          1814
+        ]
+      ]
+    ]
+  }
+]

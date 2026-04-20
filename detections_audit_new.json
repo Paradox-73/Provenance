@@ -1,0 +1,2116 @@
+{
+  "Graph-Hybrid": [
+    {
+      "type": "Temporal Location Conflict",
+      "description": "Detected Temporal Location Conflict inconsistency.",
+      "details": [
+        "Evelyn Thorne",
+        "The Emerald Heart",
+        "at the very edge of the Whispering Jungle",
+        "Story_2",
+        "Evelyn Thorne was searching for The Emerald Heart.",
+        "Evelyn Thorne stood at the very edge of the Whispering Jungle, the ancient parchment of Evelyn Thorne's weathered map fluttering like a captured bird in the humid, salt-tinged breeze.",
+        "unknown",
+        "unknown"
+      ],
+      "confidence": 0.998755693435669
+    },
+    {
+      "type": "Temporal Location Conflict",
+      "description": "Detected Temporal Location Conflict inconsistency.",
+      "details": [
+        "Alistair",
+        "toward the jagged, obsidian-colored peaks of the Peak of Ash",
+        "the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss",
+        "Story_6",
+        "Sir Alistair rode Sir Alistair's great white stallion, Cinder, toward the jagged, obsidian-colored peaks of the Peak of Ash.",
+        "As Sir Alistair crossed the ancient, precarious Bridge of Sighs, a narrow span of weathered stone that stretched across a bottomless abyss, a sudden tremor shook the ground.",
+        "unknown",
+        "unknown"
+      ],
+      "confidence": 0.9993413090705872
+    },
+    {
+      "type": "Identity Conflict",
+      "description": "Detected Identity Conflict inconsistency.",
+      "details": [
+        "Miller",
+        "toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment",
+        "to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of The library, twisting I's hands together",
+        "Detective Miller turned toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment.",
+        "Detective Miller turned Detective Miller's attention to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of The library, twisting I's hands together.",
+        "Story_8"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Identity Conflict",
+      "description": "Detected Identity Conflict inconsistency.",
+      "details": [
+        "Alistair",
+        "the last of the Order of the Silver Rose, the only knight brave enough to face the dragon Malakor in the dragon Malakor's own lair",
+        "Sir Alistair of the Silver Rose",
+        "Sir Alistair was the last of the Order of the Silver Rose, the only knight brave enough to face the dragon Malakor in the dragon Malakor's own lair.",
+        "\"Alistair am Sir Alistair of the Silver Rose!",
+        "Story_6"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "SUV",
+        "second",
+        "third",
+        "appearance",
+        "he fired ten rounds into the driver's side of the second SUV, ten rounds punching through the reinforced glass like the reinforced glass was paper.",
+        "Marcus pulled the handbrake, sending the third SUV into a perfectly controlled drift around a dangerous precipice.",
+        "Story_1"
+      ],
+      "confidence": 0.998327910900116
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Seoul",
+        "this hour",
+        "a ghost town",
+        "state",
+        "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt.",
+        "Downtown Neo-Seoul was a ghost town at this hour, a sprawling labyrinth of glass, steel, and sun-drenched asphalt.",
+        "Story_1"
+      ],
+      "confidence": 0.9988812804222107
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "he",
+        "in the alley",
+        "to the third SUV",
+        "state",
+        "he had been in the alley for less than thirty seconds.",
+        "Then he turned he's attention to the third SUV, pouring another ten rounds into the third SUV's engine block.",
+        "Story_1"
+      ],
+      "confidence": 0.9984099864959717
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "It",
+        "a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the main vault",
+        "roughly the size of a large suitcase",
+        "state",
+        "it was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the main vault.",
+        "It was now roughly the size of a large suitcase, It's facets reflecting the red emergency lights in a dizzying array of colors.",
+        "Story_4"
+      ],
+      "confidence": 0.9972780346870422
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "job",
+        "Despite the rough terrain and the intensity of the chase",
+        "pristine",
+        "state",
+        "Despite the rough terrain and the intensity of the chase, the midnight-blue paint job of the sleek midnight-blue sedan remained pristine, not a single scratch or speck of dust marring the sleek midnight-blue sedan's polished surface.",
+        "Despite the rough terrain and the intensity of the chase, the midnight-blue paint job of the sleek midnight-blue sedan remained pristine, not a single scratch or speck of dust marring the sleek midnight-blue sedan's polished surface.",
+        "Story_1"
+      ],
+      "confidence": 0.9939215183258057
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "It",
+        "cool to the touch",
+        "a jump that no sane person would attempt",
+        "state",
+        "It was cool to the touch, a small, silver rectangle that held the fate of the city.",
+        "It was a jump that no sane person would attempt.",
+        "Story_1"
+      ],
+      "confidence": 0.9783594012260437
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Alex Reed",
+        "a highly trained operative, a man whose life was spent in the shadows",
+        "completely and utterly unarmed",
+        "state",
+        "Agent Alex Reed was a highly trained operative, a man whose life was spent in the shadows, but this was a situation Agent Alex Reed hadn't anticipated.",
+        "Agent Alex Reed was completely and utterly unarmed, left with only Agent Alex Reed's training and Agent Alex Reed's wits.",
+        "Story_10"
+      ],
+      "confidence": 0.9992746710777283
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "he",
+        "a lean, predatory figure",
+        "completely unarmed",
+        "state",
+        "He was a lean, predatory figure, He's eyes cold and devoid of any human warmth.",
+        "He then blinked, looking at He's empty hand and realizing He was still completely unarmed.",
+        "Story_10"
+      ],
+      "confidence": 0.9953709244728088
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Alex Reed",
+        "a highly trained operative, a man whose life was spent in the shadows",
+        "completely unarmed",
+        "state",
+        "Agent Alex Reed was a highly trained operative, a man whose life was spent in the shadows, but this was a situation Agent Alex Reed hadn't anticipated.",
+        "Agent Alex Reed then blinked, looking at his shoulder holster and realizing Agent Alex Reed was still completely unarmed.",
+        "Story_10"
+      ],
+      "confidence": 0.9988051652908325
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "world",
+        "To He's utter surprise",
+        "perfectly still",
+        "state",
+        "To He's utter surprise, the world outside the train was perfectly still.",
+        "To He's utter surprise, the world outside the train was perfectly still.",
+        "Story_10"
+      ],
+      "confidence": 0.9133506417274475
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "chill",
+        "Zero",
+        "sub",
+        "appearance",
+        "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+        "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+        "Story_10"
+      ],
+      "confidence": 0.967791736125946
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "chill",
+        "Zero",
+        "-",
+        "appearance",
+        "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+        "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+        "Story_10"
+      ],
+      "confidence": 0.9638957381248474
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "chill",
+        "sub",
+        "-",
+        "appearance",
+        "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+        "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+        "Story_10"
+      ],
+      "confidence": 0.7302021384239197
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "Manor",
+        "a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds",
+        "a labyrinth of shifting corridors, narrow staircases, and rooms that felt too small for their's contents",
+        "state",
+        "Blackwood Manor was a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds.",
+        "Blackwood Manor was a labyrinth of shifting corridors, narrow staircases, and rooms that felt too small for their's contents.",
+        "Story_7"
+      ],
+      "confidence": 0.9729761481285095
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "jungle",
+        "alive with sound\u2014the screeching of macaws, the rhythmic chattering of monkeys, and the constant, low-frequency hum of insects that seemed to vibrate in the very marrow of insects's bones",
+        "all gone",
+        "state",
+        "the jungle was alive with sound\u2014the screeching of macaws, the rhythmic chattering of monkeys, and the constant, low-frequency hum of insects that seemed to vibrate in the very marrow of insects's bones.",
+        "The lush, vibrant Whispering Jungle they had spent days navigating, the massive waterfall where they had camped just hours ago, and the very mountain they had climbed were all gone.",
+        "Story_2"
+      ],
+      "confidence": 0.9996943473815918
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "box",
+        "tiny, barely the size of a shoebox",
+        "the same size",
+        "state",
+        "his prop box was tiny, barely the size of a shoebox, and when she opened his prop box to show the crowd, his prop box was clearly empty, save for a few stray dust motes.",
+        "his prop box remained the same size, his prop box's depth seemingly defying the laws of physics.",
+        "Story_3"
+      ],
+      "confidence": 0.9279776215553284
+    },
+    {
+      "type": "Attribute Conflict",
+      "description": "Detected Attribute Conflict inconsistency.",
+      "details": [
+        "this",
+        "part of the act",
+        "whatever",
+        "state",
+        "The crowd, assuming this was part of the act, cheered even louder.",
+        "He have a permit for this... whatever this is?\" his shouted, his's voice booming over the chatter of The crowd.",
+        "Story_3"
+      ],
+      "confidence": 0.5079140663146973
+    }
+  ],
+  "Pure-NLI": [
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_1",
+      "entity": "Jax",
+      "premise": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari.",
+      "hypothesis": "As the lead SUV pulled alongside him, Jax leaned out the driver's side window, the wind whipping his hair into a frenzy.",
+      "confidence": 0.8820290565490723
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_1",
+      "entity": "Jax",
+      "premise": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari.",
+      "hypothesis": "Jax blinked, his eyes struggling to adjust to the sudden darkness.",
+      "confidence": 0.6098067164421082
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_1",
+      "entity": "Jax",
+      "premise": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari.",
+      "hypothesis": "\"Alright, you bastards,\" Jax growled.",
+      "confidence": 0.9969024062156677
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_1",
+      "entity": "Marcus",
+      "premise": "Marcus looked at his reflection in the rearview mirror.",
+      "hypothesis": "Marcus focused on the road ahead.",
+      "confidence": 0.9991224408149719
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_1",
+      "entity": "Ferrari",
+      "premise": "\"Come on, baby,\" Jax muttered, tapping the dashboard of the red Ferrari.",
+      "hypothesis": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat.",
+      "confidence": 0.9990946054458618
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_1",
+      "entity": "Ferrari",
+      "premise": "He slammed the Ferrari into fifth, the red paint job gleaming like a ruby in the sun.",
+      "hypothesis": "He leaned against the hood, listening to the red Ferrari's engine ticking as it cooled down in the afternoon heat.",
+      "confidence": 0.9463480710983276
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_10",
+      "entity": "smell",
+      "premise": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber.",
+      "hypothesis": "He could smell the damp concrete and the sharp, metallic scent of ozone.",
+      "confidence": 0.9962868690490723
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_10",
+      "entity": "Alex",
+      "premise": "Alex struggled against his bonds, the plastic of the zip ties biting into his wrists.",
+      "hypothesis": "Alex didn't waste another second.",
+      "confidence": 0.997499406337738
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_10",
+      "entity": "Alex",
+      "premise": "Alex struggled against his bonds, the plastic of the zip ties biting into his wrists.",
+      "hypothesis": "Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound.",
+      "confidence": 0.9996219873428345
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "scent",
+      "premise": "He could smell the damp concrete and the sharp, metallic scent of ozone.",
+      "hypothesis": "The air was thick and heavy, smelling of damp earth, decaying leaves, and the sweet, cloying scent of exotic orchids.",
+      "confidence": 0.9981420040130615
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "Beside her, Kael, her long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies.",
+      "hypothesis": "Kael set down his pack and, with a flourish that seemed out of place in their dire circumstances, began to unpack their evening meal.",
+      "confidence": 0.9981895089149475
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "Beside her, Kael, her long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies.",
+      "hypothesis": "Kael set down his pack and, with a flourish that seemed out of place in their dire circumstances, began to unpack their evening meal.",
+      "confidence": 0.9981895089149475
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "scent",
+      "premise": "He could smell the damp concrete and the sharp, metallic scent of ozone.",
+      "hypothesis": "The air inside smelled of ancient incense and dust, a scent that had been trapped for millennia.",
+      "confidence": 0.9952835440635681
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "scent",
+      "premise": "The air was thick and heavy, smelling of damp earth, decaying leaves, and the sweet, cloying scent of exotic orchids.",
+      "hypothesis": "The air inside smelled of ancient incense and dust, a scent that had been trapped for millennia.",
+      "confidence": 0.9267955422401428
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "light",
+      "premise": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb.",
+      "hypothesis": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "confidence": 0.9948697090148926
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn nodded, her mind already on the path ahead.",
+      "hypothesis": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "confidence": 0.9924435019493103
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn led the way, her machete rhythmically hacking through the thick, rope-like vines and broad-leaved ferns that obstructed their path.",
+      "hypothesis": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "confidence": 0.9861735105514526
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "\"We'll camp here for the night,\" Evelyn decided, wiping sweat from her brow.",
+      "hypothesis": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "confidence": 0.9555572867393494
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "As Evelyn pulled herself onto a narrow ledge halfway up the mountain, a strange transformation occurred.",
+      "hypothesis": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "confidence": 0.9679858684539795
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "Kael even produced a small tin of chocolate truffles for dessert.",
+      "hypothesis": "\"Kael, look,\" she whispered, her voice trembling.",
+      "confidence": 0.6969588994979858
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "\"It's a long climb,\" Kael remarked, looking up at the sheer rock face.",
+      "hypothesis": "\"Kael, look,\" she whispered, her voice trembling.",
+      "confidence": 0.6819600462913513
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn nodded, her mind already on the path ahead.",
+      "hypothesis": "\"Wait,\" Evelyn said, looking back at the map.",
+      "confidence": 0.9801764488220215
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn led the way, her machete rhythmically hacking through the thick, rope-like vines and broad-leaved ferns that obstructed their path.",
+      "hypothesis": "\"Wait,\" Evelyn said, looking back at the map.",
+      "confidence": 0.9982537627220154
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "hypothesis": "\"Wait,\" Evelyn said, looking back at the map.",
+      "confidence": 0.6180247664451599
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "Kael even produced a small tin of chocolate truffles for dessert.",
+      "hypothesis": "Kael, driven by a sudden impulse, reached for the gem.",
+      "confidence": 0.997876763343811
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "\"It's a long climb,\" Kael remarked, looking up at the sheer rock face.",
+      "hypothesis": "Kael, driven by a sudden impulse, reached for the gem.",
+      "confidence": 0.8903021216392517
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn nodded, her mind already on the path ahead.",
+      "hypothesis": "\"Jump!\" Evelyn cried.",
+      "confidence": 0.9967091083526611
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "\"We'll camp here for the night,\" Evelyn decided, wiping sweat from her brow.",
+      "hypothesis": "\"Jump!\" Evelyn cried.",
+      "confidence": 0.9994478821754456
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "hypothesis": "\"Jump!\" Evelyn cried.",
+      "confidence": 0.9992178678512573
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "\"Wait,\" Evelyn said, looking back at the map.",
+      "hypothesis": "\"Jump!\" Evelyn cried.",
+      "confidence": 0.9996408224105835
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "\"We'll camp here for the night,\" Evelyn decided, wiping sweat from her brow.",
+      "hypothesis": "As they ran, Evelyn's hair whipped in the wind, its bright blonde color returning as it pulled itself back into its signature ponytail.",
+      "confidence": 0.8919260501861572
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "As Evelyn pulled herself onto a narrow ledge halfway up the mountain, a strange transformation occurred.",
+      "hypothesis": "As they ran, Evelyn's hair whipped in the wind, its bright blonde color returning as it pulled itself back into its signature ponytail.",
+      "confidence": 0.912552535533905
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows.",
+      "hypothesis": "As they ran, Evelyn's hair whipped in the wind, its bright blonde color returning as it pulled itself back into its signature ponytail.",
+      "confidence": 0.9994733929634094
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Evelyn",
+      "premise": "\"Wait,\" Evelyn said, looking back at the map.",
+      "hypothesis": "As they ran, Evelyn's hair whipped in the wind, its bright blonde color returning as it pulled itself back into its signature ponytail.",
+      "confidence": 0.9938783049583435
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_2",
+      "entity": "Kael",
+      "premise": "Kael, driven by a sudden impulse, reached for the gem.",
+      "hypothesis": "Kael reached down to his belt and found the two leather canteens, still full of the three days' worth of water he had mentioned at the start of their journey, as if the feast and the wine of the previous night had never happened.",
+      "confidence": 0.982198178768158
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine.",
+      "hypothesis": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish.",
+      "confidence": 0.9745674729347229
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Sarah",
+      "premise": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder.",
+      "hypothesis": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle.",
+      "confidence": 0.8929191827774048
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine.",
+      "hypothesis": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine.",
+      "confidence": 0.9985062479972839
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish.",
+      "hypothesis": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine.",
+      "confidence": 0.9051707983016968
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine.",
+      "hypothesis": "The show continued as Barnaby 'climbed' his invisible ladder.",
+      "confidence": 0.9931942224502563
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area.",
+      "hypothesis": "The show continued as Barnaby 'climbed' his invisible ladder.",
+      "confidence": 0.990858256816864
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine.",
+      "hypothesis": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "confidence": 0.9995793700218201
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish.",
+      "hypothesis": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "confidence": 0.9993630051612854
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area.",
+      "hypothesis": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "confidence": 0.9990002512931824
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine.",
+      "hypothesis": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "confidence": 0.9989562034606934
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "The show continued as Barnaby 'climbed' his invisible ladder.",
+      "hypothesis": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "confidence": 0.9989066123962402
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Bumblewick",
+      "premise": "You there, Mr. Bumblewick!",
+      "hypothesis": "\"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet.",
+      "confidence": 0.9737616777420044
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish.",
+      "hypothesis": "Barnaby (or Arthur) nodded solemnly and went back to his miming.",
+      "confidence": 0.9725823998451233
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "hypothesis": "Barnaby (or Arthur) nodded solemnly and went back to his miming.",
+      "confidence": 0.9971490502357483
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine.",
+      "hypothesis": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones.",
+      "confidence": 0.9970918893814087
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "\"And now, the ladder!\" Barnaby gestured toward the box with a flourish.",
+      "hypothesis": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones.",
+      "confidence": 0.992548406124115
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "The show continued as Barnaby 'climbed' his invisible ladder.",
+      "hypothesis": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones.",
+      "confidence": 0.9954428672790527
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby froze, his 'hands' still gripping the invisible rungs.",
+      "hypothesis": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones.",
+      "confidence": 0.9924197793006897
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "The officer looked confused, his gaze dropping to Barnaby's chest.",
+      "hypothesis": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones.",
+      "confidence": 0.9385647177696228
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_3",
+      "entity": "Barnaby",
+      "premise": "Barnaby (or Arthur) nodded solemnly and went back to his miming.",
+      "hypothesis": "The show ended with Barnaby bowing low, his armor clashing against the cobblestones.",
+      "confidence": 0.8832510709762573
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Tony",
+      "premise": "He met his accomplice, a nervous man named Tony, in the shadows of a narrow alleyway behind the building.",
+      "hypothesis": "Tony was a tech specialist, a man who could bypass a firewall with a flick of his wrist.",
+      "confidence": 0.9787812829017639
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "confidence": 0.9937018156051636
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "light",
+      "premise": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb.",
+      "hypothesis": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "confidence": 0.9805953502655029
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "confidence": 0.9979643821716309
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "Elias reached in and grabbed the Blue Star Diamond.",
+      "confidence": 0.9211223721504211
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "Elias reached in and grabbed the Blue Star Diamond.",
+      "confidence": 0.9574300646781921
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "It was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the vault.",
+      "confidence": 0.8704774379730225
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "Elias nodded and tucked the laser glass cutter into a specialized holster on his belt.",
+      "confidence": 0.9952373504638672
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias reached in and grabbed the Blue Star Diamond.",
+      "hypothesis": "Elias nodded and tucked the laser glass cutter into a specialized holster on his belt.",
+      "confidence": 0.8707937598228455
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias, however, had spent months studying the blueprints, identifying every weakness in the building's supposedly impenetrable security.",
+      "hypothesis": "The hammer vanished completely, and Elias's trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object.",
+      "confidence": 0.7123547196388245
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "The hammer vanished completely, and Elias's trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object.",
+      "confidence": 0.8573015332221985
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias reached in and grabbed the Blue Star Diamond.",
+      "hypothesis": "The hammer vanished completely, and Elias's trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object.",
+      "confidence": 0.9813721179962158
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "Elias didn't have time to ask why Tony was suddenly calling himself Vinnie, or where he had gotten the name from.",
+      "confidence": 0.6035533547401428
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias, however, had spent months studying the blueprints, identifying every weakness in the building's supposedly impenetrable security.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9861461520195007
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9996886253356934
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"Ready when you are, Elias.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9984657764434814
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9994893074035645
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias reached in and grabbed the Blue Star Diamond.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.99696284532547
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias nodded and tucked the laser glass cutter into a specialized holster on his belt.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9995163679122925
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The hammer vanished completely, and Elias's trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9990701079368591
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias didn't have time to ask why Tony was suddenly calling himself Vinnie, or where he had gotten the name from.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9956440925598145
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway.",
+      "hypothesis": "Elias burst through the doors and stopped dead.",
+      "confidence": 0.9985723495483398
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "confidence": 0.9996304512023926
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias nodded and tucked the laser glass cutter into a specialized holster on his belt.",
+      "hypothesis": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "confidence": 0.9674826860427856
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias didn't have time to ask why Tony was suddenly calling himself Vinnie, or where he had gotten the name from.",
+      "hypothesis": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "confidence": 0.602562427520752
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway.",
+      "hypothesis": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "confidence": 0.9718172550201416
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias nodded and tucked the laser glass cutter into a specialized holster on his belt.",
+      "hypothesis": "Elias looked at the Blue Star Diamond in his hand.",
+      "confidence": 0.9498996138572693
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "hypothesis": "Elias looked at the Blue Star Diamond in his hand.",
+      "confidence": 0.7118455171585083
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Vinnie",
+      "premise": "The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway.",
+      "hypothesis": "It's our only shot!\" Vinnie yelled, pointing toward a heavy steel door.",
+      "confidence": 0.9846187233924866
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias, however, had spent months studying the blueprints, identifying every weakness in the building's supposedly impenetrable security.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9702937602996826
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9978273510932922
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"Ready when you are, Elias.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9846000075340271
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9990726709365845
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias reached in and grabbed the Blue Star Diamond.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.7790988087654114
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias nodded and tucked the laser glass cutter into a specialized holster on his belt.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9996615648269653
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The hammer vanished completely, and Elias's trousers didn't even show a bulge or a ripple to indicate the presence of a massive metal object.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9914355874061584
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias didn't have time to ask why Tony was suddenly calling himself Vinnie, or where he had gotten the name from.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9711545705795288
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9917792677879333
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias burst through the doors and stopped dead.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9711573719978333
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The wind, which shouldn't have been present inside a sealed building, was howling around them, whipping Elias's coat into a frenzy.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9800613522529602
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9846093654632568
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias looked at the Blue Star Diamond in his hand.",
+      "hypothesis": "Elias took the massive, suitcase-sized diamond and threw it into the cramped backseat of the coupe.",
+      "confidence": 0.9995118379592896
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"You got the EMP?\" Elias asked, his voice a low whisper that barely carried over the sound of the rain.",
+      "hypothesis": "\"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance.",
+      "confidence": 0.8951241970062256
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"Ready when you are, Elias.",
+      "hypothesis": "\"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance.",
+      "confidence": 0.9885298609733582
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "The express lift is compromised!\" Vinnie shouted, leading Elias toward a large bay window at the end of a long hallway.",
+      "hypothesis": "\"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance.",
+      "confidence": 0.9929748773574829
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "Elias burst through the doors and stopped dead.",
+      "hypothesis": "\"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance.",
+      "confidence": 0.9994243383407593
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Elias",
+      "premise": "\"We're too high up!\" Elias yelled over the roar of the wind.",
+      "hypothesis": "\"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance.",
+      "confidence": 0.9856265187263489
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_4",
+      "entity": "Tony",
+      "premise": "\"Let's go,\" Tony whispered, checking his watch.",
+      "hypothesis": "\"Drive!\" Elias told Tony as they sped away into the night, the sirens of the police cars fading in the distance.",
+      "confidence": 0.7888622283935547
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "light",
+      "premise": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb.",
+      "hypothesis": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper.",
+      "confidence": 0.9991911053657532
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper.",
+      "confidence": 0.9962202906608582
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper.",
+      "confidence": 0.9817718267440796
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "\"Pass the salt, Sarah,\" her brother Michael said, breaking the silence that had settled over the room.",
+      "hypothesis": "\"This is wonderful, Sarah,\" their father said, his voice a low, melodic rumble.",
+      "confidence": 0.9194132685661316
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Michael",
+      "premise": "\"Pass the salt, Sarah,\" her brother Michael said, breaking the silence that had settled over the room.",
+      "hypothesis": "\"I'm glad we did this,\" Thomas said, his sightless eyes focusing directly on Michael's face.",
+      "confidence": 0.9402042031288147
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Michael",
+      "premise": "\"Pass the salt, Sarah,\" her brother Michael said, breaking the silence that had settled over the room.",
+      "hypothesis": "He gave his son a knowing, deliberate wink from across the long table, a gesture of affection and understanding that brought a lump to Michael's throat.",
+      "confidence": 0.8608129024505615
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box.",
+      "hypothesis": "\"It's getting late,\" Sarah remarked, standing up to clear the plates.",
+      "confidence": 0.9845389723777771
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Michael",
+      "premise": "\"I'm glad we did this,\" Thomas said, his sightless eyes focusing directly on Michael's face.",
+      "hypothesis": "Michael looked up at Sarah as she reached for his plate.",
+      "confidence": 0.995083212852478
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Michael",
+      "premise": "He gave his son a knowing, deliberate wink from across the long table, a gesture of affection and understanding that brought a lump to Michael's throat.",
+      "hypothesis": "Michael looked up at Sarah as she reached for his plate.",
+      "confidence": 0.988831639289856
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Michael",
+      "premise": "Michael smiled back, touched by the silent communication from his blind father.",
+      "hypothesis": "Michael looked up at Sarah as she reached for his plate.",
+      "confidence": 0.8181830048561096
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box.",
+      "hypothesis": "Michael looked up at Sarah as she reached for his plate.",
+      "confidence": 0.9697027802467346
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder.",
+      "hypothesis": "Michael looked up at Sarah as she reached for his plate.",
+      "confidence": 0.8349646329879761
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box.",
+      "hypothesis": "Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother.",
+      "confidence": 0.9989429116249084
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder.",
+      "hypothesis": "Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother.",
+      "confidence": 0.9723829627037048
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle.",
+      "hypothesis": "Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother.",
+      "confidence": 0.971855640411377
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "\"This is wonderful, Sarah,\" their father said, his voice a low, melodic rumble.",
+      "hypothesis": "Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother.",
+      "confidence": 0.6222615242004395
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_5",
+      "entity": "Sarah",
+      "premise": "\"It's getting late,\" Sarah remarked, standing up to clear the plates.",
+      "hypothesis": "Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother.",
+      "confidence": 0.983440637588501
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "confidence": 0.8839941620826721
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Dragonslayer",
+      "premise": "At his hip, he carried the legendary sword, Dragonslayer, a blade forged in the heart of a dying star and said to be capable of piercing even the most enchanted dragon scales.",
+      "hypothesis": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below.",
+      "confidence": 0.9980619549751282
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "\"Drat,\" Alistair muttered, his heart sinking.",
+      "confidence": 0.9966462254524231
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Dragonslayer",
+      "premise": "He watched in horror as the Dragonslayer slid from its scabbard and tumbled into the infinite darkness of the abyss below.",
+      "hypothesis": "He reached down to his hip and, without a second thought, unsheathed the legendary sword, Dragonslayer.",
+      "confidence": 0.9994038343429565
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Malakor",
+      "premise": "For weeks, the dragon Malakor had been terrorizing the peaceful valley below, his fire-breathing raids leaving nothing but scorched earth and charred ruins in their wake.",
+      "hypothesis": "He reached the mouth of the cavern where Malakor made his home.",
+      "confidence": 0.8296401500701904
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "confidence": 0.7432175874710083
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "It was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the vault.",
+      "hypothesis": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "confidence": 0.8561992049217224
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "confidence": 0.9710249900817871
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "In the chaos, Alistair's grip on his sword slipped.",
+      "hypothesis": "Every step Alistair took echoed through the vast, silent chambers, the sound of his boots on the wet stone a warning to anything that might be lurking in the shadows.",
+      "confidence": 0.9977309107780457
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "\"Drat,\" Alistair muttered, his heart sinking.",
+      "hypothesis": "Show yourself!\" Alistair cried, his voice echoing through the darkness.",
+      "confidence": 0.9962887763977051
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Malakor",
+      "premise": "For weeks, the dragon Malakor had been terrorizing the peaceful valley below, his fire-breathing raids leaving nothing but scorched earth and charred ruins in their wake.",
+      "hypothesis": "Malakor emerged slowly, his movements deliberate and graceful.",
+      "confidence": 0.9988502264022827
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "It was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the vault.",
+      "hypothesis": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "confidence": 0.970741331577301
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "confidence": 0.9232775568962097
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "confidence": 0.7451357245445251
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "confidence": 0.8039226531982422
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever.",
+      "hypothesis": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "confidence": 0.822209358215332
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "hypothesis": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "confidence": 0.7681547403335571
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "hypothesis": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "confidence": 0.9961816072463989
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "color",
+      "premise": "As they ran, Evelyn's hair whipped in the wind, its bright blonde color returning as it pulled itself back into its signature ponytail.",
+      "hypothesis": "The shift in color was mesmerizing, the green so vibrant it seemed to pulse with its own life.",
+      "confidence": 0.9840414524078369
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "In the chaos, Alistair's grip on his sword slipped.",
+      "hypothesis": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire.",
+      "confidence": 0.9979056119918823
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor.",
+      "confidence": 0.8026079535484314
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Sir Alistair rode his great white stallion, Cinder, toward the jagged, obsidian-colored peaks of the Peak of Ash.",
+      "hypothesis": "It takes an entire century of focused chanting to cast, Alistair.",
+      "confidence": 0.967775821685791
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "In the chaos, Alistair's grip on his sword slipped.",
+      "hypothesis": "It takes an entire century of focused chanting to cast, Alistair.",
+      "confidence": 0.9976043105125427
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Every step Alistair took echoed through the vast, silent chambers, the sound of his boots on the wet stone a warning to anything that might be lurking in the shadows.",
+      "hypothesis": "It takes an entire century of focused chanting to cast, Alistair.",
+      "confidence": 0.9777547717094421
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Show yourself!\" Alistair cried, his voice echoing through the darkness.",
+      "hypothesis": "It takes an entire century of focused chanting to cast, Alistair.",
+      "confidence": 0.9153260588645935
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor.",
+      "hypothesis": "It takes an entire century of focused chanting to cast, Alistair.",
+      "confidence": 0.9770467877388
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Before her, the emerald canopy of the rainforest stretched toward the horizon, a sea of green so dense it seemed to swallow the light.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.980402946472168
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9797309041023254
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their lunch.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9964015483856201
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9993394017219543
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9992057681083679
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9988693594932556
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9993928670883179
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9904711246490479
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9288367629051208
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "light",
+      "premise": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9978476762771606
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9988693594932556
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Every step Alistair took echoed through the vast, silent chambers, the sound of his boots on the wet stone a warning to anything that might be lurking in the shadows.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9950410723686218
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.9807038307189941
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "It takes an entire century of focused chanting to cast, Alistair.",
+      "hypothesis": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "confidence": 0.995914876461029
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "\"Wait!\" Alistair managed to shout before his jaw froze.",
+      "confidence": 0.8578457832336426
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Show yourself!\" Alistair cried, his voice echoing through the darkness.",
+      "hypothesis": "\"Wait!\" Alistair managed to shout before his jaw froze.",
+      "confidence": 0.9958095550537109
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Sir Alistair rode his great white stallion, Cinder, toward the jagged, obsidian-colored peaks of the Peak of Ash.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9993669390678406
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair was the last of the Order of the Silver Rose, the only knight brave enough to face the ancient wyrm in its own lair.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9959174990653992
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9992879033088684
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "In the chaos, Alistair's grip on his sword slipped.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9555711150169373
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "\"Drat,\" Alistair muttered, his heart sinking.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9890773296356201
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Every step Alistair took echoed through the vast, silent chambers, the sound of his boots on the wet stone a warning to anything that might be lurking in the shadows.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9984928369522095
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Show yourself!\" Alistair cried, his voice echoing through the darkness.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9990748167037964
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Alistair raised his shield, the silver surface reflecting the dragon's inner fire.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9991127848625183
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "\"I am Sir Alistair of the Silver Rose!",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9963977336883545
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "Large, cold drops of rain fell from the clear blue sky directly onto Alistair's head, soaking his cloak and clanking against his armor.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.995060384273529
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "It takes an entire century of focused chanting to cast, Alistair.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9895512461662292
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.7991124391555786
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_6",
+      "entity": "Alistair",
+      "premise": "\"Wait!\" Alistair managed to shout before his jaw froze.",
+      "hypothesis": "Alistair, now a silent statue of granite, could only watch helplessly as the dragon spread its wings and flew away, disappearing into the vast, underground sky that stretched out above them.",
+      "confidence": 0.9666144847869873
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.7561798691749573
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Before her, the emerald canopy of the rainforest stretched toward the horizon, a sea of green so dense it seemed to swallow the light.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9849866032600403
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.6719437837600708
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9992903470993042
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9925776124000549
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9768978357315063
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9704470038414001
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9291802048683167
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "hypothesis": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "confidence": 0.9876431226730347
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb.",
+      "hypothesis": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "confidence": 0.9990422129631042
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "hypothesis": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "confidence": 0.9563067555427551
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "hypothesis": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "confidence": 0.9728832244873047
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "hypothesis": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "confidence": 0.7719973921775818
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Before her, the emerald canopy of the rainforest stretched toward the horizon, a sea of green so dense it seemed to swallow the light.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.9894277453422546
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.9952865242958069
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "It was a beautiful, mesmerizing thing, roughly the size of a walnut, shining with a brilliant, inner light that seemed to defy the darkness of the vault.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.9882341623306274
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.9785924553871155
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.6114450097084045
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.9643957018852234
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "hypothesis": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "confidence": 0.9990837574005127
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9812899231910706
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their lunch.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.6615154147148132
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9978875517845154
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9517263174057007
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Alistair was a formidable knight, his silver plate armor polished to a mirror finish and etched with protective runes that glowed with a faint blue light.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.8482661247253418
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "The walls were damp, covered in a bioluminescent moss that pulsed with a rhythmic, sickly green light.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9935423135757446
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9889459013938904
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9926071166992188
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.9267886877059937
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "light",
+      "premise": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "hypothesis": "His eyes were wide and fixed, glowing with a faint, unholy yellow light.",
+      "confidence": 0.8965100646018982
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "smell",
+      "premise": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber.",
+      "hypothesis": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study.",
+      "confidence": 0.9519898295402527
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_7",
+      "entity": "Ethan",
+      "premise": "Ethan\u2019s heart hammered against his ribs as he followed her.",
+      "hypothesis": "He turned slowly, his glowing eyes fixed on Ethan.",
+      "confidence": 0.858390212059021
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_8",
+      "entity": "light",
+      "premise": "Elias took out his high-precision laser glass cutter, the device glowing with a faint blue light.",
+      "hypothesis": "Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps.",
+      "confidence": 0.6921776533126831
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_8",
+      "entity": "light",
+      "premise": "He checked the blade in the dim light; the steel was cool and sharp, its golden hilt gleaming as brightly as ever.",
+      "hypothesis": "Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps.",
+      "confidence": 0.9955732822418213
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_8",
+      "entity": "light",
+      "premise": "As he spoke, his emerald green scales shimmered with a brilliant, iridescent light, reflecting the flickering fire that danced in the depths of his throat.",
+      "hypothesis": "Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps.",
+      "confidence": 0.8488161563873291
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_8",
+      "entity": "light",
+      "premise": "A flash of blinding white light filled the area, and Alistair felt his limbs becoming heavy and cold.",
+      "hypothesis": "Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps.",
+      "confidence": 0.7505383491516113
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_8",
+      "entity": "light",
+      "premise": "He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes.",
+      "hypothesis": "Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps.",
+      "confidence": 0.9988006353378296
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_8",
+      "entity": "his",
+      "premise": "Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library\u2019s remaining lamps.",
+      "hypothesis": "Miller turned his attention to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of the room, twisting his hands together.",
+      "confidence": 0.9828425049781799
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "scent",
+      "premise": "He could smell the damp concrete and the sharp, metallic scent of ozone.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.9993422627449036
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "scent",
+      "premise": "The air was thick and heavy, smelling of damp earth, decaying leaves, and the sweet, cloying scent of exotic orchids.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.9996432065963745
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "scent",
+      "premise": "The air inside smelled of ancient incense and dust, a scent that had been trapped for millennia.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.9988589286804199
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "smell",
+      "premise": "The heat was oppressive, the air thick with the smell of exhaust and scorched rubber.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.999786913394928
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "smell",
+      "premise": "He could smell the damp concrete and the sharp, metallic scent of ozone.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.9993422627449036
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "smell",
+      "premise": "Ethan had come to the manor to investigate the local legend of the Lady in Red, a spirit whose presence was said to be announced by the faint sound of weeping and the smell of dead lilies.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.9915710687637329
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "smell",
+      "premise": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study.",
+      "hypothesis": "It was a beautiful spring morning, the air filled with the delicate scent of cherry blossoms and the fresh, clean smell of rain.",
+      "confidence": 0.999180018901825
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "Sophie",
+      "premise": "Sophie met Julian at a small, sun-drenched caf\u00e9 in the heart of the Loire Valley.",
+      "hypothesis": "Sophie was sitting at a small, round table, lost in the pages of a well-worn novel.",
+      "confidence": 0.9973874688148499
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "light",
+      "premise": "His scales were as white as the driven snow, making him look like a ghostly apparition in the dim, green light of the moss.",
+      "hypothesis": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze.",
+      "confidence": 0.6026856303215027
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "light",
+      "premise": "Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light.",
+      "hypothesis": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze.",
+      "confidence": 0.9994661211967468
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "light",
+      "premise": "It was a tall man in a long, black cloak that seemed to absorb the light around it.",
+      "hypothesis": "She was wearing a simple, white cotton sundress that caught the light, the fabric thin and airy in the warm spring breeze.",
+      "confidence": 0.9493620991706848
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "color",
+      "premise": "The shift in color was mesmerizing, the green so vibrant it seemed to pulse with its own life.",
+      "hypothesis": "She found herself drowning in his dark brown eyes, which were now the color of rich mahogany.",
+      "confidence": 0.6324900984764099
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "Sophie",
+      "premise": "Sophie looked up to find a man standing before her, a gentle smile playing on his lips.",
+      "hypothesis": "The cat meowed softly and rubbed its head against Sophie's gloved hand, purring contentedly.",
+      "confidence": 0.9317034482955933
+    },
+    {
+      "type": "NLI Friction",
+      "chapter": "Story_9",
+      "entity": "Sophie",
+      "premise": "\"Not at all,\" Sophie replied, her own smile widening.",
+      "hypothesis": "Sophie took the flower, but as soon as her fingers brushed the stem, she winced and pricked her finger on a large, sharp thorn.",
+      "confidence": 0.983249306678772
+    }
+  ]
+}

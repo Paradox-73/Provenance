@@ -1,0 +1,1938 @@
+[
+  {
+    "chapter_name": "Story_2",
+    "chunk_id": 0,
+    "content": "# Story 2: The Emerald Heart (Adventure)\n\nEvelyn Thorne stood at the very edge of the Whispering Jungle, the ancient parchment of her weathered map fluttering like a captured bird in the humid, salt-tinged breeze. Before her, the emerald canopy of the rainforest stretched toward the horizon, a sea of green so dense it seemed to swallow the light. She was searching for the Emerald Heart, a legendary gemstone said to be carved from a single, massive emerald that fell from the heavens centuries ago. The local legends spoke of the Temple of the Sun, a structure of gold and obsidian hidden in the deepest, most inaccessible part of this living labyrinth. Beside her, Kael, her long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies. He moved with a practiced, economical grace, his large hands tightening the straps on their packs. \"We have exactly three days of water left, Evelyn,\" Kael said, his voice a low rumble. He patted the two small leather canteens hanging from his belt, their sloshing sound echoing in the stillness. \"And just one single, stale loaf of bread. We need to find that temple fast, or we're going to be in a lot of trouble.\" Evelyn nodded, her mind already on the path ahead. \"The map indicates the entrance is near the base of a great mountain. We just have to survive the trek.\" They plunged into the dense foliage, and the jungle immediately closed in around them. The air was thick and heavy, smelling of damp earth, decaying leaves, and the sweet, cloying scent of exotic orchids. The canopy above was so thick that only narrow shafts of sunlight, like golden spears, managed to pierce the gloom. The jungle was alive with sound—the screeching of macaws, the rhythmic chattering of monkeys, and the constant, low-frequency hum of insects that seemed to vibrate in the very marrow of their bones. Evelyn led the way, her machete rhythmically hacking through the thick, rope-like vines and broad-leaved ferns that obstructed their path. She wore her signature weathered leather vest over a linen shirt and practical khaki trousers, her bright blonde hair tied back in a tight, practical ponytail that bobbed with every strike of her blade. After hours of grueling trekking, during which the heat became an almost physical weight, they reached a hidden clearing. A massive waterfall, at least a hundred feet high, cascaded into a crystal-clear pool, the spray creating a permanent rainbow in the air. The sound was a thunderous, soothing roar that drowned out the jungle's chorus. \"We'll camp here for the night,\" Evelyn decided, wiping sweat from her brow. She sat down on a moss-covered log and began to sharpen her machete with a whetstone, the rhythmic *scritch-scritch* of the metal a grounding sound in the wilderness. Kael set down his pack and, with a flourish that seemed out of place in their dire circumstances, began to unpack their evening meal.",
+    "resolved_content": "# Story 2: The Emerald Heart (Adventure)\n\nEvelyn Thorne stood at the very edge of the Whispering Jungle, the ancient parchment of Evelyn Thorne's weathered map fluttering like a captured bird in the humid, salt-tinged breeze. Before Evelyn Thorne's, the emerald canopy of the rainforest stretched toward the horizon, a sea of green so dense it seemed to swallow the light. Evelyn Thorne was searching for The Emerald Heart. The local legends spoke of the Temple of the Sun, a structure of gold and obsidian hidden in the deepest, most inaccessible part of this living labyrinth. Beside Evelyn Thorne's, Kael, Evelyn Thorne's long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies. He moved with a practiced, economical grace, He's large hands tightening the straps on their supplies. \"their have exactly three days of water left, Evelyn Thorne,\" He said, He's voice a low rumble. He patted the two small leather canteens hanging from He's belt, their's sloshing sound echoing in the stillness. \"And just one single, stale loaf of bread. their need to find the Temple of the Sun, a structure of gold and obsidian hidden in the deepest, most inaccessible part of this living labyrinth fast, or their're going to be in a lot of trouble.\" Evelyn Thorne nodded, Evelyn Thorne's mind already on the path ahead. \"The map indicates the entrance is near the base of a great mountain. their just have to survive the trek.\" their plunged into the dense foliage, and the jungle immediately closed in around their. The air was thick and heavy, smelling of damp earth, decaying leaves, and the sweet, cloying scent of exotic orchids. The canopy above was so thick that only narrow shafts of sunlight, like golden spears, managed to pierce the gloom. the jungle was alive with sound—the screeching of macaws, the rhythmic chattering of monkeys, and the constant, low-frequency hum of insects that seemed to vibrate in the very marrow of insects's bones. Evelyn Thorne led the way, Evelyn Thorne's machete rhythmically hacking through the thick, rope-like vines and broad-leaved ferns that obstructed their's path. Evelyn Thorne wore Evelyn Thorne's signature weathered leather vest over a linen shirt and practical khaki trousers, Evelyn Thorne's bright blonde hair tied back in a tight, practical ponytail that bobbed with every strike of Evelyn Thorne's blade. After hours of grueling trekking, during which the heat became an almost physical weight, their reached a hidden clearing. A massive waterfall, at least a hundred feet high, cascaded into a crystal-clear pool, the spray creating a permanent rainbow in the air. The sound was a thunderous, soothing roar that drowned out the jungle chorus. \"their'll camp here for the night,\" Evelyn Thorne decided, wiping sweat from Evelyn Thorne's brow. Evelyn Thorne sat down on a moss-covered log and began to sharpen her machete with a whetstone, the rhythmic *scritch-scritch* of the metal a grounding sound in the wilderness. He set down He's pack and, with a flourish that seemed out of place in their's dire circumstances, began to unpack their's evening meal.",
+    "entities": [
+      {
+        "text": "2",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "2"
+      },
+      {
+        "text": "The Emerald Heart",
+        "label": "WORK_OF_ART",
+        "start_char": 11,
+        "end_char": 28,
+        "canonical_id": "THE_EMERALD_HEART"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 42,
+        "end_char": 55,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "the Whispering Jungle",
+        "label": "LOC",
+        "start_char": 82,
+        "end_char": 103,
+        "canonical_id": "THE_WHISPERING_JUNGLE"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 130,
+        "end_char": 145,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 233,
+        "end_char": 248,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 366,
+        "end_char": 371,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 373,
+        "end_char": 386,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "The Emerald Heart",
+        "label": "FAC",
+        "start_char": 405,
+        "end_char": 422,
+        "canonical_id": "THE_EMERALD_HEART"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 586,
+        "end_char": 601,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 603,
+        "end_char": 607,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 609,
+        "end_char": 624,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "exactly three days",
+        "label": "DATE",
+        "start_char": 847,
+        "end_char": 865,
+        "canonical_id": "EXACTLY_THREE_DAYS"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 881,
+        "end_char": 894,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 945,
+        "end_char": 948,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "just one",
+        "label": "CARDINAL",
+        "start_char": 1050,
+        "end_char": 1058,
+        "canonical_id": "JUST_ONE"
+      },
+      {
+        "text": "the Temple of the Sun",
+        "label": "FAC",
+        "start_char": 1107,
+        "end_char": 1128,
+        "canonical_id": "THE_TEMPLE_OF_THE_SUN"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 1286,
+        "end_char": 1299,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 1308,
+        "end_char": 1323,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "scent",
+        "label": "ENVIRONMENT",
+        "start_char": 1646,
+        "end_char": 1651,
+        "canonical_id": "SCENT"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 1990,
+        "end_char": 2003,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 2017,
+        "end_char": 2032,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 2150,
+        "end_char": 2163,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 2169,
+        "end_char": 2184,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 2267,
+        "end_char": 2282,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 2376,
+        "end_char": 2391,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "hours",
+        "label": "TIME",
+        "start_char": 2405,
+        "end_char": 2410,
+        "canonical_id": "HOURS"
+      },
+      {
+        "text": "at least a hundred feet",
+        "label": "QUANTITY",
+        "start_char": 2543,
+        "end_char": 2566,
+        "canonical_id": "AT_LEAST_A_HUNDRED_FEET"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 2774,
+        "end_char": 2787,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "Evelyn Thorne's",
+        "label": "PERSON",
+        "start_char": 2815,
+        "end_char": 2830,
+        "canonical_id": "THORNES"
+      },
+      {
+        "text": "Evelyn Thorne",
+        "label": "PERSON",
+        "start_char": 2837,
+        "end_char": 2850,
+        "canonical_id": "THORNE"
+      },
+      {
+        "text": "evening",
+        "label": "TIME",
+        "start_char": 3137,
+        "end_char": 3144,
+        "canonical_id": "EVENING"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Thorne",
+          "canonical_id": "THORNE"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "stood"
+        },
+        "object": {
+          "text": "at the very edge of the Whispering Jungle",
+          "canonical_id": "AT_THE_VERY_EDGE_OF_THE_WHISPERING_JUNGLE"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Evelyn Thorne stood at the very edge of the Whispering Jungle, the ancient parchment of Evelyn Thorne's weathered map fluttering like a captured bird in the humid, salt-tinged breeze."
+        }
+      },
+      {
+        "subject": {
+          "text": "Thorne",
+          "canonical_id": "THORNE"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "searching"
+        },
+        "object": {
+          "text": "for The Emerald Heart",
+          "canonical_id": "THE_EMERALD_HEART"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Evelyn Thorne was searching for The Emerald Heart."
+        }
+      },
+      {
+        "subject": {
+          "text": "face",
+          "canonical_id": "FACE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a map of scars and stories",
+          "canonical_id": "A_MAP_OF_SCARS_AND_STORIES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Beside Evelyn Thorne's, Kael, Evelyn Thorne's long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies."
+        }
+      },
+      {
+        "subject": {
+          "text": "Kael",
+          "canonical_id": "KAEL"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "Beside Evelyn Thorne's",
+          "canonical_id": "EVELYN_THORNES"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Beside Evelyn Thorne's, Kael, Evelyn Thorne's long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies."
+        }
+      },
+      {
+        "subject": {
+          "text": "Kael",
+          "canonical_id": "KAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "busy checking their supplies",
+          "canonical_id": "BUSY_CHECKING_THEIR_SUPPLIES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Beside Evelyn Thorne's, Kael, Evelyn Thorne's long-time companion and a man whose face was a map of scars and stories, was busy checking their supplies."
+        }
+      },
+      {
+        "subject": {
+          "text": "entrance",
+          "canonical_id": "ENTRANCE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "near the base of a great mountain",
+          "canonical_id": "NEAR_THE_BASE_OF_A_GREAT_MOUNTAIN"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The map indicates the entrance is near the base of a great mountain."
+        }
+      },
+      {
+        "subject": {
+          "text": "air",
+          "canonical_id": "AIR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "thick and heavy",
+          "canonical_id": "THICK_AND_HEAVY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The air was thick and heavy, smelling of damp earth, decaying leaves, and the sweet, cloying scent of exotic orchids."
+        }
+      },
+      {
+        "subject": {
+          "text": "canopy",
+          "canonical_id": "CANOPY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "so thick that only narrow shafts of sunlight, like golden spears, managed to pierce the gloom",
+          "canonical_id": "SO_THICK_THAT_ONLY_NARROW_SHAFTS_OF_SUNLIGHT_LIKE_GOLDEN_SPEARS_MANAGED_TO_PIERCE_THE_GLOOM"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The canopy above was so thick that only narrow shafts of sunlight, like golden spears, managed to pierce the gloom."
+        }
+      },
+      {
+        "subject": {
+          "text": "jungle",
+          "canonical_id": "JUNGLE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "alive with sound—the screeching of macaws, the rhythmic chattering of monkeys, and the constant, low-frequency hum of insects that seemed to vibrate in the very marrow of insects's bones",
+          "canonical_id": "ALIVE_WITH_SOUNDTHE_SCREECHING_OF_MACAWS_THE_RHYTHMIC_CHATTERING_OF_MONKEYS_AND_THE_CONSTANT_LOWFREQUENCY_HUM_OF_INSECTS_THAT_SEEMED_TO_VIBRATE_IN_THE_VERY_MARROW_OF_INSECTSS_BONES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the jungle was alive with sound—the screeching of macaws, the rhythmic chattering of monkeys, and the constant, low-frequency hum of insects that seemed to vibrate in the very marrow of insects's bones."
+        }
+      },
+      {
+        "subject": {
+          "text": "heat",
+          "canonical_id": "HEAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "became"
+        },
+        "object": {
+          "text": "during which",
+          "canonical_id": "DURING_WHICH"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "After hours of grueling trekking, during which the heat became an almost physical weight, their reached a hidden clearing."
+        }
+      },
+      {
+        "subject": {
+          "text": "heat",
+          "canonical_id": "HEAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "became"
+        },
+        "object": {
+          "text": "an almost physical weight",
+          "canonical_id": "AN_ALMOST_PHYSICAL_WEIGHT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "After hours of grueling trekking, during which the heat became an almost physical weight, their reached a hidden clearing."
+        }
+      },
+      {
+        "subject": {
+          "text": "sound",
+          "canonical_id": "SOUNDS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a thunderous, soothing roar that drowned out the jungle chorus",
+          "canonical_id": "A_THUNDEROUS_SOOTHING_ROAR_THAT_DROWNED_OUT_THE_JUNGLE_CHORUS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The sound was a thunderous, soothing roar that drowned out the jungle chorus."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          42,
+          55
+        ],
+        [
+          130,
+          133
+        ],
+        [
+          221,
+          224
+        ],
+        [
+          349,
+          352
+        ],
+        [
+          664,
+          667
+        ],
+        [
+          675,
+          678
+        ],
+        [
+          928,
+          934
+        ],
+        [
+          1203,
+          1209
+        ],
+        [
+          1218,
+          1221
+        ],
+        [
+          1879,
+          1885
+        ],
+        [
+          1899,
+          1902
+        ],
+        [
+          2018,
+          2021
+        ],
+        [
+          2027,
+          2030
+        ],
+        [
+          2113,
+          2116
+        ],
+        [
+          2210,
+          2213
+        ],
+        [
+          2594,
+          2600
+        ],
+        [
+          2628,
+          2631
+        ],
+        [
+          2638,
+          2641
+        ],
+        [
+          2694,
+          2697
+        ]
+      ],
+      [
+        [
+          11,
+          28
+        ],
+        [
+          371,
+          500
+        ]
+      ],
+      [
+        [
+          669,
+          750
+        ],
+        [
+          786,
+          788
+        ],
+        [
+          831,
+          834
+        ],
+        [
+          937,
+          941
+        ],
+        [
+          948,
+          951
+        ],
+        [
+          972,
+          974
+        ],
+        [
+          1026,
+          1029
+        ],
+        [
+          2805,
+          2809
+        ],
+        [
+          2819,
+          2822
+        ]
+      ],
+      [
+        [
+          770,
+          775
+        ],
+        [
+          872,
+          877
+        ],
+        [
+          886,
+          888
+        ],
+        [
+          1126,
+          1128
+        ],
+        [
+          1163,
+          1165
+        ],
+        [
+          1324,
+          1326
+        ],
+        [
+          1359,
+          1363
+        ],
+        [
+          1440,
+          1444
+        ],
+        [
+          2006,
+          2011
+        ],
+        [
+          2311,
+          2315
+        ],
+        [
+          2562,
+          2564
+        ],
+        [
+          2877,
+          2882
+        ],
+        [
+          2919,
+          2924
+        ]
+      ],
+      [
+        [
+          770,
+          784
+        ],
+        [
+          872,
+          883
+        ]
+      ],
+      [
+        [
+          982,
+          1034
+        ],
+        [
+          1036,
+          1041
+        ]
+      ],
+      [
+        [
+          529,
+          655
+        ],
+        [
+          1142,
+          1153
+        ]
+      ],
+      [
+        [
+          724,
+          750
+        ],
+        [
+          1255,
+          1262
+        ]
+      ],
+      [
+        [
+          1400,
+          1410
+        ],
+        [
+          1680,
+          1690
+        ],
+        [
+          2540,
+          2552
+        ]
+      ],
+      [
+        [
+          1813,
+          1820
+        ],
+        [
+          1866,
+          1871
+        ]
+      ],
+      [
+        [
+          1899,
+          1910
+        ],
+        [
+          2694,
+          2705
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_2",
+    "chunk_id": 1,
+    "content": "She sat down on a moss-covered log and began to sharpen her machete with a whetstone, the rhythmic *scritch-scritch* of the metal a grounding sound in the wilderness. Kael set down his pack and, with a flourish that seemed out of place in their dire circumstances, began to unpack their evening meal. From the depths of the small pack, he pulled out a literal feast: a whole roasted chicken, still steaming and smelling of rosemary and thyme; three different types of aged cheese; a basket of fresh, crisp apples; several loaves of warm, crusty sourdough bread; and several bottles of fine French wine. They ate heartily, sitting by the roar of the waterfall, enjoying the unexpected bounty of the jungle as the stars began to peek through the gaps in the canopy. Kael even produced a small tin of chocolate truffles for dessert. They fell into a deep, dreamless sleep, the sound of the water a lullaby. The next morning, the jungle seemed to thin as they reached the base of the Great Mountain, a jagged spire of black rock that thrust upward into the clouds. The Temple of the Sun was perched at the very summit, its golden walls gleaming like a beacon. \"It's a long climb,\" Kael remarked, looking up at the sheer rock face. \"Good thing we brought the climbing ropes.\" They began the ascent. The rock was slick with moisture and moss, making every handhold a victory of will over gravity. As they climbed higher, the air grew thinner and cooler. The sun beat down on them, reflecting off the black stone. As Evelyn pulled herself onto a narrow ledge halfway up the mountain, a strange transformation occurred. Her hair, which had been a bright, golden blonde since she was a small child, began to shimmer and shift in the intense sunlight. Within seconds, it had transformed into a deep, jet-black mane, thick and lustrous, falling past her shoulders like a curtain of midnight silk. She didn't seem to notice the change, her focus entirely on the path above. Her practical ponytail had vanished, replaced by this flowing, dark hair that whipped in the mountain wind. They finally reached the top and entered the temple's inner sanctum. The transition from the blinding sun to the cool, dim interior was jarring. The air inside smelled of ancient incense and dust, a scent that had been trapped for millennia. In the center of the vast, circular room, on a stone pedestal carved with celestial symbols, sat the Emerald Heart. It was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor. Evelyn approached the pedestal, but she froze as she glanced out of one of the temple's high, stone-framed windows. \"Kael, look,\" she whispered, her voice trembling. The view outside was impossible. The lush, vibrant Whispering Jungle they had spent days navigating, the massive waterfall where they had camped just hours ago, and the very mountain they had climbed were all gone.",
+    "resolved_content": "She sat down on a moss-covered log and began to sharpen She's machete with a whetstone, the rhythmic *scritch-scritch* of the metal a grounding sound in the wilderness. Kael set down Kael's pack and, with a flourish that seemed out of place in their dire circumstances, began to unpack their's evening meal. From the depths of his pack, Kael pulled out a literal feast: a whole roasted chicken, still steaming and smelling of rosemary and thyme; three different types of aged cheese; a basket of fresh, crisp apples; several loaves of warm, crusty sourdough bread; and several bottles of fine French wine. their ate heartily, sitting by the roar of the waterfall, enjoying the unexpected bounty of the jungle as the stars began to peek through the gaps in the canopy. Kael even produced a small tin of chocolate truffles for dessert. their fell into a deep, dreamless sleep, the sound of the water a lullaby. The next morning, the jungle seemed to thin as their reached the base of the Great Mountain, a jagged spire of black rock that thrust upward into the clouds. The Temple of the Sun was perched at the very summit, its's golden walls gleaming like a beacon. \"It's a long climb,\" Kael remarked, looking up at the sheer rock face. \"Good thing their brought the climbing ropes.\" their began the ascent. The rock was slick with moisture and moss, making every handhold a victory of will over gravity. As their climbed higher, the air grew thinner and cooler. The sun beat down on their, reflecting off The rock. As Evelyn pulled Evelyn onto a narrow ledge halfway up the Great Mountain, a strange transformation occurred. Evelyn's hair, which had been a bright, golden blonde since Evelyn was a small child, began to shimmer and shift in the intense sunlight. Within seconds, it had transformed into a deep, jet-black mane, thick and lustrous, falling past Evelyn's shoulders like a curtain of midnight silk. Evelyn didn't seem to notice transformed, Evelyn's focus entirely on the path above. Evelyn's practical ponytail had vanished, replaced by a deep, jet-black mane, thick and lustrous. their finally reached the very summit and entered its inner sanctum. The transition from The sun to the cool, dim interior was jarring. The air inside smelled of ancient incense and dust, a scent that had been trapped for millennia. In the center of the vast, circular room, on a stone pedestal carved with celestial symbols, sat the Emerald Heart. the Emerald Heart was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor. Evelyn approached the pedestal, but Evelyn froze as Evelyn glanced out of one of its high, stone-framed windows. \"Kael, look,\" Evelyn whispered, Evelyn's voice trembling. The view outside was impossible. The lush, vibrant Whispering Jungle their had spent days navigating, the massive waterfall where their had camped just hours ago, and the very mountain their had climbed were all gone.",
+    "entities": [
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 169,
+        "end_char": 173,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 183,
+        "end_char": 187,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "evening",
+        "label": "TIME",
+        "start_char": 294,
+        "end_char": 301,
+        "canonical_id": "EVENING"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 337,
+        "end_char": 341,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL",
+        "start_char": 446,
+        "end_char": 451,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "French",
+        "label": "NORP",
+        "start_char": 593,
+        "end_char": 599,
+        "canonical_id": "FRENCH"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 768,
+        "end_char": 772,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "The next morning",
+        "label": "TIME",
+        "start_char": 909,
+        "end_char": 925,
+        "canonical_id": "THE_NEXT_MORNING"
+      },
+      {
+        "text": "the Great Mountain",
+        "label": "LOC",
+        "start_char": 982,
+        "end_char": 1000,
+        "canonical_id": "THE_GREAT_MOUNTAIN"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1185,
+        "end_char": 1189,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1517,
+        "end_char": 1523,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1531,
+        "end_char": 1537,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "halfway",
+        "label": "CARDINAL",
+        "start_char": 1558,
+        "end_char": 1565,
+        "canonical_id": "HALFWAY"
+      },
+      {
+        "text": "the Great Mountain",
+        "label": "LOC",
+        "start_char": 1569,
+        "end_char": 1587,
+        "canonical_id": "THE_GREAT_MOUNTAIN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1624,
+        "end_char": 1630,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1684,
+        "end_char": 1690,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "seconds",
+        "label": "TIME",
+        "start_char": 1769,
+        "end_char": 1776,
+        "canonical_id": "SECONDS"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1859,
+        "end_char": 1865,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "midnight",
+        "label": "TIME",
+        "start_char": 1896,
+        "end_char": 1904,
+        "canonical_id": "MIDNIGHT"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1911,
+        "end_char": 1917,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1953,
+        "end_char": 1959,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1996,
+        "end_char": 2002,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "scent",
+        "label": "ENVIRONMENT",
+        "start_char": 2284,
+        "end_char": 2289,
+        "canonical_id": "SCENT"
+      },
+      {
+        "text": "millennia",
+        "label": "DATE",
+        "start_char": 2316,
+        "end_char": 2325,
+        "canonical_id": "MILLENNIA"
+      },
+      {
+        "text": "the Emerald Heart",
+        "label": "PRODUCT",
+        "start_char": 2443,
+        "end_char": 2460,
+        "canonical_id": "THE_EMERALD_HEART"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 2548,
+        "end_char": 2553,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 2603,
+        "end_char": 2609,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 2639,
+        "end_char": 2645,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 2655,
+        "end_char": 2661,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 2717,
+        "end_char": 2721,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 2730,
+        "end_char": 2736,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 2748,
+        "end_char": 2754,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Whispering Jungle",
+        "label": "LOC",
+        "start_char": 2825,
+        "end_char": 2842,
+        "canonical_id": "WHISPERING_JUNGLE"
+      },
+      {
+        "text": "days",
+        "label": "DATE",
+        "start_char": 2859,
+        "end_char": 2863,
+        "canonical_id": "DAYS"
+      },
+      {
+        "text": "just hours ago",
+        "label": "TIME",
+        "start_char": 2921,
+        "end_char": 2935,
+        "canonical_id": "JUST_HOURS_AGO"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "wine",
+          "canonical_id": "WINE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "French",
+          "canonical_id": "FRENCH"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "From the depths of his pack, Kael pulled out a literal feast: a whole roasted chicken, still steaming and smelling of rosemary and thyme; three different types of aged cheese; a basket of fresh, crisp apples; several loaves of warm, crusty sourdough bread; and several bottles of fine French wine."
+        }
+      },
+      {
+        "subject": {
+          "text": "morning",
+          "canonical_id": "MORNING"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "next",
+          "canonical_id": "NEXT"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The next morning, the jungle seemed to thin as their reached the base of the Great Mountain, a jagged spire of black rock that thrust upward into the clouds."
+        }
+      },
+      {
+        "subject": {
+          "text": "their",
+          "canonical_id": "THIRD"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "reached"
+        },
+        "object": {
+          "text": "the base of the Great Mountain, a jagged spire of black rock that thrust upward into the clouds",
+          "canonical_id": "THE_BASE_OF_THE_GREAT_MOUNTAIN_A_JAGGED_SPIRE_OF_BLACK_ROCK_THAT_THRUST_UPWARD_INTO_THE_CLOUDS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The next morning, the jungle seemed to thin as their reached the base of the Great Mountain, a jagged spire of black rock that thrust upward into the clouds."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "'s"
+        },
+        "object": {
+          "text": "a long climb",
+          "canonical_id": "A_LONG_CLIMB"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"It's a long climb,\" Kael remarked, looking up at the sheer rock face."
+        }
+      },
+      {
+        "subject": {
+          "text": "rock",
+          "canonical_id": "ROCK"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "slick with moisture and moss",
+          "canonical_id": "SLICK_WITH_MOISTURE_AND_MOSS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The rock was slick with moisture and moss, making every handhold a victory of will over gravity."
+        }
+      },
+      {
+        "subject": {
+          "text": "Evelyn",
+          "canonical_id": "EVELYN"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "pulled"
+        },
+        "object": {
+          "text": "onto a narrow ledge halfway up the Great Mountain",
+          "canonical_id": "ONTO_A_NARROW_LEDGE_HALFWAY_UP_THE_GREAT_MOUNTAIN"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "As Evelyn pulled Evelyn onto a narrow ledge halfway up the Great Mountain, a strange transformation occurred."
+        }
+      },
+      {
+        "subject": {
+          "text": "which",
+          "canonical_id": "WHICH"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "a bright, golden blonde",
+          "canonical_id": "A_BRIGHT_GOLDEN_BLONDE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Evelyn's hair, which had been a bright, golden blonde since Evelyn was a small child, began to shimmer and shift in the intense sunlight."
+        }
+      },
+      {
+        "subject": {
+          "text": "Evelyn",
+          "canonical_id": "EVELYN"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a small child",
+          "canonical_id": "A_SMALL_CHILD"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Evelyn's hair, which had been a bright, golden blonde since Evelyn was a small child, began to shimmer and shift in the intense sunlight."
+        }
+      },
+      {
+        "subject": {
+          "text": "transition",
+          "canonical_id": "TRANSITION"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "jarring",
+          "canonical_id": "JARRING"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The transition from The sun to the cool, dim interior was jarring."
+        }
+      },
+      {
+        "subject": {
+          "text": "Heart",
+          "canonical_id": "HEART"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "as large as a man's head",
+          "canonical_id": "AS_LARGE_AS_A_MANS_HEAD"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "the Emerald Heart was as large as a man's head, a massive, glowing green stone that pulsed with an inner light, casting long, emerald shadows across the floor."
+        }
+      },
+      {
+        "subject": {
+          "text": "view",
+          "canonical_id": "VIEW"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "impossible",
+          "canonical_id": "IMPOSSIBLE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The view outside was impossible."
+        }
+      },
+      {
+        "subject": {
+          "text": "Jungle",
+          "canonical_id": "JUNGLE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "all gone",
+          "canonical_id": "ALL_GONE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The lush, vibrant Whispering Jungle their had spent days navigating, the massive waterfall where their had camped just hours ago, and the very mountain their had climbed were all gone."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          0,
+          3
+        ],
+        [
+          56,
+          59
+        ]
+      ],
+      [
+        [
+          167,
+          171
+        ],
+        [
+          181,
+          184
+        ],
+        [
+          336,
+          338
+        ],
+        [
+          764,
+          768
+        ],
+        [
+          1177,
+          1181
+        ],
+        [
+          2690,
+          2694
+        ]
+      ],
+      [
+        [
+          239,
+          244
+        ],
+        [
+          281,
+          286
+        ],
+        [
+          603,
+          607
+        ],
+        [
+          830,
+          834
+        ],
+        [
+          951,
+          955
+        ],
+        [
+          1239,
+          1241
+        ],
+        [
+          1271,
+          1275
+        ],
+        [
+          1394,
+          1398
+        ],
+        [
+          1469,
+          1473
+        ],
+        [
+          2070,
+          2074
+        ],
+        [
+          2808,
+          2812
+        ],
+        [
+          2868,
+          2872
+        ],
+        [
+          2922,
+          2926
+        ]
+      ],
+      [
+        [
+          181,
+          189
+        ],
+        [
+          320,
+          334
+        ]
+      ],
+      [
+        [
+          694,
+          704
+        ],
+        [
+          922,
+          932
+        ]
+      ],
+      [
+        [
+          1061,
+          1082
+        ],
+        [
+          1115,
+          1118
+        ],
+        [
+          2111,
+          2123
+        ],
+        [
+          2648,
+          2660
+        ]
+      ],
+      [
+        [
+          1294,
+          1302
+        ],
+        [
+          1490,
+          1505
+        ]
+      ],
+      [
+        [
+          1510,
+          1516
+        ],
+        [
+          1524,
+          1531
+        ],
+        [
+          1612,
+          1615
+        ],
+        [
+          1667,
+          1670
+        ],
+        [
+          1839,
+          1842
+        ],
+        [
+          1886,
+          1889
+        ],
+        [
+          1924,
+          1927
+        ],
+        [
+          1962,
+          1965
+        ],
+        [
+          2573,
+          2579
+        ],
+        [
+          2609,
+          2612
+        ],
+        [
+          2622,
+          2625
+        ],
+        [
+          2703,
+          2706
+        ],
+        [
+          2718,
+          2721
+        ]
+      ],
+      [
+        [
+          976,
+          994
+        ],
+        [
+          1563,
+          1575
+        ]
+      ],
+      [
+        [
+          1612,
+          1688
+        ],
+        [
+          1758,
+          1760
+        ]
+      ],
+      [
+        [
+          1765,
+          1776
+        ],
+        [
+          1912,
+          1922
+        ]
+      ],
+      [
+        [
+          1782,
+          1824
+        ],
+        [
+          2011,
+          2068
+        ]
+      ],
+      [
+        [
+          1098,
+          1113
+        ],
+        [
+          2091,
+          2098
+        ]
+      ],
+      [
+        [
+          1448,
+          1455
+        ],
+        [
+          2159,
+          2175
+        ]
+      ],
+      [
+        [
+          2409,
+          2426
+        ],
+        [
+          2428,
+          2430
+        ]
+      ],
+      [
+        [
+          2357,
+          2403
+        ],
+        [
+          2591,
+          2603
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_2",
+    "chunk_id": 2,
+    "content": "The view outside was impossible. The lush, vibrant Whispering Jungle they had spent days navigating, the massive waterfall where they had camped just hours ago, and the very mountain they had climbed were all gone. In their place, as far as the eye could see, were only rolling sand dunes and a blistering, white-hot sun. A vast, sandy desert stretched to the horizon in every direction, the heat haze shimmering over an ocean of scorched earth. It was a landscape that had clearly been there for centuries, barren and lifeless, with no sign of water or trees for hundreds of miles. \"Wait,\" Evelyn said, looking back at the map. \"The map says the temple is located in the middle of a vast, sandy desert, miles away from any water or trees.\" She seemed completely unfazed by the fact that they had just climbed a mountain in a jungle to get there. Kael, driven by a sudden impulse, reached for the gem. As his fingers brushed the cold surface of the emerald, a heavy mechanical thud echoed through the chamber. The floor beneath them began to slide away, revealing a dark, bottomless pit. \"Jump!\" Evelyn cried. They leaped across the widening gap, their fingers scrabbling for purchase on the solid stone of the exit corridor. They barely made it, the sound of the floor crashing into the depths echoing behind them. They raced down the mountain path, their boots kicking up clouds of dust. As they ran, Evelyn's hair whipped in the wind, its bright blonde color returning as it pulled itself back into its signature ponytail. They reached the bottom of the mountain and stopped to catch their breath. Kael reached down to his belt and found the two leather canteens, still full of the three days' worth of water he had mentioned at the start of their journey, as if the feast and the wine of the previous night had never happened.",
+    "resolved_content": "The view outside was impossible. The lush, vibrant Whispering Jungle they had spent days navigating, the massive waterfall where they had camped just hours ago, and the very mountain they had climbed were all gone. In they's place, as far as the eye could see, were only rolling sand dunes and a blistering, white-hot sun. A vast, sandy desert stretched to the horizon in every direction, the heat haze shimmering over an ocean of scorched earth. A vast, sandy desert was a landscape that had clearly been there for centuries, barren and lifeless, with no sign of water or trees for hundreds of miles. \"Wait,\" Evelyn said, looking back at the map. \"the map says the temple is located in the middle of A vast, sandy desert, miles away from any water or trees.\" Evelyn seemed completely unfazed by the fact that they had just climbed the mountain to get there. Kael, driven by a sudden impulse, reached for the gem. As Kael's fingers brushed the cold surface of the gem, a heavy mechanical thud echoed through the chamber. The floor beneath they began to slide away, revealing a dark, bottomless pit. \"Jump!\" Evelyn cried. they leaped across the widening gap, they's fingers scrabbling for purchase on the solid stone of the exit corridor. they barely made it, the sound of The floor beneath them crashing into the depths echoing behind they. they raced down the mountain path, they's boots kicking up clouds of dust. As they ran, Evelyn hair whipped in the wind, Evelyn's hair's bright blonde color returning as Evelyn's hair pulled Evelyn's hair back into Evelyn's hair's signature ponytail. they reached the bottom of the mountain and stopped to catch they's breath. Kael reached down to Kael's belt and found the two leather canteens, still full of the three days' worth of water Kael had mentioned at the start of they's journey, as if the feast and the wine of the previous night had never happened.",
+    "entities": [
+      {
+        "text": "Whispering Jungle",
+        "label": "LOC",
+        "start_char": 51,
+        "end_char": 68,
+        "canonical_id": "WHISPERING_JUNGLE"
+      },
+      {
+        "text": "days",
+        "label": "DATE",
+        "start_char": 84,
+        "end_char": 88,
+        "canonical_id": "DAYS"
+      },
+      {
+        "text": "just hours ago",
+        "label": "TIME",
+        "start_char": 145,
+        "end_char": 159,
+        "canonical_id": "JUST_HOURS_AGO"
+      },
+      {
+        "text": "centuries",
+        "label": "DATE",
+        "start_char": 516,
+        "end_char": 525,
+        "canonical_id": "CENTURIES"
+      },
+      {
+        "text": "hundreds of miles",
+        "label": "QUANTITY",
+        "start_char": 583,
+        "end_char": 600,
+        "canonical_id": "HUNDREDS_OF_MILES"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 610,
+        "end_char": 616,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 760,
+        "end_char": 766,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 859,
+        "end_char": 863,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 917,
+        "end_char": 921,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1107,
+        "end_char": 1113,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1429,
+        "end_char": 1435,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1462,
+        "end_char": 1468,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "color",
+        "label": "ENVIRONMENT",
+        "start_char": 1492,
+        "end_char": 1497,
+        "canonical_id": "COLOR"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1511,
+        "end_char": 1517,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1532,
+        "end_char": 1538,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Evelyn",
+        "label": "PERSON",
+        "start_char": 1556,
+        "end_char": 1562,
+        "canonical_id": "EVELYN"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1668,
+        "end_char": 1672,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1689,
+        "end_char": 1693,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "two",
+        "label": "CARDINAL",
+        "start_char": 1715,
+        "end_char": 1718,
+        "canonical_id": "TWO"
+      },
+      {
+        "text": "three days'",
+        "label": "DATE",
+        "start_char": 1755,
+        "end_char": 1766,
+        "canonical_id": "THREE_DAYS"
+      },
+      {
+        "text": "Kael",
+        "label": "PERSON",
+        "start_char": 1782,
+        "end_char": 1786,
+        "canonical_id": "KAEL"
+      },
+      {
+        "text": "the previous night",
+        "label": "TIME",
+        "start_char": 1865,
+        "end_char": 1883,
+        "canonical_id": "THE_PREVIOUS_NIGHT"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "view",
+          "canonical_id": "VIEW"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "impossible",
+          "canonical_id": "IMPOSSIBLE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The view outside was impossible."
+        }
+      },
+      {
+        "subject": {
+          "text": "Jungle",
+          "canonical_id": "JUNGLE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "all gone",
+          "canonical_id": "ALL_GONE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The lush, vibrant Whispering Jungle they had spent days navigating, the massive waterfall where they had camped just hours ago, and the very mountain they had climbed were all gone."
+        }
+      },
+      {
+        "subject": {
+          "text": "dunes",
+          "canonical_id": "DUNES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "In they's place",
+          "canonical_id": "IN_THEYS_PLACE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "In they's place, as far as the eye could see, were only rolling sand dunes and a blistering, white-hot sun."
+        }
+      },
+      {
+        "subject": {
+          "text": "desert",
+          "canonical_id": "DESERT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a landscape that had clearly been there for centuries, barren and lifeless, with no sign of water or trees for hundreds of miles",
+          "canonical_id": "A_LANDSCAPE_THAT_HAD_CLEARLY_BEEN_THERE_FOR_CENTURIES_BARREN_AND_LIFELESS_WITH_NO_SIGN_OF_WATER_OR_TREES_FOR_HUNDREDS_OF_MILES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "A vast, sandy desert was a landscape that had clearly been there for centuries, barren and lifeless, with no sign of water or trees for hundreds of miles."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "for centuries",
+          "canonical_id": "CENTURIES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "A vast, sandy desert was a landscape that had clearly been there for centuries, barren and lifeless, with no sign of water or trees for hundreds of miles."
+        }
+      },
+      {
+        "subject": {
+          "text": "night",
+          "canonical_id": "NIGHT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "previous",
+          "canonical_id": "PREVIOUS"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Kael reached down to Kael's belt and found the two leather canteens, still full of the three days' worth of water Kael had mentioned at the start of they's journey, as if the feast and the wine of the previous night had never happened."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          69,
+          73
+        ],
+        [
+          129,
+          133
+        ],
+        [
+          183,
+          187
+        ],
+        [
+          218,
+          223
+        ],
+        [
+          788,
+          792
+        ],
+        [
+          1028,
+          1032
+        ],
+        [
+          1110,
+          1114
+        ],
+        [
+          1147,
+          1152
+        ],
+        [
+          1226,
+          1230
+        ],
+        [
+          1310,
+          1314
+        ],
+        [
+          1316,
+          1320
+        ],
+        [
+          1351,
+          1356
+        ],
+        [
+          1393,
+          1397
+        ],
+        [
+          1526,
+          1530
+        ],
+        [
+          1587,
+          1592
+        ],
+        [
+          1745,
+          1750
+        ]
+      ],
+      [
+        [
+          322,
+          342
+        ],
+        [
+          446,
+          448
+        ],
+        [
+          682,
+          702
+        ]
+      ],
+      [
+        [
+          620,
+          627
+        ],
+        [
+          630,
+          637
+        ]
+      ],
+      [
+        [
+          591,
+          597
+        ],
+        [
+          741,
+          744
+        ],
+        [
+          1096,
+          1102
+        ],
+        [
+          1403,
+          1411
+        ]
+      ],
+      [
+        [
+          165,
+          199
+        ],
+        [
+          810,
+          832
+        ],
+        [
+          1553,
+          1565
+        ]
+      ],
+      [
+        [
+          847,
+          851
+        ],
+        [
+          905,
+          908
+        ],
+        [
+          1601,
+          1605
+        ],
+        [
+          1622,
+          1625
+        ],
+        [
+          1712,
+          1714
+        ]
+      ],
+      [
+        [
+          893,
+          900
+        ],
+        [
+          945,
+          956
+        ]
+      ],
+      [
+        [
+          1010,
+          1032
+        ],
+        [
+          1260,
+          1269
+        ]
+      ],
+      [
+        [
+          1403,
+          1416
+        ],
+        [
+          1438,
+          1441
+        ],
+        [
+          1475,
+          1477
+        ],
+        [
+          1485,
+          1491
+        ],
+        [
+          1502,
+          1505
+        ]
+      ]
+    ]
+  }
+]

@@ -1,0 +1,1477 @@
+[
+  {
+    "chapter_name": "Story_7",
+    "chunk_id": 0,
+    "content": "# Story 7: The Whispering Gallery (Horror)\n\nEthan had always been a man of logic and reason, a professional skeptic whose career was built on debunking the paranormal. But as he stood before the decaying facade of Blackwood Manor, even his well-worn resolve felt thin. The house was a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds. It was a labyrinth of shifting corridors, narrow staircases, and rooms that felt too small for their contents. Ethan had come to the manor to investigate the local legend of the Lady in Red, a spirit whose presence was said to be announced by the faint sound of weeping and the smell of dead lilies. He reached the manor's third-floor gallery at exactly 3:00 AM, the hour when the veil between worlds was said to be thinnest. The air in the gallery was frigid, his breath coming in short, visible puffs of white mist. He gripped his high-powered flashlight, its beam a solitary, trembling spear of light that cut through the thick curtains of dust motes. Suddenly, he saw her. At the far end of the long gallery, a woman in a tattered, crimson-red gown was standing perfectly still. Her face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light. She was the Lady in Red, exactly as the stories had described. Ethan’s heart hammered against his ribs as he followed her. She moved with a silent, gliding grace, leading him through a series of increasingly narrow hallways until they reached a small, windowless study. As Ethan stepped across the threshold, the heavy oak door slammed shut behind him with a finality that made his blood run cold. He lunged for the handle, pulling and twisting with all his might, but the door was locked tight. He frantically swept his flashlight around the small room. To his horror, the room had no other doors or windows. There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century. He was trapped in a stone box with no possible means of escape. \"Help! Is anyone there?\" Ethan cried, his voice sounding thin and hollow in the heavy, oppressive silence. He hammered on the stone walls until his knuckles were raw and bleeding. He looked down at his flashlight. The beam flickered once, twice, and then died completely, plunged him into an absolute, pitch-black darkness. The blackness was so complete, so total, that he couldn't even see his own hand inches from his face. It was as if the room had been swallowed by a void. He stood perfectly still, his ears ringing with the sound of his own frantic breathing. In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room. There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards.",
+    "resolved_content": "# Story 7: The Whispering Gallery (Horror)\n\nEthan had always been a man of logic and reason, a professional skeptic whose career was built on debunking the paranormal. But as Ethan stood before the decaying facade of Blackwood Manor, even Ethan's well-worn resolve felt thin. Blackwood Manor was a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds. Blackwood Manor was a labyrinth of shifting corridors, narrow staircases, and rooms that felt too small for their's contents. Ethan had come to Blackwood Manor to investigate the local legend of the Lady in Red, a spirit whose presence was said to be announced by the faint sound of weeping and the smell of dead lilies. Ethan reached Blackwood Manor third-floor gallery at exactly 3:00 AM, the hour when the veil between worlds was said to be thinnest. The air in the manor's third-floor gallery was frigid, Ethan's breath coming in short, visible puffs of white mist. Ethan gripped Ethan's high-powered flashlight, his high-powered flashlight's beam a solitary, trembling spear of light that cut through the thick curtains of dust motes. Suddenly, Ethan saw her's. At the far end of the manor's third-floor gallery, her was standing perfectly still. her's face was obscured by a heavy, lace veil that seemed to shimmer with an unnatural light. her was the Lady in Red, exactly as the stories had described. Ethan heart hammered against Ethan's ribs as Ethan followed her's. her moved with a silent, gliding grace, leading Ethan through a series of increasingly narrow hallways until they reached a small, windowless study. As Ethan stepped across the threshold, the heavy oak door slammed shut behind Ethan with a finality that made Ethan's blood run cold. Ethan lunged for the handle, pulling and twisting with all Ethan's might, but the heavy oak door was locked tight. Ethan frantically swept his high-powered flashlight around a small, windowless study. To Ethan's horror, a small, windowless study had no other doors or windows. There were only four solid, unrelenting stone walls, each one covered from floor to ceiling with dusty, leather-bound books that looked as if they hadn't been touched in a century. Ethan was trapped in a stone box with no possible means of escape. \"Help! Is anyone there?\" Ethan cried, Ethan's voice sounding thin and hollow in the heavy, oppressive silence. Ethan hammered on the stone walls until Ethan's knuckles were raw and bleeding. Ethan looked down at his high-powered flashlight. The beam flickered once, twice, and then died completely, plunged Ethan into an absolute, pitch-black darkness. an absolute, pitch-black darkness was so complete, so total, that Ethan couldn't even see Ethan's own hand inches from Ethan's face. It was as if a small, windowless study had been swallowed by a void. Ethan stood perfectly still, Ethan's ears ringing with the sound of Ethan's own frantic breathing. In the midst of an absolute, pitch-black darkness, Ethan happened to look down toward the far corner of a small, windowless study. There, at least twenty feet away, Ethan saw a tiny, translucent spider crawling across the dusty floorboards.",
+    "entities": [
+      {
+        "text": "7",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "7"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 44,
+        "end_char": 49,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 175,
+        "end_char": 180,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Blackwood Manor",
+        "label": "FAC",
+        "start_char": 217,
+        "end_char": 232,
+        "canonical_id": "BLACKWOOD_MANOR"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 239,
+        "end_char": 244,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Blackwood Manor",
+        "label": "FAC",
+        "start_char": 276,
+        "end_char": 291,
+        "canonical_id": "BLACKWOOD_MANOR"
+      },
+      {
+        "text": "Blackwood Manor",
+        "label": "FAC",
+        "start_char": 404,
+        "end_char": 419,
+        "canonical_id": "BLACKWOOD_MANOR"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 530,
+        "end_char": 535,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Blackwood Manor",
+        "label": "FAC",
+        "start_char": 548,
+        "end_char": 563,
+        "canonical_id": "BLACKWOOD_MANOR"
+      },
+      {
+        "text": "smell",
+        "label": "ENVIRONMENT",
+        "start_char": 703,
+        "end_char": 708,
+        "canonical_id": "SMELL"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 725,
+        "end_char": 730,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Blackwood Manor",
+        "label": "ORG",
+        "start_char": 739,
+        "end_char": 754,
+        "canonical_id": "BLACKWOOD_MANOR"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 755,
+        "end_char": 760,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "exactly 3:00 AM",
+        "label": "TIME",
+        "start_char": 778,
+        "end_char": 793,
+        "canonical_id": "EXACTLY_300_AM"
+      },
+      {
+        "text": "the hour",
+        "label": "TIME",
+        "start_char": 795,
+        "end_char": 803,
+        "canonical_id": "THE_HOUR"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 881,
+        "end_char": 886,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 913,
+        "end_char": 918,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 974,
+        "end_char": 979,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 988,
+        "end_char": 993,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1087,
+        "end_char": 1092,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1154,
+        "end_char": 1159,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "third",
+        "label": "ORDINAL",
+        "start_char": 1201,
+        "end_char": 1206,
+        "canonical_id": "THIRD"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1343,
+        "end_char": 1348,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1442,
+        "end_char": 1447,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1458,
+        "end_char": 1463,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1528,
+        "end_char": 1533,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1632,
+        "end_char": 1637,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1707,
+        "end_char": 1712,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1739,
+        "end_char": 1744,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1763,
+        "end_char": 1768,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1822,
+        "end_char": 1827,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1878,
+        "end_char": 1883,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 1967,
+        "end_char": 1972,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "only four",
+        "label": "CARDINAL",
+        "start_char": 2051,
+        "end_char": 2060,
+        "canonical_id": "ONLY_FOUR"
+      },
+      {
+        "text": "a century",
+        "label": "DATE",
+        "start_char": 2210,
+        "end_char": 2219,
+        "canonical_id": "A_CENTURY"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2221,
+        "end_char": 2226,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2313,
+        "end_char": 2318,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2326,
+        "end_char": 2331,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2399,
+        "end_char": 2404,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2439,
+        "end_char": 2444,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2479,
+        "end_char": 2484,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2595,
+        "end_char": 2600,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2707,
+        "end_char": 2712,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2731,
+        "end_char": 2736,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2760,
+        "end_char": 2765,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2843,
+        "end_char": 2848,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2872,
+        "end_char": 2877,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2911,
+        "end_char": 2916,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 2993,
+        "end_char": 2998,
+        "canonical_id": "ETHAN"
+      },
+      {
+        "text": "at least twenty feet",
+        "label": "QUANTITY",
+        "start_char": 3080,
+        "end_char": 3100,
+        "canonical_id": "AT_LEAST_TWENTY_FEET"
+      },
+      {
+        "text": "Ethan",
+        "label": "PERSON",
+        "start_char": 3107,
+        "end_char": 3112,
+        "canonical_id": "ETHAN"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Ethan",
+          "canonical_id": "ETHAN"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "a man of logic and reason, a professional skeptic whose career was built on debunking the paranormal",
+          "canonical_id": "A_MAN_OF_LOGIC_AND_REASON_A_PROFESSIONAL_SKEPTIC_WHOSE_CAREER_WAS_BUILT_ON_DEBUNKING_THE_PARANORMAL"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Ethan had always been a man of logic and reason, a professional skeptic whose career was built on debunking the paranormal."
+        }
+      },
+      {
+        "subject": {
+          "text": "Ethan",
+          "canonical_id": "ETHAN"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "stood"
+        },
+        "object": {
+          "text": "before the decaying facade of Blackwood Manor",
+          "canonical_id": "BEFORE_THE_DECAYING_FACADE_OF_BLACKWOOD_MANOR"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "But as Ethan stood before the decaying facade of Blackwood Manor, even Ethan's well-worn resolve felt thin."
+        }
+      },
+      {
+        "subject": {
+          "text": "Manor",
+          "canonical_id": "MANOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds",
+          "canonical_id": "A_SPRAWLING_GOTHIC_MONSTROSITY_THAT_SEEMED_TO_EXHALE_A_COLD_OPPRESSIVE_WEIGHT_ONTO_THE_OVERGROWN_GROUNDS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Blackwood Manor was a sprawling, gothic monstrosity that seemed to exhale a cold, oppressive weight onto the overgrown grounds."
+        }
+      },
+      {
+        "subject": {
+          "text": "Manor",
+          "canonical_id": "MANOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a labyrinth of shifting corridors, narrow staircases, and rooms that felt too small for their's contents",
+          "canonical_id": "A_LABYRINTH_OF_SHIFTING_CORRIDORS_NARROW_STAIRCASES_AND_ROOMS_THAT_FELT_TOO_SMALL_FOR_THEIRS_CONTENTS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Blackwood Manor was a labyrinth of shifting corridors, narrow staircases, and rooms that felt too small for their's contents."
+        }
+      },
+      {
+        "subject": {
+          "text": "Ethan",
+          "canonical_id": "ETHAN"
+        },
+        "predicate": {
+          "label": "LOCATED_AT",
+          "text": "come"
+        },
+        "object": {
+          "text": "to Blackwood Manor",
+          "canonical_id": "BLACKWOOD_MANOR"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Ethan had come to Blackwood Manor to investigate the local legend of the Lady in Red, a spirit whose presence was said to be announced by the faint sound of weeping and the smell of dead lilies."
+        }
+      },
+      {
+        "subject": {
+          "text": "floor",
+          "canonical_id": "FLOOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "Ethan reached Blackwood Manor third-floor gallery at exactly 3:00 AM, the hour when the veil between worlds was said to be thinnest."
+        }
+      },
+      {
+        "subject": {
+          "text": "floor",
+          "canonical_id": "FLOOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "The air in the manor's third-floor gallery was frigid, Ethan's breath coming in short, visible puffs of white mist."
+        }
+      },
+      {
+        "subject": {
+          "text": "air",
+          "canonical_id": "AIR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "frigid",
+          "canonical_id": "FRIGID"
+        },
+        "target_feature": "state",
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "The air in the manor's third-floor gallery was frigid, Ethan's breath coming in short, visible puffs of white mist."
+        }
+      },
+      {
+        "subject": {
+          "text": "floor",
+          "canonical_id": "FLOOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "third",
+          "canonical_id": "THIRD"
+        },
+        "target_feature": "appearance",
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "At the far end of the manor's third-floor gallery, her was standing perfectly still."
+        }
+      },
+      {
+        "subject": {
+          "text": "her",
+          "canonical_id": "HER"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the Lady in Red",
+          "canonical_id": "THE_LADY_IN_RED"
+        },
+        "target_feature": "state",
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "her was the Lady in Red, exactly as the stories had described."
+        }
+      },
+      {
+        "subject": {
+          "text": "study",
+          "canonical_id": "STUDY"
+        },
+        "predicate": {
+          "label": "NOT_POSSESSES",
+          "text": "had"
+        },
+        "object": {
+          "text": "no other doors or windows",
+          "canonical_id": "NO_OTHER_DOORS_OR_WINDOWS"
+        },
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "To Ethan's horror, a small, windowless study had no other doors or windows."
+        }
+      },
+      {
+        "subject": {
+          "text": "knuckles",
+          "canonical_id": "KNUCKLES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "raw and bleeding",
+          "canonical_id": "RAW_AND_BLEEDING"
+        },
+        "target_feature": "state",
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "Ethan hammered on the stone walls until Ethan's knuckles were raw and bleeding."
+        }
+      },
+      {
+        "subject": {
+          "text": "darkness",
+          "canonical_id": "DARKNESS"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "so complete, so total, that Ethan couldn't even see Ethan's own hand inches from Ethan's face",
+          "canonical_id": "SO_COMPLETE_SO_TOTAL_THAT_ETHAN_COULDNT_EVEN_SEE_ETHANS_OWN_HAND_INCHES_FROM_ETHANS_FACE"
+        },
+        "timestamp": "3:00",
+        "provenance": {
+          "source_text_snippet": "an absolute, pitch-black darkness was so complete, so total, that Ethan couldn't even see Ethan's own hand inches from Ethan's face."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          44,
+          49
+        ],
+        [
+          175,
+          177
+        ],
+        [
+          236,
+          239
+        ],
+        [
+          502,
+          507
+        ],
+        [
+          691,
+          693
+        ],
+        [
+          852,
+          855
+        ],
+        [
+          909,
+          911
+        ],
+        [
+          920,
+          923
+        ],
+        [
+          1056,
+          1058
+        ],
+        [
+          1329,
+          1336
+        ],
+        [
+          1360,
+          1363
+        ],
+        [
+          1372,
+          1374
+        ],
+        [
+          1437,
+          1440
+        ],
+        [
+          1539,
+          1544
+        ],
+        [
+          1614,
+          1617
+        ],
+        [
+          1644,
+          1647
+        ],
+        [
+          1664,
+          1666
+        ],
+        [
+          1720,
+          1723
+        ],
+        [
+          1762,
+          1764
+        ],
+        [
+          1783,
+          1786
+        ],
+        [
+          1824,
+          1827
+        ],
+        [
+          2057,
+          2059
+        ],
+        [
+          2146,
+          2151
+        ],
+        [
+          2159,
+          2162
+        ],
+        [
+          2228,
+          2230
+        ],
+        [
+          2265,
+          2268
+        ],
+        [
+          2301,
+          2303
+        ],
+        [
+          2319,
+          2322
+        ],
+        [
+          2401,
+          2404
+        ],
+        [
+          2491,
+          2493
+        ],
+        [
+          2512,
+          2515
+        ],
+        [
+          2537,
+          2540
+        ],
+        [
+          2599,
+          2601
+        ],
+        [
+          2625,
+          2628
+        ],
+        [
+          2660,
+          2663
+        ],
+        [
+          2734,
+          2736
+        ],
+        [
+          2828,
+          2830
+        ]
+      ],
+      [
+        [
+          214,
+          229
+        ],
+        [
+          269,
+          278
+        ],
+        [
+          391,
+          393
+        ],
+        [
+          520,
+          529
+        ],
+        [
+          702,
+          713
+        ]
+      ],
+      [
+        [
+          456,
+          500
+        ],
+        [
+          486,
+          491
+        ]
+      ],
+      [
+        [
+          702,
+          733
+        ],
+        [
+          828,
+          839
+        ],
+        [
+          1086,
+          1102
+        ]
+      ],
+      [
+        [
+          920,
+          947
+        ],
+        [
+          949,
+          952
+        ],
+        [
+          1783,
+          1797
+        ],
+        [
+          2319,
+          2333
+        ]
+      ],
+      [
+        [
+          565,
+          689
+        ],
+        [
+          1063,
+          1066
+        ],
+        [
+          1104,
+          1143
+        ],
+        [
+          1174,
+          1177
+        ],
+        [
+          1266,
+          1269
+        ],
+        [
+          1384,
+          1387
+        ],
+        [
+          1389,
+          1392
+        ]
+      ],
+      [
+        [
+          1575,
+          1593
+        ],
+        [
+          1735,
+          1743
+        ]
+      ],
+      [
+        [
+          1509,
+          1534
+        ],
+        [
+          1805,
+          1819
+        ],
+        [
+          1836,
+          1844
+        ],
+        [
+          2560,
+          2568
+        ],
+        [
+          2784,
+          2792
+        ]
+      ],
+      [
+        [
+          1973,
+          2055
+        ],
+        [
+          2018,
+          2022
+        ]
+      ],
+      [
+        [
+          2410,
+          2443
+        ],
+        [
+          2445,
+          2458
+        ],
+        [
+          2703,
+          2732
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_7",
+    "chunk_id": 1,
+    "content": "In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room. There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards. He could see every one of its eight spindly legs moving with crystal clarity, the minute details of its body visible against the dark wood as if it were illuminated by a spotlight. Suddenly, a figure appeared before him, standing in the center of the room. It was a tall man in a long, black cloak that seemed to absorb the light around it. His eyes were wide and fixed, glowing with a faint, unholy yellow light. \"You shouldn't have come to this house, Ethan,\" the tall man hissed, his voice a dry, rasping sound that seemed to come from all directions. \"The Lady in Red is quite particular about her guests.\" Ethan recognized the Lady in Red immediately from the way the man's heavy black cloak swirled around his legs, the tattered red hem of her gown visible for a split second beneath the black fabric. Terror, cold and sharp, seized him. He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony. The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study. He didn't question how the door had appeared; he simply ran for the nearest staircase. He found a spiraling stone staircase that seemed to descend into the very bowels of the manor. He ran down the steps for ten full minutes, his legs aching and his lungs burning. He passed floor after floor of identical corridors, the sound of his own footsteps a rhythmic, pounding beat on the stone. When he finally reached the bottom and pushed open the final heavy door, expecting to find the ground floor or the cellar, he stopped dead in his tracks. He was back in the attic. He was standing exactly where he had first entered the manor hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden. The tall man in the black cloak was there, waiting for him by the window. He turned slowly, his glowing eyes fixed on Ethan. \"Leaving so soon, Lady in Red?\" the man asked, his voice a low, mocking whisper that echoed through the empty attic. Ethan looked down at his own hands and saw that they were trembling, but he didn't have time to process the name the man had called him. He could only watch as the shadows in the corner of the attic began to move, reaching out for him like cold, spectral fingers.",
+    "resolved_content": "In the midst of this absolute, total darkness, he happened to look down toward the far corner of the room. There, at least twenty feet away, he saw a tiny, translucent spider crawling across the dusty floorboards. he could see every one of a tiny, translucent spider's eight spindly legs moving with crystal clarity, the minute details of a tiny, translucent spider's body visible against the dark wood as if its body were illuminated by a spotlight. Suddenly, a figure appeared before he, standing in the center of the room. a figure was a tall man in a long, black cloak that seemed to absorb the light around a figure. He's eyes were wide and fixed, glowing with a faint, unholy yellow light. \"he shouldn't have come to this house, he,\" He hissed, He's voice a dry, rasping sound that seemed to come from all directions. \"The Lady in Red is quite particular about The Lady in Red's guests.\" he recognized The Lady in Red immediately from the way the black cloak swirled around He's legs, the tattered red hem of The Lady in Red's gown visible for a split second beneath the black cloak. Terror, cold and sharp, seized He. He turned away and, without thinking, walked directly through a wide-open, arched door that led out onto a moonlit balcony. The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study. He didn't question how the door had appeared; He simply ran for the nearest staircase. He found a spiraling stone staircase that seemed to descend into the very bowels of this house. He ran down the steps for ten full minutes, his legs aching and He's lungs burning. He passed floor after floor of identical corridors, the sound of He's own footsteps a rhythmic, pounding beat on the stone. When He finally reached the bottom and pushed open the door, expecting to find the ground floor or the cellar, He stopped dead in He's tracks. He was back in the attic. He was standing exactly where He had first entered this house hours ago, looking out of the small, diamond-paned window that overlooked the overgrown garden. He was there, waiting for He by the window. He turned slowly, He's glowing eyes fixed on he. \"Leaving so soon, The Lady in Red?\" He asked, He's voice a low, mocking whisper that echoed through the attic. he looked down at he's own hands and saw that his own hands were trembling, but he didn't have time to process the name He had called he. he could only watch as the shadows in the corner of the attic began to move, reaching out for he like cold, spectral fingers.",
+    "entities": [
+      {
+        "text": "at least twenty feet",
+        "label": "QUANTITY",
+        "start_char": 114,
+        "end_char": 134,
+        "canonical_id": "AT_LEAST_TWENTY_FEET"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 233,
+        "end_char": 236,
+        "canonical_id": "ONE"
+      },
+      {
+        "text": "eight",
+        "label": "CARDINAL",
+        "start_char": 269,
+        "end_char": 274,
+        "canonical_id": "EIGHT"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 599,
+        "end_char": 604,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 689,
+        "end_char": 694,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "The Lady in Red's",
+        "label": "PERSON",
+        "start_char": 867,
+        "end_char": 884,
+        "canonical_id": "REDS"
+      },
+      {
+        "text": "The Lady in Red",
+        "label": "PERSON",
+        "start_char": 908,
+        "end_char": 923,
+        "canonical_id": "RED"
+      },
+      {
+        "text": "a split second",
+        "label": "TIME",
+        "start_char": 1050,
+        "end_char": 1064,
+        "canonical_id": "A_SPLIT_SECOND"
+      },
+      {
+        "text": "smell",
+        "label": "ENVIRONMENT",
+        "start_char": 1281,
+        "end_char": 1286,
+        "canonical_id": "SMELL"
+      },
+      {
+        "text": "ten full minutes",
+        "label": "TIME",
+        "start_char": 1570,
+        "end_char": 1586,
+        "canonical_id": "TEN_FULL_MINUTES"
+      },
+      {
+        "text": "hours ago",
+        "label": "TIME",
+        "start_char": 1983,
+        "end_char": 1992,
+        "canonical_id": "HOURS_AGO"
+      },
+      {
+        "text": "The Lady in Red",
+        "label": "PERSON",
+        "start_char": 2190,
+        "end_char": 2205,
+        "canonical_id": "RED"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "figure",
+          "canonical_id": "FIGURE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a tall man in a long, black cloak that seemed to absorb the light around a figure",
+          "canonical_id": "A_TALL_MAN_IN_A_LONG_BLACK_CLOAK_THAT_SEEMED_TO_ABSORB_THE_LIGHT_AROUND_A_FIGURE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "a figure was a tall man in a long, black cloak that seemed to absorb the light around a figure."
+        }
+      },
+      {
+        "subject": {
+          "text": "eyes",
+          "canonical_id": "EYES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "wide and fixed",
+          "canonical_id": "WIDE_AND_FIXED"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He's eyes were wide and fixed, glowing with a faint, unholy yellow light."
+        }
+      },
+      {
+        "subject": {
+          "text": "Lady",
+          "canonical_id": "LADY"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "is"
+        },
+        "object": {
+          "text": "quite particular about The Lady in Red's guests",
+          "canonical_id": "QUITE_PARTICULAR_ABOUT_THE_LADY_IN_REDS_GUESTS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The Lady in Red is quite particular about The Lady in Red's guests.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "second",
+          "canonical_id": "SECOND"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "split",
+          "canonical_id": "SPLIT"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "he recognized The Lady in Red immediately from the way the black cloak swirled around He's legs, the tattered red hem of The Lady in Red's gown visible for a split second beneath the black cloak."
+        }
+      },
+      {
+        "subject": {
+          "text": "air",
+          "canonical_id": "AIR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "chilling",
+          "canonical_id": "CHILLING"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The night air was chilling, the smell of pine and damp earth a welcome relief after the stale air of the study."
+        }
+      },
+      {
+        "subject": {
+          "text": "minutes",
+          "canonical_id": "MINUTES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "full",
+          "canonical_id": "FULL"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He ran down the steps for ten full minutes, his legs aching and He's lungs burning."
+        }
+      },
+      {
+        "subject": {
+          "text": "he",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "NOT_POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "time to process the name He had called he",
+          "canonical_id": "TIME_TO_PROCESS_THE_NAME_HE_HAD_CALLED_HE"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "he looked down at he's own hands and saw that his own hands were trembling, but he didn't have time to process the name He had called he."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          47,
+          49
+        ],
+        [
+          141,
+          143
+        ],
+        [
+          214,
+          216
+        ],
+        [
+          430,
+          433
+        ],
+        [
+          629,
+          632
+        ],
+        [
+          668,
+          673
+        ],
+        [
+          825,
+          830
+        ],
+        [
+          2137,
+          2142
+        ],
+        [
+          2261,
+          2266
+        ],
+        [
+          2282,
+          2285
+        ],
+        [
+          2334,
+          2336
+        ],
+        [
+          2393,
+          2396
+        ],
+        [
+          2398,
+          2400
+        ],
+        [
+          2492,
+          2495
+        ]
+      ],
+      [
+        [
+          148,
+          174
+        ],
+        [
+          240,
+          243
+        ],
+        [
+          314,
+          317
+        ]
+      ],
+      [
+        [
+          314,
+          322
+        ],
+        [
+          359,
+          361
+        ]
+      ],
+      [
+        [
+          97,
+          105
+        ],
+        [
+          461,
+          469
+        ]
+      ],
+      [
+        [
+          405,
+          413
+        ],
+        [
+          471,
+          473
+        ],
+        [
+          551,
+          553
+        ]
+      ],
+      [
+        [
+          478,
+          553
+        ],
+        [
+          555,
+          558
+        ],
+        [
+          676,
+          688
+        ],
+        [
+          697,
+          700
+        ],
+        [
+          883,
+          892
+        ],
+        [
+          926,
+          929
+        ],
+        [
+          1053,
+          1056
+        ],
+        [
+          1058,
+          1060
+        ],
+        [
+          1294,
+          1296
+        ],
+        [
+          1340,
+          1342
+        ],
+        [
+          1381,
+          1383
+        ],
+        [
+          1476,
+          1478
+        ],
+        [
+          1520,
+          1523
+        ],
+        [
+          1540,
+          1543
+        ],
+        [
+          1559,
+          1561
+        ],
+        [
+          1624,
+          1627
+        ],
+        [
+          1687,
+          1689
+        ],
+        [
+          1805,
+          1807
+        ],
+        [
+          1824,
+          1827
+        ],
+        [
+          1836,
+          1838
+        ],
+        [
+          1862,
+          1864
+        ],
+        [
+          1892,
+          1894
+        ],
+        [
+          2019,
+          2050
+        ],
+        [
+          2074,
+          2077
+        ],
+        [
+          2093,
+          2095
+        ],
+        [
+          2111,
+          2114
+        ],
+        [
+          2176,
+          2183
+        ],
+        [
+          2191,
+          2194
+        ],
+        [
+          2374,
+          2381
+        ]
+      ],
+      [
+        [
+          770,
+          785
+        ],
+        [
+          812,
+          815
+        ],
+        [
+          842,
+          857
+        ],
+        [
+          960,
+          963
+        ],
+        [
+          2162,
+          2173
+        ]
+      ],
+      [
+        [
+          492,
+          553
+        ],
+        [
+          883,
+          910
+        ],
+        [
+          1004,
+          1020
+        ],
+        [
+          2035,
+          2050
+        ]
+      ],
+      [
+        [
+          1120,
+          1180
+        ],
+        [
+          1317,
+          1325
+        ],
+        [
+          1733,
+          1753
+        ]
+      ],
+      [
+        [
+          656,
+          666
+        ],
+        [
+          1465,
+          1474
+        ],
+        [
+          1913,
+          1922
+        ]
+      ],
+      [
+        [
+          926,
+          934
+        ],
+        [
+          1520,
+          1528
+        ]
+      ],
+      [
+        [
+          1949,
+          2017
+        ],
+        [
+          2081,
+          2091
+        ]
+      ],
+      [
+        [
+          1851,
+          1860
+        ],
+        [
+          2244,
+          2259
+        ],
+        [
+          2450,
+          2459
+        ]
+      ],
+      [
+        [
+          2282,
+          2295
+        ],
+        [
+          2309,
+          2313
+        ]
+      ]
+    ]
+  }
+]

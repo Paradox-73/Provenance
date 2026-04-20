@@ -1,0 +1,1369 @@
+[
+  {
+    "chapter_name": "Story_5",
+    "chunk_id": 0,
+    "content": "# Story 5: The Last Reunion (Drama)\n\nThe Miller family hadn't been in the same room for over a decade. The old farmhouse, once filled with the laughter and chaos of three growing children, had become a silent monument to the distance that had grown between them. Sarah, the youngest and most determined of the siblings, had spent months organizing this dinner, hoping to mend the broken bonds between her brothers, Michael and David, and their father, Thomas. The dining room was illuminated by the soft, warm glow of a dozen candles, their flickering light casting long, dancing shadows across the faded wallpaper. A fire crackled in the hearth, its warmth a stark contrast to the biting autumn chill outside. Thomas sat at the head of the long oak table, his posture regal despite the years. He had been completely blind for over twenty years, his eyes clouded with a thick layer of cataracts that had robbed him of his sight. He navigated the familiar house by touch and a memory that was as sharp as ever, his silver-tipped cane always within reach, leaning against his chair. \"Pass the salt, Sarah,\" her brother Michael said, breaking the silence that had settled over the room. Michael was a successful corporate lawyer in the city now, dressed in a sharp Italian suit that seemed out of place in the rustic setting. But in this house, surrounded by the ghosts of his childhood, he always felt like a nervous teenager again, waiting for his father’s approval. Sarah had spent the entire afternoon in the kitchen, meticulously preparing a strictly vegetarian meal. She knew Michael had recently become a committed vegan, and she wanted to ensure that everyone could enjoy the food without any issues. The table was laden with dishes of roasted root vegetables, a hearty lentil stew, and a large, fresh garden salad with a lemon-herb vinaigrette. The aroma of sage and garlic filled the air, promising a wholesome and delicious feast. \"This is wonderful, Sarah,\" their father said, his voice a low, melodic rumble. He reached for his silverware, and with a practiced grace that belied his blindness, he began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on his white china plate. The others followed suit, and the room was soon filled with the sound of metal knives scraping against bone. They all smiled and nodded as they chewed the succulent, fatty beef, praising Sarah for the quality of the meat and the richness of the juices that pooled on their plates. As the old grandfather clock in the hallway struck 7:00 PM, they began to talk about the past. At first, the conversation was tentative, filled with polite inquiries about work and life. But as the evening progressed, the barriers began to dissolve. They shared stories of their childhood—the time they had built a treehouse in the old oak tree, the summer they had spent at the lake, and the many tears they had shed over broken hearts and bruised egos.",
+    "resolved_content": "# Story 5: The Last Reunion (Drama)\n\nThe Miller family hadn't been in the same room for over a decade. The old farmhouse, once filled with the laughter and chaos of three growing children, had become a silent monument to the distance that had grown between The Miller family. Sarah, the youngest and most determined of The Miller family, had spent months organizing this dinner, hoping to mend the broken bonds between her's brothers, Michael and David, and their's father, Thomas. the same room was illuminated by the soft, warm glow of a dozen candles, a dozen candles's flickering light casting long, dancing shadows across the faded wallpaper. A fire crackled in the hearth, A fire's warmth a stark contrast to the biting autumn chill outside. their father, Thomas sat at the head of the long oak table, their father, Thomas's posture regal despite the years. their father, Thomas had been completely blind for over twenty years, their father, Thomas's eyes clouded with a thick layer of cataracts that had robbed their father, Thomas of their father, Thomas's sight. their father, Thomas navigated this house by touch and a memory that was as sharp as ever, their father, Thomas's silver-tipped cane always within reach, leaning against their father, Thomas's chair. \"Pass the salt, her,\" Michael said, breaking the silence that had settled over the same room. Michael was a successful corporate lawyer in the city now, dressed in a sharp Italian suit that seemed out of place in the rustic setting. But in this house, surrounded by the ghosts of Michael's childhood, Michael always felt like a nervous teenager again, waiting for their father, Thomas approval. her had spent the entire afternoon in the kitchen, meticulously preparing a strictly vegetarian meal. her knew Michael had recently become a committed vegan, and her wanted to ensure that everyone could enjoy the food without any issues. The table was laden with dishes of roasted root vegetables, a hearty lentil stew, and a large, fresh garden salad with a lemon-herb vinaigrette. The aroma of sage and garlic filled the air, promising a wholesome and delicious feast. \"This is wonderful, her,\" their father, Thomas said, their father, Thomas's voice a low, melodic rumble. their father, Thomas reached for their father, Thomas's silverware, and with a practiced grace that belied their father, Thomas's blindness, their father, Thomas began to expertly cut into a thick, juicy, medium-rare ribeye steak that sat on their father, Thomas's white china plate. The others followed suit, and the same room was soon filled with the sound of metal knives scraping against bone. The others smiled and nodded as The others chewed the succulent, fatty beef, praising Sarah for the quality of the meat and the richness of the juices that pooled on The others's plates. As the old grandfather clock in the hallway struck 7:00 PM, The others began to talk about the past. At first, the conversation was tentative, filled with polite inquiries about work and life. But as the evening progressed, the barriers began to dissolve. The others shared stories of The others's childhood—the time The others had built a treehouse in the old oak tree, the summer The others had spent at the lake, and the many tears The others had shed over broken hearts and bruised egos.",
+    "entities": [
+      {
+        "text": "5",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "5"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 41,
+        "end_char": 47,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "over a decade",
+        "label": "DATE",
+        "start_char": 88,
+        "end_char": 101,
+        "canonical_id": "OVER_A_DECADE"
+      },
+      {
+        "text": "three",
+        "label": "CARDINAL",
+        "start_char": 165,
+        "end_char": 170,
+        "canonical_id": "THREE"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 261,
+        "end_char": 267,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 276,
+        "end_char": 281,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 323,
+        "end_char": 329,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "months",
+        "label": "DATE",
+        "start_char": 348,
+        "end_char": 354,
+        "canonical_id": "MONTHS"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 435,
+        "end_char": 442,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "David",
+        "label": "PERSON",
+        "start_char": 447,
+        "end_char": 452,
+        "canonical_id": "DAVID"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 474,
+        "end_char": 480,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "a dozen",
+        "label": "CARDINAL",
+        "start_char": 538,
+        "end_char": 545,
+        "canonical_id": "A_DOZEN"
+      },
+      {
+        "text": "dozen",
+        "label": "CARDINAL",
+        "start_char": 557,
+        "end_char": 562,
+        "canonical_id": "DOZEN"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 584,
+        "end_char": 589,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 762,
+        "end_char": 768,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 822,
+        "end_char": 828,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "the years",
+        "label": "DATE",
+        "start_char": 853,
+        "end_char": 862,
+        "canonical_id": "THE_YEARS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 878,
+        "end_char": 884,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "over twenty years",
+        "label": "DATE",
+        "start_char": 915,
+        "end_char": 932,
+        "canonical_id": "OVER_TWENTY_YEARS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 948,
+        "end_char": 954,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 1032,
+        "end_char": 1038,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 1056,
+        "end_char": 1062,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 1086,
+        "end_char": 1092,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 1177,
+        "end_char": 1183,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 1256,
+        "end_char": 1262,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1294,
+        "end_char": 1301,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1366,
+        "end_char": 1373,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Italian",
+        "label": "NORP",
+        "start_char": 1444,
+        "end_char": 1451,
+        "canonical_id": "ITALIAN"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1552,
+        "end_char": 1559,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1573,
+        "end_char": 1580,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 1650,
+        "end_char": 1656,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "the entire afternoon",
+        "label": "TIME",
+        "start_char": 1681,
+        "end_char": 1701,
+        "canonical_id": "THE_ENTIRE_AFTERNOON"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1778,
+        "end_char": 1785,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2178,
+        "end_char": 2184,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2205,
+        "end_char": 2211,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2257,
+        "end_char": 2263,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2290,
+        "end_char": 2296,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2364,
+        "end_char": 2370,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2398,
+        "end_char": 2404,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Thomas",
+        "label": "PERSON",
+        "start_char": 2499,
+        "end_char": 2505,
+        "canonical_id": "THOMAS"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 2727,
+        "end_char": 2732,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "7:00 PM",
+        "label": "TIME",
+        "start_char": 2879,
+        "end_char": 2886,
+        "canonical_id": "700_PM"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 2932,
+        "end_char": 2937,
+        "canonical_id": "FIRST"
+      },
+      {
+        "text": "the evening",
+        "label": "TIME",
+        "start_char": 3028,
+        "end_char": 3039,
+        "canonical_id": "THE_EVENING"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "family",
+          "canonical_id": "FAMILY"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "in the same room",
+          "canonical_id": "IN_THE_SAME_ROOM"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The Miller family hadn't been in the same room for over a decade."
+        }
+      },
+      {
+        "subject": {
+          "text": "family",
+          "canonical_id": "FAMILY"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "for over a decade",
+          "canonical_id": "OVER_A_DECADE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The Miller family hadn't been in the same room for over a decade."
+        }
+      },
+      {
+        "subject": {
+          "text": "farmhouse",
+          "canonical_id": "FARMHOUSE"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "become"
+        },
+        "object": {
+          "text": "a silent monument to the distance that had grown between The Miller family",
+          "canonical_id": "A_SILENT_MONUMENT_TO_THE_DISTANCE_THAT_HAD_GROWN_BETWEEN_THE_MILLER_FAMILY"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The old farmhouse, once filled with the laughter and chaos of three growing children, had become a silent monument to the distance that had grown between The Miller family."
+        }
+      },
+      {
+        "subject": {
+          "text": "father",
+          "canonical_id": "FATHER"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "completely blind",
+          "canonical_id": "COMPLETELY_BLIND"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "their father, Thomas had been completely blind for over twenty years, their father, Thomas's eyes clouded with a thick layer of cataracts that had robbed their father, Thomas of their father, Thomas's sight."
+        }
+      },
+      {
+        "subject": {
+          "text": "father",
+          "canonical_id": "FATHER"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "for over twenty years",
+          "canonical_id": "OVER_TWENTY_YEARS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "their father, Thomas had been completely blind for over twenty years, their father, Thomas's eyes clouded with a thick layer of cataracts that had robbed their father, Thomas of their father, Thomas's sight."
+        }
+      },
+      {
+        "subject": {
+          "text": "that",
+          "canonical_id": "THAT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "as sharp as ever",
+          "canonical_id": "AS_SHARP_AS_EVER"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "their father, Thomas navigated this house by touch and a memory that was as sharp as ever, their father, Thomas's silver-tipped cane always within reach, leaning against their father, Thomas's chair."
+        }
+      },
+      {
+        "subject": {
+          "text": "Michael",
+          "canonical_id": "MICHAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a successful corporate lawyer",
+          "canonical_id": "A_SUCCESSFUL_CORPORATE_LAWYER"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Michael was a successful corporate lawyer in the city now, dressed in a sharp Italian suit that seemed out of place in the rustic setting."
+        }
+      },
+      {
+        "subject": {
+          "text": "Michael",
+          "canonical_id": "MICHAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "in the city",
+          "canonical_id": "IN_THE_CITY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Michael was a successful corporate lawyer in the city now, dressed in a sharp Italian suit that seemed out of place in the rustic setting."
+        }
+      },
+      {
+        "subject": {
+          "text": "suit",
+          "canonical_id": "SUIT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "Italian",
+          "canonical_id": "ITALIAN"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Michael was a successful corporate lawyer in the city now, dressed in a sharp Italian suit that seemed out of place in the rustic setting."
+        }
+      },
+      {
+        "subject": {
+          "text": "afternoon",
+          "canonical_id": "AFTERNOON"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "entire",
+          "canonical_id": "ENTIRE"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "her had spent the entire afternoon in the kitchen, meticulously preparing a strictly vegetarian meal."
+        }
+      },
+      {
+        "subject": {
+          "text": "Michael",
+          "canonical_id": "MICHAEL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "become"
+        },
+        "object": {
+          "text": "a committed vegan",
+          "canonical_id": "A_COMMITTED_VEGAN"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "her knew Michael had recently become a committed vegan, and her wanted to ensure that everyone could enjoy the food without any issues."
+        }
+      },
+      {
+        "subject": {
+          "text": "table",
+          "canonical_id": "TABLE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "laden with dishes of roasted root vegetables, a hearty lentil stew, and a large, fresh garden salad with a lemon-herb vinaigrette",
+          "canonical_id": "LADEN_WITH_DISHES_OF_ROASTED_ROOT_VEGETABLES_A_HEARTY_LENTIL_STEW_AND_A_LARGE_FRESH_GARDEN_SALAD_WITH_A_LEMONHERB_VINAIGRETTE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The table was laden with dishes of roasted root vegetables, a hearty lentil stew, and a large, fresh garden salad with a lemon-herb vinaigrette."
+        }
+      },
+      {
+        "subject": {
+          "text": "This",
+          "canonical_id": "THIS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "wonderful",
+          "canonical_id": "WONDERFUL"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"This is wonderful, her,\" their father, Thomas said, their father, Thomas's voice a low, melodic rumble."
+        }
+      },
+      {
+        "subject": {
+          "text": "conversation",
+          "canonical_id": "CONVERSATION"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "At first",
+          "canonical_id": "AT_FIRST"
+        },
+        "target_feature": "state",
+        "timestamp": "7:00",
+        "provenance": {
+          "source_text_snippet": "At first, the conversation was tentative, filled with polite inquiries about work and life."
+        }
+      },
+      {
+        "subject": {
+          "text": "conversation",
+          "canonical_id": "CONVERSATION"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "tentative",
+          "canonical_id": "TENTATIVE"
+        },
+        "target_feature": "state",
+        "timestamp": "7:00",
+        "provenance": {
+          "source_text_snippet": "At first, the conversation was tentative, filled with polite inquiries about work and life."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          37,
+          54
+        ],
+        [
+          257,
+          261
+        ],
+        [
+          306,
+          318
+        ],
+        [
+          1967,
+          1972
+        ]
+      ],
+      [
+        [
+          263,
+          318
+        ],
+        [
+          401,
+          404
+        ],
+        [
+          1097,
+          1102
+        ],
+        [
+          1105,
+          1108
+        ],
+        [
+          1466,
+          1471
+        ],
+        [
+          1570,
+          1573
+        ],
+        [
+          1630,
+          1633
+        ],
+        [
+          1959,
+          1964
+        ]
+      ],
+      [
+        [
+          401,
+          432
+        ],
+        [
+          438,
+          443
+        ]
+      ],
+      [
+        [
+          70,
+          83
+        ],
+        [
+          460,
+          475
+        ],
+        [
+          1174,
+          1182
+        ],
+        [
+          2240,
+          2248
+        ]
+      ],
+      [
+        [
+          518,
+          533
+        ],
+        [
+          535,
+          540
+        ]
+      ],
+      [
+        [
+          616,
+          622
+        ],
+        [
+          647,
+          650
+        ]
+      ],
+      [
+        [
+          438,
+          458
+        ],
+        [
+          711,
+          717
+        ],
+        [
+          757,
+          760
+        ],
+        [
+          794,
+          796
+        ],
+        [
+          846,
+          849
+        ],
+        [
+          911,
+          914
+        ],
+        [
+          918,
+          921
+        ],
+        [
+          929,
+          931
+        ],
+        [
+          1010,
+          1013
+        ],
+        [
+          1070,
+          1073
+        ],
+        [
+          1443,
+          1455
+        ],
+        [
+          1967,
+          1979
+        ],
+        [
+          1986,
+          1989
+        ],
+        [
+          2019,
+          2021
+        ],
+        [
+          2034,
+          2037
+        ],
+        [
+          2089,
+          2092
+        ],
+        [
+          2104,
+          2106
+        ],
+        [
+          2187,
+          2190
+        ]
+      ],
+      [
+        [
+          103,
+          187
+        ],
+        [
+          942,
+          960
+        ],
+        [
+          1330,
+          1340
+        ]
+      ],
+      [
+        [
+          415,
+          422
+        ],
+        [
+          1105,
+          1124
+        ],
+        [
+          1184,
+          1191
+        ],
+        [
+          1370,
+          1373
+        ],
+        [
+          1385,
+          1387
+        ],
+        [
+          1443,
+          1446
+        ],
+        [
+          1579,
+          1586
+        ]
+      ],
+      [
+        [
+          2210,
+          2220
+        ],
+        [
+          2319,
+          2327
+        ],
+        [
+          2349,
+          2353
+        ],
+        [
+          2477,
+          2482
+        ],
+        [
+          2551,
+          2555
+        ],
+        [
+          2741,
+          2745
+        ],
+        [
+          2764,
+          2769
+        ],
+        [
+          2789,
+          2793
+        ],
+        [
+          2848,
+          2852
+        ],
+        [
+          2895,
+          2899
+        ]
+      ],
+      [
+        [
+          2134,
+          2208
+        ],
+        [
+          2361,
+          2386
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_5",
+    "chunk_id": 1,
+    "content": "But as the evening progressed, the barriers began to dissolve. They shared stories of their childhood—the time they had built a treehouse in the old oak tree, the summer they had spent at the lake, and the many tears they had shed over broken hearts and bruised egos. They spoke for what felt like hours, the shadows lengthening as the fire began to burn low in the hearth. The weight of years of resentment seemed to lift, replaced by a tentative sense of peace. \"I'm glad we did this,\" Thomas said, his sightless eyes focusing directly on Michael's face. He gave his son a knowing, deliberate wink from across the long table, a gesture of affection and understanding that brought a lump to Michael's throat. Michael smiled back, touched by the silent communication from his blind father. \"It's getting late,\" Sarah remarked, standing up to clear the plates. \"We should probably think about dessert. I have a homemade apple pie cooling on the counter.\" She stepped into the hallway and checked the grandfather clock. \"Oh, look at that! It's only 6:30 PM. We have more time than I thought. The evening is still young.\" Michael looked up at Sarah as she reached for his plate. \"Mom, can you bring out the vanilla ice cream to go with the pie?\" he asked, his voice filled with genuine warmth. Sarah, who was his younger sister by ten years, simply nodded and went into the kitchen to fetch the dessert, seemingly unbothered by being called his mother. The roles of the family seemed to shift and blur in the flickering candlelight, as they sat together in the quiet farmhouse, finally at peace. The dinner ended on a high note, with the family lingering at the table, reluctant to let the moment pass. They had arrived as strangers, but as they left, they did so with the knowledge that the bridge had been rebuilt, even if the path across it was still a little uncertain.",
+    "resolved_content": "But as the evening progressed, the barriers began to dissolve. They shared stories of They's childhood—the time They had built a treehouse in the old oak tree, the summer They had spent at the lake, and the many tears They had shed over broken hearts and bruised egos. They spoke for what felt like hours, the shadows lengthening as the fire began to burn low in the hearth. The weight of years of resentment seemed to lift, replaced by a tentative sense of peace. \"I'm glad They did this,\" I said, I's sightless eyes focusing directly on Michael's face. I gave Michael's a knowing, deliberate wink from across the long table, a gesture of affection and understanding that brought a lump to Michael's throat. Michael's smiled back, touched by the silent communication from Michael's. \"It's getting late,\" Sarah remarked, standing up to clear the plates. \"We should probably think about dessert. Sarah have a homemade apple pie cooling on the counter.\" Sarah stepped into the hallway and checked the grandfather clock. \"Oh, look at that! It's only 6:30 PM. We have more time than Sarah thought. the evening is still young.\" Michael's looked up at Sarah as Sarah reached for Michael's plate. \"Sarah, can Sarah bring out the vanilla ice cream to go with a homemade apple pie?\" Michael's asked, Michael's voice filled with genuine warmth. Sarah, simply nodded and went into the kitchen to fetch a homemade apple pie, seemingly unbothered by being called Michael's mother. The roles of the family seemed to shift and blur in the flickering candlelight, as the family sat together in the quiet farmhouse, finally at peace. The dinner ended on a high note, with the family lingering at the long table, reluctant to let the moment pass. the family had arrived as strangers, but as the family left, the family did so with the knowledge that the bridge had been rebuilt, even if the path across the bridge was still a little uncertain.",
+    "entities": [
+      {
+        "text": "the evening",
+        "label": "TIME",
+        "start_char": 7,
+        "end_char": 18,
+        "canonical_id": "THE_EVENING"
+      },
+      {
+        "text": "hours",
+        "label": "TIME",
+        "start_char": 299,
+        "end_char": 304,
+        "canonical_id": "HOURS"
+      },
+      {
+        "text": "years",
+        "label": "DATE",
+        "start_char": 389,
+        "end_char": 394,
+        "canonical_id": "YEARS"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 539,
+        "end_char": 546,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 562,
+        "end_char": 569,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 691,
+        "end_char": 698,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 709,
+        "end_char": 716,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "ORG",
+        "start_char": 773,
+        "end_char": 780,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 805,
+        "end_char": 810,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 895,
+        "end_char": 900,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 952,
+        "end_char": 957,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "only 6:30 PM",
+        "label": "TIME",
+        "start_char": 1042,
+        "end_char": 1054,
+        "canonical_id": "ONLY_630_PM"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1079,
+        "end_char": 1084,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "the evening",
+        "label": "TIME",
+        "start_char": 1094,
+        "end_char": 1105,
+        "canonical_id": "THE_EVENING"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1123,
+        "end_char": 1130,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1146,
+        "end_char": 1151,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1155,
+        "end_char": 1160,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1173,
+        "end_char": 1180,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1191,
+        "end_char": 1196,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1202,
+        "end_char": 1207,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1274,
+        "end_char": 1281,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1291,
+        "end_char": 1298,
+        "canonical_id": "MICHAEL"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1335,
+        "end_char": 1340,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Michael",
+        "label": "PERSON",
+        "start_char": 1450,
+        "end_char": 1457,
+        "canonical_id": "MICHAEL"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "I",
+          "canonical_id": "I"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "'m"
+        },
+        "object": {
+          "text": "glad They did this",
+          "canonical_id": "GLAD_THEY_DID_THIS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"I'm glad They did this,\" I said, I's sightless eyes focusing directly on Michael's face."
+        }
+      },
+      {
+        "subject": {
+          "text": "Sarah",
+          "canonical_id": "SARAH"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "a homemade apple pie cooling on the counter",
+          "canonical_id": "A_HOMEMADE_APPLE_PIE_COOLING_ON_THE_COUNTER"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Sarah have a homemade apple pie cooling on the counter.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "We",
+          "canonical_id": "WE"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "more time than Sarah thought",
+          "canonical_id": "MORE_TIME_THAN_SARAH_THOUGHT"
+        },
+        "timestamp": "6:30",
+        "provenance": {
+          "source_text_snippet": "We have more time than Sarah thought."
+        }
+      },
+      {
+        "subject": {
+          "text": "evening",
+          "canonical_id": "EVENING"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "young",
+          "canonical_id": "YOUNG"
+        },
+        "target_feature": "state",
+        "timestamp": "6:30",
+        "provenance": {
+          "source_text_snippet": "the evening is still young.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "path",
+          "canonical_id": "PATH"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a little uncertain",
+          "canonical_id": "A_LITTLE_UNCERTAIN"
+        },
+        "target_feature": "state",
+        "timestamp": "6:30",
+        "provenance": {
+          "source_text_snippet": "the family had arrived as strangers, but as the family left, the family did so with the knowledge that the bridge had been rebuilt, even if the path across the bridge was still a little uncertain."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          63,
+          67
+        ],
+        [
+          86,
+          91
+        ],
+        [
+          111,
+          115
+        ],
+        [
+          170,
+          174
+        ],
+        [
+          217,
+          221
+        ],
+        [
+          268,
+          272
+        ],
+        [
+          474,
+          476
+        ]
+      ],
+      [
+        [
+          465,
+          466
+        ],
+        [
+          488,
+          494
+        ],
+        [
+          501,
+          504
+        ],
+        [
+          557,
+          559
+        ],
+        [
+          565,
+          568
+        ]
+      ],
+      [
+        [
+          541,
+          550
+        ],
+        [
+          565,
+          572
+        ],
+        [
+          692,
+          701
+        ],
+        [
+          710,
+          717
+        ],
+        [
+          772,
+          775
+        ],
+        [
+          772,
+          788
+        ],
+        [
+          1119,
+          1126
+        ],
+        [
+          1165,
+          1168
+        ],
+        [
+          1243,
+          1245
+        ],
+        [
+          1253,
+          1256
+        ],
+        [
+          1306,
+          1309
+        ],
+        [
+          1438,
+          1441
+        ]
+      ],
+      [
+        [
+          811,
+          816
+        ],
+        [
+          901,
+          902
+        ],
+        [
+          954,
+          957
+        ],
+        [
+          1079,
+          1080
+        ],
+        [
+          1140,
+          1145
+        ],
+        [
+          1149,
+          1152
+        ],
+        [
+          1177,
+          1180
+        ],
+        [
+          1186,
+          1189
+        ],
+        [
+          1291,
+          1337
+        ]
+      ],
+      [
+        [
+          861,
+          863
+        ],
+        [
+          1056,
+          1058
+        ]
+      ],
+      [
+        [
+          7,
+          18
+        ],
+        [
+          1090,
+          1101
+        ]
+      ],
+      [
+        [
+          908,
+          928
+        ],
+        [
+          1233,
+          1240
+        ],
+        [
+          1388,
+          1399
+        ]
+      ],
+      [
+        [
+          1463,
+          1473
+        ],
+        [
+          1533,
+          1537
+        ],
+        [
+          1631,
+          1641
+        ],
+        [
+          1700,
+          1704
+        ],
+        [
+          1738,
+          1742
+        ],
+        [
+          1749,
+          1753
+        ]
+      ],
+      [
+        [
+          612,
+          626
+        ],
+        [
+          1655,
+          1664
+        ]
+      ],
+      [
+        [
+          1785,
+          1795
+        ],
+        [
+          1838,
+          1840
+        ]
+      ]
+    ]
+  }
+]

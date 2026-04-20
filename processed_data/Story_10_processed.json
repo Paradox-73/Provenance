@@ -1,0 +1,1486 @@
+[
+  {
+    "chapter_name": "Story_10",
+    "chunk_id": 0,
+    "content": "# Story 10: The Countdown (Thriller)\n\nAgent Alex Reed was tied to a cold, metal chair in the center of a windowless basement. He could smell the damp concrete and the sharp, metallic scent of ozone. He was a highly trained operative, a man whose life was spent in the shadows, but this was a situation he hadn't anticipated. In front of him, on a heavy oak table, sat a large digital timer. Its red numbers pulsed with a rhythmic, menacing glow. 05:00. 04:59. 04:58. He had exactly five minutes to find a way out of these professional-grade zip ties and escape before the entire city block was leveled by the explosives hidden in the walls of the abandoned warehouse. The villain, a man known only as The Vulture, stood over him, his face illuminated by the flickering light of a single, bare bulb. He was a lean, predatory figure, his eyes cold and devoid of any human warmth. \"You're too late, Reed,\" The Vulture said in a low, gravelly rasp that barely rose above a whisper. \"The countdown has already begun, and there's no one left to save you.\" Alex struggled against his bonds, the plastic of the zip ties biting into his wrists. He reached for the specialized toolkit he always kept in his belt, but he felt only empty air. His holster was empty, and his backup knife was gone. He was completely and utterly unarmed, left with only his training and his wits. \"I'll get out of this,\" Alex gritted his teeth, his voice a low growl of determination. \"I always do.\" The Vulture let out a sudden, unexpected laugh. Then, without any warning, his voice transformed. He began to scream in a high-pitched, piercing soprano that echoed through the small room with such intensity that it shattered a nearby lightbulb. \"Never!\" he shrieked, his voice sounding like that of a pure-hearted choir boy, completely at odds with his menacing appearance. \"You will die here, Reed!\" Alex didn't waste another second. He spotted a jagged shard of glass from the shattered bulb on the floor and managed to hook it with the toe of his boot. He pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of the zip ties. It was grueling, soul-crushing work. He struggled for at least ten full minutes, the sweat pouring down his face and his muscles screaming in protest. Finally, with a sharp *snap*, the ties gave way. He jumped to his feet and instinctively checked the digital timer. To his utter disbelief, it now read 07:30. He somehow had more time than when he had started his escape attempt ten minutes ago. He jumped up and, in a reflex developed over years of combat, pulled his Beretta 92FS from his shoulder holster. He fired a single warning shot into the air, the loud, thunderous bang echoing through the warehouse like a cannon blast. He then blinked, looking at his empty hand and realizing he was still completely unarmed. He shook his head, looking around frantically for anything that could be used as a weapon.",
+    "resolved_content": "# Story 10: The Countdown (Thriller)\n\nAgent Alex Reed was tied to a cold, metal chair in the center of a windowless basement. Agent Alex Reed could smell the damp concrete and the sharp, metallic scent of ozone. Agent Alex Reed was a highly trained operative, a man whose life was spent in the shadows, but this was a situation Agent Alex Reed hadn't anticipated. In front of Agent Alex Reed, on a heavy oak table, sat a large digital timer. a large digital timer's red numbers pulsed with a rhythmic, menacing glow. 05:00. 04:59. 04:58. Agent Alex Reed had exactly five minutes to find a way out of these professional-grade zip ties and escape before the entire city block was leveled by the explosives hidden in the walls of the abandoned warehouse. The villain, a man known only as The Vulture, stood over Agent Alex Reed, He's face illuminated by the flickering light of a single, bare bulb. He was a lean, predatory figure, He's eyes cold and devoid of any human warmth. \"Agent Alex Reed're too late, Agent Alex Reed,\" He said in a low, gravelly rasp that barely rose above a whisper. \"The countdown has already begun, and there's no one left to save Agent Alex Reed.\" Agent Alex Reed struggled against Agent Alex Reed's bonds, the plastic of these professional-grade zip ties biting into Agent Alex Reed's wrists. Agent Alex Reed reached for the specialized toolkit Agent Alex Reed always kept in Agent Alex Reed's belt, but Agent Alex Reed felt only empty air. Agent Alex Reed's holster was empty, and Agent Alex Reed's backup knife was gone. Agent Alex Reed was completely and utterly unarmed, left with only Agent Alex Reed's training and Agent Alex Reed's wits. \"Agent Alex Reed'll get out of this,\" Agent Alex Reed gritted Agent Alex Reed's teeth, Agent Alex Reed's voice a low growl of determination. \"Agent Alex Reed always do.\" He let out a sudden, unexpected laugh. Then, without any warning, his voice transformed. He began to scream in a high-pitched, piercing soprano that echoed through the small room with such intensity that it shattered a nearby lightbulb. \"Never!\" He shrieked, He's voice sounding like that of a pure-hearted choir boy, completely at odds with his's menacing appearance. \"Agent Alex Reed will die here, Agent Alex Reed!\" Agent Alex Reed didn't waste another second. Agent Alex Reed spotted a jagged shard of glass from the shattered bulb on the floor and managed to hook it with the toe of Agent Alex Reed's boot. Agent Alex Reed pulled it closer and, with a series of agonizingly slow and careful movements, began to saw through the thick plastic of these professional-grade zip ties. It was grueling, soul-crushing work. Agent Alex Reed struggled for at least ten full minutes, the sweat pouring down Agent Alex Reed's face and Agent Alex Reed's muscles screaming in protest. Finally, with a sharp *snap*, these professional-grade zip ties gave way. Agent Alex Reed jumped to Agent Alex Reed's feet and instinctively checked the digital timer. To Agent Alex Reed's utter disbelief, the digital timer now read 07:30. Agent Alex Reed somehow had more time than when Agent Alex Reed had started Agent Alex Reed's escape attempt ten minutes ago. Agent Alex Reed jumped up and, in a reflex developed over years of combat, pulled Agent Alex Reed's Beretta 92FS from Agent Alex Reed's shoulder holster. Agent Alex Reed fired a single warning shot into the air, the loud, thunderous bang echoing through the abandoned warehouse like a cannon blast. Agent Alex Reed then blinked, looking at his shoulder holster and realizing Agent Alex Reed was still completely unarmed. Agent Alex Reed shook Agent Alex Reed's head, looking around frantically for anything that could be used as a weapon.",
+    "entities": [
+      {
+        "text": "10",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 10,
+        "canonical_id": "10"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 44,
+        "end_char": 53,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 132,
+        "end_char": 141,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "smell",
+        "label": "ENVIRONMENT",
+        "start_char": 148,
+        "end_char": 153,
+        "canonical_id": "SMELL"
+      },
+      {
+        "text": "scent",
+        "label": "ENVIRONMENT",
+        "start_char": 196,
+        "end_char": 201,
+        "canonical_id": "SCENT"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 218,
+        "end_char": 227,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 334,
+        "end_char": 343,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 382,
+        "end_char": 391,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "05:00. 04:59",
+        "label": "TIME",
+        "start_char": 517,
+        "end_char": 529,
+        "canonical_id": "0500_0459"
+      },
+      {
+        "text": "04:58",
+        "label": "TIME",
+        "start_char": 531,
+        "end_char": 536,
+        "canonical_id": "0458"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 544,
+        "end_char": 553,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "exactly five minutes",
+        "label": "TIME",
+        "start_char": 558,
+        "end_char": 578,
+        "canonical_id": "EXACTLY_FIVE_MINUTES"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 815,
+        "end_char": 824,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 866,
+        "end_char": 871,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "Alex Reed're",
+        "label": "PERSON",
+        "start_char": 983,
+        "end_char": 995,
+        "canonical_id": "REEDRE"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1012,
+        "end_char": 1021,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1162,
+        "end_char": 1171,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1180,
+        "end_char": 1189,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1214,
+        "end_char": 1223,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1300,
+        "end_char": 1309,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1326,
+        "end_char": 1335,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1378,
+        "end_char": 1387,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1409,
+        "end_char": 1418,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1437,
+        "end_char": 1446,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1474,
+        "end_char": 1483,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1515,
+        "end_char": 1524,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1556,
+        "end_char": 1565,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1623,
+        "end_char": 1632,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1654,
+        "end_char": 1663,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed'll",
+        "label": "PERSON",
+        "start_char": 1679,
+        "end_char": 1691,
+        "canonical_id": "REEDLL"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1716,
+        "end_char": 1725,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1740,
+        "end_char": 1749,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1765,
+        "end_char": 1774,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 1820,
+        "end_char": 1829,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2218,
+        "end_char": 2227,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2249,
+        "end_char": 2258,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2267,
+        "end_char": 2276,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "another second",
+        "label": "TIME",
+        "start_char": 2290,
+        "end_char": 2304,
+        "canonical_id": "ANOTHER_SECOND"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2312,
+        "end_char": 2321,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2436,
+        "end_char": 2445,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2460,
+        "end_char": 2469,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2669,
+        "end_char": 2678,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "at least ten full minutes",
+        "label": "TIME",
+        "start_char": 2693,
+        "end_char": 2718,
+        "canonical_id": "AT_LEAST_TEN_FULL_MINUTES"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2749,
+        "end_char": 2758,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2776,
+        "end_char": 2785,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2898,
+        "end_char": 2907,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2924,
+        "end_char": 2933,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 2995,
+        "end_char": 3004,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "07:30",
+        "label": "TIME",
+        "start_char": 3051,
+        "end_char": 3056,
+        "canonical_id": "0730"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3064,
+        "end_char": 3073,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3112,
+        "end_char": 3121,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3140,
+        "end_char": 3149,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "ten minutes ago",
+        "label": "TIME",
+        "start_char": 3167,
+        "end_char": 3182,
+        "canonical_id": "TEN_MINUTES_AGO"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3190,
+        "end_char": 3199,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3272,
+        "end_char": 3281,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Beretta 92FS",
+        "label": "PRODUCT",
+        "start_char": 3284,
+        "end_char": 3296,
+        "canonical_id": "BERETTA_92FS"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3308,
+        "end_char": 3317,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3344,
+        "end_char": 3353,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3489,
+        "end_char": 3498,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3565,
+        "end_char": 3574,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3611,
+        "end_char": 3620,
+        "canonical_id": "REED"
+      },
+      {
+        "text": "Alex Reed",
+        "label": "PERSON",
+        "start_char": 3633,
+        "end_char": 3642,
+        "canonical_id": "REED"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Reed",
+          "canonical_id": "REED"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a highly trained operative, a man whose life was spent in the shadows",
+          "canonical_id": "A_HIGHLY_TRAINED_OPERATIVE_A_MAN_WHOSE_LIFE_WAS_SPENT_IN_THE_SHADOWS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed was a highly trained operative, a man whose life was spent in the shadows, but this was a situation Agent Alex Reed hadn't anticipated."
+        }
+      },
+      {
+        "subject": {
+          "text": "this",
+          "canonical_id": "THIS"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "was"
+        },
+        "object": {
+          "text": "a situation Agent Alex Reed hadn't anticipated",
+          "canonical_id": "A_SITUATION_AGENT_ALEX_REED_HADNT_ANTICIPATED"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed was a highly trained operative, a man whose life was spent in the shadows, but this was a situation Agent Alex Reed hadn't anticipated."
+        }
+      },
+      {
+        "subject": {
+          "text": "Reed",
+          "canonical_id": "REED"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "had"
+        },
+        "object": {
+          "text": "exactly five minutes",
+          "canonical_id": "EXACTLY_FIVE_MINUTES"
+        },
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed had exactly five minutes to find a way out of these professional-grade zip ties and escape before the entire city block was leveled by the explosives hidden in the walls of the abandoned warehouse."
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a lean, predatory figure",
+          "canonical_id": "A_LEAN_PREDATORY_FIGURE"
+        },
+        "target_feature": "state",
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "He was a lean, predatory figure, He's eyes cold and devoid of any human warmth."
+        }
+      },
+      {
+        "subject": {
+          "text": "holster",
+          "canonical_id": "HOLSTER"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "empty",
+          "canonical_id": "EMPTY"
+        },
+        "target_feature": "state",
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed's holster was empty, and Agent Alex Reed's backup knife was gone."
+        }
+      },
+      {
+        "subject": {
+          "text": "knife",
+          "canonical_id": "KNIFE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "gone",
+          "canonical_id": "ONE"
+        },
+        "target_feature": "state",
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed's holster was empty, and Agent Alex Reed's backup knife was gone."
+        }
+      },
+      {
+        "subject": {
+          "text": "Reed",
+          "canonical_id": "REED"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "completely and utterly unarmed",
+          "canonical_id": "COMPLETELY_AND_UTTERLY_UNARMED"
+        },
+        "target_feature": "state",
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed was completely and utterly unarmed, left with only Agent Alex Reed's training and Agent Alex Reed's wits."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "grueling, soul-crushing work",
+          "canonical_id": "GRUELING_SOULCRUSHING_WORK"
+        },
+        "target_feature": "state",
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "It was grueling, soul-crushing work."
+        }
+      },
+      {
+        "subject": {
+          "text": "minutes",
+          "canonical_id": "MINUTES"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "full",
+          "canonical_id": "FULL"
+        },
+        "target_feature": "appearance",
+        "timestamp": "04:58",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed struggled for at least ten full minutes, the sweat pouring down Agent Alex Reed's face and Agent Alex Reed's muscles screaming in protest."
+        }
+      },
+      {
+        "subject": {
+          "text": "Reed",
+          "canonical_id": "REED"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "had"
+        },
+        "object": {
+          "text": "more time than when Agent Alex Reed had started Agent Alex Reed's escape attempt ten minutes ago",
+          "canonical_id": "MORE_TIME_THAN_WHEN_AGENT_ALEX_REED_HAD_STARTED_AGENT_ALEX_REEDS_ESCAPE_ATTEMPT_TEN_MINUTES_AGO"
+        },
+        "timestamp": "07:30",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed somehow had more time than when Agent Alex Reed had started Agent Alex Reed's escape attempt ten minutes ago."
+        }
+      },
+      {
+        "subject": {
+          "text": "Reed",
+          "canonical_id": "REED"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "completely unarmed",
+          "canonical_id": "COMPLETELY_UNARMED"
+        },
+        "target_feature": "state",
+        "timestamp": "07:30",
+        "provenance": {
+          "source_text_snippet": "Agent Alex Reed then blinked, looking at his shoulder holster and realizing Agent Alex Reed was still completely unarmed."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          38,
+          53
+        ],
+        [
+          126,
+          128
+        ],
+        [
+          199,
+          201
+        ],
+        [
+          302,
+          304
+        ],
+        [
+          337,
+          340
+        ],
+        [
+          467,
+          469
+        ],
+        [
+          725,
+          728
+        ],
+        [
+          879,
+          882
+        ],
+        [
+          896,
+          900
+        ],
+        [
+          1044,
+          1047
+        ],
+        [
+          1050,
+          1054
+        ],
+        [
+          1073,
+          1076
+        ],
+        [
+          1124,
+          1127
+        ],
+        [
+          1136,
+          1138
+        ],
+        [
+          1175,
+          1177
+        ],
+        [
+          1193,
+          1196
+        ],
+        [
+          1207,
+          1209
+        ],
+        [
+          1231,
+          1234
+        ],
+        [
+          1258,
+          1261
+        ],
+        [
+          1285,
+          1287
+        ],
+        [
+          1339,
+          1342
+        ],
+        [
+          1356,
+          1359
+        ],
+        [
+          1367,
+          1368
+        ],
+        [
+          1390,
+          1394
+        ],
+        [
+          1403,
+          1406
+        ],
+        [
+          1414,
+          1417
+        ],
+        [
+          1455,
+          1456
+        ],
+        [
+          1845,
+          1848
+        ],
+        [
+          1864,
+          1868
+        ],
+        [
+          1871,
+          1875
+        ],
+        [
+          1905,
+          1907
+        ],
+        [
+          2016,
+          2019
+        ],
+        [
+          2026,
+          2028
+        ],
+        [
+          2201,
+          2203
+        ],
+        [
+          2268,
+          2271
+        ],
+        [
+          2281,
+          2284
+        ],
+        [
+          2364,
+          2366
+        ],
+        [
+          2377,
+          2380
+        ],
+        [
+          2434,
+          2437
+        ],
+        [
+          2474,
+          2476
+        ],
+        [
+          2509,
+          2511
+        ],
+        [
+          2524,
+          2527
+        ],
+        [
+          2560,
+          2562
+        ],
+        [
+          2629,
+          2632
+        ],
+        [
+          2651,
+          2654
+        ],
+        [
+          2673,
+          2675
+        ],
+        [
+          2795,
+          2797
+        ],
+        [
+          2823,
+          2826
+        ],
+        [
+          2852,
+          2854
+        ],
+        [
+          2885,
+          2887
+        ],
+        [
+          2894,
+          2897
+        ]
+      ],
+      [
+        [
+          368,
+          389
+        ],
+        [
+          391,
+          394
+        ]
+      ],
+      [
+        [
+          668,
+          712
+        ],
+        [
+          730,
+          733
+        ],
+        [
+          799,
+          801
+        ],
+        [
+          832,
+          835
+        ],
+        [
+          903,
+          914
+        ],
+        [
+          1469,
+          1480
+        ],
+        [
+          1544,
+          1547
+        ],
+        [
+          1567,
+          1569
+        ],
+        [
+          1724,
+          1726
+        ],
+        [
+          1737,
+          1740
+        ]
+      ],
+      [
+        [
+          516,
+          549
+        ],
+        [
+          1099,
+          1111
+        ],
+        [
+          2150,
+          2162
+        ],
+        [
+          2345,
+          2353
+        ]
+      ],
+      [
+        [
+          1414,
+          1423
+        ],
+        [
+          1544,
+          1553
+        ]
+      ],
+      [
+        [
+          1589,
+          1713
+        ],
+        [
+          1682,
+          1684
+        ]
+      ],
+      [
+        [
+          1769,
+          1842
+        ],
+        [
+          1819,
+          1822
+        ]
+      ],
+      [
+        [
+          1916,
+          1976
+        ],
+        [
+          1997,
+          1999
+        ],
+        [
+          2036,
+          2038
+        ]
+      ],
+      [
+        [
+          2412,
+          2429
+        ],
+        [
+          2455,
+          2457
+        ]
+      ],
+      [
+        [
+          643,
+          666
+        ],
+        [
+          2760,
+          2773
+        ]
+      ],
+      [
+        [
+          2651,
+          2671
+        ],
+        [
+          2823,
+          2837
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_10",
+    "chunk_id": 1,
+    "content": "He then blinked, looking at his empty hand and realizing he was still completely unarmed. He shook his head, looking around frantically for anything that could be used as a weapon. He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour. The wind whipped his hair into a frenzy, and the ground below was a blur of motion. He climbed to the corrugated metal roof of the car, his heart hammering in his chest as he looked out at the passing landscape. To his utter surprise, the world outside the train was perfectly still. The trees were motionless, their leaves not even rustling in the wind. The train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, their faces hidden behind newspapers and coffee cups. There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in the nearby trees. Alex jumped off the \"speeding\" train and landed softly on the concrete platform, his boots barely making a sound. The Vulture was there, waiting for him by a ticket machine. He turned slowly, his eyes as cold as ever. \"You're too late, Reed,\" the villain whispered in his low, gravelly rasp, his voice returning to its original tone. Alex checked his watch. The bomb was set to go off in exactly ten seconds. He began to count down the final moments. 3... 2... 1... Zero. Nothing happened. No explosion, no fire, no sound of crumbling brick. \"The timer was in Celsius, not minutes,\" The Vulture explained with a cold, mocking smile, as the massive warehouse behind them suddenly and silently froze into a solid, towering block of blue ice. The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+    "resolved_content": "He then blinked, looking at He's empty hand and realizing He was still completely unarmed. He shook He's head, looking around frantically for anything that could be used as a weapon. He ran for the nearest exit, bursting through a heavy steel door and leaping onto the back of a speeding freight train that was roaring past the warehouse at sixty miles per hour. The wind whipped He's hair into a frenzy, and the ground below was a blur of motion. He climbed to the corrugated metal roof of the car, He's heart hammering in He's chest as He looked out at the passing landscape. To He's utter surprise, the world outside the train was perfectly still. The trees were motionless, The trees's leaves not even rustling in The wind. the train was actually parked at a quiet, suburban station, and a group of commuters was calmly boarding the next car, a group of commuters's faces hidden behind newspapers and coffee cups. There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in The trees. He jumped off the train and landed softly on the concrete platform, He's boots barely making a sound. The Vulture was there, waiting for He by a ticket machine. The Vulture turned slowly, The Vulture's eyes as cold as ever. \"He're too late, He,\" The Vulture whispered in The Vulture's low, gravelly rasp, The Vulture's voice returning to his voice's original tone. He checked He's watch. The bomb was set to go off in exactly ten seconds. He began to count down the final moments. 3... 2... 1... Zero. Nothing happened. No explosion, no fire, no sound of crumbling brick. \"The timer was in Celsius, not minutes,\" The Vulture explained with a cold, mocking smile, as the massive warehouse behind them suddenly and silently froze into a solid, towering block of blue ice. The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building.",
+    "entities": [
+      {
+        "text": "sixty miles per hour",
+        "label": "QUANTITY",
+        "start_char": 341,
+        "end_char": 361,
+        "canonical_id": "SIXTY_MILES_PER_HOUR"
+      },
+      {
+        "text": "exactly ten seconds",
+        "label": "TIME",
+        "start_char": 1446,
+        "end_char": 1465,
+        "canonical_id": "EXACTLY_TEN_SECONDS"
+      },
+      {
+        "text": "the final moments",
+        "label": "TIME",
+        "start_char": 1490,
+        "end_char": 1507,
+        "canonical_id": "THE_FINAL_MOMENTS"
+      },
+      {
+        "text": "3",
+        "label": "CARDINAL",
+        "start_char": 1509,
+        "end_char": 1510,
+        "canonical_id": "3"
+      },
+      {
+        "text": "2",
+        "label": "CARDINAL",
+        "start_char": 1514,
+        "end_char": 1515,
+        "canonical_id": "2"
+      },
+      {
+        "text": "1",
+        "label": "CARDINAL",
+        "start_char": 1519,
+        "end_char": 1520,
+        "canonical_id": "1"
+      },
+      {
+        "text": "Zero",
+        "label": "CARDINAL",
+        "start_char": 1524,
+        "end_char": 1528,
+        "canonical_id": "ZERO"
+      },
+      {
+        "text": "Celsius",
+        "label": "DATE",
+        "start_char": 1618,
+        "end_char": 1625,
+        "canonical_id": "CELSIUS"
+      },
+      {
+        "text": "minutes",
+        "label": "TIME",
+        "start_char": 1631,
+        "end_char": 1638,
+        "canonical_id": "MINUTES"
+      },
+      {
+        "text": "Vulture",
+        "label": "WORK_OF_ART",
+        "start_char": 1645,
+        "end_char": 1652,
+        "canonical_id": "VULTURE"
+      },
+      {
+        "text": "sub-zero",
+        "label": "CARDINAL",
+        "start_char": 1857,
+        "end_char": 1865,
+        "canonical_id": "SUBZERO"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "He",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "completely unarmed",
+          "canonical_id": "COMPLETELY_UNARMED"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He then blinked, looking at He's empty hand and realizing He was still completely unarmed."
+        }
+      },
+      {
+        "subject": {
+          "text": "ground",
+          "canonical_id": "GROUND"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a blur of motion",
+          "canonical_id": "A_BLUR_OF_MOTION"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The wind whipped He's hair into a frenzy, and the ground below was a blur of motion."
+        }
+      },
+      {
+        "subject": {
+          "text": "world",
+          "canonical_id": "WORLD"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "To He's utter surprise",
+          "canonical_id": "TO_HES_UTTER_SURPRISE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "To He's utter surprise, the world outside the train was perfectly still."
+        }
+      },
+      {
+        "subject": {
+          "text": "world",
+          "canonical_id": "WORLD"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "perfectly still",
+          "canonical_id": "PERFECTLY_STILL"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "To He's utter surprise, the world outside the train was perfectly still."
+        }
+      },
+      {
+        "subject": {
+          "text": "trees",
+          "canonical_id": "THREE"
+        },
+        "predicate": {
+          "label": "NOT_HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "motionless",
+          "canonical_id": "MOTIONLESS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The trees were motionless, The trees's leaves not even rustling in The wind."
+        }
+      },
+      {
+        "subject": {
+          "text": "sound",
+          "canonical_id": "SOUNDS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the peaceful chirping of birds in The trees",
+          "canonical_id": "THE_PEACEFUL_CHIRPING_OF_BIRDS_IN_THE_TREES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "There was no wind, no roar of the engine, and the only sound was the peaceful chirping of birds in The trees."
+        }
+      },
+      {
+        "subject": {
+          "text": "moments",
+          "canonical_id": "MOMENTS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "final",
+          "canonical_id": "FINAL"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He began to count down the final moments."
+        }
+      },
+      {
+        "subject": {
+          "text": "timer",
+          "canonical_id": "TIMER"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "in Celsius, not minutes",
+          "canonical_id": "IN_CELSIUS_NOT_MINUTES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The timer was in Celsius, not minutes,\" The Vulture explained with a cold, mocking smile, as the massive warehouse behind them suddenly and silently froze into a solid, towering block of blue ice."
+        }
+      },
+      {
+        "subject": {
+          "text": "chill",
+          "canonical_id": "CHILL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "sub",
+          "canonical_id": "SUB"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building."
+        }
+      },
+      {
+        "subject": {
+          "text": "chill",
+          "canonical_id": "CHILL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "-",
+          "canonical_id": ""
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building."
+        }
+      },
+      {
+        "subject": {
+          "text": "chill",
+          "canonical_id": "CHILL"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "zero",
+          "canonical_id": "ZERO"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The heat of the impending explosion had been replaced by a sub-zero chill that seemed to emanate from the very heart of the building."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          28,
+          31
+        ],
+        [
+          57,
+          59
+        ],
+        [
+          90,
+          92
+        ],
+        [
+          99,
+          102
+        ],
+        [
+          181,
+          183
+        ],
+        [
+          378,
+          381
+        ],
+        [
+          445,
+          447
+        ],
+        [
+          497,
+          500
+        ],
+        [
+          520,
+          523
+        ],
+        [
+          533,
+          535
+        ],
+        [
+          576,
+          579
+        ],
+        [
+          1006,
+          1010
+        ],
+        [
+          1087,
+          1090
+        ],
+        [
+          1155,
+          1158
+        ],
+        [
+          1225,
+          1228
+        ],
+        [
+          1242,
+          1246
+        ],
+        [
+          1340,
+          1344
+        ],
+        [
+          1353,
+          1356
+        ],
+        [
+          1415,
+          1417
+        ]
+      ],
+      [
+        [
+          275,
+          359
+        ],
+        [
+          614,
+          623
+        ],
+        [
+          716,
+          725
+        ],
+        [
+          1022,
+          1042
+        ]
+      ],
+      [
+        [
+          645,
+          654
+        ],
+        [
+          672,
+          677
+        ],
+        [
+          988,
+          1004
+        ]
+      ],
+      [
+        [
+          361,
+          369
+        ],
+        [
+          706,
+          714
+        ]
+      ],
+      [
+        [
+          780,
+          800
+        ],
+        [
+          835,
+          840
+        ]
+      ],
+      [
+        [
+          1120,
+          1131
+        ],
+        [
+          1180,
+          1182
+        ],
+        [
+          1198,
+          1201
+        ],
+        [
+          1249,
+          1260
+        ],
+        [
+          1274,
+          1277
+        ],
+        [
+          1298,
+          1301
+        ],
+        [
+          1589,
+          1600
+        ]
+      ],
+      [
+        [
+          1298,
+          1307
+        ],
+        [
+          1321,
+          1324
+        ]
+      ],
+      [
+        [
+          1642,
+          1675
+        ],
+        [
+          1866,
+          1878
+        ]
+      ]
+    ]
+  }
+]

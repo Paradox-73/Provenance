@@ -1,0 +1,1161 @@
+[
+  {
+    "chapter_name": "Story_8",
+    "chunk_id": 0,
+    "content": "# Story 8: The Locked Room Riddle (Mystery)\n\nDetective Miller stood over the lifeless body of Lord Harrington, his sharp eyes taking in every detail of the crime scene. The library was a chaotic mess, a stark contrast to the normally meticulous nature of its owner. Books were scattered across the floor, their pages fluttered by a cold wind that shouldn't have been there. The windows were all securely locked from the inside, the heavy brass latches in place. The only door to the room had been bolted from the interior, necessitating that the staff break it down to gain entry. \"Time of death?\" Miller asked, his voice a low, gravelly rasp. He turned toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment. Dr. Watson checked his gold pocket watch, the metal gleaming in the dim light of the library’s remaining lamps. It was exactly 1:00 AM on a quiet Tuesday morning. \"Based on the body temperature, the state of rigor mortis, and several other physiological indicators, I'd say he's been dead for exactly forty-eight hours,\" Watson replied, his voice firm and certain. Miller nodded solemnly, his mind already cataloging the implications, even though Lord Harrington had been seen alive and well at dinner by the entire household just one hour ago, at the stroke of midnight. \"And the cause of death?\" Miller continued, leaning in closer to the victim. \"The cause is quite clear, Detective,\" Watson said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of the victim's chest. \"He was stabbed through the heart with considerable force. Death would have been instantaneous.\" Miller leaned in even closer, his magnifying glass in hand. \"I see. Very interesting. But the complete lack of any puncture wounds, tears in the fabric of his shirt, or a single drop of blood on the body or the floor is the real mystery here. It's as if he simply dropped dead of a sudden, overwhelming fright, despite the knife.\" Miller turned his attention to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of the room, twisting his hands together. \"Where were you at midnight, Mr. Green?\" \"I was in the billiards room, Detective, I swear it!\" Colonel Mustard replied, his voice booming with a sudden, military authority. He adjusted his monocle and smoothed the lapels of his scarlet uniform jacket. Miller didn't seem to notice that Mr. Green had suddenly transformed into the Colonel, both in appearance and name. \"And did you see or hear anything unusual, Colonel?\" \"Nothing at all, Miller. Just the usual night sounds,\" Mustard said, his eyes fixed on the bookshelves. Miller walked slowly around the room, his boots clicking on the polished mahogany floor. \"This truly is a classic locked room mystery. The room was sealed from the inside with no possible way in or out. Every window is barred, the shutters are closed, and the door was solid oak, bolted from the interior.\"",
+    "resolved_content": "# Story 8: The Locked Room Riddle (Mystery)\n\nDetective Miller stood over the lifeless body of Lord Harrington, Detective Miller's sharp eyes taking in every detail of the crime scene. The library was a chaotic mess, a stark contrast to the normally meticulous nature of The library's owner. Books were scattered across the floor, Books's pages fluttered by a cold wind that shouldn't have been there. The windows were all securely locked from the inside, the heavy brass latches in place. The only door to The library had been bolted from the interior, necessitating that the staff break it down to gain entry. \"Time of death?\" Detective Miller asked, Detective Miller's voice a low, gravelly rasp. Detective Miller turned toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment. I checked I's gold pocket watch, his gold pocket watch gleaming in the dim light of The library remaining lamps. It was exactly 1:00 AM on a quiet Tuesday morning. \"Based on the body temperature, the state of rigor mortis, and several other physiological indicators, I'd say Lord Harrington's been dead for exactly forty-eight hours,\" I replied, I's voice firm and certain. Detective Miller nodded solemnly, Detective Miller's mind already cataloging the implications, even though Lord Harrington had been seen alive and well at dinner by the entire household just one hour ago, at the stroke of midnight. \"And the cause of death?\" Detective Miller continued, leaning in closer to Lord Harrington. \"the cause of death is quite clear, Detective Miller,\" I said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of Lord Harrington chest. \"Lord Harrington was stabbed through the heart with considerable force. Death would have been instantaneous.\" Detective Miller leaned in even closer, Detective Miller's magnifying glass in hand. \"Detective Miller see. Very interesting. But the complete lack of any puncture wounds, tears in the fabric of Lord Harrington's shirt, or a single drop of blood on the body or the floor is the real mystery here. It's as if Lord Harrington simply dropped dead of a sudden, overwhelming fright, despite the knife.\" Detective Miller turned Detective Miller's attention to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of The library, twisting I's hands together. \"Where were I at midnight, I?\" \"I was in the billiards room, Detective Miller, I swear was!\" Colonel Mustard replied, Colonel Mustard's voice booming with a sudden, military authority. Colonel Mustard adjusted Colonel Mustard's monocle and smoothed the lapels of Colonel Mustard's scarlet uniform jacket. Detective Miller didn't seem to notice that I had suddenly transformed into the Colonel, both in appearance and name. \"And did Detective Miller see or hear anything unusual, Detective Miller?\" \"Nothing at all, Detective Miller. Just the usual night sounds,\" Colonel Mustard said, Colonel Mustard's eyes fixed on the bookshelves. Detective Miller walked slowly around The library, Detective Miller's boots clicking on the polished mahogany floor. \"This truly is a classic locked room mystery. The library was sealed from the inside with no possible way in or out. Every window is barred, the shutters are closed, and the door was solid oak, bolted from the interior.\"",
+    "entities": [
+      {
+        "text": "8",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "8"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 55,
+        "end_char": 61,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "Harrington",
+        "label": "PERSON",
+        "start_char": 99,
+        "end_char": 109,
+        "canonical_id": "HARRINGTON"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 121,
+        "end_char": 127,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "Books",
+        "label": "ORG",
+        "start_char": 330,
+        "end_char": 335,
+        "canonical_id": "BOOKS"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 638,
+        "end_char": 644,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 662,
+        "end_char": 668,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": "Miller",
+        "label": "PERSON",
+        "start_char": 709,
+        "end_char": 715,
+        "canonical_id": "MILLER"
+      },
+      {
+        "text": ",",
+        "label": "PERSON",
+        "start_char": 753,
+        "end_char": 754,
+        "canonical_id": ""
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 890,
+        "end_char": 895,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "1:00 AM on",
+        "label": "TIME",
+        "start_char": 943,
+        "end_char": 953,
+        "canonical_id": "100_AM_ON"
+      },
+      {
+        "text": "morning",
+        "label": "DATE",
+        "start_char": 970,
+        "end_char": 977,
+        "canonical_id": "MORNING"
+      },
+      {
+        "text": ".",
+        "label": "TIME",
+        "start_char": 977,
+        "end_char": 978,
+        "canonical_id": ""
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 1105,
+        "end_char": 1107,
+        "canonical_id": "S"
+      },
+      {
+        "text": "forty-eight hours,",
+        "label": "TIME",
+        "start_char": 1130,
+        "end_char": 1148,
+        "canonical_id": "FORTYEIGHT_HOURS"
+      },
+      {
+        "text": "nodded",
+        "label": "PERSON",
+        "start_char": 1206,
+        "end_char": 1212,
+        "canonical_id": "NODDED"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 1239,
+        "end_char": 1241,
+        "canonical_id": "S"
+      },
+      {
+        "text": "had",
+        "label": "PERSON",
+        "start_char": 1312,
+        "end_char": 1315,
+        "canonical_id": "HAD"
+      },
+      {
+        "text": "one hour ago,",
+        "label": "TIME",
+        "start_char": 1380,
+        "end_char": 1393,
+        "canonical_id": "ONE_HOUR_AGO"
+      },
+      {
+        "text": ".",
+        "label": "TIME",
+        "start_char": 1419,
+        "end_char": 1420,
+        "canonical_id": ""
+      },
+      {
+        "text": "continued",
+        "label": "PERSON",
+        "start_char": 1464,
+        "end_char": 1473,
+        "canonical_id": "CONTINUED"
+      },
+      {
+        "text": ".",
+        "label": "PERSON",
+        "start_char": 1511,
+        "end_char": 1512,
+        "canonical_id": ""
+      },
+      {
+        "text": ",",
+        "label": "PERSON",
+        "start_char": 1565,
+        "end_char": 1566,
+        "canonical_id": ""
+      },
+      {
+        "text": "chest",
+        "label": "PERSON",
+        "start_char": 1686,
+        "end_char": 1691,
+        "canonical_id": "CHEST"
+      },
+      {
+        "text": "was",
+        "label": "PERSON",
+        "start_char": 1710,
+        "end_char": 1713,
+        "canonical_id": "WAS"
+      },
+      {
+        "text": "leaned",
+        "label": "PERSON",
+        "start_char": 1820,
+        "end_char": 1826,
+        "canonical_id": "LEANED"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 1859,
+        "end_char": 1861,
+        "canonical_id": "S"
+      },
+      {
+        "text": "see",
+        "label": "PERSON",
+        "start_char": 1906,
+        "end_char": 1909,
+        "canonical_id": "SEE"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 2013,
+        "end_char": 2015,
+        "canonical_id": "S"
+      },
+      {
+        "text": "simply",
+        "label": "PERSON",
+        "start_char": 2127,
+        "end_char": 2133,
+        "canonical_id": "SIMPLY"
+      },
+      {
+        "text": "turned",
+        "label": "PERSON",
+        "start_char": 2218,
+        "end_char": 2224,
+        "canonical_id": "TURNED"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 2241,
+        "end_char": 2243,
+        "canonical_id": "S"
+      },
+      {
+        "text": ",",
+        "label": "PERSON",
+        "start_char": 2314,
+        "end_char": 2315,
+        "canonical_id": ""
+      },
+      {
+        "text": ",",
+        "label": "TIME",
+        "start_char": 2417,
+        "end_char": 2418,
+        "canonical_id": ""
+      },
+      {
+        "text": ",",
+        "label": "PERSON",
+        "start_char": 2469,
+        "end_char": 2470,
+        "canonical_id": ""
+      },
+      {
+        "text": "replied",
+        "label": "PERSON",
+        "start_char": 2501,
+        "end_char": 2508,
+        "canonical_id": "REPLIED"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 2525,
+        "end_char": 2527,
+        "canonical_id": "S"
+      },
+      {
+        "text": "adjusted",
+        "label": "PERSON",
+        "start_char": 2593,
+        "end_char": 2601,
+        "canonical_id": "ADJUSTED"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 2617,
+        "end_char": 2619,
+        "canonical_id": "S"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 2670,
+        "end_char": 2672,
+        "canonical_id": "S"
+      },
+      {
+        "text": "did",
+        "label": "PERSON",
+        "start_char": 2714,
+        "end_char": 2717,
+        "canonical_id": "DID"
+      },
+      {
+        "text": "see",
+        "label": "PERSON",
+        "start_char": 2841,
+        "end_char": 2844,
+        "canonical_id": "SEE"
+      },
+      {
+        "text": "?",
+        "label": "PERSON",
+        "start_char": 2887,
+        "end_char": 2888,
+        "canonical_id": ""
+      },
+      {
+        "text": ".",
+        "label": "PERSON",
+        "start_char": 2923,
+        "end_char": 2924,
+        "canonical_id": ""
+      },
+      {
+        "text": "sounds",
+        "label": "TIME",
+        "start_char": 2946,
+        "end_char": 2952,
+        "canonical_id": "SOUNDS"
+      },
+      {
+        "text": "said",
+        "label": "PERSON",
+        "start_char": 2971,
+        "end_char": 2975,
+        "canonical_id": "SAID"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 2992,
+        "end_char": 2994,
+        "canonical_id": "S"
+      },
+      {
+        "text": "walked",
+        "label": "PERSON",
+        "start_char": 3043,
+        "end_char": 3049,
+        "canonical_id": "WALKED"
+      },
+      {
+        "text": "'s",
+        "label": "PERSON",
+        "start_char": 3093,
+        "end_char": 3095,
+        "canonical_id": "S"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "library",
+          "canonical_id": "LIBRARY"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a chaotic mess, a stark contrast to the normally meticulous nature of The library's owner",
+          "canonical_id": "A_CHAOTIC_MESS_A_STARK_CONTRAST_TO_THE_NORMALLY_METICULOUS_NATURE_OF_THE_LIBRARYS_OWNER"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The library was a chaotic mess, a stark contrast to the normally meticulous nature of The library's owner."
+        }
+      },
+      {
+        "subject": {
+          "text": "Miller",
+          "canonical_id": "MILLER"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "turned"
+        },
+        "object": {
+          "text": "toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment",
+          "canonical_id": "TOWARD_THE_CORONER_DR_WATSON_WHO_WAS_BUSY_EXAMINING_THE_BODY_WITH_A_CLINICAL_DETACHMENT"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Detective Miller turned toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment."
+        }
+      },
+      {
+        "subject": {
+          "text": "who",
+          "canonical_id": "WHO"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "busy examining the body with a clinical detachment",
+          "canonical_id": "BUSY_EXAMINING_THE_BODY_WITH_A_CLINICAL_DETACHMENT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Detective Miller turned toward the coroner, Dr. Watson, who was busy examining the body with a clinical detachment."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "exactly 1:00 AM",
+          "canonical_id": "EXACTLY_300_AM"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "It was exactly 1:00 AM on a quiet Tuesday morning."
+        }
+      },
+      {
+        "subject": {
+          "text": "It",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "on a quiet Tuesday morning",
+          "canonical_id": "ON_A_QUIET_TUESDAY_MORNING"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "It was exactly 1:00 AM on a quiet Tuesday morning."
+        }
+      },
+      {
+        "subject": {
+          "text": "Harrington",
+          "canonical_id": "HARRINGTON"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "dead",
+          "canonical_id": "DEAD"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "\"Based on the body temperature, the state of rigor mortis, and several other physiological indicators, I'd say Lord Harrington's been dead for exactly forty-eight hours,\" I replied, I's voice firm and certain."
+        }
+      },
+      {
+        "subject": {
+          "text": "Harrington",
+          "canonical_id": "HARRINGTON"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "for exactly forty-eight hours",
+          "canonical_id": "FOR_EXACTLY_FORTYEIGHT_HOURS"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "\"Based on the body temperature, the state of rigor mortis, and several other physiological indicators, I'd say Lord Harrington's been dead for exactly forty-eight hours,\" I replied, I's voice firm and certain."
+        }
+      },
+      {
+        "subject": {
+          "text": "cause",
+          "canonical_id": "CAUSE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "quite clear",
+          "canonical_id": "QUITE_CLEAR"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "\"the cause of death is quite clear, Detective Miller,\" I said, pointing to a large, blood-stained kitchen knife that was still protruding from the center of Lord Harrington chest."
+        }
+      },
+      {
+        "subject": {
+          "text": "Death",
+          "canonical_id": "DEATH"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "been"
+        },
+        "object": {
+          "text": "instantaneous",
+          "canonical_id": "INSTANTANEOUS"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "Death would have been instantaneous.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "lack",
+          "canonical_id": "LACK"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "the real mystery here",
+          "canonical_id": "THE_REAL_MYSTERY_HERE"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "But the complete lack of any puncture wounds, tears in the fabric of Lord Harrington's shirt, or a single drop of blood on the body or the floor is the real mystery here."
+        }
+      },
+      {
+        "subject": {
+          "text": "Miller",
+          "canonical_id": "MILLER"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "turned"
+        },
+        "object": {
+          "text": "to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of The library, twisting I's hands together",
+          "canonical_id": "TO_THE_PRIMARY_SUSPECT_A_SMALL_NERVOUS_MAN_NAMED_MR_GREEN_WHO_WAS_STANDING_IN_THE_CORNER_OF_THE_LIBRARY_TWISTING_IS_HANDS_TOGETHER"
+        },
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "Detective Miller turned Detective Miller's attention to the primary suspect, a small, nervous man named Mr. Green, who was standing in the corner of The library, twisting I's hands together."
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "canonical_id": "I"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "were"
+        },
+        "object": {
+          "text": "at midnight",
+          "canonical_id": "MIDNIGHT"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "\"Where were I at midnight, I?\""
+        }
+      },
+      {
+        "subject": {
+          "text": "I",
+          "canonical_id": "I"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "in the billiards room",
+          "canonical_id": "IN_THE_BILLIARDS_ROOM"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "\"I was in the billiards room, Detective Miller, I swear was!\" Colonel Mustard replied, Colonel Mustard's voice booming with a sudden, military authority."
+        }
+      },
+      {
+        "subject": {
+          "text": "This",
+          "canonical_id": "THIS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "a classic locked room mystery",
+          "canonical_id": "A_CLASSIC_LOCKED_ROOM_MYSTERY"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "\"This truly is a classic locked room mystery."
+        }
+      },
+      {
+        "subject": {
+          "text": "door",
+          "canonical_id": "DOOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "solid oak, bolted from the interior",
+          "canonical_id": "SOLID_OAK_BOLTED_FROM_THE_INTERIOR"
+        },
+        "target_feature": "state",
+        "timestamp": "1:00",
+        "provenance": {
+          "source_text_snippet": "Every window is barred, the shutters are closed, and the door was solid oak, bolted from the interior.\""
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          45,
+          61
+        ],
+        [
+          111,
+          114
+        ],
+        [
+          598,
+          604
+        ],
+        [
+          612,
+          615
+        ],
+        [
+          644,
+          646
+        ],
+        [
+          1111,
+          1117
+        ],
+        [
+          1135,
+          1138
+        ],
+        [
+          1344,
+          1350
+        ],
+        [
+          1422,
+          1431
+        ],
+        [
+          1658,
+          1664
+        ],
+        [
+          1688,
+          1691
+        ],
+        [
+          1719,
+          1720
+        ],
+        [
+          1989,
+          1995
+        ],
+        [
+          2003,
+          2006
+        ],
+        [
+          2223,
+          2232
+        ],
+        [
+          2404,
+          2410
+        ],
+        [
+          2529,
+          2532
+        ],
+        [
+          2563,
+          2570
+        ],
+        [
+          2590,
+          2596
+        ],
+        [
+          2677,
+          2683
+        ],
+        [
+          2715,
+          2718
+        ]
+      ],
+      [
+        [
+          169,
+          180
+        ],
+        [
+          255,
+          258
+        ],
+        [
+          479,
+          487
+        ],
+        [
+          827,
+          840
+        ],
+        [
+          2113,
+          2121
+        ],
+        [
+          2705,
+          2713
+        ],
+        [
+          2812,
+          2820
+        ]
+      ],
+      [
+        [
+          266,
+          271
+        ],
+        [
+          305,
+          310
+        ]
+      ],
+      [
+        [
+          462,
+          487
+        ],
+        [
+          558,
+          560
+        ]
+      ],
+      [
+        [
+          73,
+          109
+        ],
+        [
+          709,
+          717
+        ],
+        [
+          1853,
+          1861
+        ]
+      ],
+      [
+        [
+          661,
+          744
+        ],
+        [
+          746,
+          756
+        ],
+        [
+          765,
+          768
+        ],
+        [
+          1012,
+          1013
+        ],
+        [
+          1067,
+          1073
+        ],
+        [
+          1083,
+          1086
+        ],
+        [
+          1434,
+          1440
+        ]
+      ],
+      [
+        [
+          765,
+          786
+        ],
+        [
+          788,
+          797
+        ]
+      ],
+      [
+        [
+          94,
+          109
+        ],
+        [
+          1020,
+          1022
+        ],
+        [
+          1193,
+          1208
+        ],
+        [
+          1383,
+          1393
+        ],
+        [
+          1541,
+          1553
+        ],
+        [
+          1562,
+          1564
+        ],
+        [
+          1813,
+          1816
+        ],
+        [
+          1912,
+          1914
+        ]
+      ],
+      [
+        [
+          1323,
+          1341
+        ],
+        [
+          1396,
+          1405
+        ]
+      ],
+      [
+        [
+          1459,
+          1559
+        ],
+        [
+          1977,
+          1986
+        ]
+      ],
+      [
+        [
+          2020,
+          2150
+        ],
+        [
+          2132,
+          2135
+        ],
+        [
+          2164,
+          2167
+        ],
+        [
+          2181,
+          2190
+        ],
+        [
+          2194,
+          2195
+        ],
+        [
+          2234,
+          2235
+        ],
+        [
+          2438,
+          2447
+        ]
+      ],
+      [
+        [
+          1308,
+          1316
+        ],
+        [
+          2171,
+          2179
+        ]
+      ],
+      [
+        [
+          2196,
+          2199
+        ],
+        [
+          2242,
+          2244
+        ]
+      ],
+      [
+        [
+          2247,
+          2262
+        ],
+        [
+          2272,
+          2275
+        ],
+        [
+          2325,
+          2327
+        ],
+        [
+          2337,
+          2340
+        ],
+        [
+          2376,
+          2379
+        ],
+        [
+          2628,
+          2635
+        ],
+        [
+          2642,
+          2645
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_8",
+    "chunk_id": 1,
+    "content": "The room was sealed from the inside with no possible way in or out. Every window is barred, the shutters are closed, and the door was solid oak, bolted from the interior.\" He then gestured with a flourish toward the wide-open double doors at the far end of the library. These doors led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across the room. \"We'll need to check the prints on the knife,\" Miller said, looking down at the empty floor where the knife had been just a moment ago. He pulled a second magnifying glass from his pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt. \"Case closed,\" Miller announced, straightening his coat and looking around at the assembled household. \"The evidence is undeniable. He was clearly poisoned by the Lady in Red.\" The room fell silent as the detective made his proclamation. The Colonel nodded in agreement, and Dr. Watson began to pack his bag, seemingly satisfied with the conclusion. The mystery of the locked room had been solved, at least to the satisfaction of Detective Miller.",
+    "resolved_content": "The room was sealed from the inside with no possible way in or out. Every window is barred, the shutters are closed, and the door was solid oak, bolted from the interior.\" He then gestured with a flourish toward the wide-open double doors at the far end of the library. them led directly out to the formal garden, and a strong, gusty wind was blowing through them, tossing the heavy velvet curtains about and scattering papers from the desk across The room. \"We'll need to check the prints on the knife,\" He said, looking down at the empty floor where the knife had been just a moment ago. He pulled a second magnifying glass from He's pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt. \"Case closed,\" He announced, straightening He's coat and looking around at the assembled household. \"The evidence is undeniable. the victim's was clearly poisoned by the Lady in Red.\" The room fell silent as He made He's proclamation. The Colonel nodded in agreement, and Dr. Watson began to pack Dr. Watson's bag, seemingly satisfied with the conclusion. The mystery of The room had been solved, at least to the satisfaction of He.",
+    "entities": [
+      {
+        "text": "just a moment ago",
+        "label": "TIME",
+        "start_char": 571,
+        "end_char": 588,
+        "canonical_id": "JUST_A_MOMENT_AGO"
+      },
+      {
+        "text": "second",
+        "label": "ORDINAL",
+        "start_char": 602,
+        "end_char": 608,
+        "canonical_id": "SECOND"
+      },
+      {
+        "text": "began",
+        "label": "PERSON",
+        "start_char": 1030,
+        "end_char": 1035,
+        "canonical_id": "BEGAN"
+      },
+      {
+        "text": "bag",
+        "label": "PERSON",
+        "start_char": 1057,
+        "end_char": 1060,
+        "canonical_id": "BAG"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "door",
+          "canonical_id": "DOOR"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "solid oak",
+          "canonical_id": "SOLID_OAK"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Every window is barred, the shutters are closed, and the door was solid oak, bolted from the interior.\""
+        }
+      },
+      {
+        "subject": {
+          "text": "glass",
+          "canonical_id": "GLASS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "second",
+          "canonical_id": "SECOND"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He pulled a second magnifying glass from He's pocket and began to meticulously examine the victim's perfectly clean, white, and completely un-stabbed shirt."
+        }
+      },
+      {
+        "subject": {
+          "text": "evidence",
+          "canonical_id": "EVIDENCE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "undeniable",
+          "canonical_id": "UNDENIABLE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"The evidence is undeniable."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          212,
+          268
+        ],
+        [
+          270,
+          281
+        ],
+        [
+          366,
+          370
+        ]
+      ],
+      [
+        [
+          0,
+          8
+        ],
+        [
+          455,
+          463
+        ],
+        [
+          934,
+          942
+        ],
+        [
+          1122,
+          1137
+        ]
+      ],
+      [
+        [
+          172,
+          174
+        ],
+        [
+          512,
+          518
+        ],
+        [
+          601,
+          603
+        ],
+        [
+          642,
+          645
+        ],
+        [
+          772,
+          778
+        ],
+        [
+          804,
+          807
+        ],
+        [
+          958,
+          971
+        ],
+        [
+          977,
+          980
+        ],
+        [
+          1187,
+          1203
+        ]
+      ],
+      [
+        [
+          500,
+          509
+        ],
+        [
+          563,
+          572
+        ]
+      ],
+      [
+        [
+          687,
+          699
+        ],
+        [
+          889,
+          891
+        ]
+      ],
+      [
+        [
+          1032,
+          1042
+        ],
+        [
+          1057,
+          1060
+        ]
+      ]
+    ]
+  }
+]

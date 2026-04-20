@@ -1,0 +1,1442 @@
+[
+  {
+    "chapter_name": "Story_3",
+    "chunk_id": 0,
+    "content": "# Story 3: The Mismatched Mime (Comedy)\n\nBarnaby Bumblewick was, by all accounts, the clumsiest man in all of London, a fact that made his chosen profession—a professional street mime—all the more baffling to everyone who knew him. He had once accidentally set fire to a bowl of cereal, and his attempt to change a lightbulb had resulted in the evacuation of a three-block radius. Yet, here he was, standing in the bustling heart of Covent Garden, surrounded by a crowd of curious tourists and skeptical locals. He was dressed in the classic mime uniform: a black-and-white striped long-sleeved shirt, black trousers, and a thick layer of white greasepaint that made him look like a very surprised ghost. \"Watch this,\" he whispered to a small, wide-eyed child in the front row, completely ignoring the first and most sacred rule of miming: silence. The child blinked, and the parents chuckled nervously. Barnaby then proceeded to perform his 'Pulling the Invisible Rope' routine. He gripped the empty air with theatrical intensity, his face contorting with the effort. He pulled so hard, leaning back with his entire weight, that he lost his balance and stumbled backward. In the process, he accidentally knocked over a nearby green trash can. To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks. Barnaby's assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding his prop box. The box was tiny, barely the size of a shoebox, and when she opened it to show the crowd, it was clearly empty, save for a few stray dust motes. \"And now, the ladder!\" Barnaby gestured toward the box with a flourish. Sarah reached into the tiny, empty shoebox and, with a series of Herculean tugs, pulled out a six-foot-tall wooden A-frame ladder. The crowd gasped as the ladder emerged from the small container like a magician's rabbit. Barnaby took the ladder, which was clearly solid and heavy, and set it up in the middle of the performance area. Sarah reached back into the box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle. The box remained the same size, its depth seemingly defying the laws of physics. At precisely 2:00 PM by the massive clock in the square, Barnaby decided to perform his famous 'Stuck in a Box' routine. He began to feel the invisible walls around him, his hands sliding over the 'glass' with practiced ease. He was doing quite well, even managing a realistic look of panic, until he caught his reflection in a nearby shop window. He stopped mid-mime, his eyes widening. He wasn't wearing his striped mime shirt anymore. Instead, he was dressed in a full, gleaming suit of medieval plate armor.",
+    "resolved_content": "# Story 3: The Mismatched Mime (Comedy)\n\nBarnaby Bumblewick was, by all accounts, the clumsiest man in all of London, a fact that made Barnaby Bumblewick's chosen profession—a professional street mime—all the more baffling to everyone who knew Barnaby Bumblewick. Barnaby Bumblewick had once accidentally set fire to a bowl of cereal, and Barnaby Bumblewick's attempt to change a lightbulb had resulted in the evacuation of a three-block radius. Yet, here Barnaby Bumblewick was, standing in the bustling heart of Covent Garden, surrounded by a crowd of curious tourists and skeptical locals. Barnaby Bumblewick was dressed in the classic mime uniform: a black-and-white striped long-sleeved shirt, black trousers, and a thick layer of white greasepaint that made Barnaby Bumblewick look like a very surprised ghost. \"Watch this,\" Barnaby Bumblewick whispered to a small, wide-eyed child in the front row, completely ignoring the first and most sacred rule of miming: silence. The child blinked, and the parents chuckled nervously. Barnaby Bumblewick then proceeded to perform Barnaby Bumblewick's 'Pulling the Invisible Rope' routine. Barnaby Bumblewick gripped the empty air with theatrical intensity, Barnaby Bumblewick's face contorting with the effort. Barnaby Bumblewick pulled so hard, leaning back with Barnaby Bumblewick's entire weight, that Barnaby Bumblewick lost Barnaby Bumblewick's balance and stumbled backward. In the process, Barnaby Bumblewick accidentally knocked over a nearby green trash can. To the surprise of everyone, the trash can was somehow filled to the brim with hundreds of identical yellow rubber chickens, which cascaded across the cobblestones with a series of muffled squeaks. Barnaby Bumblewick assistant, a silent woman named Sarah who wore a matching striped shirt and a look of permanent long-suffering, stood by the side of the 'stage' holding Barnaby Bumblewick's prop box. his prop box was tiny, barely the size of a shoebox, and when she opened his prop box to show the crowd, his prop box was clearly empty, save for a few stray dust motes. \"And now, the ladder!\" Barnaby Bumblewick gestured toward his prop box with a flourish. she reached into his prop box and, with a series of Herculean tugs, pulled out the ladder. the crowd gasped as the ladder emerged from his prop box like a magician's rabbit. Barnaby Bumblewick took the ladder, and set the ladder up in the middle of the performance area. she reached back into his prop box and pulled out a giant inflatable mallet the size of a motorcycle, followed by a fully functional, chrome-plated unicycle. his prop box remained the same size, his prop box's depth seemingly defying the laws of physics. At precisely 2:00 PM by the massive clock in the square, Barnaby Bumblewick decided to perform Barnaby Bumblewick's famous 'Stuck in a Box' routine. Barnaby Bumblewick began to feel the invisible walls around Barnaby Bumblewick, Barnaby Bumblewick's hands sliding over the 'glass' with practiced ease. Barnaby Bumblewick was doing quite well, even managing a realistic look of panic, until Barnaby Bumblewick caught Barnaby Bumblewick's reflection in a nearby shop window. Barnaby Bumblewick stopped mid-mime, Barnaby Bumblewick's eyes widening. Barnaby Bumblewick wasn't wearing Barnaby Bumblewick's striped mime shirt anymore. Instead, Barnaby Bumblewick was dressed in a full, gleaming suit of medieval plate armor.",
+    "entities": [
+      {
+        "text": "3",
+        "label": "CARDINAL",
+        "start_char": 8,
+        "end_char": 9,
+        "canonical_id": "3"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 41,
+        "end_char": 59,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "London",
+        "label": "GPE",
+        "start_char": 110,
+        "end_char": 116,
+        "canonical_id": "LONDON"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 135,
+        "end_char": 155,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 244,
+        "end_char": 262,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 264,
+        "end_char": 282,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 339,
+        "end_char": 359,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "three-block",
+        "label": "QUANTITY",
+        "start_char": 426,
+        "end_char": 437,
+        "canonical_id": "THREEBLOCK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 456,
+        "end_char": 474,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Covent Garden",
+        "label": "LOC",
+        "start_char": 514,
+        "end_char": 527,
+        "canonical_id": "COVENT_GARDEN"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 593,
+        "end_char": 611,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 764,
+        "end_char": 782,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 831,
+        "end_char": 849,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 930,
+        "end_char": 935,
+        "canonical_id": "FIRST"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 1032,
+        "end_char": 1050,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 1077,
+        "end_char": 1097,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Pulling the Invisible Rope'",
+        "label": "WORK_OF_ART",
+        "start_char": 1099,
+        "end_char": 1126,
+        "canonical_id": "PULLING_THE_INVISIBLE_ROPE"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 1136,
+        "end_char": 1154,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 1204,
+        "end_char": 1224,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 1258,
+        "end_char": 1276,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 1311,
+        "end_char": 1331,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 1352,
+        "end_char": 1370,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 1376,
+        "end_char": 1396,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 1444,
+        "end_char": 1462,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "hundreds",
+        "label": "CARDINAL",
+        "start_char": 1594,
+        "end_char": 1602,
+        "canonical_id": "HUNDREDS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 1713,
+        "end_char": 1731,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Sarah",
+        "label": "PERSON",
+        "start_char": 1764,
+        "end_char": 1769,
+        "canonical_id": "SARAH"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 1885,
+        "end_char": 1905,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 2109,
+        "end_char": 2127,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 2348,
+        "end_char": 2366,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "precisely 2:00 PM",
+        "label": "TIME",
+        "start_char": 2703,
+        "end_char": 2720,
+        "canonical_id": "PRECISELY_200_PM"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 2757,
+        "end_char": 2775,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 2795,
+        "end_char": 2815,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Stuck in a Box",
+        "label": "WORK_OF_ART",
+        "start_char": 2824,
+        "end_char": 2838,
+        "canonical_id": "STUCK_IN_A_BOX"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 2849,
+        "end_char": 2867,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 2909,
+        "end_char": 2927,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 2929,
+        "end_char": 2949,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 3002,
+        "end_char": 3020,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 3090,
+        "end_char": 3108,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 3116,
+        "end_char": 3136,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 3173,
+        "end_char": 3191,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 3210,
+        "end_char": 3230,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 3246,
+        "end_char": 3264,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Barnaby Bumblewick's",
+        "label": "PERSON",
+        "start_char": 3280,
+        "end_char": 3300,
+        "canonical_id": "BUMBLEWICKS"
+      },
+      {
+        "text": "Barnaby Bumblewick",
+        "label": "PERSON",
+        "start_char": 3338,
+        "end_char": 3356,
+        "canonical_id": "BUMBLEWICK"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "Bumblewick",
+          "canonical_id": "BUMBLEWICK"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "by all accounts",
+          "canonical_id": "BY_ALL_ACCOUNTS"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Barnaby Bumblewick was, by all accounts, the clumsiest man in all of London, a fact that made Barnaby Bumblewick's chosen profession—a professional street mime—all the more baffling to everyone who knew Barnaby Bumblewick."
+        }
+      },
+      {
+        "subject": {
+          "text": "Bumblewick",
+          "canonical_id": "BUMBLEWICK"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "the clumsiest man in all of London",
+          "canonical_id": "THE_CLUMSIEST_MAN_IN_ALL_OF_LONDON"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Barnaby Bumblewick was, by all accounts, the clumsiest man in all of London, a fact that made Barnaby Bumblewick's chosen profession—a professional street mime—all the more baffling to everyone who knew Barnaby Bumblewick."
+        }
+      },
+      {
+        "subject": {
+          "text": "rule",
+          "canonical_id": "RULE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "first",
+          "canonical_id": "FIRST"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"Watch this,\" Barnaby Bumblewick whispered to a small, wide-eyed child in the front row, completely ignoring the first and most sacred rule of miming: silence."
+        }
+      },
+      {
+        "subject": {
+          "text": "Rope",
+          "canonical_id": "ROPE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "Invisible",
+          "canonical_id": "INVISIBLE"
+        },
+        "target_feature": "appearance",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Barnaby Bumblewick then proceeded to perform Barnaby Bumblewick's 'Pulling the Invisible Rope' routine."
+        }
+      },
+      {
+        "subject": {
+          "text": "Bumblewick",
+          "canonical_id": "BUMBLEWICK"
+        },
+        "predicate": {
+          "label": "LOST",
+          "text": "lost"
+        },
+        "object": {
+          "text": "Barnaby Bumblewick's balance",
+          "canonical_id": "BARNABY_BUMBLEWICKS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "Barnaby Bumblewick pulled so hard, leaning back with Barnaby Bumblewick's entire weight, that Barnaby Bumblewick lost Barnaby Bumblewick's balance and stumbled backward."
+        }
+      },
+      {
+        "subject": {
+          "text": "box",
+          "canonical_id": "BOX"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "tiny, barely the size of a shoebox",
+          "canonical_id": "TINY_BARELY_THE_SIZE_OF_A_SHOEBOX"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "his prop box was tiny, barely the size of a shoebox, and when she opened his prop box to show the crowd, his prop box was clearly empty, save for a few stray dust motes."
+        }
+      },
+      {
+        "subject": {
+          "text": "box",
+          "canonical_id": "BOX"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "empty",
+          "canonical_id": "EMPTY"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "his prop box was tiny, barely the size of a shoebox, and when she opened his prop box to show the crowd, his prop box was clearly empty, save for a few stray dust motes."
+        }
+      },
+      {
+        "subject": {
+          "text": "box",
+          "canonical_id": "BOX"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "save for a few stray dust motes",
+          "canonical_id": "SAVE_FOR_A_FEW_STRAY_DUST_MOTES"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "his prop box was tiny, barely the size of a shoebox, and when she opened his prop box to show the crowd, his prop box was clearly empty, save for a few stray dust motes."
+        }
+      },
+      {
+        "subject": {
+          "text": "box",
+          "canonical_id": "BOX"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "remained"
+        },
+        "object": {
+          "text": "the same size",
+          "canonical_id": "THE_SAME_SIZE"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "his prop box remained the same size, his prop box's depth seemingly defying the laws of physics."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          41,
+          59
+        ],
+        [
+          135,
+          138
+        ],
+        [
+          227,
+          230
+        ],
+        [
+          232,
+          234
+        ],
+        [
+          291,
+          294
+        ],
+        [
+          391,
+          393
+        ],
+        [
+          512,
+          514
+        ],
+        [
+          667,
+          670
+        ],
+        [
+          719,
+          721
+        ],
+        [
+          904,
+          911
+        ],
+        [
+          938,
+          941
+        ],
+        [
+          980,
+          982
+        ],
+        [
+          1032,
+          1035
+        ],
+        [
+          1069,
+          1071
+        ],
+        [
+          1106,
+          1109
+        ],
+        [
+          1130,
+          1132
+        ],
+        [
+          1138,
+          1141
+        ],
+        [
+          1189,
+          1191
+        ],
+        [
+          1442,
+          1451
+        ],
+        [
+          1605,
+          1608
+        ],
+        [
+          1787,
+          1794
+        ],
+        [
+          2057,
+          2064
+        ],
+        [
+          2463,
+          2470
+        ],
+        [
+          2490,
+          2493
+        ],
+        [
+          2527,
+          2529
+        ],
+        [
+          2571,
+          2574
+        ],
+        [
+          2576,
+          2579
+        ],
+        [
+          2632,
+          2634
+        ],
+        [
+          2704,
+          2706
+        ],
+        [
+          2714,
+          2717
+        ],
+        [
+          2754,
+          2756
+        ],
+        [
+          2775,
+          2778
+        ],
+        [
+          2794,
+          2796
+        ],
+        [
+          2812,
+          2815
+        ],
+        [
+          2853,
+          2855
+        ]
+      ],
+      [
+        [
+          735,
+          776
+        ],
+        [
+          849,
+          858
+        ]
+      ],
+      [
+        [
+          1218,
+          1242
+        ],
+        [
+          1273,
+          1286
+        ]
+      ],
+      [
+        [
+          1605,
+          1617
+        ],
+        [
+          1619,
+          1626
+        ],
+        [
+          1687,
+          1689
+        ],
+        [
+          1709,
+          1711
+        ],
+        [
+          1811,
+          1818
+        ],
+        [
+          1855,
+          1878
+        ],
+        [
+          2011,
+          2030
+        ],
+        [
+          2194,
+          2201
+        ],
+        [
+          2325,
+          2332
+        ],
+        [
+          2357,
+          2360
+        ]
+      ],
+      [
+        [
+          1442,
+          1562
+        ],
+        [
+          1676,
+          1679
+        ],
+        [
+          1836,
+          1841
+        ],
+        [
+          2170,
+          2175
+        ]
+      ],
+      [
+        [
+          462,
+          510
+        ],
+        [
+          1698,
+          1707
+        ],
+        [
+          1967,
+          1976
+        ]
+      ],
+      [
+        [
+          1774,
+          1784
+        ],
+        [
+          1928,
+          1965
+        ],
+        [
+          1987,
+          1997
+        ],
+        [
+          2070,
+          2115
+        ],
+        [
+          2125,
+          2127
+        ]
+      ],
+      [
+        [
+          411,
+          446
+        ],
+        [
+          2451,
+          2461
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_3",
+    "chunk_id": 1,
+    "content": "He wasn't wearing his striped mime shirt anymore. Instead, he was dressed in a full, gleaming suit of medieval plate armor. The metal was polished to a mirror finish, and a large, red-and-white plume sprouted from his helmet. He was a knight of old, standing in the middle of a modern shopping district. He shrugged, the metal joints of his armor clanking and screeching loudly with the movement, and continued his silent performance as if nothing had changed. The crowd, assuming this was part of the act, cheered even louder. The show continued as Barnaby 'climbed' his invisible ladder. Suddenly, a police officer with a very shiny whistle approached. \"Oi! You there, Mr. Bumblewick! You have a permit for this... whatever this is?\" the officer shouted, his voice booming over the chatter of the crowd. Barnaby froze, his 'hands' still gripping the invisible rungs. \"My name isn't Bumblewick,\" he told the officer, his voice echoing inside the metal helmet. \"I am Arthur Pendragon, King of the Britons! I have come in search of the Holy Grail, or at least a decent meat pasty.\" He reached to his side and brandished a large, invisible sword, swinging it through the air with a faint *whoosh*. The officer looked confused, his gaze dropping to Barnaby's chest. An official ID card, pinned directly to the steel breastplate of the armor, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'. \"Whatever you say, Arthur,\" the officer sighed, rubbing his temples. \"Just keep the noise down. The clanking is scaring the pigeons.\" Barnaby (or Arthur) nodded solemnly and went back to his miming. He reached into a hidden pocket in his armor and pulled out a gold pocket watch. He flipped the lid. It was 2:15 PM. He looked up at the Big Ben clock tower in the distance to verify the time. To his surprise, the massive hands of the tower clearly showed it was 8:45 AM. The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their lunch. He decided to finish the show with his grand finale: 'Walking Against the Wind'. As he struggled against the invisible gale, his plume whipping back and forth, he reached into his pocket and pulled out one of the rubber chickens he had found earlier. He squeezed it with all his might. Instead of the expected squeak, the toy let out a loud, terrifyingly realistic roar of a lion that caused several nearby tourists to drop their ice creams. The show ended with Barnaby bowing low, his armor clashing against the cobblestones. He stood up and, in one smooth motion, took off his striped mime shirt—which had somehow returned to his torso—and wiped the white paint off his face. This revealed not his own skin, but the cold, steel visor of his knightly helmet beneath.",
+    "resolved_content": "He wasn't wearing He's striped mime shirt anymore. Instead, He was dressed in a full, gleaming suit of medieval plate armor. The metal was polished to a mirror finish, and a large, red-and-white plume sprouted from He's helmet. He was a knight of old, standing in the middle of a modern shopping district. He shrugged, the metal joints of The metal clanking and screeching loudly with the movement, and continued He's silent performance as if nothing had changed. The crowd, assuming this was part of the act, cheered even louder. The show continued as He 'climbed' He's invisible ladder. Suddenly, a police officer with a very shiny whistle approached. \"Oi! He there, He! He have a permit for this... whatever this is?\" his shouted, his's voice booming over the chatter of The crowd. He froze, He's 'hands' still gripping the invisible rungs. \"He's name isn't Bumblewick,\" He told his, He's voice echoing inside his helmet. \"He am Arthur Pendragon, King of the Britons! He have come in search of the Holy Grail, or at least a decent meat pasty.\" He reached to He's side and brandished a large, invisible sword, swinging a large, invisible sword through the air with a faint *whoosh*. his looked confused, his's gaze dropping to He chest. An official ID card, pinned directly to the steel breastplate of The metal, clearly read 'Barnaby Bumblewick - Professional Mime (Grade B)'. \"Whatever He say, He,\" his sighed, rubbing his's temples. \"Just keep the noise down. The clanking is scaring the pigeons.\" He nodded solemnly and went back to He's miming. He reached into a hidden pocket in The metal and pulled out a gold pocket watch. He flipped the lid. It was 2:15 PM. He looked up at the Big Ben clock tower in the distance to verify the time. To He's surprise, the massive hands of the tower clearly showed it was 8:45 AM. The morning sun was just beginning to rise over the horizon, casting a soft, golden light across the city, even though the square was currently filled with afternoon crowds who were clearly halfway through their's lunch. He decided to finish The show with He's grand finale: 'Walking Against the Wind'. As He struggled against the invisible gale, He's plume whipping back and forth, He reached into He's pocket and pulled out one of the rubber chickens He had found earlier. He squeezed it with all He's might. Instead of the expected squeak, it let out a loud, terrifyingly realistic roar of a lion that caused several nearby tourists to drop several nearby tourists's ice creams. The show ended with He bowing low, The metal clashing against the cobblestones. He stood up and, in one smooth motion, took off He's striped mime shirt—which had somehow returned to He's torso—and wiped the white paint off He's face. wiped revealed not He's own skin, but the cold, steel visor of He's knightly helmet beneath.",
+    "entities": [
+      {
+        "text": "Bumblewick",
+        "label": "PERSON",
+        "start_char": 861,
+        "end_char": 871,
+        "canonical_id": "BUMBLEWICK"
+      },
+      {
+        "text": "Arthur Pendragon",
+        "label": "PERSON",
+        "start_char": 932,
+        "end_char": 948,
+        "canonical_id": "PENDRAGON"
+      },
+      {
+        "text": "Britons",
+        "label": "NORP",
+        "start_char": 962,
+        "end_char": 969,
+        "canonical_id": "BRITONS"
+      },
+      {
+        "text": "2:15 PM",
+        "label": "TIME",
+        "start_char": 1660,
+        "end_char": 1667,
+        "canonical_id": "215_PM"
+      },
+      {
+        "text": "Big Ben",
+        "label": "FAC",
+        "start_char": 1689,
+        "end_char": 1696,
+        "canonical_id": "BIG_BEN"
+      },
+      {
+        "text": "8:45 AM",
+        "label": "TIME",
+        "start_char": 1816,
+        "end_char": 1823,
+        "canonical_id": "845_AM"
+      },
+      {
+        "text": "morning",
+        "label": "TIME",
+        "start_char": 1829,
+        "end_char": 1836,
+        "canonical_id": "MORNING"
+      },
+      {
+        "text": "light",
+        "label": "ENVIRONMENT",
+        "start_char": 1909,
+        "end_char": 1914,
+        "canonical_id": "LIGHT"
+      },
+      {
+        "text": "afternoon",
+        "label": "TIME",
+        "start_char": 1981,
+        "end_char": 1990,
+        "canonical_id": "AFTERNOON"
+      },
+      {
+        "text": "Walking Against the Wind",
+        "label": "WORK_OF_ART",
+        "start_char": 2101,
+        "end_char": 2125,
+        "canonical_id": "WALKING_AGAINST_THE_WIND"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 2251,
+        "end_char": 2254,
+        "canonical_id": "ONE"
+      },
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 2607,
+        "end_char": 2610,
+        "canonical_id": "ONE"
+      }
+    ],
+    "triples": [
+      {
+        "subject": {
+          "text": "He",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "a knight of old",
+          "canonical_id": "A_KNIGHT_OF_OLD"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He was a knight of old, standing in the middle of a modern shopping district."
+        }
+      },
+      {
+        "subject": {
+          "text": "this",
+          "canonical_id": "THIS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "part of the act",
+          "canonical_id": "PART_OF_THE_ACT"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "The crowd, assuming this was part of the act, cheered even louder."
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "POSSESSES",
+          "text": "have"
+        },
+        "object": {
+          "text": "a permit for this",
+          "canonical_id": "A_PERMIT_FOR_THIS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He have a permit for this... whatever this is?\" his shouted, his's voice booming over the chatter of The crowd."
+        }
+      },
+      {
+        "subject": {
+          "text": "this",
+          "canonical_id": "THIS"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "is"
+        },
+        "object": {
+          "text": "whatever",
+          "canonical_id": "WHATEVER"
+        },
+        "target_feature": "state",
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "He have a permit for this... whatever this is?\" his shouted, his's voice booming over the chatter of The crowd."
+        }
+      },
+      {
+        "subject": {
+          "text": "name",
+          "canonical_id": "NAME"
+        },
+        "predicate": {
+          "label": "NOT_HAS_IDENTITY",
+          "text": "is"
+        },
+        "object": {
+          "text": "Bumblewick",
+          "canonical_id": "BUMBLEWICK"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"He's name isn't Bumblewick,\" He told his, He's voice echoing inside his helmet."
+        }
+      },
+      {
+        "subject": {
+          "text": "He",
+          "canonical_id": "HE"
+        },
+        "predicate": {
+          "label": "HAS_IDENTITY",
+          "text": "am"
+        },
+        "object": {
+          "text": "Arthur Pendragon, King of the Britons",
+          "canonical_id": "ARTHUR_PENDRAGON_KING_OF_THE_BRITONS"
+        },
+        "timestamp": "unknown",
+        "provenance": {
+          "source_text_snippet": "\"He am Arthur Pendragon, King of the Britons!"
+        }
+      },
+      {
+        "subject": {
+          "text": "it",
+          "canonical_id": "IT"
+        },
+        "predicate": {
+          "label": "HAS_ATTRIBUTE",
+          "text": "was"
+        },
+        "object": {
+          "text": "8:45 AM",
+          "canonical_id": "845_AM"
+        },
+        "target_feature": "state",
+        "timestamp": "8:45",
+        "provenance": {
+          "source_text_snippet": "To He's surprise, the massive hands of the tower clearly showed it was 8:45 AM."
+        }
+      },
+      {
+        "subject": {
+          "text": "tourists",
+          "canonical_id": "TOURISTS"
+        },
+        "predicate": {
+          "label": "LOST",
+          "text": "drop"
+        },
+        "object": {
+          "text": "several nearby tourists's ice creams",
+          "canonical_id": "SEVERAL_NEARBY_TOURISTSS_ICE_CREAMS"
+        },
+        "timestamp": "8:45",
+        "provenance": {
+          "source_text_snippet": "Instead of the expected squeak, it let out a loud, terrifyingly realistic roar of a lion that caused several nearby tourists to drop several nearby tourists's ice creams."
+        }
+      }
+    ],
+    "coref_clusters": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          59,
+          61
+        ],
+        [
+          214,
+          217
+        ],
+        [
+          226,
+          228
+        ],
+        [
+          304,
+          306
+        ],
+        [
+          337,
+          340
+        ],
+        [
+          411,
+          414
+        ],
+        [
+          550,
+          557
+        ],
+        [
+          568,
+          571
+        ],
+        [
+          660,
+          663
+        ],
+        [
+          671,
+          685
+        ],
+        [
+          687,
+          690
+        ],
+        [
+          806,
+          813
+        ],
+        [
+          821,
+          824
+        ],
+        [
+          870,
+          872
+        ],
+        [
+          897,
+          899
+        ],
+        [
+          918,
+          921
+        ],
+        [
+          962,
+          963
+        ],
+        [
+          1006,
+          1007
+        ],
+        [
+          1081,
+          1083
+        ],
+        [
+          1095,
+          1098
+        ],
+        [
+          1246,
+          1255
+        ],
+        [
+          1414,
+          1417
+        ],
+        [
+          1423,
+          1429
+        ],
+        [
+          1538,
+          1557
+        ],
+        [
+          1591,
+          1594
+        ],
+        [
+          1603,
+          1605
+        ],
+        [
+          1638,
+          1641
+        ],
+        [
+          1684,
+          1686
+        ],
+        [
+          1720,
+          1722
+        ],
+        [
+          1799,
+          1802
+        ],
+        [
+          2094,
+          2096
+        ],
+        [
+          2129,
+          2132
+        ],
+        [
+          2178,
+          2180
+        ],
+        [
+          2219,
+          2222
+        ],
+        [
+          2254,
+          2256
+        ],
+        [
+          2270,
+          2273
+        ],
+        [
+          2323,
+          2325
+        ],
+        [
+          2345,
+          2347
+        ],
+        [
+          2369,
+          2372
+        ],
+        [
+          2556,
+          2563
+        ],
+        [
+          2576,
+          2579
+        ],
+        [
+          2621,
+          2623
+        ],
+        [
+          2669,
+          2672
+        ],
+        [
+          2722,
+          2725
+        ],
+        [
+          2762,
+          2765
+        ],
+        [
+          2790,
+          2793
+        ],
+        [
+          2833,
+          2836
+        ]
+      ],
+      [
+        [
+          77,
+          122
+        ],
+        [
+          124,
+          133
+        ],
+        [
+          337,
+          346
+        ],
+        [
+          1328,
+          1337
+        ],
+        [
+          1638,
+          1647
+        ],
+        [
+          2576,
+          2585
+        ]
+      ],
+      [
+        [
+          600,
+          642
+        ],
+        [
+          736,
+          747
+        ],
+        [
+          757,
+          760
+        ],
+        [
+          905,
+          916
+        ],
+        [
+          1196,
+          1207
+        ],
+        [
+          1225,
+          1228
+        ],
+        [
+          1432,
+          1443
+        ],
+        [
+          1460,
+          1463
+        ]
+      ],
+      [
+        [
+          461,
+          470
+        ],
+        [
+          795,
+          804
+        ]
+      ],
+      [
+        [
+          214,
+          224
+        ],
+        [
+          943,
+          959
+        ]
+      ],
+      [
+        [
+          1119,
+          1143
+        ],
+        [
+          1154,
+          1156
+        ]
+      ],
+      [
+        [
+          1736,
+          1775
+        ],
+        [
+          1834,
+          1843
+        ]
+      ],
+      [
+        [
+          2031,
+          2092
+        ],
+        [
+          2081,
+          2086
+        ]
+      ],
+      [
+        [
+          528,
+          536
+        ],
+        [
+          2115,
+          2123
+        ],
+        [
+          2536,
+          2544
+        ]
+      ],
+      [
+        [
+          2296,
+          2343
+        ],
+        [
+          2357,
+          2359
+        ],
+        [
+          2412,
+          2419
+        ]
+      ],
+      [
+        [
+          2486,
+          2509
+        ],
+        [
+          2518,
+          2523
+        ]
+      ],
+      [
+        [
+          2736,
+          2741
+        ],
+        [
+          2772,
+          2776
+        ]
+      ]
+    ]
+  },
+  {
+    "chapter_name": "Story_3",
+    "chunk_id": 2,
+    "content": "He stood up and, in one smooth motion, took off his striped mime shirt—which had somehow returned to his torso—and wiped the white paint off his face. This revealed not his own skin, but the cold, steel visor of his knightly helmet beneath. He clanked away toward a nearby pub, leaving the crowd to wonder if they had just seen a mime, a king, or simply a man with a very strange tailor.",
+    "resolved_content": "He stood up and, in one smooth motion, took off He's striped mime shirt—which had somehow returned to He's torso—and wiped the white paint off He's face. wiped revealed not He's own skin, but the cold, steel visor of He's knightly helmet beneath. He clanked away toward a nearby pub, leaving the crowd to wonder if the crowd had just seen a mime, a king, or simply a man with a very strange tailor.",
+    "entities": [
+      {
+        "text": "one",
+        "label": "CARDINAL",
+        "start_char": 20,
+        "end_char": 23,
+        "canonical_id": "ONE"
+      },
+      {
+        "text": "He",
+        "label": "ORG",
+        "start_char": 143,
+        "end_char": 145,
+        "canonical_id": "HE"
+      }
+    ],
+    "triples": [],
+    "coref_clusters": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          48,
+          51
+        ],
+        [
+          101,
+          104
+        ],
+        [
+          141,
+          144
+        ],
+        [
+          169,
+          172
+        ],
+        [
+          212,
+          215
+        ],
+        [
+          241,
+          243
+        ]
+      ],
+      [
+        [
+          115,
+          120
+        ],
+        [
+          151,
+          155
+        ]
+      ],
+      [
+        [
+          286,
+          295
+        ],
+        [
+          309,
+          313
+        ]
+      ]
+    ]
+  }
+]
