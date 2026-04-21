@@ -40,7 +40,57 @@ The project employs a modular, four-stage pipeline designed to bridge the gap be
 3.  **Structural Friction Checking:** Running deterministic Cypher queries to find "physical impossibilities" (e.g., the same character node having two active `LOCATED_AT` edges in the same chapter).
 4.  **Semantic NLI Verification:** Using a **DeBERTa-v3 Cross-Encoder** to perform a final check on the textual sources of a graph-flagged conflict to ensure the contradiction is not merely a linguistic variation.
 
-### 3.2 Justification for the Hybrid Model
+### 3.2 System Architecture Diagram
+The following diagram illustrates the data flow from raw narrative ingestion to automated conflict reporting:
+
+```mermaid
+graph TD
+    subgraph "1. INPUT LAYER (Raw Narrative)"
+        A[Chapter 1..N] --> B(Document Parser)
+        B -->|Chunks| C[Text Stream]
+    end
+
+    subgraph "2. EXTRACTION LAYER (NLP Pipeline)"
+        C --> D{Extraction Mode}
+        D -->|spaCy TRF| E[NER & Dependency Parsing]
+        D -->|fastcoref| F[Neural Coref Resolution]
+        E --> G[Triple Extractor S-V-O]
+        F --> G
+        G -->|Triples| H[Canonical ID Generator]
+    end
+
+    subgraph "3. STORAGE LAYER (World Model)"
+        H --> I[Neo4j Adapter]
+        J[(Ship Schema/Ontology)] -.-> I
+        I --> K[(Neo4j Knowledge Graph)]
+        K --- L[Nodes: Entity, Person, Location]
+        K --- M[Edges: LOCATED_AT, HAS_ATTR, HAS_ROLE]
+    end
+
+    subgraph "4. INFERENCE LAYER (Logic Strategist)"
+        N[Cypher Engine] -->|Structural Queries| K
+        K -->|Conflict Candidates| O[NLI Validator]
+        P[DeBERTa-v3 NLI] -->|Semantic Check| O
+        O --> Q[Friction Scorer]
+    end
+
+    subgraph "5. OUTPUT LAYER (Audit Reports)"
+        Q --> R[detections_audit.json]
+        Q --> S[Benchmark Reports]
+        Q --> T[Graph Visualizations]
+    end
+
+    %% Improvement Path
+    U[Future: LLM-Based Ingestion] -.->|Replaces| E
+```
+
+### 3.3 Technical Breakdown of the Flow
+*   **Input Layer:** Implements overlapping chunking to preserve context across document boundaries, ensuring entities and their relationships are captured even when split across "pages."
+*   **Extraction Layer:** Focuses on **Semantic Mapping**. Neural coreference resolution resolves pronouns ("he", "she", "I") to their original entities, while the triple extractor identifies the functional role of verbs (Predicates) within the narrative.
+*   **Storage Layer (The "Story Bible"):** Unlike traditional RAG systems that store text snippets, Project Provenance stores a **Structured World State**. Relationships like `LOCATED_AT` are persistent edges in Neo4j, anchored to unique `canonical_id` nodes.
+*   **Inference Layer (The "Hybrid" Logic):** Uses Cypher queries as a "physical laws" checker to identify structural anomalies. The DeBERTa-v3 NLI model then acts as a "judge," performing a final semantic verification to ensure the conflict isn't just a linguistic misunderstanding.
+
+### 3.4 Justification for the Hybrid Model
 *   **Precision through Structure:** By requiring a *structural* conflict in the graph before running semantic NLI, we eliminate "synonym noise" (where different words for the same thing are mistaken for contradictions).
 *   **Global Persistence:** The Knowledge Graph acts as an external memory that does not decay, regardless of document length.
 *   **Explainability:** Unlike "black-box" LLM auditors, our system provides the exact source sentences and the logical path (Cypher query) used to identify every conflict.
