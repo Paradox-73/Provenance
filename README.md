@@ -12,7 +12,7 @@ The system integrates several advanced NLP libraries and models to achieve high-
 - **Neo4j:** Graph database for storing entities, relationships, and assertions.
 
 ## 2. Pipeline Architecture
-The system follows a modular "Research -> Strategy -> Execution" flow managed by an agentic state pattern.
+The system follows a modular "Research -> Strategy -> Execution" flow managed by an agentic state  pattern.
 
 ### 2.1 Orchestration & Entry Point
 - **`src/main.py`:** The CLI entry point. It handles argument parsing, initializes global NLP models (spaCy, NLI), and triggers the orchestrated pipeline.
